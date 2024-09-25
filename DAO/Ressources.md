@@ -2,7 +2,7 @@
 title: 7. Ressources et support
 description: 
 published: true
-date: 2024-09-25T21:57:43.952Z
+date: 2024-09-25T22:01:04.887Z
 tags: 
 editor: markdown
 dateCreated: 2024-09-23T23:20:20.560Z
