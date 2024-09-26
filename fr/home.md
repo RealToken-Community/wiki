@@ -2,10 +2,10 @@
 title: Accueil
 description: 
 published: true
-date: 2024-09-26T08:03:02.420Z
+date: 2024-09-26T18:33:58.612Z
 tags: 
 editor: markdown
-dateCreated: 2024-09-23T23:20:30.279Z
+dateCreated: 2024-09-26T12:17:07.889Z
 ---
 
 # introduction
@@ -15,6 +15,15 @@ A l'occasion du lancement de la DAO RealToken, ce nouveau Wiki  complète l'[ex
 Les premiers articles concernent donc la DAO et sont réalisés ici en test, si cela est concluant d'autres sujets suivront …  
 Bonne lecture et merci pour vos retours et contributions.
 
+# Contribution
+Toutes personne désireuse de contribuer es la bienvenue, pour ce faire il vous suffi de créer un compte et de lire les gadlign, suivre le tuto 
+
 # Liste des sujets 
 
 -   [Organisation Autonome Décentralisé (DAO)](/fr/DAO/)
+
+<div style="display: flex; justify-content: center;">
+  <img src="/image/etherscan-logo.jpg" style="width:50px;">
+</div>
+
+juhdsfhbf
