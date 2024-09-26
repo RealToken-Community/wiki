@@ -2,10 +2,10 @@
 title: Decentralized Autonomous Organization (DAO)
 description: REG DAO Introduction
 published: true
-date: 2024-09-25T17:51:05.753Z
-tags:
+date: 2024-09-26T19:24:40.580Z
+tags: 
 editor: markdown
-dateCreated: 2024-09-25T17:12:57.089Z
+dateCreated: 2024-09-26T12:16:54.307Z
 ---
 
 # Welcome to the RealToken DAO

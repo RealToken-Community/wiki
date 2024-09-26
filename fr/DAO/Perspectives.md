@@ -2,10 +2,10 @@
 title: 6. Perspectives d'avenir
 description: 
 published: true
-date: 2024-09-26T08:05:44.495Z
+date: 2024-09-26T19:25:25.065Z
 tags: 
 editor: markdown
-dateCreated: 2024-09-23T23:20:12.035Z
+dateCreated: 2024-09-26T12:17:47.858Z
 ---
 
 ## 6.1. Évolutions prévues de la DAO

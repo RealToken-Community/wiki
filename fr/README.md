@@ -2,10 +2,10 @@
 title: README
 description: 
 published: true
-date: 2024-09-26T19:24:43.938Z
+date: 2024-09-26T19:11:03.578Z
 tags: 
 editor: markdown
-dateCreated: 2024-09-26T19:04:38.879Z
+dateCreated: 2024-09-26T12:16:49.968Z
 ---
 
 # Wiki-js
@@ -27,13 +27,12 @@ Actuellement, le Wiki se concentre principalement sur la DAO RealToken. Les prem
 Le projet est organisé en plusieurs dossiers linguistiques, avec une structure similaire pour chaque langue :
 
 - `/fr` : Contenu en français
-- `/` : Contenu en anglais
+- `/en` : Contenu en anglais
 
 Chaque dossier linguistique contient :
 
-- Un fichier `home.md` qui sert de page d'accueil au Wiki
-- Un fichier `DAO_home.md` qui sert de page d'accueil pour le dossier DAO
-- Un dossier `DAO` contenant les pages relatives à la DAO RealToken
+- Un fichier `home.md` qui sert de page d'accueil
+- Un dossier `DAO` contenant les articles relatifs à la DAO RealToken
 
 ## Comment contribuer
 

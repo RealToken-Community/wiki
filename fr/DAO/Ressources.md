@@ -2,10 +2,10 @@
 title: 7. Ressources et support
 description: 
 published: true
-date: 2024-09-25T22:01:04.887Z
+date: 2024-09-26T19:25:35.571Z
 tags: 
 editor: markdown
-dateCreated: 2024-09-23T23:20:20.560Z
+dateCreated: 2024-09-26T12:17:57.562Z
 ---
 
 ## 7.1. Documentation technique
