@@ -2,7 +2,7 @@
 title: Accueil
 description: 
 published: true
-date: 2024-09-26T17:39:22.837Z
+date: 2024-09-26T17:42:32.757Z
 tags: 
 editor: markdown
 dateCreated: 2024-09-26T12:17:07.889Z
@@ -22,4 +22,4 @@ Toutes personne désireuse de contribuer es la bienvenue, pour ce faire il vous 
 
 -   [Organisation Autonome Décentralisé (DAO)](/fr/DAO/)
 
-![schema_dao_v1.jpg](/fr/assets/img/schema_dao_v1.jpg)
+<img src="/assets/img/reg_logo_32x32.png" alt="Texte alternatif" style="width:30px; height:auto;">
