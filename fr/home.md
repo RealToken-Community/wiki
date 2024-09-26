@@ -2,7 +2,7 @@
 title: Accueil
 description: 
 published: true
-date: 2024-09-26T19:24:53.634Z
+date: 2024-09-26T19:34:53.987Z
 tags: 
 editor: markdown
 dateCreated: 2024-09-26T12:17:07.889Z
@@ -21,9 +21,3 @@ Toutes personne désireuse de contribuer es la bienvenue, pour ce faire il vous 
 # Liste des sujets 
 
 -   [Organisation Autonome Décentralisé (DAO)](/fr/DAO/)
-
-<div style="display: flex; justify-content: center;">
-  <img src="/image/etherscan-logo.jpg" style="width:50px;">
-</div>
-
-juhdsfhbf
