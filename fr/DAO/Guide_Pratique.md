@@ -2,7 +2,7 @@
 title: 5. Guide pratique pour les détenteurs de REG
 description: 
 published: true
-date: 2024-09-26T19:51:01.173Z
+date: 2024-09-26T21:18:38.384Z
 tags: 
 editor: markdown
 dateCreated: 2024-09-26T12:17:38.513Z
@@ -16,6 +16,6 @@ Le document ci-après explique :
 
 [Télécharger le guide PDF](/fr/fr/documents/tuto_gov_v1_1.0.pdf)
 
-![](/fr/fr/assets/img/schema_dao_v1.jpg)
+![](/fr/fr/assets/img/schema_dao_v1.jpg){.img75 .center}
 
 [Page suivante](/fr/DAO/Perspectives)
