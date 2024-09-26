@@ -2,7 +2,7 @@
 title: Accueil
 description: 
 published: true
-date: 2024-09-26T17:46:48.432Z
+date: 2024-09-26T17:55:21.265Z
 tags: 
 editor: markdown
 dateCreated: 2024-09-26T12:17:07.889Z
@@ -22,6 +22,8 @@ Toutes personne désireuse de contribuer es la bienvenue, pour ce faire il vous 
 
 -   [Organisation Autonome Décentralisé (DAO)](/fr/DAO/)
 
-<img src="/image/etherscan-logo.jpg" alt="Texte alternatif" style="width:30px; height:auto; ">
+<div style="display: flex; justify-content: center;">
+  <img src="/image/etherscan-logo.jpg" style="width:50px;">
+</div>
 
-![etherscan-logo.jpg](/image/etherscan-logo.jpg){ width:50px ;}
+juhdsfhbf
