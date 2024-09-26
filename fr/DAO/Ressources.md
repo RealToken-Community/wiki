@@ -2,7 +2,7 @@
 title: 7. Ressources et support
 description: 
 published: true
-date: 2024-09-26T19:25:35.571Z
+date: 2024-09-26T19:59:39.050Z
 tags: 
 editor: markdown
 dateCreated: 2024-09-26T12:17:57.562Z
@@ -300,5 +300,7 @@ R : La DAO doit en premier lieu s'organiser, définir des processus, gagner en m
 Q : Pourquoi ne pas utiliser le REG comme token de gouvernance mais utiliser le `PowerVotingRegistry` ?  
 R : Le REG est un token utilisé pour le calcul du power voting. Les pouvoirs de vote sont calculés off-chain par RealT et enregistrés sur le `PowerVotingRegistry`. Cette approche permet de ne pas pénaliser les participants aux pools de liquidité ou autres services qui utilisent des REG. Ainsi, le REG peut avoir plusieurs cas d'usage, en plus du vote, sans pénaliser le pouvoir de vote. De plus, la DAO peut modifier les mécanismes de calcul du power voting en changeant l'algorithme off-chain, sans avoir à modifier le REG ou autre smart contract, ce qui lui permet d'accorder un boost de vote en fonction de ses objectifs. Par exemple : pour soutenir l'apport de liquidité sur un ou plusieurs DEX, la DAO peut décider de compter les REG verrouillés dans le pool ainsi que la liquidité déposée en contrepartie comme des REG supplémentaires, voire même d'accorder plus de pouvoir de vote pour un REG déposé dans un pool de liquidité. La DAO pourrait aussi décider que les REG sur les wallets, qui ne bénéficient donc pas à l'écosystème, pourraient valoir moins d'une unité de pouvoir de vote. Par exemple, un REG sur un wallet pourrait donner 0,5 de pouvoir de vote, contre 1 REG dans un pool de liquidité qui pourrait donner 1,2 de pouvoir de vote.
 
-Q : Pourquoi avoir désactivé le mécanisme de délégation ?  
+> Q : Pourquoi avoir désactivé le mécanisme de délégation ?  
+{.is-question}
+
 R : Le mécanisme de délégation a été désactivé pour des raisons de simplification de la mise en place de la v1 et pour inciter le plus de participation à l'élaboration des bases de la gouvernance. De plus, avec la mécanique d'incentive et les faibles revenus de la DAO actuellement, il aurait été contre-productif de distribuer des récompenses sans une contrepartie des holders de REG envers la DAO.
