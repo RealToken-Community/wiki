@@ -1,8 +1,8 @@
 ---
-title: 7. Ressources et support
+title: 7. Ressources et support (v2)
 description:  ( avec maj présentation )
 published: true
-date: 2024-09-26T07:36:08.604Z
+date: 2024-09-26T07:45:29.079Z
 tags: 
 editor: markdown
 dateCreated: 2024-09-26T07:34:46.417Z
