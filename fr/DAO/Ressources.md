@@ -2,7 +2,7 @@
 title: 7. Ressources et support
 description: 
 published: true
-date: 2024-09-26T19:59:39.050Z
+date: 2024-09-26T20:10:28.323Z
 tags: 
 editor: markdown
 dateCreated: 2024-09-26T12:17:57.562Z
@@ -303,4 +303,5 @@ R : Le REG est un token utilisé pour le calcul du power voting. Les pouvoirs de
 > Q : Pourquoi avoir désactivé le mécanisme de délégation ?  
 {.is-question}
 
-R : Le mécanisme de délégation a été désactivé pour des raisons de simplification de la mise en place de la v1 et pour inciter le plus de participation à l'élaboration des bases de la gouvernance. De plus, avec la mécanique d'incentive et les faibles revenus de la DAO actuellement, il aurait été contre-productif de distribuer des récompenses sans une contrepartie des holders de REG envers la DAO.
+> R : Le mécanisme de délégation a été désactivé pour des raisons de simplification de la mise en place de la v1 et pour inciter le plus de participation à l'élaboration des bases de la gouvernance. De plus, avec la mécanique d'incentive et les faibles revenus de la DAO actuellement, il aurait été contre-productif de distribuer des récompenses sans une contrepartie des holders de REG envers la DAO.
+{.is-result}
