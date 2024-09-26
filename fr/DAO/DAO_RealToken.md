@@ -2,7 +2,7 @@
 title: 2. La DAO RealToken : Vue d'ensemble
 description: 
 published: true
-date: 2024-09-26T18:45:44.932Z
+date: 2024-09-26T18:55:40.178Z
 tags: 
 editor: markdown
 dateCreated: 2024-09-26T12:17:28.688Z
@@ -172,8 +172,8 @@ Le rôle des détenteurs de REG est multidimensionnel et crucial pour l'écosyst
     -   Equilibrer les bonus/avantages des détenteurs de REG par rapport aux autres acteurs de l'écosystème,
     -   Etre le gardien d'une trésorerie durable et solide.
 8.  Évolution du système de gouvernance :
-    -   Proposer et voter sur des améliorations du système de gouvernance lui-même,
-    -   Participer à l'implémentation et au test de nouveaux mécanismes de vote.
+    -  Proposer et voter sur des améliorations du système de gouvernance lui-même,
+    -  Participer à l'implémentation et au test de nouveaux mécanismes de vote.
 
 Les REG holders ont un rôle déterminant dans l'écosystème, ils sont à la fois les gardiens de la trésorerie de la DAO mais aussi les décideurs de son avenir, veillant à la stabilité et la sécurité de l'écosystème tout en bénéficiant d'avantages dans l'utilisation des services de la DAO.
 
