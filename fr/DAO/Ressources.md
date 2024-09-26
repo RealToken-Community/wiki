@@ -2,7 +2,7 @@
 title: 7. Ressources et support
 description: 
 published: true
-date: 2024-09-26T20:24:51.851Z
+date: 2024-09-26T21:00:57.929Z
 tags: 
 editor: markdown
 dateCreated: 2024-09-26T12:17:57.562Z
@@ -251,49 +251,91 @@ Les interactions se font principalement avec les interfaces suivantes :
 
 ### 7.3.1. Bases de la DAO ⭐
 
-Q : Qu'est-ce que le REG et comment l'obtenir ?  
-R : Le REG (RealToken Ecosystem Governance) est le token de gouvernance de la DAO RealToken. Il peut être obtenu en participant à certaines activités de l'écosystème RealToken : en achetant des RealTokens sur [realt.co](http://realt.co) ou en l'achetant sur des échanges décentralisés comme 1inch sur Gnosis Chain.
+> Q : Qu'est-ce que le REG et comment l'obtenir ?  
+{.is-question}
 
-Q : Comment participer aux votes de la DAO ?  
-R : Pour participer aux votes, vous devez détenir des tokens REG au moment du snapshot, ils peuvent être dans : votre portefeuille, pool de liquidité, vault de verrouillage, etc. Connectez-vous à l'interface de gouvernance avec le portefeuille contenant des REG au moment du snapshot, puis vous pourrez voter sur les propositions actives utilisant le snapshot.
+> R : Le REG (RealToken Ecosystem Governance) est le token de gouvernance de la DAO RealToken. Il peut être obtenu en participant à certaines activités de l'écosystème RealToken : en achetant des RealTokens sur [realt.co](http://realt.co) ou en l'achetant sur des échanges décentralisés comme 1inch sur Gnosis Chain.
+{.is-result}
 
-Q : Comment puis-je gagner des bonus ?  
-R : Vous pouvez gagner des bonus en participant aux votes de la DAO durant les périodes pour lesquelles la DAO a activé le mécanisme d'incitation. Il vous faut aussi verrouiller des REG dans le vault et voter au maximum de propositions durant la période pour maximiser vos gains.
+> Q : Comment participer aux votes de la DAO ?  
+{.is-question}
 
-Q : Qui peut proposer des idées ?  
-R : Tout le monde peut proposer des idées. Il faut pour cela être actif dans la communauté, créer un sujet sur le forum de gouvernance, et obtenir suffisamment de soutien pour déclencher le processus de création des propositions.
+> R : Pour participer aux votes, vous devez détenir des tokens REG au moment du snapshot, ils peuvent être dans : votre portefeuille, pool de liquidité, vault de verrouillage, etc. Connectez-vous à l'interface de gouvernance avec le portefeuille contenant des REG au moment du snapshot, puis vous pourrez voter sur les propositions actives utilisant le snapshot.
+{.is-result}
 
-Q : Qui peut créer des propositions ?  
-R : Seules les personnes ayant le rôle Proposer peuvent créer des propositions dans la première phase de la v1. Cette restriction permet de s'assurer que les propositions sont de qualité, réfléchies, et d'éviter les attaques de gouvernance.
+> Q : Comment puis-je gagner des bonus ?  
+{.is-question}
 
-Q : Quels sont les sujets sur lesquels la DAO peut voter ?  
-R : La DAO peut voter sur les sujets liés à l'écosystème RealToken. Dans un premier temps, les sujets sont limités à la méthodologie de fonctionnement de la gouvernance et les périodes d'incitation. Pour d'autres sujets, il faudra déterminer si les ressources et les priorités sont d'actualité pour la DAO. Pour cela, ouvrez un sujet sur le forum de gouvernance et obtenez suffisamment de soutien pour déclencher le processus de création de propositions.
+> R : Vous pouvez gagner des bonus en participant aux votes de la DAO durant les périodes pour lesquelles la DAO a activé le mécanisme d'incitation. Il vous faut aussi verrouiller des REG dans le vault et voter au maximum de propositions durant la période pour maximiser vos gains.
+{.is-result}
 
-Q : Qui développe les applications et nouvelles fonctionnalités pour la DAO ?  
-R : RealT est le prestataire principal pour la DAO. Il développe les applications, les nouvelles fonctionnalités, et s'occupe de l'écosystème RealToken sous mandat de la DAO. D'autres prestataires pourront fournir des services à la DAO sous réserve d’acceptation de la DAO.
+> Q : Qui peut proposer des idées ?  
+{.is-question}
 
-Q : La DAO peut-elle dépenser tous les fonds de la trésorerie ?  
-R : En principe oui, la DAO a le contrôle total des fonds de la trésorerie. Toutefois, des dépenses inadaptées pourraient avoir des conséquences importantes sur l'avenir de la DAO, la valeur des REG, et la continuité des DApps. Il en va donc de la responsabilité des membres de la DAO d'avoir des réflexions approfondies avant de voter les dépenses et de planifier les priorités pour que la DAO puisse perdurer dans le temps et distribuer une part de ses revenus tout comme une entreprise qui distribue des dividendes.
+> R : Tout le monde peut proposer des idées. Il faut pour cela être actif dans la communauté, créer un sujet sur le forum de gouvernance, et obtenir suffisamment de soutien pour déclencher le processus de création des propositions.
+{.is-result}
+
+> Q : Qui peut créer des propositions ?  
+{.is-question}
+
+> R : Seules les personnes ayant le rôle Proposer peuvent créer des propositions dans la première phase de la v1. Cette restriction permet de s'assurer que les propositions sont de qualité, réfléchies, et d'éviter les attaques de gouvernance.
+{.is-result}
+
+> Q : Quels sont les sujets sur lesquels la DAO peut voter ?  
+{.is-question}
+
+> R : La DAO peut voter sur les sujets liés à l'écosystème RealToken. Dans un premier temps, les sujets sont limités à la méthodologie de fonctionnement de la gouvernance et les périodes d'incitation. Pour d'autres sujets, il faudra déterminer si les ressources et les priorités sont d'actualité pour la DAO. Pour cela, ouvrez un sujet sur le forum de gouvernance et obtenez suffisamment de soutien pour déclencher le processus de création de propositions.
+{.is-result}
+
+> Q : Qui développe les applications et nouvelles fonctionnalités pour la DAO ?  
+{.is-question}
+
+> R : RealT est le prestataire principal pour la DAO. Il développe les applications, les nouvelles fonctionnalités, et s'occupe de l'écosystème RealToken sous mandat de la DAO. D'autres prestataires pourront fournir des services à la DAO sous réserve d’acceptation de la DAO.
+{.is-result}
+
+> Q : La DAO peut-elle dépenser tous les fonds de la trésorerie ?  
+{.is-question}
+
+> R : En principe oui, la DAO a le contrôle total des fonds de la trésorerie. Toutefois, des dépenses inadaptées pourraient avoir des conséquences importantes sur l'avenir de la DAO, la valeur des REG, et la continuité des DApps. Il en va donc de la responsabilité des membres de la DAO d'avoir des réflexions approfondies avant de voter les dépenses et de planifier les priorités pour que la DAO puisse perdurer dans le temps et distribuer une part de ses revenus tout comme une entreprise qui distribue des dividendes.
+{.is-result}
 
 ### 7.3.2. Mécanismes avancés ⭐⭐
 
-Q : Comment fonctionne le mécanisme de verrouillage des REG ?  
-R : Dans la v1, le verrouillage est une condition pour pouvoir obtenir des bonus avec la participation aux votes. Chaque session (epoch) est activée et définie par la DAO. Il y a une première phase de souscription durant laquelle vous pouvez déposer et retirer vos REG, suivie d'une période de verrouillage durant laquelle vous ne pouvez plus retirer les REG et devez voter. Au terme de la période de verrouillage, les REG sont libérés et vous pouvez les retirer ou les laisser dans le vault. Ils seront automatiquement verrouillés pour la prochaine session.
+> Q : Comment fonctionne le mécanisme de verrouillage des REG ?  
+{.is-question}
 
-Q : Comment sont choisies les adresses autorisées à créer des propositions ?  
-R : Durant les premières semaines de fonctionnement de la v1, les adresses autorisées seront uniquement des adresses de RealT, le temps que la communauté s'organise pour élire des personnes de confiance au sein de la communauté pour devenir Proposer.
+> R : Dans la v1, le verrouillage est une condition pour pouvoir obtenir des bonus avec la participation aux votes. Chaque session (epoch) est activée et définie par la DAO. Il y a une première phase de souscription durant laquelle vous pouvez déposer et retirer vos REG, suivie d'une période de verrouillage durant laquelle vous ne pouvez plus retirer les REG et devez voter. Au terme de la période de verrouillage, les REG sont libérés et vous pouvez les retirer ou les laisser dans le vault. Ils seront automatiquement verrouillés pour la prochaine session.
+{.is-result}
 
-Q : Quel est le rôle des Proposers ?  
-R : Les Proposers sont des personnes de confiance au sein de la communauté qui ont pour rôle de s'assurer que les propositions soumises sur le forum de gouvernance sont de qualité, pertinentes, et réfléchies, qu'elles respectent la méthodologie définie par la DAO pour la création de propositions. Ils peuvent également être sollicités pour des tâches spécifiques liées à la gouvernance et doivent créer les propositions on-chain.
+> Q : Comment sont choisies les adresses autorisées à créer des propositions ?  
+{.is-question}
 
-Q : La DAO peut-elle forcer un changement sans le consentement de RealT ?  
-R : Les propositions soutenues par une majorité importante de la DAO peuvent être forcées. Toutefois, à l'heure actuelle, la DAO ne possède concrètement les DApps créées par RealT pour la future DAO. Il devra donc y avoir une reprise formelle de la responsabilité de la DApp ou des DApps par la DAO pouvant entraîner un paiement à RealT pour la prestation fournie.
+> R : Durant les premières semaines de fonctionnement de la v1, les adresses autorisées seront uniquement des adresses de RealT, le temps que la communauté s'organise pour élire des personnes de confiance au sein de la communauté pour devenir Proposer.
+{.is-result}
 
-Q : Quelles sont les DApps sur lesquelles la DAO peut agir ?  
-R : À l'heure actuelle, les DApps sur lesquelles la DAO peut agir sont : les contrats de gouvernance, le vault de verrouillage des REG, le contrat de treasury DAO. D'autres DApps s'ajouteront progressivement, et les nouveaux contrats développés par RealT, financés par la DAO, seront directement sous le contrôle et la responsabilité de la DAO.
+> Q : Quel est le rôle des Proposers ?  
+{.is-question}
 
-Q : Pourquoi la DAO n'a pas un contrôle total des DApps développées par RealT jusqu'à présent ?  
-R : La DAO doit en premier lieu s'organiser, définir des processus, gagner en maturité, et acquérir des experts qui pourront exercer les rôles de contrôle et de gestion des DApps. Le contrôle d'une DApp demande une expertise et une compréhension du fonctionnement des smart contracts et de la blockchain. C'est pourquoi, en tant que prestataire, RealT assume pour la DAO jusqu'à présent la responsabilité de ces DApps afin de garantir la continuité et la stabilité nécessaires pour durer dans le temps.
+> R : Les Proposers sont des personnes de confiance au sein de la communauté qui ont pour rôle de s'assurer que les propositions soumises sur le forum de gouvernance sont de qualité, pertinentes, et réfléchies, qu'elles respectent la méthodologie définie par la DAO pour la création de propositions. Ils peuvent également être sollicités pour des tâches spécifiques liées à la gouvernance et doivent créer les propositions on-chain.
+{.is-result}
+
+> Q : La DAO peut-elle forcer un changement sans le consentement de RealT ?  
+{.is-question}
+
+> R : Les propositions soutenues par une majorité importante de la DAO peuvent être forcées. Toutefois, à l'heure actuelle, la DAO ne possède concrètement les DApps créées par RealT pour la future DAO. Il devra donc y avoir une reprise formelle de la responsabilité de la DApp ou des DApps par la DAO pouvant entraîner un paiement à RealT pour la prestation fournie.
+{.is-result}
+
+> Q : Quelles sont les DApps sur lesquelles la DAO peut agir ?  
+{.is-question}
+
+> R : À l'heure actuelle, les DApps sur lesquelles la DAO peut agir sont : les contrats de gouvernance, le vault de verrouillage des REG, le contrat de treasury DAO. D'autres DApps s'ajouteront progressivement, et les nouveaux contrats développés par RealT, financés par la DAO, seront directement sous le contrôle et la responsabilité de la DAO.
+{.is-result}
+
+> Q : Pourquoi la DAO n'a pas un contrôle total des DApps développées par RealT jusqu'à présent ?  
+{.is-question}
+
+> R : La DAO doit en premier lieu s'organiser, définir des processus, gagner en maturité, et acquérir des experts qui pourront exercer les rôles de contrôle et de gestion des DApps. Le contrôle d'une DApp demande une expertise et une compréhension du fonctionnement des smart contracts et de la blockchain. C'est pourquoi, en tant que prestataire, RealT assume pour la DAO jusqu'à présent la responsabilité de ces DApps afin de garantir la continuité et la stabilité nécessaires pour durer dans le temps.
+{.is-result}
 
 ### 7.3.3. Aspects techniques ⭐⭐⭐
 
