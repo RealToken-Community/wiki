@@ -2,7 +2,7 @@
 title: Welcome
 description: 
 published: true
-date: 2024-09-26T19:24:47.271Z
+date: 2024-09-26T19:35:52.863Z
 tags: 
 editor: markdown
 dateCreated: 2024-09-26T12:16:58.893Z
@@ -17,6 +17,6 @@ Enjoy reading and thank you for your feedback and contributions.
 
 # Liste des sujets
 
-- [Decentralized Autonomous Organization (DAO)](/en/DAO/)
+- [Decentralized Autonomous Organization (DAO)](/en/DAO_home/)
 
 > Translation of pages in progress {.is-info}
