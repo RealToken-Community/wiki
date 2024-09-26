@@ -2,7 +2,7 @@
 title: Accueil
 description: 
 published: true
-date: 2024-09-26T19:36:49.449Z
+date: 2024-09-26T19:48:14.390Z
 tags: 
 editor: markdown
 dateCreated: 2024-09-26T12:17:07.889Z
@@ -20,4 +20,4 @@ Toutes personne désireuse de contribuer es la bienvenue, pour ce faire il vous 
 
 # Liste des sujets 
 
--   [Organisation Autonome Décentralisé (DAO)](/fr/DAO_home/)
+-   [Organisation Autonome Décentralisé (DAO)](/fr/DAO)
