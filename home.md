@@ -1,29 +1,22 @@
 ---
-title: Accueil
-description: 
+title: Welcome
+description:
 published: true
-date: 2024-09-26T18:33:20.436Z
-tags: 
+date: 2024-09-26T17:38:06.359Z
+tags:
 editor: markdown
-dateCreated: 2024-09-26T12:17:07.889Z
+dateCreated: 2024-09-26T12:16:58.893Z
 ---
 
-# introduction
+# Introduction
 
-Ce Wiki  est réalisé et géré par la Communauté bénévole des investisseurs [RealT.](https://realt.co/)  
-A l'occasion du lancement de la DAO RealToken, ce nouveau Wiki  complète l'[existant](https://community-realt.gitbook.io/tuto-community) (avec une autre solution : Wiki.js vs Gitbook) , il est mis en place pour tester une solution qui devrait offrir plus de flexibilités et de possibilités de contribution pour toute la communauté.  
-Les premiers articles concernent donc la DAO et sont réalisés ici en test, si cela est concluant d'autres sujets suivront …  
-Bonne lecture et merci pour vos retours et contributions.
+This Wiki is created and managed by the [RealT.](https://realt.co/) Investor Volunteer Community .  
+On the occasion of the launch of the RealToken DAO, this new Wiki completes the [existing](https://community-realt.gitbook.io/tuto-community) one (with another solution: Wiki.js vs Gitbook), it is set up to test a solution that should offer more flexibility and contribution possibilities for the entire community.  
+The first articles therefore concern the DAO and are created here as a test, if this is conclusive other topics will follow ...  
+Enjoy reading and thank you for your feedback and contributions.
 
-# Contribution
-Toutes personne désireuse de contribuer es la bienvenue, pour ce faire il vous suffi de créer un compte et de lire les gadlign, suivre le tuto 
+# Liste des sujets
 
-# Liste des sujets 
+- [Decentralized Autonomous Organization (DAO)](/en/DAO/)
 
--   [Organisation Autonome Décentralisé (DAO)](/fr/DAO/)
-
-<div style="display: flex; justify-content: center;">
-  <img src="/image/etherscan-logo.jpg" style="width:50px;">
-</div>
-
-juhdsfhbf
+> Translation of pages in progress {.is-info}

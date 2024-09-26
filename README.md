@@ -17,12 +17,13 @@ Actuellement, le Wiki se concentre principalement sur la DAO RealToken. Les prem
 Le projet est organisé en plusieurs dossiers linguistiques, avec une structure similaire pour chaque langue :
 
 - `/fr` : Contenu en français
-- `/en` : Contenu en anglais
+- `/` : Contenu en anglais
 
 Chaque dossier linguistique contient :
 
-- Un fichier `home.md` qui sert de page d'accueil
-- Un dossier `DAO` contenant les articles relatifs à la DAO RealToken
+- Un fichier `home.md` qui sert de page d'accueil au Wiki
+- Un fichier `DAO_home.md` qui sert de page d'accueil pour le dossier DAO
+- Un dossier `DAO` contenant les pages relatives à la DAO RealToken
 
 ## Comment contribuer
 

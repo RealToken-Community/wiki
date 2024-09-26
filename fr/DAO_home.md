@@ -1,3 +1,13 @@
+---
+title: Accueil DAO
+description: 
+published: true
+date: 2024-09-26T18:41:29.587Z
+tags: 
+editor: markdown
+dateCreated: 2024-09-26T12:17:03.438Z
+---
+
 # Bienvenue sur la DAO RealToken
 
 ## Notre vision
