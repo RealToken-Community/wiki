@@ -1,13 +1,3 @@
----
-title: Organisation Autonome Décentraliser (DAO)
-description: introduction REG DAO
-published: true
-date: 2024-09-26T08:03:24.343Z
-tags: dao
-editor: markdown
-dateCreated: 2024-09-23T23:19:47.108Z
----
-
 # Bienvenue sur la DAO RealToken
 
 ## Notre vision
@@ -16,10 +6,10 @@ La DAO RealToken est une organisation autonome décentralisée conçue pour rév
 
 ## Pourquoi rejoindre notre DAO ?
 
--   **Pouvoir décisionnel** : En tant que détenteur de REG token, vous avez une voix directe dans les décisions importantes qui façonnent l'avenir de RealToken DAO,
--   **Transparence totale** : Toutes nos opérations et décisions sont enregistrées sur la blockchain, garantissant une transparence sans précédent,
--   **Récompenses attractives** : Participez activement et soyez récompensés pour votre engagement dans la gouvernance de la DAO, ces récompenses étant votées et décidées par la DAO,
--   **Innovation constante** : Contribuez à l'évolution d'une plateforme qui redéfinit les standards de la tokenisation d'actif classique.
+- **Pouvoir décisionnel** : En tant que détenteur de REG token, vous avez une voix directe dans les décisions importantes qui façonnent l'avenir de RealToken DAO,
+- **Transparence totale** : Toutes nos opérations et décisions sont enregistrées sur la blockchain, garantissant une transparence sans précédent,
+- **Récompenses attractives** : Participez activement et soyez récompensés pour votre engagement dans la gouvernance de la DAO, ces récompenses étant votées et décidées par la DAO,
+- **Innovation constante** : Contribuez à l'évolution d'une plateforme qui redéfinit les standards de la tokenisation d'actif classique.
 
 ## Comment participer ?
 
