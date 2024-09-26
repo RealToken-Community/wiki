@@ -2,7 +2,7 @@
 title: 7. Ressources et support
 description: 
 published: true
-date: 2024-09-26T04:54:39.688Z
+date: 2024-09-26T05:15:54.496Z
 tags: 
 editor: markdown
 dateCreated: 2024-09-26T04:54:39.688Z
@@ -19,7 +19,7 @@ La documentation des smart contracts est essentielle pour comprendre le fonction
 -   **REGGovernor.sol** : Contrat de gouvernance principal, ce contrat gère le processus de gouvernance, y compris la création de propositions, le vote et l'exécution.  
     Fonctions principales non standard ajoutées :
     
-    **`function setProposerMode(ProposerMode proposerMode) external `**
+    **`function setProposerMode(ProposerMode proposerMode) external `** 
     
     **Description :** Permet à la gouvernance de définir le mode de proposant, déterminant les critères que les adresses doivent respecter pour créer des propositions.
     
@@ -35,7 +35,7 @@ La documentation des smart contracts est essentielle pour comprendre le fonction
     
     **Événement Émis :** `SetProposerMode`
     
-    **`function setIncentiveEnabled(bool status) external `**
+    **`function setIncentiveEnabled(bool status) external `** 
     
     **Description :** Active ou désactive le mécanisme d'incitation, qui enregistre les votes dans le coffre d'incitation pour récompenser les participants.
     
@@ -47,7 +47,7 @@ La documentation des smart contracts est essentielle pour comprendre le fonction
     
     **Événement Émis :** `SetIncentiveEnabled`
     
-    **`function setRegIncentiveVault(IREGIncentiveVault regIncentiveVault) external `**
+    **`function setRegIncentiveVault(IREGIncentiveVault regIncentiveVault) external `** 
     
     **Description :** Définit l'adresse du contrat du coffre d'incitation REG utilisé pour enregistrer les votes et distribuer les incitations.
     
@@ -59,7 +59,7 @@ La documentation des smart contracts est essentielle pour comprendre le fonction
     
     **Événement Émis :** `SetRegIncentiveVault`
     
-    **`function getProposerMode() external view returns (ProposerMode) `**
+    **`function getProposerMode() external view returns (ProposerMode) `** 
     
     **Description :** Renvoie le mode de proposant actuel, indiquant les critères requis pour qu'une adresse puisse créer des propositions.
     
@@ -67,7 +67,7 @@ La documentation des smart contracts est essentielle pour comprendre le fonction
     
     -   Le `ProposerMode` actuel.
     
-    **`function getIncentiveEnabled() external view returns (bool) `**
+    **`function getIncentiveEnabled() external view returns (bool) `** 
     
     **Description :** Indique si le mécanisme d'incitation est actuellement activé.
     
@@ -75,7 +75,7 @@ La documentation des smart contracts est essentielle pour comprendre le fonction
     
     -   `true` si le mécanisme d'incitation est activé, `false` sinon.
     
-    **`function getRegIncentiveVault() external view returns (IREGIncentiveVault) `**
+    **`function getRegIncentiveVault() external view returns (IREGIncentiveVault) `** 
     
     **Description :** Renvoie l'adresse du contrat du coffre d'incitation REG.
     
@@ -101,8 +101,8 @@ La documentation des smart contracts est essentielle pour comprendre le fonction
     **Contrôle d'accès :** Restreint aux adresses avec le rôle `CANCELLER_ROLE`.
     
 -   **REGTreasuryDAO.sol** : Gestion de la trésorerie de la DAO, ce contrat gère les fonds de la DAO et exécute les transactions approuvées après un délai de timelock de sécurité.  
-    Il n'y a pas de fonction principale non standard ajouté.  
-     
+    Il n'y a pas de fonction principale non standard ajouté.
+    
 -   **REGIncentiveVault.sol** : Système d'incitation et de récompenses, ce contrat gère le calcul et la distribution des récompenses aux participants de la DAO si activé par la DAO.  
     Contrat entièrement créé par RealT, les fonctions principales sont :
     
@@ -238,21 +238,20 @@ La documentation des smart contracts est essentielle pour comprendre le fonction
     **Paramètres :**
     
     -   `user` : Adresse de l'utilisateur.
-    
 -   **REGIncentiveVault.sol** : Système d'incitation et de récompenses, ce contrat gère le calcule et la distribution des récompenses aux participants de la DAO si activé par la DAO.  
     Contrat entièrement créé par RealT, les fonctions principales sont :
+    
     -   setNewEpoch(uint256 subscriptionStart, uint256 subscriptionEnd, uint256 lockPeriodEnd, address bonusToken, uint256 totalBonus) external onlyRole(DEFAULT\_ADMIN\_ROLE)
     -   recordVote(address user, uint256 proposalId) external onlyGovernance;
     -   calculateBonus(address user) external view returns (address\[\] memory, uint256\[\] memory)
-    -   claimBonus(address user, uint256 epoch) external;  
-         
+    -   claimBonus(address user, uint256 epoch) external;
 -   **REGPowerVotingRegistry.sol** : Enregistrement des pouvoirs de vote, ce contrat enregistre le pouvoir de vote des participants calculé off-chain par RealT selon l'algorithme défini et validé par la DAO.  
     Contrat entièrement créé par RealT, les fonctions principales sont :
+    
     -   registerVotingPower(VotingPower\[\] calldata votingPower) external override onlyRole(REGISTER\_ROLE)  
         Vous noterez que pour des raisons de compatibilité avec les standards et le fonctionnement du contrat Governor, le contrat PowerVotingRegistry est basé sur le standard ERC20 avec une modification des comportements des fonctions de base comme :
         -   transfer, transferFrom, approve, etc. sont override pour renvoyer false.
-        -   \_delegate est override pour renvoyer une erreur REGVotingPowerRegistryErrors.DelegateToOtherNotAllowed() si un utilisateur essaie de déléguer son vote à un autre utilisateur.  
-             
+        -   \_delegate est override pour renvoyer une erreur REGVotingPowerRegistryErrors.DelegateToOtherNotAllowed() si un utilisateur essaie de déléguer son vote à un autre utilisateur.
 
 #### Guides d'interaction avec les contrats :
 
@@ -260,18 +259,15 @@ La documentation des smart contracts est essentielle pour comprendre le fonction
     -   `propose()` dans REGGovernor pour créer une proposition,
     -   `castVote()` dans REGGovernor pour voter sur une proposition,
     -   `queue()` dans REGGovernor pour mettre en file d'attente une proposition,
-    -   `execute()` dans REGTreasuryDAO pour exécuter une proposition approuvée.  
-         
+    -   `execute()` dans REGTreasuryDAO pour exécuter une proposition approuvée.
 -   Événements importants :
     -   `ProposalCreated` émis lors de la création d'une proposition,
     -   `VoteCast` émis lorsqu'un vote est enregistré,
-    -   `callExecuted()` émis lorsqu'une action de la proposition est exécutée.  
-         
+    -   `callExecuted()` émis lorsqu'une action de la proposition est exécutée.
 
 #### Diagrammes d'architecture :
 
-\[Insérer ici un diagramme montrant les interactions entre les contrats\]  
- 
+\[Insérer ici un diagramme montrant les interactions entre les contrats\]
 
 #### Rapports d'audit de sécurité :
 
