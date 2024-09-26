@@ -2,7 +2,7 @@
 title: Organisation Autonome Décentraliser (DAO)
 description: introduction REG DAO
 published: true
-date: 2024-09-26T08:03:21.589Z
+date: 2024-09-26T08:03:24.343Z
 tags: dao
 editor: markdown
 dateCreated: 2024-09-23T23:19:47.108Z
