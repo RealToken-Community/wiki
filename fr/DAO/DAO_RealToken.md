@@ -1,22 +1,13 @@
 ---
-title: La DAO Realtoken
+title: 2. La DAO RealToken : Vue d'ensemble
 description: 
 published: true
-date: 2024-09-26T18:44:33.485Z
+date: 2024-09-26T18:45:44.932Z
 tags: 
 editor: markdown
 dateCreated: 2024-09-26T12:17:28.688Z
 ---
 
----
-title: 2. La DAO RealToken : Vue d'ensemble
-description: 
-published: true
-date: 2024-09-26T08:04:12.274Z
-tags: 
-editor: markdown
-dateCreated: 2024-09-23T23:19:51.183Z
----
 
 ## **2.1. Objectifs et vision de la DAO RealToken**
 
