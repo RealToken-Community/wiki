@@ -2,7 +2,7 @@
 title: 7. Ressources et support
 description:  ( avec maj présentation )
 published: true
-date: 2024-09-26T07:34:46.417Z
+date: 2024-09-26T07:36:08.604Z
 tags: 
 editor: markdown
 dateCreated: 2024-09-26T07:34:46.417Z
@@ -59,10 +59,10 @@ La documentation des smart contracts est essentielle pour comprendre le fonction
     - **`function cancelByAdmin(address[] memory targets, uint256[] memory values, bytes[] memory calldatas, bytes32 descriptionHash) external returns (uint256)`**  
    	 **Description :** Permet à un administrateur avec le rôle `CANCELLER_ROLE` d'annuler une proposition correspondant aux paramètres donnés.    
    	 **Paramètres :**    
-    -   `targets` : Un tableau des adresses cibles pour les actions de la proposition.
-    -   `values` : Un tableau des valeurs ETH à envoyer avec chaque action.
-    -   `calldatas` : Un tableau des données d'appel pour chaque action.
-    -   `descriptionHash` : Le hachage keccak256 de la description de la proposition.
+  	  -   `targets` : Un tableau des adresses cibles pour les actions de la proposition.
+ 	   -   `values` : Un tableau des valeurs ETH à envoyer avec chaque action.
+ 	   -   `calldatas` : Un tableau des données d'appel pour chaque action.
+ 	   -   `descriptionHash` : Le hachage keccak256 de la description de la proposition.
     
     	**Retourne :** L'ID de la proposition annulée. 
     	**Contrôle d'accès :** Restreint aux adresses avec le rôle `CANCELLER_ROLE`.
