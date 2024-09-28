@@ -1,8 +1,8 @@
 ---
-title: DAO Introduction
+title: 1. DAO Introduction
 description: 
 published: true
-date: 2024-09-28T07:40:04.081Z
+date: 2024-09-28T07:40:40.573Z
 tags: 
 editor: markdown
 dateCreated: 2024-09-28T07:40:04.081Z
