@@ -1,9 +1,9 @@
 ---
 title: DAO
-description: REG DAO Introduction
+description: Decentralized Autonomous Organization
 published: true
-date: 2024-09-28T07:07:04.192Z
-tags: 
+date: 2024-09-28T07:08:52.273Z
+tags: dao
 editor: markdown
 dateCreated: 2024-09-26T12:16:54.307Z
 ---
