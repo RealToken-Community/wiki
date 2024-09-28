@@ -1,8 +1,8 @@
 ---
 title: DAO
-description: Decentralized Autonomous Organization
+description: Decentralized Autonomous Organization : Welcome
 published: true
-date: 2024-09-28T07:08:52.273Z
+date: 2024-09-28T07:14:32.486Z
 tags: dao
 editor: markdown
 dateCreated: 2024-09-26T12:16:54.307Z
