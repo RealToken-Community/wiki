@@ -2,7 +2,7 @@
 title: DAO
 description: Decentralized Autonomous Organization : Welcome
 published: true
-date: 2024-09-28T07:14:32.486Z
+date: 2024-09-28T07:19:17.980Z
 tags: dao
 editor: markdown
 dateCreated: 2024-09-26T12:16:54.307Z
@@ -45,8 +45,8 @@ The document is intended for both experienced DAOs and those who are less experi
 
 1.  [Introduction to DAOs](/en/DAO/Introduction)
 2.  [DAO RealToken: Overview](/en/DAO/DAO_RealToken)
-3.  [DAO V1: Implementation and objectives](/en/DAO/Step1)
-4.  [Technical operation of DAO V1](/en/DAO/Technical_operation)
-5.  [Practical guide for REG holders](/en/DAO/Practical_guide)
-6.  [Future prospects](/en/DAO/Prospects)
+3.  [DAO V1: Implementation and objectives](/en/DAO/Phase1)
+4.  [Technical operation of DAO V1](/en/DAO/Fonctionnement)
+5.  [Practical guide for REG holders](/en/DAO/Guide_Pratique)
+6.  [Future prospects](/en/DAO/Perspectives)
 7.  [Resources and Support](/en/DAO/Resources)
