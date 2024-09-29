@@ -2,7 +2,7 @@
 title: Accueil
 description: 
 published: true
-date: 2024-09-28T08:01:36.620Z
+date: 2024-09-29T08:23:01.381Z
 tags: 
 editor: markdown
 dateCreated: 2024-09-26T12:17:07.889Z
@@ -16,7 +16,7 @@ Les premiers articles concernent donc la DAO et sont réalisés ici en test, si 
 Bonne lecture et merci pour vos retours et contributions.
 
 # Contribution
-Toute personne désireuse de contribuer est la bienvenue, pour ce faire il vous suffit de créer un compte et de suivre le guide. 
+Toute personne désireuse de contribuer est la bienvenue, il vous suffit pour cela de suivre le [Guide...](/fr/tuto/Guide) 
 
 # Liste des sujets 
 
