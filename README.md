@@ -2,7 +2,7 @@
 title: README
 description: 
 published: true
-date: 2024-09-29T16:56:38.921Z
+date: 2024-09-29T17:16:23.851Z
 tags: 
 editor: markdown
 dateCreated: 2024-09-26T19:04:38.879Z
@@ -32,9 +32,10 @@ Le projet est organisé en plusieurs dossiers linguistiques, avec une structure 
 Chaque dossier linguistique contient :
 
 - Un fichier `home.md` qui sert de page d'accueil au Wiki,
-- Un fichier `DAO_home.md` qui sert de page d'accueil pour le dossier DAO,
-- Un dossier `DAO` contenant les pages relatives à la DAO RealToken,
-- Un dossier `Tuto` contenant les pages pour aider les contributeurs au Wiki.
+- Un dossier par sujet : 
+	- `DAO` contenant les pages relatives à la DAO RealToken,
+  - `Tuto` contenant les pages d'aide aux contributeurs du Wiki
+- Un fichier à la racine, portant le nom du dossier, qui sert de page d'accueil pour le dossier.
 
 ## Comment contribuer
 
