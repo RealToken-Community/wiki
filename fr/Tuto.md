@@ -2,13 +2,12 @@
 title: Tuto
 description: 
 published: true
-date: 2024-09-29T17:25:38.455Z
+date: 2024-09-29T17:26:13.135Z
 tags: 
 editor: markdown
 dateCreated: 2024-09-29T17:25:38.455Z
 ---
 
-# Wiki-js
 
 ## Introduction
 
