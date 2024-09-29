@@ -2,7 +2,7 @@
 title: README
 description: 
 published: true
-date: 2024-09-26T19:24:43.938Z
+date: 2024-09-29T16:56:38.921Z
 tags: 
 editor: markdown
 dateCreated: 2024-09-26T19:04:38.879Z
@@ -27,22 +27,23 @@ Actuellement, le Wiki se concentre principalement sur la DAO RealToken. Les prem
 Le projet est organisé en plusieurs dossiers linguistiques, avec une structure similaire pour chaque langue :
 
 - `/fr` : Contenu en français
-- `/` : Contenu en anglais
+- `/` : Contenu en anglais (langue par défaut)
 
 Chaque dossier linguistique contient :
 
-- Un fichier `home.md` qui sert de page d'accueil au Wiki
-- Un fichier `DAO_home.md` qui sert de page d'accueil pour le dossier DAO
-- Un dossier `DAO` contenant les pages relatives à la DAO RealToken
+- Un fichier `home.md` qui sert de page d'accueil au Wiki,
+- Un fichier `DAO_home.md` qui sert de page d'accueil pour le dossier DAO,
+- Un dossier `DAO` contenant les pages relatives à la DAO RealToken,
+- Un dossier `Tuto` contenant les pages pour aider les contributeurs au Wiki.
 
 ## Comment contribuer
 
 Les contributions à ce Wiki sont les bienvenues. Voici comment vous pouvez participer :
 
-1. Lisez attentivement le contenu existant
-2. Proposez des modifications ou des ajouts via des pull requests
-3. Participez aux discussions sur les articles existants
-4. Suggérez de nouveaux sujets à couvrir
+1. Lisez attentivement le contenu existant,
+2. Proposez des modifications ou des ajouts via des pull requests,
+3. Participez aux discussions sur les articles existants,
+4. Suggérez de nouveaux sujets à couvrir.
 
 ## Feedback
 
