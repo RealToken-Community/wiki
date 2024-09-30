@@ -1,8 +1,8 @@
 ---
-title: Organización Autónoma Descentralizada (DAO)
-description: 
+title: DAO
+description: Organización Autónoma Descentralizada : Bienvenido
 published: true
-date: 2024-09-30T08:49:01.646Z
+date: 2024-09-30T09:37:57.786Z
 tags: 
 editor: markdown
 dateCreated: 2024-09-30T08:49:01.646Z
