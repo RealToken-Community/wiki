@@ -2,7 +2,7 @@
 title: DAO
 description: Organisation Autonome Décentralisée : Accueil
 published: true
-date: 2024-09-28T07:14:29.258Z
+date: 2024-09-30T09:57:54.690Z
 tags: dao
 editor: markdown
 dateCreated: 2024-09-26T12:17:03.438Z
@@ -20,14 +20,15 @@ La DAO RealToken est une organisation autonome décentralisée conçue pour rév
 - **Transparence totale** : Toutes nos opérations et décisions sont enregistrées sur la blockchain, garantissant une transparence sans précédent,
 - **Récompenses attractives** : Participez activement et soyez récompensés pour votre engagement dans la gouvernance de la DAO, ces récompenses étant votées et décidées par la DAO,
 - **Innovation constante** : Contribuez à l'évolution d'une plateforme qui redéfinit les standards de la tokenisation d'actif classique.
+- **Opportunitées** : Vos talant mis a dispositions de la DAO pourrais faire émérger des nouveaux type d'activité lucrative ou non.
 
 ## Comment participer ?
 
-1.  **Acquérir des tokens REG** : La première étape pour rejoindre notre communauté : acheter des REG ou les gagner,
-2.  **Participer aux discussions** : Rejoignez nos forums et canaux de communication pour échanger avec la communauté,
-3.  **Soumettre des propositions** : Partagez vos idées pour améliorer l'écosystème RealToken,
-4.  **Voter sur les propositions** : Exprimez votre opinion sur les décisions clés de la DAO,
-5.  **Jouer un rôle dans la DAO** : Mettez à disposition vos compétences, développez en de nouvelle (devenir délégué, influencer, développeur, formateur, etc….)
+1.  **Participer aux discussions** : Rejoignez notre [forum de gouvernance](https://forum.realtoken.community/) et canaux de communication pour échanger avec la communauté
+1.  **Soumettre des propositions** : Partagez vos idées pour améliorer l'écosystème RealToken,
+1.  **Acquérir des tokens REG** : Pour une participation plus active, la première étape étant l'aquisitions REG token ou les aquierir via les Airdrops
+1.  **Voter sur les propositions** : Exprimez votre opinion sur les décisions clés de la DAO,
+1.  **Jouer un rôle dans la DAO** : Mettez à disposition vos compétences, développez en de nouvelle (devenir délégué, influencer, développeur, formateur, etc….)
 
 ## Prochaines étapes
 
