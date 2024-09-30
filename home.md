@@ -2,7 +2,7 @@
 title: Welcome
 description: 
 published: true
-date: 2024-09-30T08:38:14.935Z
+date: 2024-09-30T08:38:50.896Z
 tags: 
 editor: markdown
 dateCreated: 2024-09-26T12:16:58.893Z
@@ -17,7 +17,7 @@ The first articles therefore concern the DAO and are produced here as a test. If
 Happy reading and thank you for your feedback and contributions.
 
 # Contribution
-Anyone wishing to contribute is welcome. All you need to do is follow the [Guide...](/en/Tutorial/Guide) 
+Anyone wishing to contribute is welcome. All you need to do is follow the [Guide...](/en/Tuto/Guide) 
 
 # List of topics 
 
