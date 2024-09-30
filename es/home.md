@@ -2,7 +2,7 @@
 title: Bienvenido
 description: 
 published: true
-date: 2024-09-30T08:34:36.490Z
+date: 2024-09-30T08:40:05.377Z
 tags: 
 editor: markdown
 dateCreated: 2024-09-30T08:34:36.490Z
@@ -16,7 +16,7 @@ Los primeros artículos tratan sobre la DAO y se realizan aquí como prueba; si 
 Buena lectura y gracias por sus comentarios y contribuciones.
 
 # Contribución
-Cualquier persona que desee contribuir es bienvenida, solo necesita seguir la [Guía...](/es/Tutorial/Guia) 
+Cualquier persona que desee contribuir es bienvenida, solo necesita seguir la [Guía...](/es/Tuto/Guide) 
 
 # Lista de temas 
 
