@@ -2,13 +2,13 @@
 title: 3. Phase1, Version simplifiée
 description: 
 published: true
-date: 2024-09-30T09:10:37.927Z
+date: 2024-09-30T21:24:52.879Z
 tags: 
 editor: markdown
 dateCreated: 2024-09-26T12:17:52.404Z
 ---
 
-## **3.1. Explication de la version simplifiée**
+## **3.1. Explication de la version simplifiée de la DAO**
 
 #### **⭐ Pour les novices**
 
@@ -73,8 +73,8 @@ Le processus de mise en place de la Phase 1 comprend plusieurs étapes clés :
 3.  Formation de la communauté sur l'utilisation des outils de gouvernance,
 4.  Présentation des premiers projets auxquels la DAO pourra voter (RealT a déjà préparé une série de propositions),
 5.  Mise en place du système de discutions et débat pour les propositions (les devs de la communauté ont déjà travaillé sur une solution),
-6.  Lancement des premières propositions,
-7.  Lancement de la première campagne d'incitation au vote,
+6.  Lancement des premières propositions (octobre),
+7.  Lancement de la première campagne d'incitation au vote (octobre-novembre),
 8.  Ajustement des paramètres de gouvernance en fonction des retours,
 9.  Élargissement graduel du champ d'action de la DAO.
 
@@ -92,7 +92,7 @@ Le processus de mise en place de la Phase 1 est structuré pour maximiser l'appr
     -   Définition des paramètres initiaux (quorum, seuils de vote, timelock : RealT)
     -   Mise en place d'un processus de proposition en plusieurs étapes (discussion, formalisation, vote),
     -   Implémentation de mécanismes de sécurité, y compris le droit de veto de RealT,
-    -   Limitation de l'accès a la création de proposition.
+    -   Limitation de l'accès à la création de proposition.
 3.  Engagement communautaire :
     -   Campagne d'éducation sur les mécanismes de la DAO,
     -   Création de canaux de communication dédiés pour les discussions et le feedback,
@@ -182,26 +182,26 @@ Ces objectifs visent à établir une base solide pour la DAO, tout en préparant
 
 Pour participer à la phase initiale de la DAO RealToken :
 
-1.  Achetez des tokens REG si vous n'en avez pas déjà,
-2.  Suivez les annonces officielles sur les canaux de communication de RealToken,
-3.  Participez aux votes quand ils sont ouverts,
-4.  Donnez votre avis dans les discussions de la communauté,
-5.  Assistez aux événements éducatifs pour en apprendre davantage sur la DAO,
-6.  S'informer et se former sur le sujet des DAO.
+1.  Suivez les annonces officielles sur les canaux de communication de RealToken,
+1.  Donnez votre avis dans les discussions de la communauté sur le forum de gouvernance,
+1.  Pocèder des tokens REG pour avoir du pouvoir de vote,
+1.  Participez aux votes quand ils sont ouverts,
+1.  Assistez aux événements éducatifs pour en apprendre davantage sur la DAO,
+1.  S'informer et se former sur le sujet des DAO.
 
 #### **⭐⭐ Pour les initiés**
 
 Voici comment vous pouvez participer activement à la phase initiale :
 
+1.  Proposez des idées d'amélioration dans les forums de gouvernance,
+1.  Participez aux débats sur les propositions avant les votes sur le forume de gouvernance,
 1.  Votez régulièrement sur les propositions,
-2.  Participez aux débats sur les propositions avant les votes,
-3.  Proposez des idées d'amélioration dans les forums de discussion,
-4.  Aidez à éduquer les nouveaux membres sur le fonctionnement de la DAO,
-5.  Participez aux campagnes d'incitation pour gagner des récompenses,
-6.  Testez les nouvelles fonctionnalités et donnez votre feedback,
-7.  Contribuez à l'élaboration des processus de gouvernance,
-8.  Prendre des initiatives et les soumettre a la communauté,
-9.  Rédigez, améliorez, traduisez et partagez le contenu sur les DAO.
+1.  Aidez à éduquer les nouveaux membres sur le fonctionnement de la DAO,
+1.  Participez aux campagnes d'incitation pour gagner des récompenses,
+1.  Testez les nouvelles fonctionnalités et donnez votre feedback,
+1.  Contribuez à l'élaboration des processus de gouvernance,
+1.  Prendre des initiatives et les soumettre à la communauté,
+1.  Rédigez, améliorez, traduisez et partagez le contenu sur les DAO.
 
 #### **⭐⭐⭐ Pour les experts**
 
