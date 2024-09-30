@@ -2,7 +2,7 @@
 title: 7. Ressources et support
 description: 
 published: true
-date: 2024-09-30T07:34:16.408Z
+date: 2024-09-30T07:35:33.168Z
 tags: 
 editor: markdown
 dateCreated: 2024-09-26T12:17:57.562Z
@@ -162,7 +162,7 @@ La documentation des smart contracts est essentielle pour comprendre le fonction
              
 5. **REGPowerVotingRegistry.sol** : Enregistrement des pouvoirs de vote, ce contrat enregistre le pouvoir de vote des participants calculé off-chain par RealT selon l'algorithme défini et validé par la DAO.  
 Contrat entièrement créé par RealT, les fonctions principales sont :
-	- `registerVotingPower(VotingPower\[\] calldata votingPower) external override onlyRole(REGISTER\_ROLE)` Vous noterez que pour des raisons de compatibilité avec les standards et le fonctionnement du contrat Governor, le contrat PowerVotingRegistry est basé sur le standard ERC20 avec une modification des comportements des fonctions de base comme :
+	- `registerVotingPower(VotingPower[] calldata votingPower) external override onlyRole(REGISTER_ROLE)` Vous noterez que pour des raisons de compatibilité avec les standards et le fonctionnement du contrat Governor, le contrat PowerVotingRegistry est basé sur le standard ERC20 avec une modification des comportements des fonctions de base comme :
 
 		- transfer, transferFrom, approve, etc. sont override pour renvoyer false
 		- delegate est override pour renvoyer une erreur
