@@ -2,7 +2,7 @@
 title: 3. Phase1, Version simplifiée
 description: 
 published: true
-date: 2024-09-30T09:10:22.330Z
+date: 2024-09-30T09:10:37.927Z
 tags: 
 editor: markdown
 dateCreated: 2024-09-26T12:17:52.404Z
@@ -226,7 +226,6 @@ Pour une participation approfondie à la phase initiale :
     -   Participez aux groupes de travail sur l'intégration future des NFT,
     -   Explorez des synergies potentielles avec d'autres projets DeFi.
 5.  Préparation de la Phase 2 :
-
 	-   Contribuez à la conception des mécanismes d'intégration des NFT,
 	-   Participez aux tests approfondis des nouvelles fonctionnalités,
 	-   Aidez à élaborer la feuille de route pour la transition vers la Phase 2.
