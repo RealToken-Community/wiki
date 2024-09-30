@@ -2,7 +2,7 @@
 title: 2. La DAO RealToken : Vue d'ensemble
 description: 
 published: true
-date: 2024-09-30T19:34:53.628Z
+date: 2024-09-30T19:38:08.555Z
 tags: 
 editor: markdown
 dateCreated: 2024-09-26T12:17:28.688Z
@@ -184,10 +184,13 @@ Le rôle des détenteurs de REG est multidimensionnel et crucial pour l'écosyst
 
 Les `REG holders` ont un rôle déterminant dans l'écosystème, ils sont à la fois `les gardiens` de la trésorerie de la `DAO` mais aussi les décideurs de son avenir, veillant à la stabilité et la sécurité de l'écosystème tout en bénéficiant d'avantages dans l'utilisation des services de la DAO.
 
-### ⭐Résumé
+## ⭐Résumé
 A ce stade il est important de souligné l'importance de la distinction entre le REG, donc la DAO et les Realtokens, les investissements dans des actifs tokenisé.
 La DAO a travres le REG donne un droit sur l'écosystème d'aplication décentraliser, et toutes les intérections lier à la DAO.
 Les Realtokens (investissement dans des actifs) donne individuellement des droits sur ses sousjacent.
+La DAO vas controler plusieurs applications décentraliser qui seront utiliser par des clients de la DAO (les investisseurs dans des actifs tokenise vis des Realtokens), ses applications pourrons collecter des frais, proposer des fonctions premium, ou etre gratuite selons les décisions de la DAO.
+
+
 > Ses deux classe de token sont complémentaire et peuvent etre possèder et utilise en duo ou individuelement celons le profil de chacun
 {.is-info}
 
