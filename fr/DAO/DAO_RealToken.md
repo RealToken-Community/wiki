@@ -2,7 +2,7 @@
 title: 2. La DAO RealToken : Vue d'ensemble
 description: 
 published: true
-date: 2024-09-26T19:37:24.282Z
+date: 2024-09-30T18:38:27.028Z
 tags: 
 editor: markdown
 dateCreated: 2024-09-26T12:17:28.688Z
@@ -13,6 +13,14 @@ dateCreated: 2024-09-26T12:17:28.688Z
 #### **⭐ Pour les novices**
 
 La DAO RealToken (REG) a pour but de créer une communauté décentralisée où les détenteurs de tokens `REG` peuvent participer aux décisions importantes de l'écosystème d'applications décentralisées (DApps) utiliseable par les tokens Realtokens. L'idée est de rendre l'investissement dans les actifs du monde physique plus accessible, liquide et transparent possible, tout en donnant plus d'oportunité et de cas d'usage aux investisseurs avec leurs investissements. Un utilisateur peut donc participer à la gouvernance de la DAO avec la possession de REG, et effectuer des investissements aux travers de l'achat et possession de tokens Realtoken, cela peut être l'un ou l'autre ou les deux, il n'est pas nécessaire de posséder des tokens Realtoken pour participer à la gouvernance de la DAO, comme il n'est pas nécessaire de posséder des tokens REG pour utiliser les services de la DAO.
+
+> REG = gouvernace DAO
+{.is-info}
+
+> Realtokens = Invsetisement tokenisé
+{.is-info}
+
+
 
 #### **⭐⭐ Pour les initiés**
 
