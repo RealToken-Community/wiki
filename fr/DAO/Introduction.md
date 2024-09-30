@@ -2,7 +2,7 @@
 title: 1. Introduction aux DAO
 description: 
 published: true
-date: 2024-09-26T19:25:21.406Z
+date: 2024-09-30T18:30:27.044Z
 tags: 
 editor: markdown
 dateCreated: 2024-09-26T12:17:42.863Z
@@ -13,6 +13,7 @@ dateCreated: 2024-09-26T12:17:42.863Z
 #### **⭐ Pour les novices**
 
 Une DAO (Organisation Autonome Décentralisée) est une sorte de club en ligne (sur la blockchain) où les membres prennent des décisions ensemble. Imaginez un groupe WhatsApp où chacun peut proposer des idées et voter, mais avec des règles claires, transparentes et automatisées.
+<br>
 
 #### **⭐⭐ Pour les initiés**
 
@@ -32,7 +33,7 @@ Une DAO représente une évolution significative dans la gouvernance organisatio
 
 #### **⭐ Pour les novices**
 
-Les DAO sont importantes car elles permettent à des personnes du monde entier de travailler ensemble sur des projets, de prendre des décisions et de gérer de l'argent, le tout de manière équitable et transparente, chaque acteur est égal peu importe sa région géographique, sa race, son sexe, etc. C'est comme si Internet avait sa propre façon de créer des entreprises et des organisations. Les DAO permettent donc de gérer tout les aspects d'un projet, d'un produit, d'une organisation, etc. de manière décentralisée, transparente, équitable et sans faire confiance aux autres participants, elles ont donc un rôle de médiateur entre tous les acteurs de l'écosystème.
+Les DAO sont importantes car elles permettent à des personnes du monde entier de travailler ensemble sur des projets, de prendre des décisions et de gérer de l'argent, le tout de manière équitable et transparente, chaque acteur est égal peu importe sa région géographique, sa race, son sexe, etc. C'est comme si Internet avait sa propre façon de créer des entreprises et des organisations. Les DAO permettent donc de gérer tout les aspects d'un projet, d'un produit, d'une organisation, etc. de manière décentralisée, transparente, équitable et sans besion faire confiance aux autres participants, elles ont donc un rôle de médiateur entre tous les acteurs de l'écosystème.
 
 #### **⭐⭐ Pour les initiés**
 
