@@ -1,0 +1,44 @@
+<!--
+title: Notes pour les Admins
+description: 
+published: true
+date: 2024-09-30T06:25:25.185Z
+tags: 
+editor: ckeditor
+dateCreated: 2024-09-30T06:25:25.185Z
+-->
+
+<p>Cette page n'apparait dans le menu de gauche que pour le groupe Admin.&nbsp;<br>Elle synthétise les paramétrages faits sur wiki.js.<br>&nbsp;</p>
+<h2>Groupes</h2>
+<ul>
+  <li>Guests &nbsp;: Groupe bloqué par le système, ne permet que la lecture et est celui par défaut lors de la création d'un compte sur le wiki,</li>
+  <li>Admin : Groupe bloqué par le système donnant tous les accès,</li>
+  <li>Contributor : Groupe créé pour les contributeurs. Donne accès en écriture à toutes les page (page rules) ainsi qu'à la partie navigation.</li>
+</ul>
+<p>Les changements de groupe ne peuvent être effectués que par les membre du groupe Admin.</p>
+<p>&nbsp;</p>
+<h2>Autres paramétrages</h2>
+<p>Par page du menu Admin :&nbsp;</p>
+<ul>
+  <li>Général : &nbsp;<ul>
+      <li>Désactivés : Comment et Edit shortcuts</li>
+    </ul>
+  </li>
+  <li>Locale<ul>
+      <li>Langue par défaut : Anglais (Ne pas modifier, car les sauvegardes de la langue correspondantes vont à la racine, ce qui désorganise les dossier et réplications Git).</li>
+    </ul>
+  </li>
+  <li>Theme :&nbsp;<ul>
+      <li>Dark mode : désactivé,</li>
+      <li>Table of content : mise à droite,</li>
+      <li>code injection : ajouté par Mickael</li>
+    </ul>
+  </li>
+  <li>Analytics : Matomo, Site ID : 2, Server Host : https://data.realt.community</li>
+  <li>Authentification : Local avec Self-registration, assignée au groupe Guests</li>
+  <li>Rendering : Markdown&gt; Html : tout activé</li>
+  <li>Search Engine : DB PostgreSQL, Dictionary : English</li>
+  <li>Storage : Git , Url : git@github.com:RealToken-Community/wiki.git, Branch : preprod, Auth par SSH, Bidirectional, Délais : 1h<br>Fonctions pour : forcer la synchro, purger le repo local, …</li>
+  <li>Mail : Sender Name : Devs RealToken email : dev@realt.community, Host : mail.infomaniak.com</li>
+  <li>Utilities : nombreuses fonction d'admin technique..</li>
+</ul>
