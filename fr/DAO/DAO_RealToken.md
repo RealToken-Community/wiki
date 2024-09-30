@@ -2,7 +2,7 @@
 title: 2. La DAO RealToken : Vue d'ensemble
 description: 
 published: true
-date: 2024-09-30T19:38:08.555Z
+date: 2024-09-30T19:40:39.746Z
 tags: 
 editor: markdown
 dateCreated: 2024-09-26T12:17:28.688Z
@@ -186,12 +186,12 @@ Les `REG holders` ont un rôle déterminant dans l'écosystème, ils sont à la 
 
 ## ⭐Résumé
 A ce stade il est important de souligné l'importance de la distinction entre le REG, donc la DAO et les Realtokens, les investissements dans des actifs tokenisé.
-La DAO a travres le REG donne un droit sur l'écosystème d'aplication décentraliser, et toutes les intérections lier à la DAO.
-Les Realtokens (investissement dans des actifs) donne individuellement des droits sur ses sousjacent.
-La DAO vas controler plusieurs applications décentraliser qui seront utiliser par des clients de la DAO (les investisseurs dans des actifs tokenise vis des Realtokens), ses applications pourrons collecter des frais, proposer des fonctions premium, ou etre gratuite selons les décisions de la DAO.
+La DAO à traveres le REG donne un droit sur l'écosystème d’application décentraliser, et toutes les insurrections lier à la DAO.
+Les Realtokens (investissement dans des actifs) donne individuellement des droits sur ses sous-jacent.
+La DAO vas contrôler plusieurs applications décentraliser qui seront utiliser par des clients de la DAO (les investisseurs dans des actifs tokenisé vis des Realtokens), ses applications pourrons collecter des frais, proposer des fonctions premium, ou etre gratuite selons les décisions de la DAO.
 
 
-> Ses deux classe de token sont complémentaire et peuvent etre possèder et utilise en duo ou individuelement celons le profil de chacun
+> Ses deux classe de token sont complémentaire et peuvent être posséder et utilise en duo ou individuellement celons le profil de chacun
 {.is-info}
 
 > **Le REG** ne donne aucun droit sur les actifs tokeniser, leur gestions, ni sur la gouvernance des société qui oppèrs comme partenaire, ceule droit sur ses dernière découle des mandats accordé par la DAO
