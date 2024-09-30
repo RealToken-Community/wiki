@@ -2,7 +2,7 @@
 title: 7. Ressources et support
 description: 
 published: true
-date: 2024-09-26T21:00:57.929Z
+date: 2024-09-30T07:34:16.408Z
 tags: 
 editor: markdown
 dateCreated: 2024-09-26T12:17:57.562Z
@@ -159,14 +159,7 @@ La documentation des smart contracts est essentielle pour comprendre le fonction
      **Description :** Renvoie les informations globales sur l'état d'un utilisateur.
      **Paramètres :**
   	 -   `user` : Adresse de l'utilisateur.
-    
-4. **REGIncentiveVault.sol** : Système d'incitation et de récompenses, ce contrat gère le calcule et la distribution des récompenses aux participants de la DAO si activé par la DAO.  
-    Contrat entièrement créé par RealT, les fonctions principales sont :
-    -   `setNewEpoch(uint256 subscriptionStart, uint256 subscriptionEnd, uint256 lockPeriodEnd, address bonusToken, uint256 totalBonus) external onlyRole(DEFAULT\_ADMIN\_ROLE)`,
-    -   `recordVote(address user, uint256 proposalId) external onlyGovernance`,
-    -   `calculateBonus(address user) external view returns (address\[\] memory, uint256\[\] memory)`,
-    -   `claimBonus(address user, uint256 epoch) external`. 
-         
+             
 5. **REGPowerVotingRegistry.sol** : Enregistrement des pouvoirs de vote, ce contrat enregistre le pouvoir de vote des participants calculé off-chain par RealT selon l'algorithme défini et validé par la DAO.  
 Contrat entièrement créé par RealT, les fonctions principales sont :
 	- `registerVotingPower(VotingPower\[\] calldata votingPower) external override onlyRole(REGISTER\_ROLE)` Vous noterez que pour des raisons de compatibilité avec les standards et le fonctionnement du contrat Governor, le contrat PowerVotingRegistry est basé sur le standard ERC20 avec une modification des comportements des fonctions de base comme :
