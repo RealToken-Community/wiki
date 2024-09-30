@@ -2,7 +2,7 @@
 title: 3. Phase1, Version simplifiée
 description: 
 published: true
-date: 2024-09-26T19:25:29.327Z
+date: 2024-09-30T09:10:22.330Z
 tags: 
 editor: markdown
 dateCreated: 2024-09-26T12:17:52.404Z
@@ -227,9 +227,9 @@ Pour une participation approfondie à la phase initiale :
     -   Explorez des synergies potentielles avec d'autres projets DeFi.
 5.  Préparation de la Phase 2 :
 
--   Contribuez à la conception des mécanismes d'intégration des NFT,
--   Participez aux tests approfondis des nouvelles fonctionnalités,
--   Aidez à élaborer la feuille de route pour la transition vers la Phase 2.
+	-   Contribuez à la conception des mécanismes d'intégration des NFT,
+	-   Participez aux tests approfondis des nouvelles fonctionnalités,
+	-   Aidez à élaborer la feuille de route pour la transition vers la Phase 2.
 
 Votre participation active à tous ces niveaux contribuera à façonner l'avenir de la DAO RealToken et à assurer son succès à long terme.
 
