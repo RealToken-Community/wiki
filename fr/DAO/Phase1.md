@@ -2,7 +2,7 @@
 title: 3. Phase1, Version simplifiée
 description: 
 published: true
-date: 2024-09-30T21:24:52.879Z
+date: 2024-10-01T17:55:38.077Z
 tags: 
 editor: markdown
 dateCreated: 2024-09-26T12:17:52.404Z
@@ -183,25 +183,25 @@ Ces objectifs visent à établir une base solide pour la DAO, tout en préparant
 Pour participer à la phase initiale de la DAO RealToken :
 
 1.  Suivez les annonces officielles sur les canaux de communication de RealToken,
-1.  Donnez votre avis dans les discussions de la communauté sur le forum de gouvernance,
-1.  Pocèder des tokens REG pour avoir du pouvoir de vote,
-1.  Participez aux votes quand ils sont ouverts,
-1.  Assistez aux événements éducatifs pour en apprendre davantage sur la DAO,
-1.  S'informer et se former sur le sujet des DAO.
+2.  Donnez votre avis dans les discussions de la communauté sur le forum de gouvernance,
+3.  Pocèder des tokens REG pour avoir du pouvoir de vote,
+4.  Participez aux votes quand ils sont ouverts,
+5.  Assistez aux événements éducatifs pour en apprendre davantage sur la DAO,
+6.  S'informer et se former sur le sujet des DAO.
 
 #### **⭐⭐ Pour les initiés**
 
 Voici comment vous pouvez participer activement à la phase initiale :
 
 1.  Proposez des idées d'amélioration dans les forums de gouvernance,
-1.  Participez aux débats sur les propositions avant les votes sur le forume de gouvernance,
-1.  Votez régulièrement sur les propositions,
-1.  Aidez à éduquer les nouveaux membres sur le fonctionnement de la DAO,
-1.  Participez aux campagnes d'incitation pour gagner des récompenses,
-1.  Testez les nouvelles fonctionnalités et donnez votre feedback,
-1.  Contribuez à l'élaboration des processus de gouvernance,
-1.  Prendre des initiatives et les soumettre à la communauté,
-1.  Rédigez, améliorez, traduisez et partagez le contenu sur les DAO.
+2.  Participez aux débats sur les propositions avant les votes sur le forume de gouvernance,
+3.  Votez régulièrement sur les propositions,
+4.  Aidez à éduquer les nouveaux membres sur le fonctionnement de la DAO,
+5.  Participez aux campagnes d'incitation pour gagner des récompenses,
+6.  Testez les nouvelles fonctionnalités et donnez votre feedback,
+7.  Contribuez à l'élaboration des processus de gouvernance,
+8.  Prendre des initiatives et les soumettre à la communauté,
+9.  Rédigez, améliorez, traduisez et partagez le contenu sur les DAO.
 
 #### **⭐⭐⭐ Pour les experts**
 
