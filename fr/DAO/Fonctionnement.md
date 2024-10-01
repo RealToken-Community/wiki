@@ -2,7 +2,7 @@
 title: 4. Fonctionnement technique de la DAO REG
 description: 
 published: true
-date: 2024-09-26T19:25:14.464Z
+date: 2024-10-01T21:13:33.405Z
 tags: 
 editor: markdown
 dateCreated: 2024-09-26T12:17:33.764Z
@@ -115,12 +115,13 @@ Les mécanismes de vote et de proposition sont implémentés comme suit :
     -   inscription on-chain de la proposition avec tous les codes permettant l'exécution de la proposition si elle est approuvée,
     -   Interaction avec le PowerVotingRegistry pour créer des snapshots des pouvoirs de vote.
 3.  Processus de vote :
-    -   Basé sur le standard OpenZeppelin Governor avec des modifications personnalisées,
-    -   Utilisation du pouvoir de vote enregistré dans le PowerVotingRegistry,
-    -   Possibilité de vote : pour, contre ou abstention,
-    -   Uniquement les membres enregistrés dans le PowerVotingRegistry peuvent voter,
-    -   Le vote se fait sur une durée déterminée par le contrat de gouvernance, en général 7 jours,
-    -   Les votants vérifient que la proposition est conforme à la description et aux échanges sur le forum de la DAO (vérification du code d'exécution on-chain).
+    - Basé sur le standard OpenZeppelin Governor avec des modifications personnalisées,
+    - Utilisation du pouvoir de vote enregistré dans le PowerVotingRegistry,
+    - Possibilité de vote : pour, contre ou abstention,
+    - Uniquement les membres enregistrés dans le PowerVotingRegistry peuvent voter,
+    -	Un délais de 1 jours es appliquer a partir du moment de la vlidation de la transaction de création de la proposal,
+    - Le vote se fait sur une durée déterminée par le contrat de gouvernance, en général 7 jours,
+    - Les votants vérifient que la proposition est conforme à la description et aux échanges sur le forum de la DAO (vérification du code d'exécution on-chain).
 4.  Calcul du pouvoir de vote
     -   Enregistré dans le PowerVotingRegistry,
     -   Prend en compte le solde REG, la durée de détention, le verrouillage, et potentiellement d'autres facteurs, selon l'algorithme de calcul validé par la DAO,
