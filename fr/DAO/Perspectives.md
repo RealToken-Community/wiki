@@ -2,7 +2,7 @@
 title: 6. Perspectives d'avenir
 description: 
 published: true
-date: 2024-10-01T12:45:37.068Z
+date: 2024-10-01T12:50:33.993Z
 tags: 
 editor: markdown
 dateCreated: 2024-09-26T12:17:47.858Z
@@ -153,7 +153,7 @@ Pour contribuer plus activement au développement de la DAO :
 1.  Proposez des améliorations via le processus de gouvernance,
 2.  Participez aux groupes de travail spécialisés,
 3.  Contribuez au code source des smart contracts et des interfaces utilisateur,
-4.  Contribuez à la documentation,
+4.  **Contribuez à la documentation**,
 5.  Participez aux tests des nouvelles fonctionnalités,
 6.  Contribuez au contenu éducatif de la communauté,
 7.  Aidez à modérer les discussions et à répondre aux questions des nouveaux membres,
@@ -184,7 +184,7 @@ Recherche et innovation :
 
 Expansion et adoption :
 
--   Développez des stratégies pour l'expansion internationale de RealToken,
+-   Développez des stratégies pour l'expansion internationale de RealToken DAO,
 -   Créez des ponts avec d'autres écosystèmes blockchain et DeFi,
 -   Organisez des événements et des conférences pour promouvoir l'écosystème.
 
@@ -203,6 +203,6 @@ Promouvoir l'écosystème :
 -   Donner des interviews auprès d'influenceurs ou médias pour promouvoir l'écosystème RealToken.
 
 En contribuant à ces différents niveaux, vous pouvez jouer un rôle crucial dans le façonnage de l'avenir de la DAO RealToken et de l'écosystème plus large de la tokenisation d'actif classique.  
-Chaque contribution, peu importe sa forme, est précieuse et peut grandement aider à mener à bien les différents objectifs de la DAO, permettant de faire grandir l'écosystème, faisant évoluer les possibilités, et créant de nouvelles opportunités.
+**Chaque contribution, peu importe sa forme, est précieuse et peut grandement aider** à mener à bien les différents objectifs de la DAO, permettant de faire grandir l'écosystème, faisant évoluer les possibilités, et créant de nouvelles opportunités.
 
 [Page suivante](/fr/DAO/Ressources)
