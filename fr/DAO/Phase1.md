@@ -2,7 +2,7 @@
 title: 3. Phase1, Version simplifiée
 description: 
 published: true
-date: 2024-10-01T17:55:38.077Z
+date: 2024-10-01T17:59:27.930Z
 tags: 
 editor: markdown
 dateCreated: 2024-09-26T12:17:52.404Z
@@ -51,7 +51,7 @@ La Phase 1 de la DAO RealToken est conçue comme une implémentation minimaliste
 4.  Mécanismes de sécurité :
     -   Timelock sur les exécutions de propositions, donnant un délais supplémentaire pour détecter les potentielles problèmes ou erreurs d'une proposition,
     -   Limites sur les montants de trésorerie gérables,
-    -   Droits de veto de la part de la RealT sur des propositions extrême ou metant en danger la DAO.
+    -   Droits de veto de la part de la RealT sur des propositions extrême ou mettant en danger la DAO.
 5.  Collecte de données :
     -   Métriques sur la participation et l'engagement des membres,
     -   Feedback continu de la communauté pour informer les phases futures.
@@ -87,7 +87,7 @@ Le processus de mise en place de la Phase 1 est structuré pour maximiser l'appr
     -   Tests net en groupe restreint (déjà réalisé),
     -   Audits de sécurité et tests approfondis (réaliser en interne RealT),
     -   Test net public (déjà réalisé),
-    -   Developpement des outils pour le calcul du powerVoting (Realiser par RealT).
+    -   Développement des outils pour le calcul du powerVoting (Realiser par RealT).
 2.  Gouvernance initiale :
     -   Définition des paramètres initiaux (quorum, seuils de vote, timelock : RealT)
     -   Mise en place d'un processus de proposition en plusieurs étapes (discussion, formalisation, vote),
@@ -184,7 +184,7 @@ Pour participer à la phase initiale de la DAO RealToken :
 
 1.  Suivez les annonces officielles sur les canaux de communication de RealToken,
 2.  Donnez votre avis dans les discussions de la communauté sur le forum de gouvernance,
-3.  Pocèder des tokens REG pour avoir du pouvoir de vote,
+3.  Posséder des tokens REG pour avoir du pouvoir de vote,
 4.  Participez aux votes quand ils sont ouverts,
 5.  Assistez aux événements éducatifs pour en apprendre davantage sur la DAO,
 6.  S'informer et se former sur le sujet des DAO.
@@ -194,7 +194,7 @@ Pour participer à la phase initiale de la DAO RealToken :
 Voici comment vous pouvez participer activement à la phase initiale :
 
 1.  Proposez des idées d'amélioration dans les forums de gouvernance,
-2.  Participez aux débats sur les propositions avant les votes sur le forume de gouvernance,
+2.  Participez aux débats sur les propositions avant les votes sur le forum de gouvernance,
 3.  Votez régulièrement sur les propositions,
 4.  Aidez à éduquer les nouveaux membres sur le fonctionnement de la DAO,
 5.  Participez aux campagnes d'incitation pour gagner des récompenses,
