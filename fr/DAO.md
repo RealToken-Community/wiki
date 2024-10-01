@@ -2,7 +2,7 @@
 title: DAO
 description: Organisation Autonome Décentralisée : Accueil
 published: true
-date: 2024-10-01T17:25:01.393Z
+date: 2024-10-01T17:51:16.398Z
 tags: dao
 editor: markdown
 dateCreated: 2024-09-26T12:17:03.438Z
@@ -20,13 +20,13 @@ La DAO RealToken est une organisation autonome décentralisée conçue pour rév
 - **Transparence totale** : Toutes nos opérations et décisions sont enregistrées sur la blockchain, garantissant une transparence sans précédent,
 - **Récompenses attractives** : Participez activement et soyez récompensés pour votre engagement dans la gouvernance de la DAO, ces récompenses étant votées et décidées par la DAO,
 - **Innovation constante** : Contribuez à l'évolution d'une plateforme qui redéfinit les standards de la tokenisation d'actif classique.
-- **Opportunitées** : Vos talents mis à dispositions de la DAO pourraient faire émerger de nouveaux types d'activités lucratives ou non.
+- **Opportunités** : Vos talents mis à dispositions de la DAO pourraient faire émerger de nouveaux types d'activités lucratives ou non.
 
 ## Comment participer ?
 
 1.  **Participer aux discussions** : Rejoignez notre [forum de gouvernance](https://forum.realtoken.community/) et canaux de communication pour échanger avec la communauté
 2.  **Soumettre des propositions** : Partagez vos idées pour améliorer l'écosystème RealToken,
-3.  **Acquérir des tokens REG** : Pour une participation plus active, la première étape étant l'aquisitions REG token ou les acquerir via les Airdrops,
+3.  **Acquérir des tokens REG** : Pour une participation plus active, la première étape étant l'acquisitions de REG tokens ou les obtenir via les Airdrops,
 4.  **Voter sur les propositions** : Exprimez votre opinion sur les décisions clés de la DAO,
 5.  **Jouer un rôle dans la DAO** : Mettez à disposition vos compétences, développez en de nouvelle (devenir délégué, influenceur, développeur, formateur, etc….)
 
@@ -34,7 +34,7 @@ La DAO RealToken est une organisation autonome décentralisée conçue pour rév
 
 Explorez notre documentation pour en apprendre d'avantage sur le fonctionnement de la DAO, les mécanismes de vote, et comment vous pouvez maximiser votre participation.
 
-Rejoignez-nous dans cette aventure passionnante pour façonner l'avenir de la tokenisation d'actif classique !
+Rejoignez nous dans cette aventure passionnante pour façonner l'avenir de la tokenisation d'actif classique !
 
 # Table des matières de la documentation DAO REG
 
