@@ -2,7 +2,7 @@
 title: 2. La DAO RealToken : Vue d'ensemble
 description: 
 published: true
-date: 2024-09-30T19:40:39.746Z
+date: 2024-10-01T17:45:33.020Z
 tags: 
 editor: markdown
 dateCreated: 2024-09-26T12:17:28.688Z
@@ -12,12 +12,12 @@ dateCreated: 2024-09-26T12:17:28.688Z
 
 #### **⭐ Pour les novices**
 
-La DAO RealToken (REG) a pour but de créer une communauté décentralisée où les détenteurs de tokens `REG` peuvent participer aux décisions importantes de l'écosystème d'applications décentralisées (DApps) utilisable par les tokens Realtokens. L'idée est de rendre l'investissement dans les actifs du monde physique plus accessible, liquide et transparent possible, tout en donnant plus d'oportunité et de cas d'usage aux investisseurs avec leurs investissements. Un utilisateur peut donc participer à la gouvernance de la DAO avec la possession de REG, et effectuer des investissements aux travers de l'achat et possession de tokens Realtoken, cela peut être l'un ou l'autre ou les deux, il n'est pas nécessaire de posséder des tokens Realtoken pour participer à la gouvernance de la DAO, comme il n'est pas nécessaire de posséder des tokens REG pour utiliser les services de la DAO.
+La DAO RealToken (REG) a pour but de créer une communauté décentralisée où les détenteurs de tokens `REG` peuvent participer aux décisions importantes de l'écosystème d'applications décentralisées (DApps) utilisable par les tokens Realtokens. L'idée est de rendre l'investissement dans les actifs du monde physique plus accessible, liquide et transparent possible, tout en donnant plus d'opportunité et de cas d'usage aux investisseurs avec leurs investissements. Un utilisateur peut donc participer à la gouvernance de la DAO avec la possession de REG, et effectuer des investissements aux travers de l'achat et possession de tokens Realtoken, cela peut être l'un ou l'autre ou les deux, il n'est pas nécessaire de posséder des tokens Realtoken pour participer à la gouvernance de la DAO, comme il n'est pas nécessaire de posséder des tokens REG pour utiliser les services de la DAO.
 
 > REG = gouvernance DAO
 {.is-info}
 
-> Realtokens = Invsetisement tokenisé
+> Realtoken = Investissement tokenisé
 {.is-info}
 
 
@@ -29,7 +29,7 @@ La vision de la DAO RealToken est de révolutionner le marché de la tokenisatio
 -   Démocratiser l'accès à l'investissement,
 -   Créer un écosystème transparent et équitable,
 -   Optimiser les rendements pour les détenteurs de tokens Realtokens,
--   Rendre plus liquide les actifs tokenisé,
+-   Rendre plus liquide les actifs tokenisés,
 -   Apporter de nouveaux cas d'usage aux investisseurs avec leurs investissements.
 
 La DAO donnera donc la direction à prendre **_pour l'écosystème décentralisé_**, et permettra de faire naitre de nouveaux produits et services créer par la communauté. On peux voir la DAO comme un incubateur d'idées et start-up, qui permettra de faire évoluer l'écosystème. Les bénéfices financiers des applications de l'écosystème serons utilisable par la DAO pour proposer de nouveaux produits et services aux détenteurs de tokens, financer les prestataires de l'écosystème, et pour le développement de nouvelles applications qui participe à l'évolution de l'écosystème.
@@ -44,7 +44,7 @@ La DAO RealToken prendra des décisions en ce qui concerne l'écosystème, comme
 -   Quels sont les partenariats à faire dans l'écosystème,
 -   Quels sont les paramètres des DApps à appliquer (frais de swap, taux d'intérêt, etc.).
 
-*écosystème sous-entand la partie décentralisé
+*écosystème sous-entend la partie décentralisé
 #### **⭐⭐⭐ Pour les experts**
 
 La DAO RealToken vise à établir un nouveau paradigme dans l'industrie de la tokenisation d'actifs physiques et classiques en normalisant le support de propriété via des tokens (Realtokens), les rendre interopérable, en exploitant pleinement le potentiel de la technologie blockchain et des structures de gouvernance décentralisées. Ses objectifs stratégiques comprennent :
@@ -52,7 +52,7 @@ La DAO RealToken vise à établir un nouveau paradigme dans l'industrie de la to
 -   Tokenisation avancée : Développer des protocoles sophistiqués pour la représentation numérique d'actifs physiques et classiques, permettant une fractionnalisation et une liquidité accrues.
 -   Gouvernance innovante : Implémenter des mécanismes de vote et de proposition adaptés aux spécificités du marché RWA, assurant une prise de décision efficace et équitable pour l'écosystème de DApps.
 -   Intégration DeFi : Créer des synergies avec l'écosystème DeFi pour optimiser la gestion des actifs et maximiser les rendements (yield farming, prêts collatéralisés, etc.).
--   Conformité réglementaire : Développer des solutions innovantes pour naviguer dans le paysage réglementaire complexe des actifs tokenisé à l'échelle mondiale.
+-   Conformité réglementaire : Développer des solutions innovantes pour naviguer dans le paysage réglementaire complexe des actifs tokenisés à l'échelle mondiale.
 -   Interopérabilité : Établir des ponts avec d'autres protocoles pour faciliter l'échange et l'utilisation des tokens RWA dans un écosystème plus large.
 -   Gestion des risques décentralisée : Mettre en place des mécanismes communautaires pour évaluer, atténuer et gérer les risques liés aux investissements RWA.
 -   Innovation technologique : Exploiter les avancées en matière d'oracles, de zk-proofs et d'autres technologies blockchain pour améliorer l'efficacité et la sécurité de l'écosystème.
@@ -95,9 +95,9 @@ Vision de la structure et le fonctionnement de la DAO RealToken à moyen terme:
     -   Parfois ces comités aurons des mandats à court terme pour réaliser une tache spécifique, et devront rendre des comptes à la DAO une fois l'étude, ou le travail terminé.
     -   Il est aussi possible que des comités aient des droits particuliers sur les smart contract comme la mise en pause d'urgence, afin de pouvoir réagir plus rapidement en cas d'anomalie critique.
 2.  Mécanismes de vote avancés :
-    -   Le vote ne fonctionnera pas de façon classique (1 token = 1 vote), mais il y aura un système de pondération des votes en fonction du nombre de tokens possédés, du temps de blocage des tokens pour le vote, de la localisation des tokens (wallets, Pools de liquidité, vautl de lock, dans les NFT, lock dans d'autres applications de l'écosystème, etc.),
-    -   Système de snapshot pour toute la durée d'une époque, le pouvoir de vote sera fixé pour toute la durée d'une époque, cela limitera la spéculation, et les attaque de gouvernance. Les mises à jours des pouvoirs de vote se feront par le biais d'un vote de la DAO afin de garantir toutes manipulation ou attaque (acivé dasn un deuxème temps),
-    -   Système de NFT Citizsen, Activity et Collector, qui permettront de récompenser les contributeurs de la DAO, apporteront de nouveaux mécanismes de valorisation du pouvoir de vote et d'allignement des intérets.
+    -   Le vote ne fonctionnera pas de façon classique (1 token = 1 vote), mais il y aura un système de pondération des votes en fonction du nombre de tokens possédés, du temps de blocage des tokens pour le vote, de la localisation des tokens (wallets, Pools de liquidité, vault de lock, dans les NFT, lock dans d'autres applications de l'écosystème, etc.),
+    -   Système de snapshot pour toute la durée d'une époque, le pouvoir de vote sera fixé pour toute la durée d'une époque, cela limitera la spéculation, et les attaque de gouvernance. Les mises à jours des pouvoirs de vote se feront par le biais d'un vote de la DAO afin de garantir toutes manipulation ou attaque (activé dans un deuxième temps),
+    -   Système de NFT Citizsen, Activity et Collector, qui permettront de récompenser les contributeurs de la DAO, apporteront de nouveaux mécanismes de valorisation du pouvoir de vote et d'alignement des intérêts.
 3.  Système de proposition structuré :
     -   L'émissions d'une idée ou proposition, permet à n'importe qui de soumettre une idée ou une proposition, qui sera ensuite accompagné par des utilisateurs actifs de la DAO pour passer les étapes suivantes :
     -   Phases de discussion, débat, affinement des propositions,
@@ -185,19 +185,19 @@ Le rôle des détenteurs de REG est multidimensionnel et crucial pour l'écosyst
 Les `REG holders` ont un rôle déterminant dans l'écosystème, ils sont à la fois `les gardiens` de la trésorerie de la `DAO` mais aussi les décideurs de son avenir, veillant à la stabilité et la sécurité de l'écosystème tout en bénéficiant d'avantages dans l'utilisation des services de la DAO.
 
 ## ⭐Résumé
-A ce stade il est important de souligné l'importance de la distinction entre le REG, donc la DAO et les Realtokens, les investissements dans des actifs tokenisé.
-La DAO à traveres le REG donne un droit sur l'écosystème d’application décentraliser, et toutes les insurrections lier à la DAO.
+A ce stade il est important de souligner l'importance de la distinction entre le REG, donc la DAO et les Realtokens, les investissements dans des actifs tokenisés.
+La DAO à travers le REG donne un droit sur l'écosystème d’application décentraliser, et toutes les insurrections lier à la DAO.
 Les Realtokens (investissement dans des actifs) donne individuellement des droits sur ses sous-jacent.
-La DAO vas contrôler plusieurs applications décentraliser qui seront utiliser par des clients de la DAO (les investisseurs dans des actifs tokenisé vis des Realtokens), ses applications pourrons collecter des frais, proposer des fonctions premium, ou etre gratuite selons les décisions de la DAO.
+La DAO vas contrôler plusieurs applications décentraliser qui seront utiliser par des clients de la DAO (les investisseurs dans des actifs tokenisé vis des Realtokens), ses applications pourrons collecter des frais, proposer des fonctions premium, ou être gratuite selon les décisions de la DAO.
 
 
-> Ses deux classe de token sont complémentaire et peuvent être posséder et utilise en duo ou individuellement celons le profil de chacun
+> Ces deux classes de token sont complémentaires et peuvent être possédées et utilisées en duo ou individuellement selon le profil de chacun.
 {.is-info}
 
-> **Le REG** ne donne aucun droit sur les actifs tokeniser, leur gestions, ni sur la gouvernance des société qui oppèrs comme partenaire, ceule droit sur ses dernière découle des mandats accordé par la DAO
+> **Le REG** ne donne aucun droit sur les actifs tokenisés, leur gestion, ni sur la gouvernance des sociétés qui opèrent comme partenaires, le seule droit sur ces dernières découle des mandats accordés par la DAO.
 {.is-danger}
 
-> **Les Realtokens** ne donne aucun doits sur la gestion, la trésorie ou bonus divers lier a l'écosystème, les Realtokens représente le droits sur l'actif soujacent uniquement
+> **Les Realtokens** ne donne aucun droits sur la gestion, la trésorie ou les bonus divers liés à l'écosystème, les Realtokens représentent le droits sur l'actif sous-jacent uniquement.
 {.is-danger}
 
 
