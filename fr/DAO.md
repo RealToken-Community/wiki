@@ -2,7 +2,7 @@
 title: DAO
 description: Organisation Autonome Décentralisée : Accueil
 published: true
-date: 2024-10-01T17:17:18.242Z
+date: 2024-10-01T17:25:01.393Z
 tags: dao
 editor: markdown
 dateCreated: 2024-09-26T12:17:03.438Z
@@ -25,10 +25,10 @@ La DAO RealToken est une organisation autonome décentralisée conçue pour rév
 ## Comment participer ?
 
 1.  **Participer aux discussions** : Rejoignez notre [forum de gouvernance](https://forum.realtoken.community/) et canaux de communication pour échanger avec la communauté
-1.  **Soumettre des propositions** : Partagez vos idées pour améliorer l'écosystème RealToken,
-1.  **Acquérir des tokens REG** : Pour une participation plus active, la première étape étant l'aquisitions REG token ou les aquierir via les Airdrops
-1.  **Voter sur les propositions** : Exprimez votre opinion sur les décisions clés de la DAO,
-1.  **Jouer un rôle dans la DAO** : Mettez à disposition vos compétences, développez en de nouvelle (devenir délégué, influencer, développeur, formateur, etc….)
+2.  **Soumettre des propositions** : Partagez vos idées pour améliorer l'écosystème RealToken,
+3.  **Acquérir des tokens REG** : Pour une participation plus active, la première étape étant l'aquisitions REG token ou les acquerir via les Airdrops,
+4.  **Voter sur les propositions** : Exprimez votre opinion sur les décisions clés de la DAO,
+5.  **Jouer un rôle dans la DAO** : Mettez à disposition vos compétences, développez en de nouvelle (devenir délégué, influenceur, développeur, formateur, etc….)
 
 ## Prochaines étapes
 
