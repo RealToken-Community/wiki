@@ -2,7 +2,7 @@
 title: 1. Introduction aux DAO
 description: 
 published: true
-date: 2024-10-01T17:30:04.023Z
+date: 2024-10-01T17:48:09.838Z
 tags: 
 editor: markdown
 dateCreated: 2024-09-26T12:17:42.863Z
@@ -32,7 +32,7 @@ Une DAO représente une évolution significative dans la gouvernance organisatio
 
 #### **⭐ Pour les novices**
 
-Les DAO sont importantes car elles permettent à des personnes du monde entier de travailler ensemble sur des projets, de prendre des décisions et de gérer de l'argent, le tout de manière équitable et transparente, chaque acteur est égal peu importe sa région géographique, sa race, son sexe, etc. C'est comme si Internet avait sa propre façon de créer des entreprises et des organisations. Les DAO permettent donc de gérer tout les aspects d'un projet, d'un produit, d'une organisation, etc. de manière décentralisée, transparente, équitable et sans besion de faire confiance aux autres participants, elles ont donc un rôle de médiateur entre tous les acteurs de l'écosystème.
+Les DAO sont importantes car elles permettent à des personnes du monde entier de travailler ensemble sur des projets, de prendre des décisions et de gérer de l'argent, le tout de manière équitable et transparente, chaque acteur est égal peu importe sa région géographique, sa race, son sexe, etc. C'est comme si Internet avait sa propre façon de créer des entreprises et des organisations. Les DAO permettent donc de gérer tout les aspects d'un projet, d'un produit, d'une organisation, etc. de manière décentralisée, transparente, équitable et sans besoin de faire confiance aux autres participants, elles ont donc un rôle de médiateur entre tous les acteurs de l'écosystème.
 
 #### **⭐⭐ Pour les initiés**
 
@@ -60,7 +60,7 @@ Les DAO représentent une innovation fondamentale dans l'écosystème blockchain
 -   Autonomie et résilience : La nature programmable et auto-exécutable des DAO les rend plus résistantes aux interventions externes et aux défaillances individuelles, elles sont donc plus fiable et robuste.
 -   Interopérabilité : Les DAO peuvent interagir de manière native avec d'autres protocoles blockchain, ouvrant la voie à des écosystèmes complexes et interconnectés.
 -   Gouvernance dynamique : Les DAO peuvent évoluer et s'adapter en fonction des besoins, des opportunités et des menaces, permettant une réponse rapide aux changements et besoins des utilisateurs de l'écosystème.
--   Gouvernance globale : Les DAO peuvent gérer des ressources et des activités à l'échelle du globe, permettant une coordination globale et une réponse efficace des ressources de l'écosystème pour prosposer des solutions, garantie dans l'écosystème.
+-   Gouvernance globale : Les DAO peuvent gérer des ressources et des activités à l'échelle du globe, permettant une coordination globale et une réponse efficace des ressources de l'écosystème pour proposer des solutions, garantie dans l'écosystème.
 
 ## **1.3. Avantages et défis des DAO**
 
