@@ -2,7 +2,7 @@
 title: 7. Ressources et support
 description: 
 published: true
-date: 2024-09-30T07:35:33.168Z
+date: 2024-10-01T13:27:48.808Z
 tags: 
 editor: markdown
 dateCreated: 2024-09-26T12:17:57.562Z
@@ -191,40 +191,38 @@ Contrat entièrement créé par RealT, les fonctions principales sont :
 
 #### Rapports d'audit de sécurité :
 
-Il n'y a pas de rapport d'audit de sécurité pour le moment. Les contrats étant proches des versions standards et la gouvernance étant exercée avec des restrictions, il a été jugé plus pertinent de conserver les ressources pour des audits futurs de la v2. La v1 étant une version provisoire expérimentale destinée à initialiser la DAO.
+Il n'y a pas de rapport d'audit de sécurité pour le moment. Les contrats étant proches des versions standards (déjà audité) et la gouvernance étant exercée avec des restrictions de droits, il a été jugé plus pertinent de conserver les ressources pour des audits futurs de la v2. La v1 étant une version provisoire expérimentale destinée à initialiser la DAO et donc le champ d'action est limité.
 
 ### 7.1.2. Mécanismes de gouvernance ⭐⭐
 
 Cette section détaille les processus de gouvernance de la DAO :
 
--   Cycle de vie des propositions :
+- Cycle de vie des propositions :
     -   Discussion et rédaction de la proposition sur le forum de gouvernance,
     -   Création et soumission,
     -   Période de vote,
     -   Exécution et timelock.
--   Calcul du pouvoir de vote :
+- Calcul du pouvoir de vote :
     -   Formules utilisées off-chain par RealT,
-    -   Facteurs influençant le pouvoir de vote (verrouillage, durée de détention).
-
-Système d'incitation :
-
--   Mécanisme de distribution des récompenses
--   Calcul des bonus basé sur la participation aux votes et verrouillage des REG
+    -   Facteurs influençant le pouvoir de vote (verrouillage, durée de détention, usage).
+- Système d'incitation :
+	- Mécanisme de distribution des récompenses
+	- Calcul des bonus basé sur la participation aux votes et verrouillage des REG
 
 ### 7.1.3. Interfaces utilisateur ⭐
 
 Les interactions se font principalement avec les interfaces suivantes :
 
--   Discussions de Gouvernance (URL):
+- Discussions de Gouvernance ([URL](https://forum.realtoken.community)):
     -   Forum de gouvernance,
-    -   Géré et hébergé par la communauté,
-    -   Permet de discuter des idées, définir l'intérêt, les priorités, et de préparer les propositions.
--   Interface de vote ([URL](https://www.tally.xyz/gov/realtoken-ecosystem-governance)):
+    -   Hébergé et géré par la communauté,
+    -   Permet de discuter des idées, déterminer l'intérêt, les priorités, et de préparer les propositions.
+- Interface de vote ([URL](https://www.tally.xyz/gov/realtoken-ecosystem-governance)):
     -   Utilisation de la plateforme Tally comme interface de vote,
     -   Accès aux fonctions principales de vote, visualisation, résultat, vote, création de proposition, statut des propositions,
     -   L'usage de Tally permet de gagner plusieurs mois de développement,
     -   Implique quelques contraintes dans le fonctionnement et les informations affichées.
--   Interface d'incentive ([URL](https://vote.realtoken.network)):
+- Interface d'incentive ([URL](https://vote.realtoken.network)):
     -   Interface dédiée créée par RealT,
     -   Permet de déposer des REG, retirer des REG, réclamer des récompenses.
 
@@ -232,8 +230,8 @@ Les interactions se font principalement avec les interfaces suivantes :
 
 ### 7.2.1. Canaux officiels ⭐
 
--   Site web officiel : …
--   Twitter : @RealTokenDAO
+- Site web officiel DAO : SOON
+- Twitter : @RealTokenDAO
 
 ### 7.2.2. Ressources pour les développeurs ⭐⭐⭐
 
@@ -253,13 +251,13 @@ Les interactions se font principalement avec les interfaces suivantes :
 > Q : Comment participer aux votes de la DAO ?  
 {.is-question}
 
-> R : Pour participer aux votes, vous devez détenir des tokens REG au moment du snapshot, ils peuvent être dans : votre portefeuille, pool de liquidité, vault de verrouillage, etc. Connectez-vous à l'interface de gouvernance avec le portefeuille contenant des REG au moment du snapshot, puis vous pourrez voter sur les propositions actives utilisant le snapshot.
+> R : Pour participer aux votes, vous devez détenir des tokens REG au moment du snapshot, ils peuvent être dans : votre portefeuille, pool de liquidité, vault de verrouillage, etc. Connectez-vous à l'interface de gouvernance avec le portefeuille contenant ou qui a lock des REG au moment du snapshot, puis vous pourrez voter sur les propositions actives utilisant le snapshot.
 {.is-result}
 
 > Q : Comment puis-je gagner des bonus ?  
 {.is-question}
 
-> R : Vous pouvez gagner des bonus en participant aux votes de la DAO durant les périodes pour lesquelles la DAO a activé le mécanisme d'incitation. Il vous faut aussi verrouiller des REG dans le vault et voter au maximum de propositions durant la période pour maximiser vos gains.
+> R : Vous pouvez gagner des bonus en participant aux votes de la DAO durant les périodes pour lesquelles la DAO à activé le mécanisme d'incitation. Il vous faut aussi verrouiller des REG dans le vault d'incentive et voter au maximum de propositions durant la période pour maximiser vos gains.
 {.is-result}
 
 > Q : Qui peut proposer des idées ?  
@@ -297,7 +295,7 @@ Les interactions se font principalement avec les interfaces suivantes :
 > Q : Comment fonctionne le mécanisme de verrouillage des REG ?  
 {.is-question}
 
-> R : Dans la v1, le verrouillage est une condition pour pouvoir obtenir des bonus avec la participation aux votes. Chaque session (epoch) est activée et définie par la DAO. Il y a une première phase de souscription durant laquelle vous pouvez déposer et retirer vos REG, suivie d'une période de verrouillage durant laquelle vous ne pouvez plus retirer les REG et devez voter. Au terme de la période de verrouillage, les REG sont libérés et vous pouvez les retirer ou les laisser dans le vault. Ils seront automatiquement verrouillés pour la prochaine session.
+> R : Dans la v1, le verrouillage est une condition pour pouvoir obtenir des bonus avec la participation aux votes. Chaque session (epoch) est activée et définie par la DAO. Il y a une première phase de souscription durant laquelle vous pouvez déposer et retirer vos REG, suivie d'une période de verrouillage durant laquelle vous ne pouvez plus retirer les REG et devez voter. Au terme de la période de verrouillage, les REG sont libérés et vous pouvez les retirer ou les laisser dans le vault. Ils seront automatiquement verrouillés pour la prochaine session au moment du lock des tokens (vous pouvez donc retirer jusqu'à la fin de la periode de souscription suivante).
 {.is-result}
 
 > Q : Comment sont choisies les adresses autorisées à créer des propositions ?  
@@ -306,7 +304,7 @@ Les interactions se font principalement avec les interfaces suivantes :
 > R : Durant les premières semaines de fonctionnement de la v1, les adresses autorisées seront uniquement des adresses de RealT, le temps que la communauté s'organise pour élire des personnes de confiance au sein de la communauté pour devenir Proposer.
 {.is-result}
 
-> Q : Quel est le rôle des Proposers ?  
+> Q : Quel est le but du rôle de Proposer ?  
 {.is-question}
 
 > R : Les Proposers sont des personnes de confiance au sein de la communauté qui ont pour rôle de s'assurer que les propositions soumises sur le forum de gouvernance sont de qualité, pertinentes, et réfléchies, qu'elles respectent la méthodologie définie par la DAO pour la création de propositions. Ils peuvent également être sollicités pour des tâches spécifiques liées à la gouvernance et doivent créer les propositions on-chain.
@@ -316,6 +314,7 @@ Les interactions se font principalement avec les interfaces suivantes :
 {.is-question}
 
 > R : Les propositions soutenues par une majorité importante de la DAO peuvent être forcées. Toutefois, à l'heure actuelle, la DAO ne possède concrètement les DApps créées par RealT pour la future DAO. Il devra donc y avoir une reprise formelle de la responsabilité de la DApp ou des DApps par la DAO pouvant entraîner un paiement à RealT pour la prestation fournie.
+La DAO ne peux imposer ou forcé des choses qui sont sous la responsabilité de RealT ou autre prestataire
 {.is-result}
 
 > Q : Quelles sont les DApps sur lesquelles la DAO peut agir ?  
@@ -328,6 +327,12 @@ Les interactions se font principalement avec les interfaces suivantes :
 {.is-question}
 
 > R : La DAO doit en premier lieu s'organiser, définir des processus, gagner en maturité, et acquérir des experts qui pourront exercer les rôles de contrôle et de gestion des DApps. Le contrôle d'une DApp demande une expertise et une compréhension du fonctionnement des smart contracts et de la blockchain. C'est pourquoi, en tant que prestataire, RealT assume pour la DAO jusqu'à présent la responsabilité de ces DApps afin de garantir la continuité et la stabilité nécessaires pour durer dans le temps.
+{.is-result}
+
+> Q : Quelles sont les pools de liquidité pris en charge pour le calcule du powervoting  
+{.is-question}
+
+> R : La plus part des pools de liquidité sont pris en charge par l'outils de calcule des balances et du pouvoir de vote, toute fois cela demande une intégration dans les outils pour qu'il soie reconnu. Afin d'etre intégre il doit y avoir un graph TheGraph pour le pool afin de fournir les données, et une demande doit etre fait a RealT pour implémenter l'intégration (il sera possible de contribuer a l'outils sur Github dans un future proche)
 {.is-result}
 
 ### 7.3.3. Aspects techniques ⭐⭐⭐
