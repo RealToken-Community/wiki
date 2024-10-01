@@ -2,7 +2,7 @@
 title: 7. Ressources et support
 description: 
 published: true
-date: 2024-10-01T14:36:00.340Z
+date: 2024-10-01T14:46:25.120Z
 tags: 
 editor: markdown
 dateCreated: 2024-09-26T12:17:57.562Z
@@ -235,12 +235,13 @@ Les interactions se font principalement avec les interfaces suivantes :
 ### 7.2.1. Canaux officiels ⭐
 
 - Site web officiel DAO : SOON
+- Forum de gouvernance : [forum.realtoken.community](https://forum.realtoken.community)
 - Twitter : @RealTokenDAO
 
 ### 7.2.2. Ressources pour les développeurs ⭐⭐⭐
 
 -   GitHub : Dépôt des smart contracts → [Governance, incentive, treasury](https://github.com/real-token/reg-governance-core)
--   GitHub : interfaces incentive → [https://github.com/real-token/voting-front/tree/incentive](https://github.com/real-token/voting-front/tree/incentive)
+-   GitHub : interfaces incentive → [github.com/real-token/voting-front/tree/incentive](https://github.com/real-token/voting-front/tree/incentive)
 
 ## 7.3. FAQ
 
