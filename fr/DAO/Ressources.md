@@ -2,7 +2,7 @@
 title: 7. Ressources et support
 description: 
 published: true
-date: 2024-10-01T13:27:48.808Z
+date: 2024-10-01T13:35:13.887Z
 tags: 
 editor: markdown
 dateCreated: 2024-09-26T12:17:57.562Z
@@ -288,6 +288,12 @@ Les interactions se font principalement avec les interfaces suivantes :
 {.is-question}
 
 > R : En principe oui, la DAO a le contrôle total des fonds de la trésorerie. Toutefois, des dépenses inadaptées pourraient avoir des conséquences importantes sur l'avenir de la DAO, la valeur des REG, et la continuité des DApps. Il en va donc de la responsabilité des membres de la DAO d'avoir des réflexions approfondies avant de voter les dépenses et de planifier les priorités pour que la DAO puisse perdurer dans le temps et distribuer une part de ses revenus tout comme une entreprise qui distribue des dividendes.
+{.is-result}
+
+> Q : Pourquoi devons nous fournir un mail pour participé au forum de gouvernance ?  
+{.is-question}
+
+> R : Comme toutes plateforme et pour limité le spam, les adresses a usage unique sont bloquer, une adresse valide permet de limité les spam, de créer un compte identifiable et de vous communiquer les informations / notifiaction lier au forum. La communauté s'engage ne pas utiliser les mails dans d'autre but que ceux directement lier au formu de gouvernance et ne vous obligera jamais à lier un mail avec une adresse on-chain. Pour la gouvernance V2 la mécanique vas évoluer pour permettre aux utilisateur de créer un compte sur le forum directement identifier par les NFT Citizen, Activity et Collector, qui jourons le rols de carte d'identité de l'écosystème Realtoken
 {.is-result}
 
 ### 7.3.2. Mécanismes avancés ⭐⭐
