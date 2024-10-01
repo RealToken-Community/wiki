@@ -2,20 +2,22 @@
 title: 5. Guide pratique pour les détenteurs de REG
 description: 
 published: true
-date: 2024-09-26T21:18:38.384Z
+date: 2024-10-01T17:08:51.421Z
 tags: 
 editor: markdown
 dateCreated: 2024-09-26T12:17:38.513Z
 ---
 
-Le document ci-après explique :
+Le document ci-après est un guide dans la découverte des cinq nouvelles applications de l'ecosystème RealTokens : 
+Il vous aidera :
+- à participer aux échanges sur **Forum de discussions**, pour établir les propositions qui seront soumise au vote, 
+- à mieux comprende le fonctionnement de la DAO, au travers d'articles sur un **(nouveau) wiki** auquel vous pourrez plus facilement contribuer,
+- à comprendre à quoi correspond votre **pouvoir de vote**,
+- à **voter** sur la blockchain,
+- à toucher des **Bonus** en participant aux votes et en bloquant des REG.
 
-- D'où provient votre pouvoir de vote
-- Comment vous pouvez voter
-- Et comment déposer vos REG dans le contrat d'incentive, puis réclamer vos Bonus (acquis à l'issue des votes).
+[Télécharger le guide PDF](/fr/documents/tuto_gouvernance_dao_v2.pdf)
 
-[Télécharger le guide PDF](/fr/fr/documents/tuto_gov_v1_1.0.pdf)
-
-![](/fr/fr/assets/img/schema_dao_v1.jpg){.img75 .center}
+![schema_dao_v2.jpg](/fr/fr/assets/img/schema_dao_v2.jpg){.img75 .center}
 
 [Page suivante](/fr/DAO/Perspectives)
