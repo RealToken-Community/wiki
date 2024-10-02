@@ -2,7 +2,7 @@
 title: 8. FAQ
 description: 
 published: true
-date: 2024-10-02T06:25:21.450Z
+date: 2024-10-02T06:43:59.733Z
 tags: 
 editor: markdown
 dateCreated: 2024-10-02T06:25:21.450Z
@@ -92,7 +92,7 @@ dateCreated: 2024-10-02T06:25:21.450Z
 {.is-question}
 
 > R : Les propositions soutenues par une majorité importante de la DAO peuvent être forcées. Toutefois, à l'heure actuelle, la DAO ne possède concrètement les DApps créées par RealT pour la future DAO. Il devra donc y avoir une reprise formelle de la responsabilité de la DApp ou des DApps par la DAO pouvant entraîner un paiement à RealT pour la prestation fournie.
-La DAO ne peux imposer ou forcé des choses qui sont sous la responsabilité de RealT ou autre prestataire
+La DAO ne peux imposer ou forcer des choses qui sont sous la responsabilité de RealT ou d'autres prestataires.
 {.is-result}
 
 > Q : Quelles sont les DApps sur lesquelles la DAO peut agir ?  
@@ -110,7 +110,7 @@ La DAO ne peux imposer ou forcé des choses qui sont sous la responsabilité de 
 > Q : Quelles sont les pools de liquidité pris en charge pour le calcule du powervoting  
 {.is-question}
 
-> R : La plus part des pools de liquidité sont pris en charge par l'outils de calcule des balances et du pouvoir de vote, toute fois cela demande une intégration dans les outils pour qu'il soie reconnu. Afin d'etre intégre il doit y avoir un graph TheGraph pour le pool afin de fournir les données, et une demande doit etre fait a RealT pour implémenter l'intégration (il sera possible de contribuer a l'outils sur Github dans un future proche)
+> R : La plus part des pools de liquidité sont pris en charge par l'outil de calcul des balances et du pouvoir de vote, toutefois cela demande une intégration dans les outils pour qu'elles soient reconnues. Afin d'être intégrées il doit y avoir un graph TheGraph pour le pool afin de fournir les données, et une demande doit etre fait à RealT pour implémenter l'intégration (il sera possible de contribuer à l'outil sur Github dans un future proche)
 {.is-result}
 
 <br>
