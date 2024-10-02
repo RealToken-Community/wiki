@@ -2,7 +2,7 @@
 title: 7. Ressources et support
 description: 
 published: true
-date: 2024-10-01T14:46:25.120Z
+date: 2024-10-02T06:21:49.081Z
 tags: 
 editor: markdown
 dateCreated: 2024-09-26T12:17:57.562Z
@@ -262,13 +262,13 @@ Les interactions se font principalement avec les interfaces suivantes :
 > Q : Comment puis-je gagner des bonus ?  
 {.is-question}
 
-> R : Vous pouvez gagner des bonus en participant aux votes de la DAO durant les périodes pour lesquelles la DAO à activé le mécanisme d'incitation. Il vous faut aussi verrouiller des REG dans le vault d'incentive et voter au maximum de propositions durant la période pour maximiser vos gains.
+> R : Vous pouvez gagner des bonus en participant aux votes de la DAO durant les périodes pour lesquelles la DAO à activé le mécanisme d'incitation. Il vous faut aussi verrouiller des REG dans le vault d'incentive et voter pour un maximum de propositions durant la période pour maximiser vos gains.
 {.is-result}
 
 > Q : Qui peut proposer des idées ?  
 {.is-question}
 
-> R : Tout le monde peut proposer des idées. Il faut pour cela être actif dans la communauté, créer un sujet sur le forum de gouvernance, et obtenir suffisamment de soutien pour déclencher le processus de création des propositions.
+> R : Tout le monde peut proposer des idées. Il faut pour cela être actif dans la communauté, créer un sujet sur le forum de gouvernance, et obtenir suffisamment de soutien pour déclencher le processus de création de proposition.
 {.is-result}
 
 > Q : Qui peut créer des propositions ?  
@@ -298,7 +298,7 @@ Les interactions se font principalement avec les interfaces suivantes :
 > Q : Pourquoi devons nous fournir un mail pour participé au forum de gouvernance ?  
 {.is-question}
 
-> R : Comme toutes plateforme et pour limité le spam, les adresses a usage unique sont bloquer, une adresse valide permet de limité les spam, de créer un compte identifiable et de vous communiquer les informations / notifiaction lier au forum. La communauté s'engage ne pas utiliser les mails dans d'autre but que ceux directement lier au formu de gouvernance et ne vous obligera jamais à lier un mail avec une adresse on-chain. Pour la gouvernance V2 la mécanique vas évoluer pour permettre aux utilisateur de créer un compte sur le forum directement identifier par les NFT Citizen, Activity et Collector, qui jourons le rols de carte d'identité de l'écosystème Realtoken
+> R : Comme toute plateforme et pour limiter le spam, les adresses à usage unique sont bloquées, une adresse valide permet de limiter les spams, de créer un compte identifiable et de vous communiquer les informations / notifications liés au forum. La communauté s'engage ne pas utiliser les mails dans d'autre buts que ceux directement liés au forum de gouvernance et ne vous obligera jamais à lier un mail avec une adresse on-chain. Pour la gouvernance V2 la mécanique va évoluer pour permettre aux utilisateurs de créer un compte sur le forum directement identifié par les NFT Citizen, Activity et Collector, qui jouront le role de carte d'identité de l'écosystème Realtoken
 {.is-result}
 
 ### 7.3.2. Mécanismes avancés ⭐⭐
