@@ -2,7 +2,7 @@
 title: 4. Fonctionnement technique de la DAO REG
 description: 
 published: true
-date: 2024-10-01T21:13:33.405Z
+date: 2024-10-02T04:58:56.448Z
 tags: 
 editor: markdown
 dateCreated: 2024-09-26T12:17:33.764Z
@@ -48,8 +48,8 @@ L'architecture technique de la DAO RealToken est composée de plusieurs smart co
 -   Basé sur OpenZeppelin Governor avec des modifications personnalisées,
 -   Gère le cycle de vie complet des propositions : création, vote et exécution,
 -   Intègre les interactions avec le timelock pour augmenter la sécurité des exécutions,
--   Implémente des contrôles d'accès pour la création de propositions, il permet l'activation de 4 mode différents pour autoriser les propositions à être créer,
--   Interagit directement avec le PowerVotingRegistry pour créer les snapshots des pouvoirs de vote baser sur les valeurs enregistrées dans le PowerVotingRegistry.  
+-   Implémente des contrôles d'accès pour la création de propositions, il permet l'activation de 4 mode différents pour autoriser les propositions à être créées,
+-   Interagit directement avec le PowerVotingRegistry pour créer les snapshots des pouvoirs de vote basés sur les valeurs enregistrées dans le PowerVotingRegistry.  
      
 
 ##### **4.1.2. Contrat de trésorerie (REGTreasuryDAO)**
@@ -59,7 +59,7 @@ L'architecture technique de la DAO RealToken est composée de plusieurs smart co
 -   Gère les fonds de la DAO et contrôle leur utilisation,
 -   Intègre des rôles spécifiques (UPGRADER\_ROLE) pour la gestion des mises à niveau du contrat,
 -   Utilise le pattern UUPS (Universal Upgradeable Proxy Standard) pour permettre des mises à niveau futures,
--   Interagis avec les contrats externes appelés par les propositions.  
+-   Interagit avec les contrats externes appelés par les propositions.  
      
 
 ##### **4.1.3. Contrat de pouvoir de vote (PowerVotingRegistry)**
@@ -70,7 +70,7 @@ L'architecture technique de la DAO RealToken est composée de plusieurs smart co
 ##### **4.1.4. Contrat d'incitation**
 
 -   Intègre une logique d'état qui modifie les actions possibles, le cycle complet s'appelle “epoch”, pour chaque epoch il faut voter et bloquer ses REG pour recevoir des récompenses,
--   Distribue des récompenses aux participants actifs de la gouvernance (qui vote),
+-   Distribue des récompenses aux participants actifs de la gouvernance (qui votent),
 -   Utilise des mécanismes de verrouillage pour encourager l'engagement à long terme (verrouillage de la durée de l'epoch),
 -   Intègre des calculs de récompenses basés sur l'activité de gouvernance (votes et verrouillage des REG).
 
@@ -86,9 +86,9 @@ La DAO RealToken vous permet de participer aux décisions importantes de l'écos
 
 1.  Sur le forum de la DAO, les membres peuvent proposer des idées pour améliorer la DAO et l'écosystème,
 2.  Un débat à lieu autour des propositions afin de mesurer la faisabilité et l'intérêt des propositions par la communauté,
-3.  Si une proposition obtient un nombre de voix suffisamment, elle est transformée en proposal et soumise au vote de la DAO,
+3.  Si une proposition obtient un nombre de voix suffisant, elle est transformée en proposal et soumise au vote de la DAO,
 4.  Les membres de la DAO peuvent voter pour ou contre la proposition,
-5.  Si la proposition est approuvée, elle est exécuté par le REGTreasuryDAO.
+5.  Si la proposition est approuvée, elle est exécutée par le REGTreasuryDAO.
 
 #### **⭐⭐ Pour les initiés**
 
@@ -97,7 +97,7 @@ Le système de vote et de proposition de la DAO RealToken comprend :
 1.  Le forum de la DAO : Où les membres peuvent proposer des idées et débattre afin de mesurer l'intérêt des propositions,
 2.  Durant la période de débat, la communauté doit mesurer l'intérêt et la faisabilité des propositions,
 3.  Si une proposition est jugée comme faisable et pertinente, une proposition concrète est travaillée avec l'établissement de tous les paramètres liés à la proposition, comme les actions à exécuter on-chain, le cout de développement, les gains pour la DAO, etc...
-4.  Création de propositions : Processus contrôlé par des règles d'accès définies dans le contrat de gouvernance, selon les paramètres il peut y avoir des restrictions à la création de proposition, cela a pour but d'éviter les attaque de gouvernance, et permettre une mise en place progressive des règles de fonctionnement de la DAO en toutes sécurité,
+4.  Création de propositions : Processus contrôlé par des règles d'accès définies dans le contrat de gouvernance, selon les paramètres il peut y avoir des restrictions à la création de proposition, cela a pour but d'éviter les attaques de gouvernance, et permettre une mise en place progressive des règles de fonctionnement de la DAO en toutes sécurité,
 5.  Cycle de vie des propositions : Création, période de vote, exécution (si approuvée).
 6.  Mécanisme de timelock : Délai de sécurité avant l'exécution des décisions approuvées.
 
@@ -107,19 +107,19 @@ Les mécanismes de vote et de proposition sont implémentés comme suit :
 
 1.  Forum de la DAO :
     -   Où les utilisateurs peuvent proposer des idées et débattre afin de mesurer l’intérêt des propositions,
-    -   Un débat a lieu autours des propositions afin de mesurer la faisabilité et l’intérêt des propositions par la communauté ou l'un des prestataires de la DAO,
+    -   Un débat a lieu autour des propositions afin de mesurer la faisabilité et l’intérêt des propositions par la communauté ou l'un des prestataires de la DAO,
     -   Si une proposition est jugée comme faisable et pertinente, une proposition concrète est travaillée avec l’établissement de tous les paramètres liés à la proposition, comme les actions a exécuter on-chain, le cout de développement, les gains pour la DAO, étude d'impacte et de risque, les besoins ou non d'un audite de sécurité, etc...
 2.  Création de propositions :
     -   Contrôlées par le contrat de gouvernance,
     -   Quatre modes d'autorisation sont possibles pour la création de propositions, ces modes de proposition vise à optimiser la gestion des risques de la DAO, et à limiter l'exposition des fonds, avec un objectif de centralisation à moyen terme en fonction de la maturité de la DAO,
-    -   inscription on-chain de la proposition avec tous les codes permettant l'exécution de la proposition si elle est approuvée,
+    -   Inscription on-chain de la proposition avec tous les codes permettant l'exécution de la proposition si elle est approuvée,
     -   Interaction avec le PowerVotingRegistry pour créer des snapshots des pouvoirs de vote.
 3.  Processus de vote :
     - Basé sur le standard OpenZeppelin Governor avec des modifications personnalisées,
     - Utilisation du pouvoir de vote enregistré dans le PowerVotingRegistry,
     - Possibilité de vote : pour, contre ou abstention,
     - Uniquement les membres enregistrés dans le PowerVotingRegistry peuvent voter,
-    -	Un délais de 1 jours es appliquer a partir du moment de la vlidation de la transaction de création de la proposal,
+    -	Un délais de 1 jours est appliqué à partir du moment de la validation de la transaction de création de la proposal,
     - Le vote se fait sur une durée déterminée par le contrat de gouvernance, en général 7 jours,
     - Les votants vérifient que la proposition est conforme à la description et aux échanges sur le forum de la DAO (vérification du code d'exécution on-chain).
 4.  Calcul du pouvoir de vote
@@ -196,8 +196,7 @@ Le système d'incitation et de récompense est implémenté comme suit : 
     -   Pour les boost de pouvoir de vote, la DAO peut les ajuster en fonction des besoins la formule et le poids accordé dans le système de calcul du powerVoting qui génère les pouvoir de vote.
 4.  Intégration avec le PowerVotingRegistry :
     -   Le verrouillage des REG affecte le pouvoir de vote enregistré,
-    -   Synergie entre la participation à la gouvernance et les récompenses.  
-         
+    -   Synergie entre la participation à la gouvernance et les récompenses.       
 5.  Sécurité et évolutivité :
     -   Contrat upgradable pour permettre des améliorations futures,
     -   Mécanismes de pause en cas d'urgence.
@@ -213,24 +212,21 @@ userBonus = (userState.depositAmount * userState.voteAmount * epochState.totalBo
 -   \`userState.depositAmount\` : Le montant déposé par l'utilisateur pour cette époque en REG,
 -   \`userState.voteAmount\` : Le nombre de votes effectués par l'utilisateur durant cette époque,
 -   \`epochState.totalBonus\` : Le montant total de bonus alloués pour cette époque,
--   \`epochState.totalWeights\` : La somme totale des votes pour tous les utilisateurs dans cette époque.
+-   \`epochState.totalWeights\` : La somme totale des poids pour tous les utilisateurs dans cette époque.
 
 Cette formule est appliquée dans le contrat aux lignes suivantes :
 
-[REGIncentiveVault.sol](https://gnosisscan.io/address/0x4b79755d1ea8937c027408e3aa72d69a260f6237#code#F18#L1)
+[REGIncentiveVault.sol](https://gnosisscan.io/address/0x4b79755d1ea8937c027408e3aa72d69a260f6237#code#F1#L342) de la ligne 342 à 346.
 
-startLine: 342
-
-endLine: 346
-
+Le total des poids s'incrémente du montant déposé par le user à chacun de ses votes (cf ligne 245 du contrat).
   
 Ce système vise à créer un cercle vertueux d'engagement dans la gouvernance, en récompensant la participation active tout en renforçant la stabilité à long terme de l'écosystème RealToken.
 
-La mécanique de récompense sera entièrement revus avec la mise ne service de la gouvernance V2 utilisant les NFT afin d'améliorer le système d'incitation, permettre une plus grande granularité, et précision des actions à encourager en fonction des besoins de la DAO et des profiles des holders.
+La mécanique de récompense sera entièrement revu avec la mise en service de la gouvernance V2 utilisant les NFT afin d'améliorer le système d'incitation, permettre une plus grande granularité, et précision des actions à encourager en fonction des besoins de la DAO et des profiles des holders.
 
-De nouveaux types de récompenses seront introduit comme comme la matière noire des NFT Cityzen, des points de soutiens pour les votes permettant la mise en avant des contenus liés au NFT Activity, etc...
+De nouveaux types de récompenses seront introduits comme comme la matière noire des NFT Cityzen, des points de soutien pour les votes permettant la mise en avant des contenus liés au NFT Activity, etc...
 
-L'écosystème RealToken est pensé pour disposer de nombreux outils d'optimisation de participation aux votes, et encourager les actions et contributions divers qui sont bénéfiques à la DAO tout en permettant un contrôle précis des finances de la DAO afin de ne pas dilapider la treasury ou dévaluer le token REG.  
+L'écosystème RealToken est pensé pour disposer de nombreux outils d'optimisation de participation aux votes, et encourager les actions et contributions divers qui sont bénéfiques à la DAO tout en permettant un contrôle précis des finances de la DAO afin de ne pas dilapider la trésorerie ou dévaluer le token REG.  
  
 
 [Page suivante](/fr/DAO/Guide_Pratique)
