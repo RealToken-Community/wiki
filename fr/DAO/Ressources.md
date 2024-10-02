@@ -2,7 +2,7 @@
 title: 7. Ressources et support
 description: 
 published: true
-date: 2024-10-02T06:35:15.793Z
+date: 2024-10-02T08:20:51.101Z
 tags: 
 editor: markdown
 dateCreated: 2024-09-26T12:17:57.562Z
@@ -234,7 +234,7 @@ Les interactions se font principalement avec les interfaces suivantes :
 
 ### 7.2.1. Canaux officiels ⭐
 
-- Site web officiel DAO : SOON
+- Site web officiel communauté : [realtoken.community](https://www.realtoken.community/)
 - Forum de gouvernance : [forum.realtoken.community](https://forum.realtoken.community)
 - Twitter : @RealTokenDAO
 
