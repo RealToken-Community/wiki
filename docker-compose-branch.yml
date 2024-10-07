@@ -1,6 +1,7 @@
 services:
   app:
     image: ${DOCKER_REGISTRY}/wiki:${DOCKER_BRANCH}
+    image: ghcr.io/requarks/wiki:2
     container_name: ${DOCKER_BRANCH}-wiki
     networks:
       - traefik-realt
