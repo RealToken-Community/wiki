@@ -1,9 +1,9 @@
 ---
 title: README
-description: 
+description:
 published: true
 date: 2024-09-29T17:16:23.851Z
-tags: 
+tags:
 editor: markdown
 dateCreated: 2024-09-26T19:04:38.879Z
 ---
@@ -12,44 +12,76 @@ dateCreated: 2024-09-26T19:04:38.879Z
 
 ## Introduction
 
-Ce projet est un Wiki réalisé et géré par la Communauté bénévole des investisseurs [RealT](https://realt.co/). Il a été créé à l'occasion du lancement de la DAO RealToken pour compléter la documentation existante et offrir plus de flexibilité et de possibilités de contribution à toute la communauté.
+This project is a Wiki created and managed by the volunteer Community of [RealT](https://realt.co/) investors. It was created on the occasion of the launch of the RealToken DAO to complement the existing documentation and offer more flexibility and contribution possibilities to the entire community.
 
-## Objectif
+## Objective
 
-L'objectif principal de ce Wiki est de tester une solution (Wiki.js) qui devrait offrir plus de flexibilités et de possibilités de contribution pour toute la communauté par rapport à la solution existante (Gitbook).
+The main objective of this Wiki is to test a solution (Wiki.js) that should offer more flexibility and contribution possibilities for the entire community compared to the existing solution (Gitbook).
 
-## Contenu
+## Content
 
-Actuellement, le Wiki se concentre principalement sur la DAO RealToken. Les premiers articles concernent donc la DAO et sont réalisés ici en test. Si cette approche s'avère concluante, d'autres sujets suivront.
+Currently, the Wiki mainly focuses on the RealToken DAO. The first articles therefore concern the DAO and are created here as a test. If this approach proves successful, other topics will follow.
 
-## Structure du projet
+## Project Structure
 
-Le projet est organisé en plusieurs dossiers linguistiques, avec une structure similaire pour chaque langue :
+The project is organized into several language folders, with a similar structure for each language:
 
-- `/fr` : Contenu en français
-- `/` : Contenu en anglais (langue par défaut)
+- `/fr`: French content
+- `/es`: Spanish content
+- `/pt`: Portuguese content
+- `/`: English content (default language)
 
-Chaque dossier linguistique contient :
+Each language folder contains:
 
-- Un fichier `home.md` qui sert de page d'accueil au Wiki,
-- Un dossier par sujet : 
-	- `DAO` contenant les pages relatives à la DAO RealToken,
-  - `Tuto` contenant les pages d'aide aux contributeurs du Wiki
-- Un fichier à la racine, portant le nom du dossier, qui sert de page d'accueil pour le dossier.
+- A `home.md` file that serves as the Wiki's homepage,
+- A `DAO.md` file for specific DAO information,
+- A `Tuto.md` file for initiating Wiki contributors,
+- An `notes_Admin.html` file for specific Wiki Admin notes,
+- A folder for each topic:
+  - `DAO` containing pages related to the RealToken DAO,
+  - `Tuto` containing help pages for Wiki contributors
+- An `assets` folder containing images and other resources used in the Wiki.
+- A `documents` folder containing PDF documents and others linked to Wiki pages.
 
-## Comment contribuer
+## How to Contribute to the Wiki Content
 
-Les contributions à ce Wiki sont les bienvenues. Voici comment vous pouvez participer :
+Contributions to this Wiki are welcome. Here's how you can participate:
 
-1. Lisez attentivement le contenu existant,
-2. Proposez des modifications ou des ajouts via des pull requests,
-3. Participez aux discussions sur les articles existants,
-4. Suggérez de nouveaux sujets à couvrir.
+### From Github
+
+1. Carefully read the existing content,
+2. Propose modifications or additions via pull requests,
+3. Participate in discussions on existing articles,
+4. Suggest new topics to cover.
+
+### From the Wiki
+
+1. Create an account on the Wiki,
+2. Request to join the team of contributors,
+3. Click on the "Edit" button at the top right,
+4. Make your modifications,
+5. Click on "Save" at the top right,
+6. Your modification is sent to the Admin team who will validate it and add it to the online version.
+
+## How to Contribute to the Wiki Code
+
+**Attention:** the Wiki code is not yet available on the community's github.
+
+1. Fork the repo,
+2. Create a new branch,
+3. Make your modifications,
+4. Make a PR to the original repo.
 
 ## Feedback
 
-Vos retours et contributions sont précieux pour améliorer ce Wiki. N'hésitez pas à ouvrir des issues pour signaler des problèmes ou suggérer des améliorations.
+Your feedback and contributions are valuable for improving this Wiki. Don't hesitate to open issues to report problems or suggest improvements.
 
-## Licence
+## License
 
 MIT
+
+## Contact
+
+For any questions or suggestions, please contact the development team via GitHub issues or the RealToken community communication channels.
+
+- Telegram DEV: https://t.me/+7Wsmef-z3go2MTVk
