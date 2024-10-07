@@ -1,0 +1,15 @@
+services:
+  app:
+    image: ${DOCKER_REGISTRY}/wiki:${DOCKER_BRANCH}
+    container_name: ${DOCKER_BRANCH}-wiki
+    networks:
+      - traefik-realt
+    labels:
+      - 'traefik.enable=true'
+      - 'traefik.http.routers.wiki-${DOCKER_BRANCH}.rule=Host(`${HOSTNAME}`)'
+      - 'traefik.http.routers.wiki-${DOCKER_BRANCH}.entrypoints=websecure'
+    restart: always
+
+networks:
+  traefik-realt:
+    external: true
