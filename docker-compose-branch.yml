@@ -34,6 +34,8 @@ services:
     networks:
       - wikijs
 
+volumes:
+  db-data:
 networks:
   wikijs:
   traefik-realt:
