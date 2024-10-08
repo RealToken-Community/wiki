@@ -2,7 +2,7 @@
 title: 5. Guide pratique pour les détenteurs de REG
 description: 
 published: true
-date: 2024-10-08T09:21:15.169Z
+date: 2024-10-08T10:19:05.695Z
 tags: 
 editor: markdown
 dateCreated: 2024-10-08T08:37:36.028Z
@@ -20,6 +20,5 @@ Il vous aidera :
 
 ![dao_gov.svg](/fr/fr/assets/img/dao_gov.svg){.img75 .center}
 
-![schema_dao_v2.jpg](/fr/fr/assets/img/schema_dao_v2.jpg){.img75 .center}
 
 [Page suivante](/fr/DAO/Perspectives)
