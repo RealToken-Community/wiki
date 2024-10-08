@@ -2,18 +2,17 @@
 title: Welcome
 description: 
 published: true
-date: 2024-10-08T16:29:43.549Z
+date: 2024-10-08T16:30:39.050Z
 tags: 
 editor: markdown
 dateCreated: 2024-10-07T14:30:54.729Z
 ---
 
 ![langue.png](/imag-en/langue.png){.img25 .align-right}
-<br>
+
 
 > At the top right, choose your language (English by default)
 {.is-info .img50}
-
 
 <br>
 
