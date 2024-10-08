@@ -2,7 +2,7 @@
 title: 2. RealToken DAO: descripción general
 description: 
 published: true
-date: 2024-09-30T09:05:50.273Z
+date: 2024-09-30T09:12:18.057Z
 tags: 
 editor: markdown
 dateCreated: 2024-09-30T09:05:50.273Z

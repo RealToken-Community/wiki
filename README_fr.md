@@ -1,11 +1,11 @@
 ---
 title: README
-description:
+description: 
 published: true
-date: 2024-09-29T17:16:23.851Z
-tags:
+date: 2024-10-07T20:29:58.020Z
+tags: 
 editor: markdown
-dateCreated: 2024-09-26T19:04:38.879Z
+dateCreated: 2024-10-07T20:29:54.787Z
 ---
 
 # Wiki-js

@@ -2,7 +2,7 @@
 title: 6. Perspectives d'avenir
 description: 
 published: true
-date: 2024-10-02T05:26:36.985Z
+date: 2024-10-02T05:26:40.248Z
 tags: 
 editor: markdown
 dateCreated: 2024-09-26T12:17:47.858Z

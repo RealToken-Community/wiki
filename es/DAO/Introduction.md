@@ -2,7 +2,7 @@
 title: 1. Introducción a las DAO
 description: 
 published: true
-date: 2024-09-30T08:51:35.843Z
+date: 2024-09-30T09:05:55.030Z
 tags: 
 editor: markdown
 dateCreated: 2024-09-30T08:51:35.843Z

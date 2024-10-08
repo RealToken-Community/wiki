@@ -2,7 +2,7 @@
 title: 2. The RealToken DAO: Overview
 description: 
 published: true
-date: 2024-09-28T07:46:09.335Z
+date: 2024-09-28T07:49:27.722Z
 tags: 
 editor: markdown
 dateCreated: 2024-09-28T07:46:09.335Z

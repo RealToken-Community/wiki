@@ -2,7 +2,7 @@
 title: Bienvenido
 description: 
 published: true
-date: 2024-09-30T08:45:12.304Z
+date: 2024-09-30T08:49:06.594Z
 tags: dao
 editor: markdown
 dateCreated: 2024-09-30T08:34:36.490Z
