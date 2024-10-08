@@ -2,23 +2,13 @@
 title: DAO_RealToken
 description: 
 published: true
-date: 2024-10-08T14:05:31.876Z
+date: 2024-10-08T16:25:30.777Z
 tags: 
 editor: markdown
 dateCreated: 2024-10-08T08:36:17.271Z
 ---
 
----
-title: 2. The RealToken DAO: Overview
-description: 
-published: true
-date: 2024-09-28T07:49:27.722Z
-tags: 
-editor: markdown
-dateCreated: 2024-09-28T07:46:09.335Z
----
 
----
 ## **2.1. Objectives and vision of the RealToken DAO**
 
 #### **⭐ For beginners**
