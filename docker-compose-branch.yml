@@ -1,0 +1,42 @@
+services:
+  app:
+    image: ghcr.io/requarks/wiki:2
+    container_name: ${DOCKER_BRANCH}-wiki_app
+    depends_on:
+      - db
+    environment:
+      DB_TYPE: ${DB_TYPE}
+      DB_HOST: ${DB_HOST}
+      DB_PORT: ${DB_PORT}
+      DB_USER: ${DB_USER}
+      DB_PASS: ${DB_PASS}
+      DB_NAME: ${DB_NAME}
+    networks:
+      - wikijs
+      - traefik-realt
+    labels:
+      - 'traefik.enable=true'
+      - 'traefik.http.routers.wiki-${DOCKER_BRANCH}.rule=Host(`${HOSTNAME}`)'
+      - 'traefik.http.routers.wiki-${DOCKER_BRANCH}.entrypoints=websecure'
+    restart: always
+  db:
+    image: postgres:15-alpine
+    container_name: ${DOCKER_BRANCH}-wiki_db
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB}
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+    logging:
+      driver: "none"
+    restart: always
+    volumes:
+      - db-data:/var/lib/postgresql/data
+    networks:
+      - wikijs
+
+volumes:
+  db-data:
+networks:
+  wikijs:
+  traefik-realt:
+    external: true
