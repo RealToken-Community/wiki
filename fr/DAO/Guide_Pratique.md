@@ -2,7 +2,7 @@
 title: 5. Guide pratique pour les détenteurs de REG
 description: 
 published: true
-date: 2024-10-08T14:06:24.996Z
+date: 2024-10-08T16:51:55.520Z
 tags: 
 editor: markdown
 dateCreated: 2024-10-08T08:37:36.028Z
@@ -16,7 +16,8 @@ Il vous aidera :
 - à **voter** sur la blockchain,
 - à toucher des **Bonus** en participant aux votes et en bloquant des REG.
 
-[Télécharger le guide PDF](/fr/fr/documents/tuto_gouvernance_dao_v2.pdf)
+[Télécharger le guide PDF](/fr/fr/documents/tuto_gouvernance_dao_v2.1.pdf)
+
 
 ![dao_gov.svg](/fr/fr/assets/img/dao_gov.svg){.img75 .center}
 
