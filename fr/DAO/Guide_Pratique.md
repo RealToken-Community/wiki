@@ -2,10 +2,10 @@
 title: 5. Guide pratique pour les détenteurs de REG
 description: 
 published: true
-date: 2024-10-01T17:11:23.665Z
+date: 2024-10-08T09:21:15.169Z
 tags: 
 editor: markdown
-dateCreated: 2024-09-26T12:17:38.513Z
+dateCreated: 2024-10-08T08:37:36.028Z
 ---
 
 Le document ci-après est un guide dans la découverte des cinq nouvelles applications de l'ecosystème RealTokens : 
@@ -17,6 +17,8 @@ Il vous aidera :
 - à toucher des **Bonus** en participant aux votes et en bloquant des REG.
 
 [Télécharger le guide PDF](/fr/fr/documents/tuto_gouvernance_dao_v2.pdf)
+
+![dao_gov.svg](/fr/fr/assets/img/dao_gov.svg){.img75 .center}
 
 ![schema_dao_v2.jpg](/fr/fr/assets/img/schema_dao_v2.jpg){.img75 .center}
 
