@@ -2,12 +2,11 @@
 title: Tuto
 description: 
 published: true
-date: 2024-09-29T17:26:16.352Z
+date: 2024-10-08T13:49:29.895Z
 tags: 
 editor: markdown
-dateCreated: 2024-09-29T17:25:38.455Z
+dateCreated: 2024-10-08T08:38:00.887Z
 ---
-
 
 ## Introduction
 

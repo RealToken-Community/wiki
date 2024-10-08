@@ -2,10 +2,10 @@
 title: 3. Phase1, Version simplifiée
 description: 
 published: true
-date: 2024-10-01T17:59:31.261Z
+date: 2024-10-08T13:49:22.912Z
 tags: 
 editor: markdown
-dateCreated: 2024-09-26T12:17:52.404Z
+dateCreated: 2024-10-08T08:37:50.764Z
 ---
 
 ## **3.1. Explication de la version simplifiée de la DAO**

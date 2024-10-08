@@ -2,12 +2,11 @@
 title: Welcome
 description: 
 published: true
-date: 2024-09-30T08:38:53.913Z
+date: 2024-10-08T13:48:08.550Z
 tags: 
 editor: markdown
-dateCreated: 2024-09-26T12:16:58.893Z
+dateCreated: 2024-10-07T14:30:54.729Z
 ---
-
 
 # Introduction
 

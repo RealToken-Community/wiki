@@ -2,10 +2,10 @@
 title: 4. Fonctionnement technique de la DAO REG
 description: 
 published: true
-date: 2024-10-02T04:58:59.867Z
+date: 2024-10-08T13:49:09.119Z
 tags: 
 editor: markdown
-dateCreated: 2024-09-26T12:17:33.764Z
+dateCreated: 2024-10-08T08:37:31.066Z
 ---
 
 ## **4.1. Smart Contracts principaux**

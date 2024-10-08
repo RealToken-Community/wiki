@@ -2,10 +2,10 @@
 title: 3. Phase1, Simplified version
 description: 
 published: true
-date: 2024-09-28T07:49:26.153Z
+date: 2024-10-08T13:48:28.955Z
 tags: 
 editor: markdown
-dateCreated: 2024-09-28T07:49:22.832Z
+dateCreated: 2024-10-08T08:36:31.522Z
 ---
 
 ## **3.1. Explanation of the simplified version**

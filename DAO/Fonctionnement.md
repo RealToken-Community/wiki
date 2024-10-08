@@ -2,10 +2,10 @@
 title: 4. Technical operation of the DAO REG
 description: 
 published: true
-date: 2024-09-28T07:56:00.525Z
+date: 2024-10-08T13:48:22.529Z
 tags: 
 editor: markdown
-dateCreated: 2024-09-28T07:55:56.356Z
+dateCreated: 2024-10-08T08:36:22.466Z
 ---
 
 ## **4.1. Main Smart Contracts**

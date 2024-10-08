@@ -2,12 +2,11 @@
 title: DAO_RealToken
 description: 
 published: true
-date: 2024-10-08T10:19:33.690Z
+date: 2024-10-08T13:49:02.277Z
 tags: 
 editor: markdown
 dateCreated: 2024-10-08T08:37:21.797Z
 ---
-
 
 ## **2.1. Objectifs et vision de la DAO RealToken**
 

@@ -1,4 +1,14 @@
 ---
+title: DAO_RealToken
+description: 
+published: true
+date: 2024-10-08T13:48:45.380Z
+tags: 
+editor: markdown
+dateCreated: 2024-10-08T08:36:57.793Z
+---
+
+---
 title: 2. RealToken DAO: descripción general
 description: 
 published: true

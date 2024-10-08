@@ -2,12 +2,11 @@
 title: 1. DAO Introduction
 description: 
 published: true
-date: 2024-09-28T07:46:14.325Z
+date: 2024-10-08T13:48:25.781Z
 tags: 
 editor: markdown
-dateCreated: 2024-09-28T07:40:04.081Z
+dateCreated: 2024-10-08T08:36:27.047Z
 ---
-
 
 ## **1.1. What is a DAO?**
 

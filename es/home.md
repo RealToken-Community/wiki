@@ -2,10 +2,10 @@
 title: Bienvenido
 description: 
 published: true
-date: 2024-09-30T08:49:06.594Z
+date: 2024-10-08T13:48:55.556Z
 tags: dao
 editor: markdown
-dateCreated: 2024-09-30T08:34:36.490Z
+dateCreated: 2024-10-08T08:37:12.047Z
 ---
 
 # Introducción

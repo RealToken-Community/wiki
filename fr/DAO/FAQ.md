@@ -2,13 +2,11 @@
 title: 8. FAQ
 description: 
 published: true
-date: 2024-10-02T06:44:03.035Z
+date: 2024-10-08T13:49:05.574Z
 tags: 
 editor: markdown
-dateCreated: 2024-10-02T06:25:21.450Z
+dateCreated: 2024-10-08T08:37:26.457Z
 ---
-
-
 
 ## 8.1 Bases de la DAO ⭐
 
