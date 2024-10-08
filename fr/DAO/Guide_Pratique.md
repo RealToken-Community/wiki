@@ -2,7 +2,7 @@
 title: 5. Guide pratique pour les détenteurs de REG
 description: 
 published: true
-date: 2024-10-08T13:49:12.234Z
+date: 2024-10-08T14:06:24.996Z
 tags: 
 editor: markdown
 dateCreated: 2024-10-08T08:37:36.028Z
