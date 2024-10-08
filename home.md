@@ -2,7 +2,7 @@
 title: Welcome
 description: 
 published: true
-date: 2024-10-08T16:09:03.457Z
+date: 2024-10-08T16:26:25.564Z
 tags: 
 editor: markdown
 dateCreated: 2024-10-07T14:30:54.729Z
@@ -11,7 +11,9 @@ dateCreated: 2024-10-07T14:30:54.729Z
 ![langue.png](/imag-en/langue.png){.img25 .align-right}
 <br>
 
-At the top right, choose your language (English by default)
+> At the top right, choose your language (English by default)
+{.is-info}
+
 
 <br>
 
