@@ -1,11 +1,11 @@
 ---
 title: DAO
-description: Organisation Autonome Décentralisée : Accueil
+description: 
 published: true
-date: 2024-10-08T08:19:07.072Z
-tags: dao
+date: 2024-10-08T08:56:17.542Z
+tags: 
 editor: markdown
-dateCreated: 2024-09-26T12:17:03.438Z
+dateCreated: 2024-10-08T08:37:16.457Z
 ---
 
 # Bienvenue sur la DAO RealToken
