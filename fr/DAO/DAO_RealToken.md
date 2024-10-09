@@ -2,7 +2,7 @@
 title: 2. DAO_RealToken
 description: 
 published: true
-date: 2024-10-09T07:49:48.422Z
+date: 2024-10-09T07:50:58.850Z
 tags: 
 editor: markdown
 dateCreated: 2024-10-08T08:37:21.797Z
@@ -197,7 +197,7 @@ La DAO va contrôler plusieurs applications décentralisées qui seront utilisé
 > **Le REG** ne donne aucun droit sur les actifs tokenisés, leur gestion, ni sur la gouvernance des sociétés qui opèrent comme partenaires, le seule droit sur ces dernières découle des mandats accordés par la DAO.
 {.is-danger}
 
-> **Les Realtokens** ne donne aucun droits sur la gestion, la trésorie ou les bonus divers liés à l'écosystème, les Realtokens représentent le droits sur l'actif sous-jacent uniquement.
+> **Les Realtokens** ne donnent aucun droits sur la gestion, la trésorie ou les bonus divers liés à l'écosystème, les Realtokens représentent le droits sur l'actif sous-jacent uniquement.
 {.is-danger}
 
 
