@@ -2,13 +2,13 @@
 title: 5. Guide pratique pour les détenteurs de REG
 description: 
 published: true
-date: 2024-10-09T09:47:32.516Z
+date: 2024-10-09T10:07:47.156Z
 tags: 
 editor: markdown
 dateCreated: 2024-10-08T08:37:36.028Z
 ---
 
-Le document ci-après est un guide dans la découverte des cinq nouvelles applications de l'ecosystème RealTokens : 
+Le document ci-après est un guide pour la découverte des cinq nouvelles applications de l'ecosystème RealTokens : 
 Il vous aidera :
 - à participer aux échanges sur **Forum de discussions**, pour établir les propositions qui seront soumises aux votes, 
 - à mieux comprende le fonctionnement de la DAO, au travers d'articles sur un **(nouveau) wiki** auquel vous pourrez plus facilement contribuer,
