@@ -2,7 +2,7 @@
 title: 2. DAO_RealToken
 description: 
 published: true
-date: 2024-10-08T16:13:19.504Z
+date: 2024-10-09T07:49:48.422Z
 tags: 
 editor: markdown
 dateCreated: 2024-10-08T08:37:21.797Z
@@ -12,7 +12,7 @@ dateCreated: 2024-10-08T08:37:21.797Z
 
 #### **⭐ Pour les novices**
 
-La DAO RealToken (REG) a pour but de créer une communauté décentralisée où les détenteurs de tokens `REG` peuvent participer aux décisions importantes de l'écosystème d'applications décentralisées (DApps) utilisable par les tokens Realtokens. L'idée est de rendre l'investissement dans les actifs du monde physique plus accessible, liquide et transparent possible, tout en donnant plus d'opportunité et de cas d'usage aux investisseurs avec leurs investissements. Un utilisateur peut donc participer à la gouvernance de la DAO avec la possession de REG, et effectuer des investissements aux travers de l'achat et possession de tokens Realtoken, cela peut être l'un ou l'autre ou les deux, il n'est pas nécessaire de posséder des tokens Realtoken pour participer à la gouvernance de la DAO, comme il n'est pas nécessaire de posséder des tokens REG pour utiliser les services de la DAO.
+La DAO RealToken (REG) a pour but de créer une communauté décentralisée où les détenteurs de tokens `REG` peuvent participer aux décisions importantes de l'écosystème d'applications décentralisées (DApps) utilisables par les tokens Realtokens. L'idée est de rendre l'investissement dans les actifs du monde physique plus accessible, liquide et transparent possible, tout en donnant plus d'opportunités et de cas d'usage aux investisseurs avec leurs investissements. Un utilisateur peut donc participer à la gouvernance de la DAO avec la possession de REG, et effectuer des investissements aux travers de l'achat et la possession de tokens Realtoken, cela peut être l'un ou l'autre ou les deux, il n'est pas nécessaire de posséder des tokens Realtoken pour participer à la gouvernance de la DAO, comme il n'est pas nécessaire de posséder des tokens REG pour utiliser les services de la DAO.
 
 > REG = gouvernance DAO
 {.is-info}
@@ -28,11 +28,11 @@ La vision de la DAO RealToken est de révolutionner le marché de la tokenisatio
 
 -   Démocratiser l'accès à l'investissement,
 -   Créer un écosystème transparent et équitable,
--   Optimiser les rendements pour les détenteurs de tokens Realtokens,
+-   Optimiser les rendements pour les détenteurs de tokens Realtoken,
 -   Rendre plus liquide les actifs tokenisés,
 -   Apporter de nouveaux cas d'usage aux investisseurs avec leurs investissements.
 
-La DAO donnera donc la direction à prendre **_pour l'écosystème décentralisé_**, et permettra de faire naitre de nouveaux produits et services créer par la communauté. On peux voir la DAO comme un incubateur d'idées et start-up, qui permettra de faire évoluer l'écosystème. Les bénéfices financiers des applications de l'écosystème serons utilisable par la DAO pour proposer de nouveaux produits et services aux détenteurs de tokens, financer les prestataires de l'écosystème, et pour le développement de nouvelles applications qui participe à l'évolution de l'écosystème.
+La DAO donnera donc la direction à prendre **_pour l'écosystème décentralisé_**, et permettra de faire naitre de nouveaux produits et services créés par la communauté. On peux voir la DAO comme un incubateur d'idées et start-up, qui permettra de faire évoluer l'écosystème. Les bénéfices financiers des applications de l'écosystème seront utilisables par la DAO pour proposer de nouveaux produits et services aux détenteurs de tokens, financer les prestataires de l'écosystème, et pour le développement de nouvelles applications qui participent à l'évolution de l'écosystème.
 
 La DAO RealToken prendra des décisions en ce qui concerne l'écosystème, comme :
 
@@ -44,7 +44,7 @@ La DAO RealToken prendra des décisions en ce qui concerne l'écosystème, comme
 -   Quels sont les partenariats à faire dans l'écosystème,
 -   Quels sont les paramètres des DApps à appliquer (frais de swap, taux d'intérêt, etc.).
 
-*écosystème sous-entend la partie décentralisé
+*écosystème sous-entend la partie décentralisée.
 #### **⭐⭐⭐ Pour les experts**
 
 La DAO RealToken vise à établir un nouveau paradigme dans l'industrie de la tokenisation d'actifs physiques et classiques en normalisant le support de propriété via des tokens (Realtokens), les rendre interopérable, en exploitant pleinement le potentiel de la technologie blockchain et des structures de gouvernance décentralisées. Ses objectifs stratégiques comprennent :
@@ -62,10 +62,10 @@ La DAO RealToken vise à établir un nouveau paradigme dans l'industrie de la to
 
 #### **⭐ Pour les novices**
 
-La DAO RealToken fonctionne comme une communauté en ligne où les détenteurs de tokens REG peuvent voter sur des décisions importantes, ainsi que proposer des idées pour améliorer l'écosystème par le biais de propositions. Chaque membre peut faire valoir et entendre ça vision, le poids des votes dépend de plusieurs paramètres, comme le nombre de tokens REG possédés, l'usage que vous en faites, etc, cela signifie que 1 REG ne vaut pas forcément 1 voix. Les décisions prises concernent l'avenir de l'écosystème d'applications décentralisées (DApps) utilisable par les tokens RealTokens, et comment améliorer les services pour tous les utilisateurs.
+La DAO RealToken fonctionne comme une communauté en ligne où les détenteurs de tokens REG peuvent voter sur des décisions importantes, ainsi que proposer des idées pour améliorer l'écosystème par le biais de propositions. Chaque membre peut faire valoir et entendre sa vision, le poids des votes dépend de plusieurs paramètres, comme le nombre de tokens REG possédés, l'usage que vous en faites, etc, cela signifie que 1 REG ne vaut pas forcément 1 voix. Les décisions prises concernent l'avenir de l'écosystème d'applications décentralisées (DApps) utilisables par les tokens RealTokens, et comment améliorer les services pour tous les utilisateurs.
 
--   Il y a donc les `investisseurs qui possèdent des RealTokens`, utilisateurs des services de la DAO.
--   Les `propriétaires de la DAO` aux travers des tokens `REG`, qui prennent des décisions concernant l'écosystème.
+-   Il y a donc les `investisseurs qui possèdent des RealTokens`, utilisateurs des services de la DAO,
+-   Les `propriétaires de la DAO` aux travers des tokens `REG`, qui prennent des décisions concernant l'écosystème,
 -   Des `prestataires de l'écosystème`, comme des entreprise de développement ou développeurs indépendants, des experts dans diverses domaines liés au fonctionnement de la DAO et de son écosystème, des personnes médiatiques qui peuvent aider à faire connaitre l'écosystème, etc.  
      
 
@@ -79,35 +79,35 @@ La structure de la DAO RealToken repose sur plusieurs éléments clés :
 4.  Smart contracts : Assurent l'exécution automatique des décisions prises,
 5.  Trésorerie : Gère les fonds de la DAO pour financer les projets approuvés,
 6.  Comités spécialisés : Des comités spécialisés peuvent être créés pour examiner des sujets spécifiques ou agir sur des éléments en particulier,
-7.  **_Prestataires de l'écosystème_** : Les prestataires approuvés par la DAO peuvent soumettre à approbation des devis et budget pour la réalisation de tache dans l'écosystème, ou encore accomplir des missions ponctuel ou dans la durée
+7.  **_Prestataires de l'écosystème_** : Les prestataires approuvés par la DAO peuvent soumettre à approbation des devis et budget pour la réalisation de tache dans l'écosystème, ou encore accomplir des missions ponctuelles ou dans la durée
 8. **_Les détenteurs de RealTokens_**: Ce sont les utilisateurs/clients des services de la DAO, ils peuvent utiliser les services de la DAO.
 
-Le fonctionnement général implique un cycle continu de propositions, discussions, votes et mises en œuvre des décisions prises par les propriétaires de la DAO. `Les votants on la responsabilité` du contenu des propositions, et donc de l'exécution on-chain des décisions prises. Un votant doit donc donné sont avis sur l'objectif de la proposition, et son impact sur l'écosystème, mais a aussi la `responsabilité de vérifier` que le contenu de l'exécution on-chain est conforme à la proposition. La DAO implémentera plusieurs versions de son système de gouvernance, décrit plus en détail dans ce document.  
+Le fonctionnement général implique un cycle continu de propositions, discussions, votes et mises en œuvre des décisions prises par les propriétaires de la DAO. `Les votants on la responsabilité` du contenu des propositions, et donc de l'exécution on-chain des décisions prises. Un votant doit donc donner son avis sur l'objectif de la proposition, et son impact sur l'écosystème, mais a aussi la `responsabilité de vérifier` que le contenu de l'exécution on-chain est conforme à la proposition. La DAO implémentera des versions successives de son système de gouvernance, décrit plus en détail dans ce document.  
  
 
 #### **⭐⭐⭐ Pour les experts**
 
-Vision de la structure et le fonctionnement de la DAO RealToken à moyen terme:
+Vision de la structure et fonctionnement de la DAO RealToken à moyen terme:
 
 1.  Gouvernance multi-niveaux :
-    -   La complexité des décisions à prendre et leurs pluralités, pourra nécessiter que la DAO mette en place des comités spécialisés, comme un comité de sécurité, un comité de régulation, un comité de développement, comité de finance, etc.
-    -   Ces comités seront composés d'experts dans leurs domaines, ils seront chargés de revoir les propositions de leurs domaines, apporter une expertise, et vulgariser les sujets complexes aux autres membres de la DAO.
-    -   Parfois ces comités aurons des mandats à court terme pour réaliser une tache spécifique, et devront rendre des comptes à la DAO une fois l'étude, ou le travail terminé.
+    -   La complexité des décisions à prendre et leurs pluralités, pourra nécessiter que la DAO mette en place des comités spécialisés, comme un comité de sécurité, un comité de régulation, un comité de développement, comité de finance, etc,
+    -   Ces comités seront composés d'experts dans leurs domaines, ils seront chargés de revoir les propositions de leurs domaines, apporter une expertise, et vulgariser les sujets complexes aux autres membres de la DAO,
+    -   Parfois ces comités aurons des mandats à court terme pour réaliser une tache spécifique, et devront rendre des comptes à la DAO une fois l'étude, ou le travail terminé,
     -   Il est aussi possible que des comités aient des droits particuliers sur les smart contract comme la mise en pause d'urgence, afin de pouvoir réagir plus rapidement en cas d'anomalie critique.
 2.  Mécanismes de vote avancés :
     -   Le vote ne fonctionnera pas de façon classique (1 token = 1 vote), mais il y aura un système de pondération des votes en fonction du nombre de tokens possédés, du temps de blocage des tokens pour le vote, de la localisation des tokens (wallets, Pools de liquidité, vault de lock, dans les NFT, lock dans d'autres applications de l'écosystème, etc.),
-    -   Système de snapshot pour toute la durée d'une époque, le pouvoir de vote sera fixé pour toute la durée d'une époque, cela limitera la spéculation, et les attaque de gouvernance. Les mises à jours des pouvoirs de vote se feront par le biais d'un vote de la DAO afin de garantir toutes manipulation ou attaque (activé dans un deuxième temps),
+    -   Système de snapshot pour toute la durée d'une époque, le pouvoir de vote sera fixé pour toute la durée d'une époque, cela limitera la spéculation, et les attaque de gouvernance. Les mises à jours des pouvoirs de vote se feront par le biais d'un vote de la DAO afin de garantir toutes manipulations ou attaques (activé dans un deuxième temps),
     -   Système de NFT Citizsen, Activity et Collector, qui permettront de récompenser les contributeurs de la DAO, apporteront de nouveaux mécanismes de valorisation du pouvoir de vote et d'alignement des intérêts.
-3.  Système de proposition structuré :
-    -   L'émissions d'une idée ou proposition, permet à n'importe qui de soumettre une idée ou une proposition, qui sera ensuite accompagné par des utilisateurs actifs de la DAO pour passer les étapes suivantes :
+3.  Système de propositions structurées :
+    -   L'émission d'une idée ou proposition, permet à n'importe qui de soumettre une idée ou une proposition, qui sera ensuite accompagnée par des utilisateurs actifs de la DAO pour passer les étapes suivantes :
     -   Phases de discussion, débat, affinement des propositions,
     -   Soumission de la proposition aux experts pour analyser les détails de la proposition,
     -   Création et revue du draft de la proposition,
-    -   Soumission on-chain de la proposition,
+    -   Soumission de test on-chain de la proposition,
     -   Vote de la DAO sur la proposition,
     -   Exécution de la proposition.
 4.  Intégration on-chain/off-chain :
-    -   Discussions et délibérations sur la proposition off-chain pour plus de flexibilité,
+    -   Discussions et délibérations sur la proposition off-chain pour plus de flexibilité (via le Forum),
     -   Votes on-chain pour la transparence et l'immuabilité,
     -   Exécution de la proposition on-chain.
 5.  Gestion de la trésorerie :
@@ -141,12 +141,12 @@ Les détenteurs de REG jouent plusieurs rôles importants :
 4.  Bénéficiaires : Profiter d'avantages dans l'utilisation des services de l'écosystème,
 5.  Ambassadeurs : Promouvoir la DAO et attirer de nouveaux membres.
 
-Plus un membre détient et utilise positivement ses tokens REG, plus son influence et ses avantages dans l'écosystème sont importants. La DAO encourage par divers formes d'avantage, bonus, et boost la détention de REG sur la durée et la participation active a la gouvernance.  
+Plus un membre détient et utilise positivement ses tokens REG, plus son influence et ses avantages dans l'écosystème sont importants. La DAO encourage par divers formes d'avantage, bonus, et boost la détention de REG sur la durée et la participation active à la gouvernance.  
  
 
 #### **⭐⭐⭐ Pour les experts**
 
-Le rôle des détenteurs de REG est multidimensionnel et crucial pour l'écosystème (rôle selon l'engagement et compétence):
+Le rôle des détenteurs de REG est multidimensionnel et crucial pour l'écosystème (rôle selon l'engagement et la compétence):
 
 1.  Gouvernance stratégique :
     -   Définir la direction à long terme de l'écosystème,
@@ -180,15 +180,15 @@ Le rôle des détenteurs de REG est multidimensionnel et crucial pour l'écosyst
     -   Etre le gardien d'une trésorerie durable et solide.
 8.  Évolution du système de gouvernance :
     -  Proposer et voter sur des améliorations du système de gouvernance lui-même,
-    -  Participer à l'implémentation et au test de nouveaux mécanismes de vote.
+    -  Participer à l'implémentation et aux tests de nouveaux mécanismes de vote.
 
 Les `REG holders` ont un rôle déterminant dans l'écosystème, ils sont à la fois `les gardiens` de la trésorerie de la `DAO` mais aussi les décideurs de son avenir, veillant à la stabilité et la sécurité de l'écosystème tout en bénéficiant d'avantages dans l'utilisation des services de la DAO.
 
 ## ⭐Résumé
 A ce stade il est important de souligner l'importance de la distinction entre le REG, donc la DAO et les Realtokens, les investissements dans des actifs tokenisés.
-La DAO à travers le REG donne un droit sur l'écosystème d’application décentraliser, et toutes les insurrections lier à la DAO.
-Les Realtokens (investissement dans des actifs) donne individuellement des droits sur ses sous-jacent.
-La DAO vas contrôler plusieurs applications décentraliser qui seront utiliser par des clients de la DAO (les investisseurs dans des actifs tokenisé vis des Realtokens), ses applications pourrons collecter des frais, proposer des fonctions premium, ou être gratuite selon les décisions de la DAO.
+La DAO à travers le REG donne un droit sur l'écosystème d’applications décentralisées, et tous les services liés à la DAO.
+Les Realtokens (investissement dans des actifs) donnent individuellement des droits sur ses sous-jacent.
+La DAO va contrôler plusieurs applications décentralisées qui seront utilisées par des clients de la DAO (les investisseurs dans des actifs tokenisés avec des Realtokens), ses applications pourront collecter des frais, proposer des fonctions premium, ou être gratuite selon les décisions de la DAO.
 
 
 > Ces deux classes de token sont complémentaires et peuvent être possédées et utilisées en duo ou individuellement selon le profil de chacun.
