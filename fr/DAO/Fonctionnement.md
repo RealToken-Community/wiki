@@ -2,7 +2,7 @@
 title: 4. Fonctionnement technique de la DAO REG
 description: 
 published: true
-date: 2024-10-08T14:06:21.969Z
+date: 2024-10-09T09:26:14.426Z
 tags: 
 editor: markdown
 dateCreated: 2024-10-08T08:37:31.066Z
@@ -108,18 +108,18 @@ Les mécanismes de vote et de proposition sont implémentés comme suit :
 1.  Forum de la DAO :
     -   Où les utilisateurs peuvent proposer des idées et débattre afin de mesurer l’intérêt des propositions,
     -   Un débat a lieu autour des propositions afin de mesurer la faisabilité et l’intérêt des propositions par la communauté ou l'un des prestataires de la DAO,
-    -   Si une proposition est jugée comme faisable et pertinente, une proposition concrète est travaillée avec l’établissement de tous les paramètres liés à la proposition, comme les actions a exécuter on-chain, le cout de développement, les gains pour la DAO, étude d'impacte et de risque, les besoins ou non d'un audite de sécurité, etc...
+    -   Si une proposition est jugée comme faisable et pertinente, une proposition concrète est travaillée avec l’établissement de tous les paramètres liés à la proposition, comme les actions à exécuter on-chain, le cout de développement, les gains pour la DAO, étude d'impacte et de risque, les besoins ou non d'un audite de sécurité, etc...
 2.  Création de propositions :
     -   Contrôlées par le contrat de gouvernance,
-    -   Quatre modes d'autorisation sont possibles pour la création de propositions, ces modes de proposition vise à optimiser la gestion des risques de la DAO, et à limiter l'exposition des fonds, avec un objectif de centralisation à moyen terme en fonction de la maturité de la DAO,
+    -   Quatre modes d'autorisation sont possibles pour la création de propositions, ces modes de proposition vise à optimiser la gestion des risques de la DAO, et à limiter l'exposition des fonds, avec un objectif de décentralisation à moyen terme en fonction de la maturité de la DAO,
     -   Inscription on-chain de la proposition avec tous les codes permettant l'exécution de la proposition si elle est approuvée,
     -   Interaction avec le PowerVotingRegistry pour créer des snapshots des pouvoirs de vote.
 3.  Processus de vote :
     - Basé sur le standard OpenZeppelin Governor avec des modifications personnalisées,
     - Utilisation du pouvoir de vote enregistré dans le PowerVotingRegistry,
     - Possibilité de vote : pour, contre ou abstention,
-    - Uniquement les membres enregistrés dans le PowerVotingRegistry peuvent voter,
-    -	Un délais de 1 jours est appliqué à partir du moment de la validation de la transaction de création de la proposal,
+    - Seuls les membres enregistrés dans le PowerVotingRegistry peuvent voter,
+    -	Un délais de 1 jours est appliqué entre le début du vote et la validation de la transaction de création de la proposal (par sécurité, pour une annulation éventuelle),
     - Le vote se fait sur une durée déterminée par le contrat de gouvernance, en général 7 jours,
     - Les votants vérifient que la proposition est conforme à la description et aux échanges sur le forum de la DAO (vérification du code d'exécution on-chain).
 4.  Calcul du pouvoir de vote
@@ -183,7 +183,7 @@ Le système d'incitation et de récompense est implémenté comme suit : 
 1.  Contrat d'incitation :
     -   Gère l'état du système (actif/inactif) et les cycles d'epochs,
     -   Calcule les récompenses en fonction de l'activité de vote et du verrouillage de REG,
-    -   Distribue automatiquement les récompenses à la fin de chaque epoch.
+    -   Affecte automatiquement les récompenses à la fin de chaque epoch.
 2.  Mécanisme de verrouillage :
     -   Les utilisateurs peuvent verrouiller leurs REG pour la durée d'un epoch dans le contrat d'incitation,
     -   Le verrouillage peut augmenter le pouvoir de vote et les récompenses potentielles selon les paramètres définis par la DAO,
@@ -193,7 +193,7 @@ Le système d'incitation et de récompense est implémenté comme suit : 
     -   Quantité de récompenses par epoch,
     -   Type de récompenses,
     -   Ces paramètres sont appliqués par la DAO dans la proposal d'activation d'une epoch,
-    -   Pour les boost de pouvoir de vote, la DAO peut les ajuster en fonction des besoins la formule et le poids accordé dans le système de calcul du powerVoting qui génère les pouvoir de vote.
+    -   Pour les boost de pouvoir de vote, la DAO peut ajuster en fonction des besoins : la formule et le poids accordé dans le système de calcul du powerVoting qui génère les pouvoirs de vote.
 4.  Intégration avec le PowerVotingRegistry :
     -   Le verrouillage des REG affecte le pouvoir de vote enregistré,
     -   Synergie entre la participation à la gouvernance et les récompenses.       
@@ -222,7 +222,7 @@ Le total des poids s'incrémente du montant déposé par le user à chacun de se
   
 Ce système vise à créer un cercle vertueux d'engagement dans la gouvernance, en récompensant la participation active tout en renforçant la stabilité à long terme de l'écosystème RealToken.
 
-La mécanique de récompense sera entièrement revu avec la mise en service de la gouvernance V2 utilisant les NFT afin d'améliorer le système d'incitation, permettre une plus grande granularité, et précision des actions à encourager en fonction des besoins de la DAO et des profiles des holders.
+La mécanique de récompense sera entièrement revu avec la mise en service de la gouvernance V2 utilisant les NFT afin d'améliorer le système d'incitation, permettre une plus grande granularité, et précision des actions à encourager en fonction des besoins de la DAO et des profils des holders.
 
 De nouveaux types de récompenses seront introduits comme comme la matière noire des NFT Cityzen, des points de soutien pour les votes permettant la mise en avant des contenus liés au NFT Activity, etc...
 
