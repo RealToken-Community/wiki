@@ -2,7 +2,7 @@
 title: 3. Phase1, Version simplifiée
 description: 
 published: true
-date: 2024-10-08T14:06:35.103Z
+date: 2024-10-09T08:36:02.849Z
 tags: 
 editor: markdown
 dateCreated: 2024-10-08T08:37:50.764Z
@@ -26,7 +26,7 @@ La Phase 1 est une étape cruciale dans le déploiement de la DAO RealToken. Ell
 6.  Etablir les bases de fonctionnement de la DAO,
 7.  Eduquer la communauté sur les mécanismes de la DAO,
 8.  Expérimenter divers fonctions et approches de gouvernance,
-9.  Démontrer le potentiel future de la DAO et du REG.
+9.  Démontrer le potentiel futur de la DAO et du REG.
 
 Cette phase utilise un ensemble limité de smart contracts et de fonctionnalités pour faciliter l'adoption et l'apprentissage. Le choix technologique a été fait pour que cette première phase permette un déploiement rapide et simple avec un cout en développement limité. Cette phase permettra donc d'accumuler de la connaissance et d'établir les principes de base fondamentaux pour le future de la DAO et la nouvelle version en phase 2 avec l'arrivée de NFT.
 
@@ -43,26 +43,26 @@ La Phase 1 de la DAO RealToken est conçue comme une implémentation minimaliste
 2.  Smart contracts de base :
     -   Contrat de gouvernance, avec fonctions de vote et de proposition, repris des standards d'Open Zeppelin,
     -   Contrat de trésorerie simple pour la gestion des fonds de la DAO,
-    -   Contrat d'incentive pour la gestion des récompenses incitative au vote,
+    -   Contrat d'incentive pour la gestion des récompenses incitatives au vote,
     -   Contrat PowerVotingRegistry, permettant d'enregistrer le pouvoir de vote de chaque holders de REG.
 3.  Intégration limitée avec l'écosystème :
     -   Interactions limitées avec les DApps existantes (RealT restant le tiers de confiance pour les DApps le temps nécessaire pour la montée en compétence de la DAO),
     -   Mécanismes d'incitation simples pour encourager la participation.
 4.  Mécanismes de sécurité :
-    -   Timelock sur les exécutions de propositions, donnant un délais supplémentaire pour détecter les potentielles problèmes ou erreurs d'une proposition,
+    -   Timelock sur les exécutions de propositions, donnant un délai supplémentaire pour détecter les potentiels problèmes ou erreurs d'une proposition,
     -   Limites sur les montants de trésorerie gérables,
-    -   Droits de veto de la part de la RealT sur des propositions extrême ou mettant en danger la DAO.
+    -   Droits de veto de la part de RealT sur des propositions extrêmes ou mettant en danger la DAO.
 5.  Collecte de données :
     -   Métriques sur la participation et l'engagement des membres,
-    -   Feedback continu de la communauté pour informer les phases futures.
+    -   Feedback continu de la communauté pour informer sur les phases futures.
 
-Cette phase servira de base pour l'évolution future de la DAO, permettant d'identifier les ajustements nécessaires et les fonctionnalités à développer pour les phases suivantes. En utilisant cette phase comme un laboratoire, nous pourrons expérimenter diverses approches de gouvernance et collecte de données avant d'intégrer celles-ci dans la prochaine version de la DAO avec l'arrivée de NFT. Bien que piloter par le partenaire de confiance RealT, la DAO restera indépendante et les décisions seront toujours prises par les membres de la DAO dans l'espace du champs d'application progressivement élargi. Plusieurs points seront donc a débattre entre les REG holders et RealT afin d'établir les étapes d'élargissement du champs d'application de la DAO afin de garantir la stabilité et la sécurité de l'écosystème.
+Cette phase servira de base pour l'évolution future de la DAO, permettant d'identifier les ajustements nécessaires et les fonctionnalités à développer pour les phases suivantes. En utilisant cette phase comme un laboratoire, nous pourrons expérimenter diverses approches de gouvernance et collecte de données avant d'intégrer celles-ci dans la prochaine version de la DAO avec l'arrivée de NFT. Bien que piloter par le partenaire de confiance RealT, la DAO restera indépendante et les décisions seront toujours prises par les membres de la DAO dans l'espace du champs d'application progressivement élargi. Plusieurs points seront donc à débattre entre les REG holders et RealT afin d'établir les étapes d'élargissement du champs d'application de la DAO afin de garantir la stabilité et la sécurité de l'écosystème.
 
 ## **3.2. Processus de mise en place**
 
 #### **⭐ Pour les novices**
 
-La mise en place de la DAO se fait étape par étape. D'abord, nous créons les outils de base pour voter et faire des propositions. Ensuite, nous commençons à les utiliser pour prendre des décisions simples. Au fur et à mesure, nous apprenons et améliorons le système ensemble.
+La mise en place de la DAO se fait étape par étape. D'abord, nous créons les outils de base pour voter et faire des propositions. Ensuite, nous commençerons à les utiliser pour prendre des décisions simples. Au fur et à mesure, nous apprendrons et améliorerons le système ensemble.
 
 #### **⭐⭐ Pour les initiés**
 
@@ -70,9 +70,9 @@ Le processus de mise en place de la Phase 1 comprend plusieurs étapes clés :
 
 1.  Déploiement des smart contracts de base (déjà réalisé),
 2.  Création d'une interface utilisateur simple pour voter et proposer (Utilisation d'une site déjà existante : Tally)
-3.  Formation de la communauté sur l'utilisation des outils de gouvernance,
+3.  Formation de la communauté sur l'utilisation des outils de gouvernance (Wiki),
 4.  Présentation des premiers projets auxquels la DAO pourra voter (RealT a déjà préparé une série de propositions),
-5.  Mise en place du système de discutions et débat pour les propositions (les devs de la communauté ont déjà travaillé sur une solution),
+5.  Mise en place du système de discutions et débat pour les propositions (Forum),
 6.  Lancement des premières propositions (octobre),
 7.  Lancement de la première campagne d'incitation au vote (octobre-novembre),
 8.  Ajustement des paramètres de gouvernance en fonction des retours,
@@ -85,11 +85,11 @@ Le processus de mise en place de la Phase 1 est structuré pour maximiser l'appr
 1.  Infrastructure technique :
     -   Déploiement des smart contracts (gouvernance, trésorerie, incentive, PowerVotingRegistry),
     -   Tests net en groupe restreint (déjà réalisé),
-    -   Audits de sécurité et tests approfondis (réaliser en interne RealT),
+    -   Audits de sécurité et tests approfondis (réalisé en interne RealT),
     -   Test net public (déjà réalisé),
-    -   Développement des outils pour le calcul du powerVoting (Realiser par RealT).
+    -   Développement des outils pour le calcul du powerVoting (Realisé par RealT).
 2.  Gouvernance initiale :
-    -   Définition des paramètres initiaux (quorum, seuils de vote, timelock : RealT)
+    -   Définition des paramètres initiaux (quorum, seuil de vote, timelock : RealT)
     -   Mise en place d'un processus de proposition en plusieurs étapes (discussion, formalisation, vote),
     -   Implémentation de mécanismes de sécurité, y compris le droit de veto de RealT,
     -   Limitation de l'accès à la création de proposition.
@@ -102,7 +102,7 @@ Le processus de mise en place de la Phase 1 est structuré pour maximiser l'appr
     -   Collecte et analyse continues des métriques de participation,
     -   Ajustements réguliers des paramètres de gouvernance,
     -   Expérimentation avec différentes approches de gouvernance,
-    -   Débat sur les divers changement et approches de gouvernance.
+    -   Débat sur les divers changements et approches de gouvernance.
 5.  Expansion progressive :
     -   Définition d'un plan d'élargissement du champ d'action de la DAO,
     -   Négociations avec RealT pour le transfert progressif des responsabilités,
@@ -120,7 +120,7 @@ Ce processus est conçu pour être flexible et adaptable, permettant à la commu
 
 Objectifs à court terme :
 
-1.  Atteindre un taux de participation élevé dans les votes,
+1.  Atteindre un taux de participation élevé lors des votes,
 2.  Éduquer la communauté sur les mécanismes de la DAO (sécurité, équilibre budgétaire, etc.),
 3.  Identifier les premiers projets à financer ou à développer,
 4.  Tester et ajuster les paramètres de gouvernance,
@@ -144,7 +144,7 @@ Objectifs à court terme (3-6 mois) :
     -   Elire les premiers membres de la communauté pouvant créer des propositions,
     -   Définir le cadre d'une proposition valide pour soumission aux votes.
 2.  Engagement communautaire :
-    -   Lancer des campagnes d'incitation au vote avec des récompenses,
+    -   Lancer des campagnes d'incitation aux votes avec des récompenses,
     -   Organiser des événements éducatifs réguliers sur la gouvernance DAO,
     -   Créer un programme de mentorat pour les nouveaux membres actifs,
     -   Encourager les initiatives bénéfiques pour la DAO et l'écosystème RealToken.
@@ -201,7 +201,7 @@ Voici comment vous pouvez participer activement à la phase initiale :
 6.  Testez les nouvelles fonctionnalités et donnez votre feedback,
 7.  Contribuez à l'élaboration des processus de gouvernance,
 8.  Prendre des initiatives et les soumettre à la communauté,
-9.  Rédigez, améliorez, traduisez et partagez le contenu sur les DAO.
+9.  Rédigez, améliorez, traduisez et partagez le contenu sur la DAO.
 
 #### **⭐⭐⭐ Pour les experts**
 
@@ -210,12 +210,12 @@ Pour une participation approfondie à la phase initiale :
 1.  Gouvernance :
     -   Analysez en profondeur les propositions et partagez vos analyses,
     -   Contribuez activement à l'élaboration de métriques pour évaluer la santé de la DAO,
-    -   Proposez des ajustements des paramètres de gouvernance, basés sur les données et argumenter avec une visons cours, moyen et long terme.
+    -   Proposez des ajustements des paramètres de gouvernance, basés sur les données et argumenter avec une vision cours, moyen et long terme.
 2.  Développement technique :
-    -   Participez activement aux Testnet,
+    -   Participez activement aux Testnets,
     -   Proposez des améliorations techniques pour les outils de gouvernance,
     -   Contribuez au développement d'outils d'analyse pour la DAO,
-    -   Revue et audite des smart contracts continu, rester informer des hack et failles potentielles.
+    -   Revue et audite des smart contracts continu, rester informé des hack et failles potentielles.
 3.  Engagement communautaire :
     -   Organisez pour la communauté des sessions d'éducation,
     -   Créez du contenu explicatif sur le fonctionnement de la DAO,
