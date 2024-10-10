@@ -1,3 +1,13 @@
+---
+title: 1. Introduction to DAOs
+description: 
+published: true
+date: 2024-10-10T10:21:47.482Z
+tags: 
+editor: markdown
+dateCreated: 2024-10-08T08:36:27.047Z
+---
+
 ## **1.1. What is a DAO?**
 
 #### **⭐ For beginners**
