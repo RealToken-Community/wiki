@@ -2,7 +2,7 @@
 title: 6. Future prospects
 description: 
 published: true
-date: 2024-10-10T12:43:19.633Z
+date: 2024-10-10T16:38:29.507Z
 tags: 
 editor: markdown
 dateCreated: 2024-10-10T08:55:56.276Z
@@ -205,4 +205,4 @@ Promote the ecosystem:
 By contributing at these different levels, you can play a crucial role in shaping the future of the RealToken DAO and the broader ecosystem of traditional asset tokenization.
 **Each contribution, regardless of its form, is valuable and can greatly help** to achieve the various objectives of the DAO, allowing the ecosystem to grow, evolving possibilities, and creating new opportunities.
 
-[Next Page](/en/DAO/Resources)
+[Next Page](/en/DAO/Ressources)
