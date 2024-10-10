@@ -1,8 +1,8 @@
 ---
-title: 6. Perspectives d'avenir
+title: 6. Perspectivas de futuro
 description: 
 published: true
-date: 2024-10-10T17:52:23.221Z
+date: 2024-10-10T17:52:39.186Z
 tags: 
 editor: markdown
 dateCreated: 2024-10-10T16:46:27.918Z
