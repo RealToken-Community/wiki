@@ -2,7 +2,7 @@
 title: 5. Practical guide for REG holders
 description: 
 published: true
-date: 2024-10-10T16:22:30.038Z
+date: 2024-10-10T17:43:23.314Z
 tags: 
 editor: markdown
 dateCreated: 2024-10-10T09:51:40.828Z
@@ -19,6 +19,7 @@ It will help you:
 
 [Download the PDF guide](/en/documents/tuto_governance_dao_v2.pdf)
 
-![schema_dao_v2.jpg](/en/assets/img/schema_dao_v2.jpg){.img75 .center}
+![dao_gov_en.svg](/imag-en/dao_gov_en.svg){.img75 .center}
+
 
 [Next Page](/en/DAO/Perspectives)
