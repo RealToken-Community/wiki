@@ -1,0 +1,833 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="980px"
+    viewBox="-0.5 -0.5 980 502"
+    content="&lt;mxfile host=&quot;embed.diagrams.net&quot; agent=&quot;Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36&quot; version=&quot;24.7.17&quot;&gt;&#10;  &lt;diagram id=&quot;LFUTUtRZj-CNMuMo1Xrj&quot; name=&quot;Page-1&quot;&gt;&#10;    &lt;mxGraphModel dx=&quot;1368&quot; dy=&quot;828&quot; grid=&quot;1&quot; gridSize=&quot;10&quot; guides=&quot;1&quot; tooltips=&quot;1&quot; connect=&quot;1&quot; arrows=&quot;1&quot; fold=&quot;1&quot; page=&quot;1&quot; pageScale=&quot;1&quot; pageWidth=&quot;827&quot; pageHeight=&quot;1169&quot; math=&quot;0&quot; shadow=&quot;0&quot;&gt;&#10;      &lt;root&gt;&#10;        &lt;mxCell id=&quot;0&quot; /&gt;&#10;        &lt;mxCell id=&quot;1&quot; parent=&quot;0&quot; /&gt;&#10;        &lt;mxCell id=&quot;2&quot; value=&quot;&amp;lt;font style=&amp;quot;font-size: 24px;&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot;background-color: rgb(204, 236, 249);&amp;quot;&amp;gt;&amp;amp;nbsp;P&amp;lt;/span&amp;gt;&amp;lt;/font&amp;gt;&amp;lt;span style=&amp;quot;background-color: rgb(204, 236, 249); font-size: 24px;&amp;quot;&amp;gt;roposer&amp;amp;nbsp;&amp;lt;/span&amp;gt;&quot; style=&quot;rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#1ba1e2;sketch=1;&quot; parent=&quot;1&quot; vertex=&quot;1&quot;&gt;&#10;          &lt;mxGeometry x=&quot;65&quot; y=&quot;300&quot; width=&quot;140&quot; height=&quot;80&quot; as=&quot;geometry&quot; /&gt;&#10;        &lt;/mxCell&gt;&#10;        &lt;mxCell id=&quot;3&quot; value=&quot;&amp;lt;font style=&amp;quot;font-size: 24px; background-color: rgb(255, 153, 153);&amp;quot;&amp;gt;&amp;amp;nbsp;Admin&amp;amp;nbsp;&amp;lt;/font&amp;gt;&quot; style=&quot;ellipse;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=2;hachureGap=8;fillColor=#990000;fillStyle=dots;sketch=1;&quot; parent=&quot;1&quot; vertex=&quot;1&quot;&gt;&#10;          &lt;mxGeometry x=&quot;80&quot; y=&quot;148&quot; width=&quot;110&quot; height=&quot;50&quot; as=&quot;geometry&quot; /&gt;&#10;        &lt;/mxCell&gt;&#10;        &lt;mxCell id=&quot;12&quot; value=&quot;&quot; style=&quot;group&quot; parent=&quot;1&quot; vertex=&quot;1&quot; connectable=&quot;0&quot;&gt;&#10;          &lt;mxGeometry x=&quot;450&quot; y=&quot;129&quot; width=&quot;155&quot; height=&quot;74&quot; as=&quot;geometry&quot; /&gt;&#10;        &lt;/mxCell&gt;&#10;        &lt;mxCell id=&quot;8&quot; value=&quot;REGVotingPowerRegistry&quot; style=&quot;rounded=1;whiteSpace=wrap;html=1;shadow=0;strokeColor=#9673a6;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fillColor=#e1d5e7;&quot; parent=&quot;12&quot; vertex=&quot;1&quot;&gt;&#10;          &lt;mxGeometry y=&quot;14&quot; width=&quot;144&quot; height=&quot;60&quot; as=&quot;geometry&quot; /&gt;&#10;        &lt;/mxCell&gt;&#10;        &lt;mxCell id=&quot;7&quot; value=&quot;&quot; style=&quot;image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=default;fontSize=12;spacingTop=3;image=img/lib/ibm/blockchain/smart_contract.svg;strokeColor=default;verticalAlign=middle;fontFamily=Helvetica;fillColor=default;&quot; parent=&quot;12&quot; vertex=&quot;1&quot;&gt;&#10;          &lt;mxGeometry x=&quot;120&quot; width=&quot;35&quot; height=&quot;34&quot; as=&quot;geometry&quot; /&gt;&#10;        &lt;/mxCell&gt;&#10;        &lt;mxCell id=&quot;13&quot; value=&quot;&quot; style=&quot;group&quot; parent=&quot;1&quot; vertex=&quot;1&quot; connectable=&quot;0&quot;&gt;&#10;          &lt;mxGeometry x=&quot;450&quot; y=&quot;296&quot; width=&quot;155&quot; height=&quot;79&quot; as=&quot;geometry&quot; /&gt;&#10;        &lt;/mxCell&gt;&#10;        &lt;mxCell id=&quot;14&quot; value=&quot;REGGovernor&quot; style=&quot;rounded=1;whiteSpace=wrap;html=1;shadow=0;strokeColor=#9673a6;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fillColor=#e1d5e7;&quot; parent=&quot;13&quot; vertex=&quot;1&quot;&gt;&#10;          &lt;mxGeometry y=&quot;14&quot; width=&quot;144&quot; height=&quot;60&quot; as=&quot;geometry&quot; /&gt;&#10;        &lt;/mxCell&gt;&#10;        &lt;mxCell id=&quot;15&quot; value=&quot;&quot; style=&quot;image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=default;fontSize=12;spacingTop=3;image=img/lib/ibm/blockchain/smart_contract.svg;strokeColor=default;verticalAlign=middle;fontFamily=Helvetica;fillColor=default;&quot; parent=&quot;13&quot; vertex=&quot;1&quot;&gt;&#10;          &lt;mxGeometry x=&quot;120&quot; width=&quot;35&quot; height=&quot;34&quot; as=&quot;geometry&quot; /&gt;&#10;        &lt;/mxCell&gt;&#10;        &lt;mxCell id=&quot;24&quot; value=&quot;&quot; style=&quot;curved=1;endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;&quot; parent=&quot;13&quot; source=&quot;19&quot; edge=&quot;1&quot;&gt;&#10;          &lt;mxGeometry width=&quot;50&quot; height=&quot;50&quot; relative=&quot;1&quot; as=&quot;geometry&quot;&gt;&#10;            &lt;mxPoint x=&quot;-230&quot; y=&quot;259&quot; as=&quot;sourcePoint&quot; /&gt;&#10;            &lt;mxPoint x=&quot;37&quot; y=&quot;74.00000000000011&quot; as=&quot;targetPoint&quot; /&gt;&#10;            &lt;Array as=&quot;points&quot;&gt;&#10;              &lt;mxPoint x=&quot;-165&quot; y=&quot;214&quot; /&gt;&#10;              &lt;mxPoint x=&quot;-115&quot; y=&quot;184&quot; /&gt;&#10;              &lt;mxPoint x=&quot;-105&quot; y=&quot;144&quot; /&gt;&#10;              &lt;mxPoint x=&quot;25&quot; y=&quot;124&quot; /&gt;&#10;            &lt;/Array&gt;&#10;          &lt;/mxGeometry&gt;&#10;        &lt;/mxCell&gt;&#10;        &lt;mxCell id=&quot;16&quot; value=&quot;&quot; style=&quot;group&quot; parent=&quot;1&quot; vertex=&quot;1&quot; connectable=&quot;0&quot;&gt;&#10;          &lt;mxGeometry x=&quot;450&quot; y=&quot;512&quot; width=&quot;155&quot; height=&quot;74&quot; as=&quot;geometry&quot; /&gt;&#10;        &lt;/mxCell&gt;&#10;        &lt;mxCell id=&quot;17&quot; value=&quot;REGIncentiveVault&quot; style=&quot;rounded=1;whiteSpace=wrap;html=1;shadow=0;strokeColor=#9673a6;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fillColor=#e1d5e7;&quot; parent=&quot;16&quot; vertex=&quot;1&quot;&gt;&#10;          &lt;mxGeometry y=&quot;14&quot; width=&quot;144&quot; height=&quot;60&quot; as=&quot;geometry&quot; /&gt;&#10;        &lt;/mxCell&gt;&#10;        &lt;mxCell id=&quot;18&quot; value=&quot;&quot; style=&quot;image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=default;fontSize=12;spacingTop=3;image=img/lib/ibm/blockchain/smart_contract.svg;strokeColor=default;verticalAlign=middle;fontFamily=Helvetica;fillColor=default;&quot; parent=&quot;16&quot; vertex=&quot;1&quot;&gt;&#10;          &lt;mxGeometry x=&quot;120&quot; width=&quot;35&quot; height=&quot;34&quot; as=&quot;geometry&quot; /&gt;&#10;        &lt;/mxCell&gt;&#10;        &lt;mxCell id=&quot;19&quot; value=&quot;&amp;lt;span style=&amp;quot;font-size: 24px; background-color: rgb(204, 255, 204);&amp;quot;&amp;gt;REG Holders&amp;lt;/span&amp;gt;&quot; style=&quot;shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#3c9f50;strokeWidth=2;fillWeight=2;hachureGap=8;fillStyle=cross-hatch;sketch=1;&quot; parent=&quot;1&quot; vertex=&quot;1&quot;&gt;&#10;          &lt;mxGeometry x=&quot;15&quot; y=&quot;480&quot; width=&quot;240&quot; height=&quot;150&quot; as=&quot;geometry&quot; /&gt;&#10;        &lt;/mxCell&gt;&#10;        &lt;mxCell id=&quot;25&quot; value=&quot;Vote&quot; style=&quot;text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontFamily=Helvetica;fontSize=12;fillColor=#d5e8d4;strokeColor=#82b366;dashed=1;dashPattern=8 8;opacity=80;glass=0;shadow=1;&quot; parent=&quot;1&quot; vertex=&quot;1&quot;&gt;&#10;          &lt;mxGeometry x=&quot;350&quot; y=&quot;430&quot; width=&quot;60&quot; height=&quot;30&quot; as=&quot;geometry&quot; /&gt;&#10;        &lt;/mxCell&gt;&#10;        &lt;mxCell id=&quot;27&quot; value=&quot;&quot; style=&quot;endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;&quot; parent=&quot;1&quot; source=&quot;19&quot; target=&quot;17&quot; edge=&quot;1&quot;&gt;&#10;          &lt;mxGeometry width=&quot;50&quot; height=&quot;50&quot; relative=&quot;1&quot; as=&quot;geometry&quot;&gt;&#10;            &lt;mxPoint x=&quot;340&quot; y=&quot;414&quot; as=&quot;sourcePoint&quot; /&gt;&#10;            &lt;mxPoint x=&quot;390&quot; y=&quot;364&quot; as=&quot;targetPoint&quot; /&gt;&#10;          &lt;/mxGeometry&gt;&#10;        &lt;/mxCell&gt;&#10;        &lt;mxCell id=&quot;28&quot; value=&quot;Dépôt REG&quot; style=&quot;text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontFamily=Helvetica;fontSize=12;fillColor=#d5e8d4;strokeColor=#82b366;dashed=1;dashPattern=8 8;opacity=80;glass=0;shadow=1;&quot; parent=&quot;1&quot; vertex=&quot;1&quot;&gt;&#10;          &lt;mxGeometry x=&quot;340&quot; y=&quot;520&quot; width=&quot;80&quot; height=&quot;30&quot; as=&quot;geometry&quot; /&gt;&#10;        &lt;/mxCell&gt;&#10;        &lt;mxCell id=&quot;29&quot; value=&quot;Claim bonus&quot; style=&quot;text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontFamily=Helvetica;fontSize=12;fillColor=#d5e8d4;strokeColor=#82b366;dashed=1;dashPattern=8 8;opacity=80;glass=0;shadow=1;&quot; parent=&quot;1&quot; vertex=&quot;1&quot;&gt;&#10;          &lt;mxGeometry x=&quot;340&quot; y=&quot;560&quot; width=&quot;80&quot; height=&quot;30&quot; as=&quot;geometry&quot; /&gt;&#10;        &lt;/mxCell&gt;&#10;        &lt;mxCell id=&quot;30&quot; value=&quot;&quot; style=&quot;endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#faf0ff;strokeColor=#B266FF;shape=flexArrow;dashed=1;dashPattern=1 1;width=3.6666666666666665;endSize=3.453333333333333;endWidth=11.444444444444445;&quot; parent=&quot;1&quot; source=&quot;32&quot; target=&quot;17&quot; edge=&quot;1&quot;&gt;&#10;          &lt;mxGeometry width=&quot;50&quot; height=&quot;50&quot; relative=&quot;1&quot; as=&quot;geometry&quot;&gt;&#10;            &lt;mxPoint x=&quot;524.68&quot; y=&quot;381.66&quot; as=&quot;sourcePoint&quot; /&gt;&#10;            &lt;mxPoint x=&quot;524.3919999999999&quot; y=&quot;535.68&quot; as=&quot;targetPoint&quot; /&gt;&#10;          &lt;/mxGeometry&gt;&#10;        &lt;/mxCell&gt;&#10;        &lt;mxCell id=&quot;33&quot; value=&quot;&quot; style=&quot;endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;&quot; parent=&quot;1&quot; source=&quot;34&quot; target=&quot;14&quot; edge=&quot;1&quot;&gt;&#10;          &lt;mxGeometry width=&quot;50&quot; height=&quot;50&quot; relative=&quot;1&quot; as=&quot;geometry&quot;&gt;&#10;            &lt;mxPoint x=&quot;215&quot; y=&quot;340&quot; as=&quot;sourcePoint&quot; /&gt;&#10;            &lt;mxPoint x=&quot;410&quot; y=&quot;341&quot; as=&quot;targetPoint&quot; /&gt;&#10;          &lt;/mxGeometry&gt;&#10;        &lt;/mxCell&gt;&#10;        &lt;mxCell id=&quot;35&quot; value=&quot;&quot; style=&quot;endArrow=none;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endFill=0;&quot; parent=&quot;1&quot; source=&quot;2&quot; target=&quot;34&quot; edge=&quot;1&quot;&gt;&#10;          &lt;mxGeometry width=&quot;50&quot; height=&quot;50&quot; relative=&quot;1&quot; as=&quot;geometry&quot;&gt;&#10;            &lt;mxPoint x=&quot;205&quot; y=&quot;340&quot; as=&quot;sourcePoint&quot; /&gt;&#10;            &lt;mxPoint x=&quot;450&quot; y=&quot;340&quot; as=&quot;targetPoint&quot; /&gt;&#10;          &lt;/mxGeometry&gt;&#10;        &lt;/mxCell&gt;&#10;        &lt;mxCell id=&quot;34&quot; value=&quot;Création proposal&quot; style=&quot;text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontFamily=Helvetica;fontSize=12;fillColor=#dae8fc;strokeColor=#6c8ebf;dashed=1;dashPattern=8 8;opacity=80;glass=0;shadow=1;&quot; parent=&quot;1&quot; vertex=&quot;1&quot;&gt;&#10;          &lt;mxGeometry x=&quot;280&quot; y=&quot;325&quot; width=&quot;80&quot; height=&quot;30&quot; as=&quot;geometry&quot; /&gt;&#10;        &lt;/mxCell&gt;&#10;        &lt;mxCell id=&quot;36&quot; value=&quot;&quot; style=&quot;endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fillColor=#faf0ff;strokeColor=#B266FF;shape=flexArrow;dashed=1;dashPattern=1 1;width=3.6666666666666665;endSize=3.453333333333333;endWidth=11.444444444444445;&quot; parent=&quot;1&quot; source=&quot;39&quot; target=&quot;8&quot; edge=&quot;1&quot;&gt;&#10;          &lt;mxGeometry width=&quot;50&quot; height=&quot;50&quot; relative=&quot;1&quot; as=&quot;geometry&quot;&gt;&#10;            &lt;mxPoint x=&quot;546&quot; y=&quot;381&quot; as=&quot;sourcePoint&quot; /&gt;&#10;            &lt;mxPoint x=&quot;545&quot; y=&quot;535&quot; as=&quot;targetPoint&quot; /&gt;&#10;          &lt;/mxGeometry&gt;&#10;        &lt;/mxCell&gt;&#10;        &lt;mxCell id=&quot;37&quot; value=&quot;&quot; style=&quot;endArrow=none;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#faf0ff;strokeColor=#B266FF;shape=flexArrow;dashed=1;dashPattern=1 1;width=3.6666666666666665;endSize=3.453333333333333;endWidth=11.444444444444445;endFill=0;&quot; parent=&quot;1&quot; source=&quot;14&quot; target=&quot;32&quot; edge=&quot;1&quot;&gt;&#10;          &lt;mxGeometry width=&quot;50&quot; height=&quot;50&quot; relative=&quot;1&quot; as=&quot;geometry&quot;&gt;&#10;            &lt;mxPoint x=&quot;522&quot; y=&quot;370&quot; as=&quot;sourcePoint&quot; /&gt;&#10;            &lt;mxPoint x=&quot;522&quot; y=&quot;526&quot; as=&quot;targetPoint&quot; /&gt;&#10;          &lt;/mxGeometry&gt;&#10;        &lt;/mxCell&gt;&#10;        &lt;mxCell id=&quot;32&quot; value=&quot;&amp;lt;font style=&amp;quot;font-size: 11px;&amp;quot;&amp;gt;Enregistrement&amp;lt;br&amp;gt;vote&amp;lt;/font&amp;gt;&quot; style=&quot;text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontFamily=Helvetica;fontSize=12;fillColor=#f9edfc;strokeColor=#CC99FF;dashed=1;dashPattern=8 8;opacity=80;glass=0;shadow=1;&quot; parent=&quot;1&quot; vertex=&quot;1&quot;&gt;&#10;          &lt;mxGeometry x=&quot;482&quot; y=&quot;430&quot; width=&quot;80&quot; height=&quot;30&quot; as=&quot;geometry&quot; /&gt;&#10;        &lt;/mxCell&gt;&#10;        &lt;mxCell id=&quot;40&quot; value=&quot;&quot; style=&quot;endArrow=none;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fillColor=#faf0ff;strokeColor=#B266FF;shape=flexArrow;dashed=1;dashPattern=1 1;width=3.6666666666666665;endSize=3.453333333333333;endWidth=11.444444444444445;endFill=0;startArrow=block;startSize=2.963888888888889;startWidth=8.425925925925926;&quot; parent=&quot;1&quot; source=&quot;14&quot; target=&quot;39&quot; edge=&quot;1&quot;&gt;&#10;          &lt;mxGeometry width=&quot;50&quot; height=&quot;50&quot; relative=&quot;1&quot; as=&quot;geometry&quot;&gt;&#10;            &lt;mxPoint x=&quot;522&quot; y=&quot;310&quot; as=&quot;sourcePoint&quot; /&gt;&#10;            &lt;mxPoint x=&quot;522&quot; y=&quot;200&quot; as=&quot;targetPoint&quot; /&gt;&#10;          &lt;/mxGeometry&gt;&#10;        &lt;/mxCell&gt;&#10;        &lt;mxCell id=&quot;39&quot; value=&quot;&amp;lt;span style=&amp;quot;font-size: 11px;&amp;quot;&amp;gt;Lecture Power voting&amp;lt;/span&amp;gt;&quot; style=&quot;text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontFamily=Helvetica;fontSize=12;fillColor=#f9edfc;strokeColor=#CC99FF;dashed=1;dashPattern=8 8;opacity=80;glass=0;shadow=1;&quot; parent=&quot;1&quot; vertex=&quot;1&quot;&gt;&#10;          &lt;mxGeometry x=&quot;482&quot; y=&quot;240&quot; width=&quot;80&quot; height=&quot;30&quot; as=&quot;geometry&quot; /&gt;&#10;        &lt;/mxCell&gt;&#10;        &lt;mxCell id=&quot;42&quot; value=&quot;&quot; style=&quot;endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;&quot; parent=&quot;1&quot; source=&quot;43&quot; target=&quot;8&quot; edge=&quot;1&quot;&gt;&#10;          &lt;mxGeometry width=&quot;50&quot; height=&quot;50&quot; relative=&quot;1&quot; as=&quot;geometry&quot;&gt;&#10;            &lt;mxPoint x=&quot;339.03999999999996&quot; y=&quot;200&quot; as=&quot;sourcePoint&quot; /&gt;&#10;            &lt;mxPoint x=&quot;450&quot; y=&quot;202.37&quot; as=&quot;targetPoint&quot; /&gt;&#10;          &lt;/mxGeometry&gt;&#10;        &lt;/mxCell&gt;&#10;        &lt;mxCell id=&quot;44&quot; value=&quot;&quot; style=&quot;endArrow=none;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endFill=0;&quot; parent=&quot;1&quot; source=&quot;3&quot; target=&quot;43&quot; edge=&quot;1&quot;&gt;&#10;          &lt;mxGeometry width=&quot;50&quot; height=&quot;50&quot; relative=&quot;1&quot; as=&quot;geometry&quot;&gt;&#10;            &lt;mxPoint x=&quot;190&quot; y=&quot;173&quot; as=&quot;sourcePoint&quot; /&gt;&#10;            &lt;mxPoint x=&quot;257.76&quot; y=&quot;169.73000000000002&quot; as=&quot;targetPoint&quot; /&gt;&#10;          &lt;/mxGeometry&gt;&#10;        &lt;/mxCell&gt;&#10;        &lt;object label=&quot;Enregistre le power voting&quot; id=&quot;43&quot;&gt;&#10;          &lt;mxCell style=&quot;text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontFamily=Helvetica;fontSize=12;fillColor=#f8cecc;strokeColor=#b85450;dashed=1;dashPattern=8 8;opacity=80;glass=0;shadow=1;&quot; parent=&quot;1&quot; vertex=&quot;1&quot;&gt;&#10;            &lt;mxGeometry x=&quot;260&quot; y=&quot;158&quot; width=&quot;80&quot; height=&quot;30&quot; as=&quot;geometry&quot; /&gt;&#10;          &lt;/mxCell&gt;&#10;        &lt;/object&gt;&#10;        &lt;mxCell id=&quot;47&quot; value=&quot;Résultat&amp;lt;br&amp;gt;Vote&quot; style=&quot;rhombus;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;shadow=0;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;&quot; parent=&quot;1&quot; vertex=&quot;1&quot;&gt;&#10;          &lt;mxGeometry x=&quot;639&quot; y=&quot;310&quot; width=&quot;80&quot; height=&quot;60&quot; as=&quot;geometry&quot; /&gt;&#10;        &lt;/mxCell&gt;&#10;        &lt;mxCell id=&quot;48&quot; value=&quot;Oui&quot; style=&quot;edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#00CC00;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;entryX=0;entryY=0.5;entryDx=0;entryDy=0;&quot; parent=&quot;1&quot; source=&quot;47&quot; target=&quot;54&quot; edge=&quot;1&quot;&gt;&#10;          &lt;mxGeometry x=&quot;-1&quot; relative=&quot;1&quot; as=&quot;geometry&quot;&gt;&#10;            &lt;mxPoint x=&quot;829&quot; y=&quot;340&quot; as=&quot;targetPoint&quot; /&gt;&#10;          &lt;/mxGeometry&gt;&#10;        &lt;/mxCell&gt;&#10;        &lt;mxCell id=&quot;49&quot; value=&quot;Non&quot; style=&quot;edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;&quot; parent=&quot;1&quot; source=&quot;47&quot; edge=&quot;1&quot;&gt;&#10;          &lt;mxGeometry x=&quot;-1&quot; relative=&quot;1&quot; as=&quot;geometry&quot;&gt;&#10;            &lt;mxPoint x=&quot;679&quot; y=&quot;430&quot; as=&quot;targetPoint&quot; /&gt;&#10;          &lt;/mxGeometry&gt;&#10;        &lt;/mxCell&gt;&#10;        &lt;mxCell id=&quot;50&quot; value=&quot;&quot; style=&quot;endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#e1d5e7;strokeColor=#9673a6;endFill=0;&quot; parent=&quot;1&quot; source=&quot;14&quot; target=&quot;47&quot; edge=&quot;1&quot;&gt;&#10;          &lt;mxGeometry width=&quot;50&quot; height=&quot;50&quot; relative=&quot;1&quot; as=&quot;geometry&quot;&gt;&#10;            &lt;mxPoint x=&quot;370&quot; y=&quot;350&quot; as=&quot;sourcePoint&quot; /&gt;&#10;            &lt;mxPoint x=&quot;460&quot; y=&quot;350&quot; as=&quot;targetPoint&quot; /&gt;&#10;          &lt;/mxGeometry&gt;&#10;        &lt;/mxCell&gt;&#10;        &lt;mxCell id=&quot;51&quot; value=&quot;&amp;lt;span style=&amp;quot;font-size: 11px;&amp;quot;&amp;gt;Proposal Annulé&amp;lt;/span&amp;gt;&quot; style=&quot;text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontFamily=Helvetica;fontSize=12;fillColor=#f9edfc;strokeColor=#CC99FF;dashed=1;dashPattern=8 8;opacity=80;glass=0;shadow=1;&quot; parent=&quot;1&quot; vertex=&quot;1&quot;&gt;&#10;          &lt;mxGeometry x=&quot;639&quot; y=&quot;430&quot; width=&quot;80&quot; height=&quot;30&quot; as=&quot;geometry&quot; /&gt;&#10;        &lt;/mxCell&gt;&#10;        &lt;mxCell id=&quot;53&quot; value=&quot;&quot; style=&quot;group&quot; parent=&quot;1&quot; vertex=&quot;1&quot; connectable=&quot;0&quot;&gt;&#10;          &lt;mxGeometry x=&quot;839&quot; y=&quot;296&quot; width=&quot;155&quot; height=&quot;79&quot; as=&quot;geometry&quot; /&gt;&#10;        &lt;/mxCell&gt;&#10;        &lt;mxCell id=&quot;54&quot; value=&quot;REGTreasuryDAO&quot; style=&quot;rounded=1;whiteSpace=wrap;html=1;shadow=0;strokeColor=#9673a6;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fillColor=#e1d5e7;&quot; parent=&quot;53&quot; vertex=&quot;1&quot;&gt;&#10;          &lt;mxGeometry y=&quot;14&quot; width=&quot;144&quot; height=&quot;60&quot; as=&quot;geometry&quot; /&gt;&#10;        &lt;/mxCell&gt;&#10;        &lt;mxCell id=&quot;55&quot; value=&quot;&quot; style=&quot;image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=default;fontSize=12;spacingTop=3;image=img/lib/ibm/blockchain/smart_contract.svg;strokeColor=default;verticalAlign=middle;fontFamily=Helvetica;fillColor=default;&quot; parent=&quot;53&quot; vertex=&quot;1&quot;&gt;&#10;          &lt;mxGeometry x=&quot;120&quot; width=&quot;35&quot; height=&quot;34&quot; as=&quot;geometry&quot; /&gt;&#10;        &lt;/mxCell&gt;&#10;        &lt;mxCell id=&quot;58&quot; value=&quot;&amp;lt;span style=&amp;quot;font-size: 11px;&amp;quot;&amp;gt;Queue&amp;lt;/span&amp;gt;&quot; style=&quot;text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontFamily=Helvetica;fontSize=12;fillColor=#f9edfc;strokeColor=#CC99FF;dashed=1;dashPattern=8 8;opacity=80;glass=0;shadow=1;&quot; parent=&quot;1&quot; vertex=&quot;1&quot;&gt;&#10;          &lt;mxGeometry x=&quot;766&quot; y=&quot;343&quot; width=&quot;50&quot; height=&quot;30&quot; as=&quot;geometry&quot; /&gt;&#10;        &lt;/mxCell&gt;&#10;        &lt;mxCell id=&quot;61&quot; value=&quot;&quot; style=&quot;shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;imageAspect=0;image=img/clipart/Gear_128x128.png;shadow=0;strokeColor=default;align=center;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;&quot; parent=&quot;1&quot; vertex=&quot;1&quot;&gt;&#10;          &lt;mxGeometry x=&quot;886&quot; y=&quot;460&quot; width=&quot;50&quot; height=&quot;60&quot; as=&quot;geometry&quot; /&gt;&#10;        &lt;/mxCell&gt;&#10;        &lt;mxCell id=&quot;62&quot; style=&quot;edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;&quot; parent=&quot;1&quot; source=&quot;63&quot; target=&quot;61&quot; edge=&quot;1&quot;&gt;&#10;          &lt;mxGeometry relative=&quot;1&quot; as=&quot;geometry&quot; /&gt;&#10;        &lt;/mxCell&gt;&#10;        &lt;mxCell id=&quot;64&quot; value=&quot;&quot; style=&quot;edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;endArrow=none;endFill=0;&quot; parent=&quot;1&quot; source=&quot;54&quot; target=&quot;63&quot; edge=&quot;1&quot;&gt;&#10;          &lt;mxGeometry relative=&quot;1&quot; as=&quot;geometry&quot;&gt;&#10;            &lt;mxPoint x=&quot;911&quot; y=&quot;370&quot; as=&quot;sourcePoint&quot; /&gt;&#10;            &lt;mxPoint x=&quot;911&quot; y=&quot;460&quot; as=&quot;targetPoint&quot; /&gt;&#10;          &lt;/mxGeometry&gt;&#10;        &lt;/mxCell&gt;&#10;        &lt;mxCell id=&quot;63&quot; value=&quot;&amp;lt;span style=&amp;quot;font-size: 11px;&amp;quot;&amp;gt;Execution&amp;lt;/span&amp;gt;&quot; style=&quot;text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontFamily=Helvetica;fontSize=12;fillColor=#f9edfc;strokeColor=#CC99FF;dashed=1;dashPattern=8 8;opacity=80;glass=0;shadow=1;&quot; parent=&quot;1&quot; vertex=&quot;1&quot;&gt;&#10;          &lt;mxGeometry x=&quot;880&quot; y=&quot;396&quot; width=&quot;63&quot; height=&quot;30&quot; as=&quot;geometry&quot; /&gt;&#10;        &lt;/mxCell&gt;&#10;      &lt;/root&gt;&#10;    &lt;/mxGraphModel&gt;&#10;  &lt;/diagram&gt;&#10;&lt;/mxfile&gt;&#10;"
+    onclick="(function(svg){var src=window.event.target||window.event.srcElement;while (src!=null&amp;&amp;src.nodeName.toLowerCase()!='a'){src=src.parentNode;}if(src==null){if(svg.wnd!=null&amp;&amp;!svg.wnd.closed){svg.wnd.focus();}else{var r=function(evt){if(evt.data=='ready'&amp;&amp;evt.source==svg.wnd){svg.wnd.postMessage(decodeURIComponent(svg.getAttribute('content')),'*');window.removeEventListener('message',r);}};window.addEventListener('message',r);svg.wnd=window.open('https://viewer.diagrams.net/?client=1&amp;page=0&amp;edit=_blank');}}})(this);"
+    style="cursor:pointer;max-width:100%;max-height:502px;">
+    <defs />
+    <g>
+        <g data-cell-id="0">
+            <g data-cell-id="1">
+                <g data-cell-id="2">
+                    <g id="cell-2">
+                        <g>
+                            <rect x="51" y="171" width="140" height="80" rx="12" ry="12" fill="none" stroke="none"
+                                pointer-events="all" />
+                            <path
+                                d="M 52.44 246.07 C 52.44 246.07 52.44 246.07 52.44 246.07 M 52.44 246.07 C 52.44 246.07 52.44 246.07 52.44 246.07 M 68.71 251.02 C 62.38 247.73 60.16 243.24 51.03 233.34 M 68.71 251.02 C 61.34 244.67 54.95 237.14 51.03 233.34 M 80.02 251.02 C 68.41 239.78 56.66 227.1 51.03 222.03 M 80.02 251.02 C 71.28 241.67 62.92 232.74 51.03 222.03 M 91.33 251.02 C 83.24 239.98 74.5 234.01 51.03 210.71 M 91.33 251.02 C 77.35 238.9 65.01 225.33 51.03 210.71 M 102.65 251.02 C 83.13 232.73 68.9 214.2 51.03 199.4 M 102.65 251.02 C 84.15 232.26 65.89 213 51.03 199.4 M 113.96 251.02 C 97.22 234.68 76.91 215.98 51.03 188.08 M 113.96 251.02 C 95.62 232.4 78.29 215.83 51.03 188.08 M 125.27 251.02 C 102.69 231.51 84.51 210.45 52.44 178.18 M 125.27 251.02 C 102.72 228.19 80.07 204.82 52.44 178.18 M 136.59 251.02 C 114.85 229.63 92.26 206.75 58.1 172.53 M 136.59 251.02 C 110.36 224.3 84.08 196.36 58.1 172.53 M 147.9 251.02 C 120.63 223.11 91.19 193.43 67.29 170.41 M 147.9 251.02 C 116.96 221.16 87.9 190.39 67.29 170.41 M 159.21 251.02 C 131.63 225.39 106.72 201 78.6 170.41 M 159.21 251.02 C 127.12 219.43 94.72 187.07 78.6 170.41 M 170.53 251.02 C 142.3 225.18 116.09 197.1 89.92 170.41 M 170.53 251.02 C 147.42 227.22 122.62 203.46 89.92 170.41 M 181.14 250.31 C 154.1 222.06 129.73 199.23 101.23 170.41 M 181.14 250.31 C 160.25 231.59 140.64 211.32 101.23 170.41 M 188.91 246.77 C 157.03 215.11 128.14 186.9 112.55 170.41 M 188.91 246.77 C 167.56 225.7 145.71 205.38 112.55 170.41 M 191.03 237.58 C 175.79 222.29 161.17 205.91 123.86 170.41 M 191.03 237.58 C 170.88 219.82 153.4 201.13 123.86 170.41 M 191.03 226.27 C 178.35 211.95 161.2 196.68 135.17 170.41 M 191.03 226.27 C 173.9 209.94 158.39 193.25 135.17 170.41 M 191.03 214.95 C 180.11 206.16 171.15 197.27 146.49 170.41 M 191.03 214.95 C 173.39 197.69 156.54 180.73 146.49 170.41 M 191.03 203.64 C 178.59 192.75 165.67 178.03 157.8 170.41 M 191.03 203.64 C 179.5 191.56 170.01 180.94 157.8 170.41 M 191.03 192.33 C 186.22 185.65 178.72 180.66 169.11 170.41 M 191.03 192.33 C 185.02 187.48 179.52 181.14 169.11 170.41 M 191.03 181.01 C 188.1 177.93 184.5 174.41 181.14 171.11 M 191.03 181.01 C 188.26 177.89 183.47 173.61 181.14 171.11"
+                                fill="none" stroke="#1ba1e2" stroke-width="4" stroke-linejoin="round"
+                                stroke-linecap="round" stroke-miterlimit="10" pointer-events="all" />
+                            <path
+                                d="M 63 171 C 87.68 168.59 107.58 168.74 179 171 M 63 171 C 89.74 171.46 116.22 172.13 179 171 M 179 171 C 185.92 169.86 190.19 174.82 191 183 M 179 171 C 189.29 170.46 193.28 177.25 191 183 M 191 183 C 191.81 193.49 192.35 207.03 191 239 M 191 183 C 191.54 203.07 190.25 222.48 191 239 M 191 239 C 191.22 245.52 186.21 251.66 179 251 M 191 239 C 192.17 247.49 189.2 252.22 179 251 M 179 251 C 149.02 249.86 115.95 251.52 63 251 M 179 251 C 146.01 250.93 114.5 250.71 63 251 M 63 251 C 54.16 251.72 52.76 245.74 51 239 M 63 251 C 56.08 249.58 51.13 245.6 51 239 M 51 239 C 52.19 227.23 48.68 213.27 51 183 M 51 239 C 50.55 216.82 51.23 194.88 51 183 M 51 183 C 50.31 176.71 53.33 169.06 63 171 M 51 183 C 51.35 172.84 54.31 171.07 63 171"
+                                fill="none" stroke="rgb(0, 0, 0)" stroke-width="2" stroke-linejoin="round"
+                                stroke-linecap="round" stroke-miterlimit="10" pointer-events="all" />
+                        </g>
+                        <g>
+                            <g transform="translate(-0.5 -0.5)">
+                                <switch>
+                                    <foreignObject pointer-events="none" width="100%" height="100%"
+                                        requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
+                                        style="overflow: visible; text-align: left;">
+                                        <div xmlns="http://www.w3.org/1999/xhtml"
+                                            style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 138px; height: 1px; padding-top: 211px; margin-left: 52px;">
+                                            <div data-drawio-colors="color: rgb(0, 0, 0); "
+                                                style="box-sizing: border-box; font-size: 0px; text-align: center;">
+                                                <div
+                                                    style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: normal; overflow-wrap: normal;">
+                                                    <font style="font-size: 24px;"><span
+                                                            style="background-color: rgb(204, 236, 249);"> Proposer </span>
+                                                    </font>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </foreignObject><text x="121" y="215" fill="rgb(0, 0, 0)"
+                                        font-family="&quot;Helvetica&quot;" font-size="12px"
+                                        text-anchor="middle"> Proposer </text>
+                                </switch>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+                <g data-cell-id="3">
+                    <g id="cell-3">
+                        <g>
+                            <ellipse cx="121" cy="44" rx="55" ry="25" fill="none" stroke="none" pointer-events="all" />
+                            <path
+                                d="M 68.56 40.28 C 68.56 40.28 68.56 40.28 68.56 40.28 M 68.56 40.28 C 68.56 40.28 68.56 40.28 68.56 40.28 M 71.98 48.54 C 82.5 37.11 87.61 28.94 94.28 22.88 M 71.98 48.54 C 76.74 41.85 83.41 37.27 94.28 22.88 M 76.04 56.06 C 85.42 44.93 94.84 34.13 108.19 19.08 M 76.04 56.06 C 87.51 41.14 100.58 27.41 108.19 19.08 M 83.39 59.8 C 95.07 45.16 108.62 31.12 118.82 19.04 M 83.39 59.8 C 93.27 47.5 104.83 36.42 118.82 19.04 M 90.09 64.29 C 101.4 51.32 111.09 37.32 129.45 19.01 M 90.09 64.29 C 103.33 47.53 116.68 33.85 129.45 19.01 M 98.09 67.27 C 112.93 52.83 126.59 37.28 138.77 20.48 M 98.09 67.27 C 108.48 56.04 117.31 45.19 138.77 20.48 M 107.41 68.75 C 123.43 54.52 134.52 37.77 147.43 22.71 M 107.41 68.75 C 118.05 55.92 129.12 42.57 147.43 22.71 M 116.73 70.22 C 127.53 59.67 134.88 49.61 156.09 24.94 M 116.73 70.22 C 127.72 56.69 139.11 44.36 156.09 24.94 M 127.36 70.19 C 135.72 58.73 145.64 48.99 163.44 28.68 M 127.36 70.19 C 139.38 57.05 150.91 43.68 163.44 28.68 M 140.61 67.14 C 152.16 56.17 161.4 43 168.82 34.68 M 140.61 67.14 C 148.78 57.64 157.98 47.07 168.82 34.68 M 154.52 63.33 C 160.86 58.29 163.15 52.71 172.89 42.2 M 154.52 63.33 C 160.26 56.03 167.16 47.17 172.89 42.2"
+                                fill="none" stroke="#990000" stroke-width="2" stroke-linejoin="round"
+                                stroke-linecap="round" stroke-miterlimit="10" pointer-events="all" />
+                            <path
+                                d="M 134.45 18.76 C 143.38 19.29 153.63 21.91 160.06 25.43 C 166.49 28.95 171.45 35.11 173.03 39.88 C 174.6 44.65 173.14 49.93 169.49 54.06 C 165.83 58.2 158.98 61.99 151.08 64.69 C 143.18 67.38 131.78 70.07 122.08 70.26 C 112.38 70.44 100.79 68.36 92.91 65.79 C 85.02 63.23 78.89 59.03 74.77 54.84 C 70.66 50.65 67.26 45.35 68.23 40.65 C 69.21 35.95 74.5 30.34 80.63 26.65 C 86.77 22.96 95.11 19.74 105.03 18.52 C 114.96 17.29 133.62 18.96 140.2 19.3 C 146.77 19.63 145.01 19.96 144.47 20.55 M 136.35 19.49 C 145.51 20.29 155.08 22.08 161.22 25.46 C 167.36 28.84 171.95 34.81 173.17 39.77 C 174.4 44.72 172.45 50.8 168.59 55.19 C 164.73 59.58 157.75 63.78 149.99 66.09 C 142.24 68.4 131.72 69.04 122.04 69.05 C 112.37 69.06 99.79 68.4 91.94 66.16 C 84.09 63.93 78.63 60.07 74.95 55.62 C 71.27 51.18 68.95 44.13 69.86 39.48 C 70.77 34.82 74.54 31.3 80.41 27.69 C 86.28 24.07 96.03 19.12 105.09 17.8 C 114.15 16.47 129.75 19.39 134.77 19.74 C 139.79 20.08 135.38 19.48 135.2 19.85"
+                                fill="none" stroke="rgb(0, 0, 0)" stroke-width="2" stroke-linejoin="round"
+                                stroke-linecap="round" stroke-miterlimit="10" pointer-events="all" />
+                        </g>
+                        <g>
+                            <g transform="translate(-0.5 -0.5)">
+                                <switch>
+                                    <foreignObject pointer-events="none" width="100%" height="100%"
+                                        requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
+                                        style="overflow: visible; text-align: left;">
+                                        <div xmlns="http://www.w3.org/1999/xhtml"
+                                            style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 108px; height: 1px; padding-top: 44px; margin-left: 67px;">
+                                            <div data-drawio-colors="color: rgb(0, 0, 0); "
+                                                style="box-sizing: border-box; font-size: 0px; text-align: center;">
+                                                <div
+                                                    style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: normal; overflow-wrap: normal;">
+                                                    <font
+                                                        style="font-size: 24px; background-color: rgb(255, 153, 153);">
+                                                         Admin </font>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </foreignObject><text x="121" y="48" fill="rgb(0, 0, 0)"
+                                        font-family="&quot;Helvetica&quot;" font-size="12px"
+                                        text-anchor="middle"> Admin </text>
+                                </switch>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+                <g data-cell-id="12">
+                    <g id="cell-12">
+                        <g />
+                    </g>
+                    <g data-cell-id="8">
+                        <g id="cell-8">
+                            <g>
+                                <rect x="436" y="14" width="144" height="60" rx="9" ry="9" fill="#e1d5e7"
+                                    stroke="#9673a6" pointer-events="all" />
+                            </g>
+                            <g>
+                                <g transform="translate(-0.5 -0.5)">
+                                    <switch>
+                                        <foreignObject pointer-events="none" width="100%" height="100%"
+                                            requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
+                                            style="overflow: visible; text-align: left;">
+                                            <div xmlns="http://www.w3.org/1999/xhtml"
+                                                style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 142px; height: 1px; padding-top: 44px; margin-left: 437px;">
+                                                <div data-drawio-colors="color: rgb(0, 0, 0); "
+                                                    style="box-sizing: border-box; font-size: 0px; text-align: center;">
+                                                    <div
+                                                        style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: normal; overflow-wrap: normal;">
+                                                        REGVotingPowerRegistry</div>
+                                                </div>
+                                            </div>
+                                        </foreignObject><text x="508" y="48" fill="rgb(0, 0, 0)"
+                                            font-family="&quot;Helvetica&quot;" font-size="12px"
+                                            text-anchor="middle">REGVotingPowerRegistry</text>
+                                    </switch>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                    <g data-cell-id="7">
+                        <g id="cell-7">
+                            <g>
+                                <image x="555.5" y="-0.5" width="35" height="34"
+                                    xlink:href="https://embed.diagrams.net/img/lib/ibm/blockchain/smart_contract.svg" />
+                            </g>
+                        </g>
+                    </g>
+                </g>
+                <g data-cell-id="13">
+                    <g id="cell-13">
+                        <g />
+                    </g>
+                    <g data-cell-id="14">
+                        <g id="cell-14">
+                            <g>
+                                <rect x="436" y="181" width="144" height="60" rx="9" ry="9" fill="#e1d5e7"
+                                    stroke="#9673a6" pointer-events="all" />
+                            </g>
+                            <g>
+                                <g transform="translate(-0.5 -0.5)">
+                                    <switch>
+                                        <foreignObject pointer-events="none" width="100%" height="100%"
+                                            requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
+                                            style="overflow: visible; text-align: left;">
+                                            <div xmlns="http://www.w3.org/1999/xhtml"
+                                                style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 142px; height: 1px; padding-top: 211px; margin-left: 437px;">
+                                                <div data-drawio-colors="color: rgb(0, 0, 0); "
+                                                    style="box-sizing: border-box; font-size: 0px; text-align: center;">
+                                                    <div
+                                                        style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: normal; overflow-wrap: normal;">
+                                                        REGGovernor</div>
+                                                </div>
+                                            </div>
+                                        </foreignObject><text x="508" y="215" fill="rgb(0, 0, 0)"
+                                            font-family="&quot;Helvetica&quot;" font-size="12px"
+                                            text-anchor="middle">REGGovernor</text>
+                                    </switch>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                    <g data-cell-id="15">
+                        <g id="cell-15">
+                            <g>
+                                <image x="555.5" y="166.5" width="35" height="34"
+                                    xlink:href="https://embed.diagrams.net/img/lib/ibm/blockchain/smart_contract.svg" />
+                            </g>
+                        </g>
+                    </g>
+                    <g data-cell-id="24">
+                        <g id="cell-24">
+                            <g>
+                                <path
+                                    d="M 241 426 Q 271 381 296 366 Q 321 351 326 331 Q 331 311 396 301 Q 461 291 471.51 247.19"
+                                    fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="stroke" />
+                                <path d="M 472.74 242.09 L 474.51 249.71 L 471.51 247.19 L 467.7 248.08 Z"
+                                    fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)" stroke-miterlimit="10"
+                                    pointer-events="all" />
+                            </g>
+                        </g>
+                    </g>
+                </g>
+                <g data-cell-id="16">
+                    <g id="cell-16">
+                        <g />
+                    </g>
+                    <g data-cell-id="17">
+                        <g id="cell-17">
+                            <g>
+                                <rect x="436" y="397" width="144" height="60" rx="9" ry="9" fill="#e1d5e7"
+                                    stroke="#9673a6" pointer-events="all" />
+                            </g>
+                            <g>
+                                <g transform="translate(-0.5 -0.5)">
+                                    <switch>
+                                        <foreignObject pointer-events="none" width="100%" height="100%"
+                                            requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
+                                            style="overflow: visible; text-align: left;">
+                                            <div xmlns="http://www.w3.org/1999/xhtml"
+                                                style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 142px; height: 1px; padding-top: 427px; margin-left: 437px;">
+                                                <div data-drawio-colors="color: rgb(0, 0, 0); "
+                                                    style="box-sizing: border-box; font-size: 0px; text-align: center;">
+                                                    <div
+                                                        style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: normal; overflow-wrap: normal;">
+                                                        REGIncentiveVault</div>
+                                                </div>
+                                            </div>
+                                        </foreignObject><text x="508" y="431" fill="rgb(0, 0, 0)"
+                                            font-family="&quot;Helvetica&quot;" font-size="12px"
+                                            text-anchor="middle">REGIncentiveVault</text>
+                                    </switch>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                    <g data-cell-id="18">
+                        <g id="cell-18">
+                            <g>
+                                <image x="555.5" y="382.5" width="35" height="34"
+                                    xlink:href="https://embed.diagrams.net/img/lib/ibm/blockchain/smart_contract.svg" />
+                            </g>
+                        </g>
+                    </g>
+                </g>
+                <g data-cell-id="19">
+                    <g id="cell-19">
+                        <g>
+                            <path d="M 21 351 L 221 351 L 241 426 L 221 501 L 21 501 L 1 426 Z" fill="none"
+                                stroke="none" pointer-events="all" />
+                            <path
+                                d="M 20.92 351.09 C 20.92 351.09 20.92 351.09 20.92 351.09 M 20.92 351.09 C 20.92 351.09 20.92 351.09 20.92 351.09 M 16.46 368.42 C 18.71 365.54 23.3 359.26 31.55 351.06 M 16.46 368.42 C 19.34 365.47 21.88 360.41 31.55 351.06 M 11.35 386.49 C 20.47 379.02 26.5 368.82 42.18 351.02 M 11.35 386.49 C 21.94 375.25 31.12 364.06 42.18 351.02 M 6.89 403.82 C 24.08 383.45 41.38 363.6 52.81 350.99 M 6.89 403.82 C 21.51 385.33 38.53 368.47 52.81 350.99 M 2.43 421.14 C 21.67 401.69 38.14 379.14 63.44 350.95 M 2.43 421.14 C 23.23 398.08 44.23 374.59 63.44 350.95 M 3.22 432.43 C 27.9 405.57 51.24 378.37 74.07 350.92 M 3.22 432.43 C 25.82 405.52 47.66 381.21 74.07 350.92 M 5.97 441.45 C 30.59 413.85 54.35 381.95 84.7 350.88 M 5.97 441.45 C 24.93 418.78 43.81 397 84.7 350.88 M 8.08 451.23 C 35.13 417.21 66.53 385.43 95.33 350.85 M 8.08 451.23 C 24.7 429.85 43.69 410.12 95.33 350.85 M 10.83 460.25 C 42.46 421.67 73.68 386.13 105.96 350.82 M 10.83 460.25 C 33.44 432.13 58.41 403.96 105.96 350.82 M 12.93 470.03 C 45.19 432.25 78.91 396.43 116.59 350.78 M 12.93 470.03 C 50.06 427.97 85.36 385.72 116.59 350.78 M 15.69 479.05 C 46.16 443.01 78.86 406.82 127.22 350.75 M 15.69 479.05 C 39 450.99 62.08 423.18 127.22 350.75 M 18.45 488.07 C 56.19 449.5 87.57 407.75 137.85 350.71 M 18.45 488.07 C 49.06 452.28 80.81 417.37 137.85 350.71 M 20.55 497.85 C 69.88 441.81 115.52 388.94 148.48 350.68 M 20.55 497.85 C 56.14 458.58 91.26 418.48 148.48 350.68 M 27.9 501.58 C 74.15 451.53 117.75 399.61 159.11 350.64 M 27.9 501.58 C 68.03 455.3 108.78 408.5 159.11 350.64 M 38.53 501.55 C 70.65 469.92 98.84 436.75 169.09 351.36 M 38.53 501.55 C 88.86 444.78 138.46 389.07 169.09 351.36 M 49.16 501.52 C 97.38 448.03 147.06 390.29 179.72 351.33 M 49.16 501.52 C 100.31 442.87 152.12 383.76 179.72 351.33 M 59.79 501.48 C 93.19 462.31 124.86 422.98 190.35 351.29 M 59.79 501.48 C 87.25 470.84 115.18 439.93 190.35 351.29 M 70.42 501.45 C 121.16 442.11 172.22 383.22 200.98 351.26 M 70.42 501.45 C 113.55 451.34 156.38 402.14 200.98 351.26 M 81.05 501.41 C 123.67 452.83 163.72 407.22 211.61 351.23 M 81.05 501.41 C 110.53 467.28 140.16 431.38 211.61 351.23 M 91.68 501.38 C 124.76 466.02 158.08 426.5 221.58 351.95 M 91.68 501.38 C 123.96 465.68 156.7 427.72 221.58 351.95 M 102.31 501.34 C 131.52 469.85 159.06 436.64 223.68 361.72 M 102.31 501.34 C 131.5 467.11 160.29 433.68 223.68 361.72 M 112.94 501.31 C 146.01 465.23 176.28 427.86 226.44 370.74 M 112.94 501.31 C 153.32 453.65 195.87 406.92 226.44 370.74 M 123.57 501.27 C 155.02 464.29 185.02 431.91 228.54 380.52 M 123.57 501.27 C 149.67 469.73 174.82 439.29 228.54 380.52 M 134.2 501.24 C 158.58 470.74 184.44 444.49 231.3 389.54 M 134.2 501.24 C 157.16 475.34 180.18 448.86 231.3 389.54 M 144.83 501.21 C 181.7 464.26 215.33 423.04 234.05 398.56 M 144.83 501.21 C 175.48 465.35 207.25 428.4 234.05 398.56 M 155.46 501.17 C 176.06 477.31 195.9 452.29 236.16 408.34 M 155.46 501.17 C 181.74 473.69 206.7 443.6 236.16 408.34 M 166.09 501.14 C 192.31 471.25 222.45 439.77 238.91 417.36 M 166.09 501.14 C 187.39 476.56 208.73 451.62 238.91 417.36 M 176.72 501.1 C 200.41 474.78 221.58 445.6 241.67 426.39 M 176.72 501.1 C 200.23 474.31 223.87 445.76 241.67 426.39 M 187.35 501.07 C 199.52 487.33 207.02 478.52 236.56 444.46 M 187.35 501.07 C 202.39 485.4 215.89 469.23 236.56 444.46 M 197.98 501.03 C 211.92 485.44 222.06 471.77 232.1 461.79 M 197.98 501.03 C 206.89 490.31 214.83 482.05 232.1 461.79 M 207.96 501.75 C 215.12 492.15 222.81 483.47 227.64 479.11 M 207.96 501.75 C 214.91 493.08 223.67 485.19 227.64 479.11 M 218.59 501.72 C 219.76 499.8 220.89 498.73 222.52 497.19 M 218.59 501.72 C 220.21 499.76 221.98 497.92 222.52 497.19 M 21.38 501.33 C 21.38 501.33 21.38 501.33 21.38 501.33 M 21.38 501.33 C 21.38 501.33 21.38 501.33 21.38 501.33 M 33.42 501.19 C 27.45 496.19 24.35 491.83 17.57 487.42 M 33.42 501.19 C 27.02 495.48 21.97 490.93 17.57 487.42 M 45.46 501.06 C 39.17 493.94 30.42 489.79 13.76 473.51 M 45.46 501.06 C 33.51 489.95 22.1 480.17 13.76 473.51 M 57.5 500.93 C 38.4 484.62 21.52 468.64 9.95 459.59 M 57.5 500.93 C 44.05 489.71 28.49 476.14 9.95 459.59 M 69.54 500.79 C 47.01 481.35 26.53 462.42 6.14 445.68 M 69.54 500.79 C 55.45 487.29 39.67 473.43 6.14 445.68 M 82.33 501.32 C 54.62 477.62 30.84 458.46 2.33 431.77 M 82.33 501.32 C 64.39 486.05 49.08 471.35 2.33 431.77 M 94.37 501.18 C 59.11 470.4 26.99 441.28 2.3 421.14 M 94.37 501.18 C 69.58 480.42 45.81 459.17 2.3 421.14 M 106.42 501.05 C 76.28 473.2 44.65 448.78 4.53 412.48 M 106.42 501.05 C 79.78 476.95 54.01 454.36 4.53 412.48 M 118.46 500.92 C 95.65 482 71.94 461.89 6.76 403.82 M 118.46 500.92 C 95 481.9 70.97 462.21 6.76 403.82 M 130.5 500.78 C 102.07 475.55 74.52 454.81 9.74 395.81 M 130.5 500.78 C 99.03 474.17 68.06 446.02 9.74 395.81 M 143.29 501.31 C 93.78 462.17 46.36 417.6 11.97 387.15 M 143.29 501.31 C 115.33 476.6 88.6 453.01 11.97 387.15 M 155.33 501.17 C 124.77 476.36 93.29 446.91 14.2 378.49 M 155.33 501.17 C 116.4 467.34 76.48 433.09 14.2 378.49 M 167.37 501.04 C 118.53 461.28 72.83 418.68 16.43 369.83 M 167.37 501.04 C 128.74 466.06 89.7 433.02 16.43 369.83 M 179.42 500.91 C 130.37 456.33 81.02 411.85 18.66 361.17 M 179.42 500.91 C 134.9 461.42 89.58 423.21 18.66 361.17 M 191.46 500.77 C 156.42 469.27 123.08 440.56 20.89 352.5 M 191.46 500.77 C 137.52 453.45 84.35 406.86 20.89 352.5 M 204.25 501.3 C 149.12 449.71 91.42 403.26 30.67 350.4 M 204.25 501.3 C 166.29 467.49 127.33 432.87 30.67 350.4 M 216.29 501.16 C 158.4 453.33 103 403.04 42.71 350.27 M 216.29 501.16 C 181.25 471.02 145.55 439.76 42.71 350.27 M 222.3 495.78 C 187.41 466.09 152.52 435.93 54.75 350.14 M 222.3 495.78 C 185.51 462.67 148.46 431.86 54.75 350.14 M 225.28 487.78 C 185.03 452.28 143.22 419 67.55 350.66 M 225.28 487.78 C 178.3 445.77 130.42 404.09 67.55 350.66 M 227.51 479.11 C 178.01 438.74 130.96 395.59 79.59 350.53 M 227.51 479.11 C 174.02 433.83 120.45 387.86 79.59 350.53 M 229.74 470.45 C 185.01 428.19 139.54 389.45 91.63 350.39 M 229.74 470.45 C 193.71 436.75 156.49 405.07 91.63 350.39 M 231.97 461.79 C 186.78 424.43 145.44 388.48 103.67 350.26 M 231.97 461.79 C 197.56 431.41 161.35 399.99 103.67 350.26 M 234.2 453.13 C 196.28 422.34 159.2 390.98 115.71 350.13 M 234.2 453.13 C 197.31 420.5 159.08 387.04 115.71 350.13 M 236.43 444.47 C 199.87 411.01 164.23 383.25 128.51 350.65 M 236.43 444.47 C 194.66 408.12 151.1 369.88 128.51 350.65 M 238.66 435.8 C 203.39 405.33 171.49 375.61 140.55 350.52 M 238.66 435.8 C 207.01 408.58 177.13 381.21 140.55 350.52 M 240.89 427.14 C 217.1 405.77 193.63 384.6 152.59 350.38 M 240.89 427.14 C 217.77 406.32 194.13 387.46 152.59 350.38 M 237.83 413.89 C 217.51 397.1 198.44 379.29 164.63 350.25 M 237.83 413.89 C 215.31 393.31 191.09 374.34 164.63 350.25 M 234.03 399.98 C 222.23 390.89 212.47 378.47 176.67 350.12 M 234.03 399.98 C 220.36 389.02 206.28 376.26 176.67 350.12 M 230.22 386.07 C 222.24 377.92 212.28 371.03 189.46 350.64 M 230.22 386.07 C 221.31 378.85 211.94 370.69 189.46 350.64 M 226.41 372.16 C 220.62 368.29 214.35 363.02 201.51 350.51 M 226.41 372.16 C 220.91 367.43 215.06 363.61 201.51 350.51 M 223.36 358.9 C 221.62 355.49 218.9 355 213.55 350.37 M 223.36 358.9 C 219.79 355.69 217.45 353.57 213.55 350.37"
+                                fill="none" stroke="#3c9f50" stroke-width="2" stroke-linejoin="round"
+                                stroke-linecap="round" stroke-miterlimit="10" pointer-events="all" />
+                            <path
+                                d="M 21 351 C 62.27 351.99 106.27 349.82 221 351 M 21 351 C 70.37 352.84 121.08 351.55 221 351 M 221 351 C 227.85 374.19 232 400.03 241 426 M 221 351 C 226.76 371.89 232.69 394.25 241 426 M 241 426 C 233.04 451.45 226.45 481.13 221 501 M 241 426 C 232.71 454.94 225.67 483.35 221 501 M 221 501 C 156.94 501.65 90.2 500.75 21 501 M 221 501 C 178.75 501.24 137.18 501.56 21 501 M 21 501 C 12.34 472.7 5.17 446.54 1 426 M 21 501 C 13.06 473.2 5.65 446.9 1 426 M 1 426 C 8.84 397.12 18.77 366.95 21 351 M 1 426 C 6.85 405.89 11.29 385.73 21 351"
+                                fill="none" stroke="rgb(0, 0, 0)" stroke-width="2" stroke-linejoin="round"
+                                stroke-linecap="round" stroke-miterlimit="10" pointer-events="all" />
+                        </g>
+                        <g>
+                            <g transform="translate(-0.5 -0.5)">
+                                <switch>
+                                    <foreignObject pointer-events="none" width="100%" height="100%"
+                                        requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
+                                        style="overflow: visible; text-align: left;">
+                                        <div xmlns="http://www.w3.org/1999/xhtml"
+                                            style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 238px; height: 1px; padding-top: 426px; margin-left: 2px;">
+                                            <div data-drawio-colors="color: rgb(0, 0, 0); "
+                                                style="box-sizing: border-box; font-size: 0px; text-align: center;">
+                                                <div
+                                                    style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: normal; overflow-wrap: normal;">
+                                                    <span
+                                                        style="font-size: 24px; background-color: rgb(204, 255, 204);">REG
+                                                        Holders</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </foreignObject><text x="121" y="430" fill="rgb(0, 0, 0)"
+                                        font-family="&quot;Helvetica&quot;" font-size="12px" text-anchor="middle">REG
+                                        Holders</text>
+                                </switch>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+                <g data-cell-id="25">
+                    <g id="cell-25">
+                        <g style="filter: drop-shadow(rgba(0, 0, 0, 0.25) 2px 3px 2px);">
+                            <rect x="336" y="301" width="60" height="30" rx="4.5" ry="4.5" fill-opacity="0.8"
+                                fill="#d5e8d4" stroke="#82b366" stroke-opacity="0.8" stroke-dasharray="8 8"
+                                pointer-events="all" />
+                        </g>
+                        <g>
+                            <g transform="translate(-0.5 -0.5)">
+                                <switch>
+                                    <foreignObject pointer-events="none" width="100%" height="100%"
+                                        requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
+                                        style="overflow: visible; text-align: left;">
+                                        <div xmlns="http://www.w3.org/1999/xhtml"
+                                            style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 58px; height: 1px; padding-top: 316px; margin-left: 337px;">
+                                            <div data-drawio-colors="color: rgb(0, 0, 0); "
+                                                style="box-sizing: border-box; font-size: 0px; text-align: center;">
+                                                <div
+                                                    style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: normal; overflow-wrap: normal;">
+                                                    Vote</div>
+                                            </div>
+                                        </div>
+                                    </foreignObject><text x="366" y="320" fill="rgb(0, 0, 0)"
+                                        font-family="&quot;Helvetica&quot;" font-size="12px"
+                                        text-anchor="middle">Vote</text>
+                                </switch>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+                <g data-cell-id="27">
+                    <g id="cell-27">
+                        <g>
+                            <path d="M 241 426 L 429.63 426.97" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10"
+                                pointer-events="stroke" />
+                            <path d="M 434.88 426.99 L 427.86 430.46 L 429.63 426.97 L 427.9 423.46 Z"
+                                fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="all" />
+                        </g>
+                    </g>
+                </g>
+                <g data-cell-id="28">
+                    <g id="cell-28">
+                        <g style="filter: drop-shadow(rgba(0, 0, 0, 0.25) 2px 3px 2px);">
+                            <rect x="326" y="391" width="80" height="30" rx="4.5" ry="4.5" fill-opacity="0.8"
+                                fill="#d5e8d4" stroke="#82b366" stroke-opacity="0.8" stroke-dasharray="8 8"
+                                pointer-events="all" />
+                        </g>
+                        <g>
+                            <g transform="translate(-0.5 -0.5)">
+                                <switch>
+                                    <foreignObject pointer-events="none" width="100%" height="100%"
+                                        requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
+                                        style="overflow: visible; text-align: left;">
+                                        <div xmlns="http://www.w3.org/1999/xhtml"
+                                            style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 78px; height: 1px; padding-top: 406px; margin-left: 327px;">
+                                            <div data-drawio-colors="color: rgb(0, 0, 0); "
+                                                style="box-sizing: border-box; font-size: 0px; text-align: center;">
+                                                <div
+                                                    style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: normal; overflow-wrap: normal;">
+                                                    REG Deposit</div>
+                                            </div>
+                                        </div>
+                                    </foreignObject><text x="366" y="410" fill="rgb(0, 0, 0)"
+                                        font-family="&quot;Helvetica&quot;" font-size="12px" text-anchor="middle">REG
+                                        Deposit</text>
+                                </switch>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+                <g data-cell-id="29">
+                    <g id="cell-29">
+                        <g style="filter: drop-shadow(rgba(0, 0, 0, 0.25) 2px 3px 2px);">
+                            <rect x="326" y="431" width="80" height="30" rx="4.5" ry="4.5" fill-opacity="0.8"
+                                fill="#d5e8d4" stroke="#82b366" stroke-opacity="0.8" stroke-dasharray="8 8"
+                                pointer-events="all" />
+                        </g>
+                        <g>
+                            <g transform="translate(-0.5 -0.5)">
+                                <switch>
+                                    <foreignObject pointer-events="none" width="100%" height="100%"
+                                        requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
+                                        style="overflow: visible; text-align: left;">
+                                        <div xmlns="http://www.w3.org/1999/xhtml"
+                                            style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 78px; height: 1px; padding-top: 446px; margin-left: 327px;">
+                                            <div data-drawio-colors="color: rgb(0, 0, 0); "
+                                                style="box-sizing: border-box; font-size: 0px; text-align: center;">
+                                                <div
+                                                    style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: normal; overflow-wrap: normal;">
+                                                    Claim bonus</div>
+                                            </div>
+                                        </div>
+                                    </foreignObject><text x="366" y="450" fill="rgb(0, 0, 0)"
+                                        font-family="&quot;Helvetica&quot;" font-size="12px" text-anchor="middle">Claim
+                                        bonus</text>
+                                </switch>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+                <g data-cell-id="30">
+                    <g id="cell-30">
+                        <g>
+                            <path
+                                d="M 506.17 331.5 L 509.83 331.5 L 509.83 385.14 L 516.06 385.14 L 508 396.5 L 499.94 385.14 L 506.17 385.14 Z"
+                                fill="#faf0ff" stroke="#b266ff" stroke-miterlimit="10" stroke-dasharray="1 1"
+                                pointer-events="all" />
+                        </g>
+                    </g>
+                </g>
+                <g data-cell-id="33">
+                    <g id="cell-33">
+                        <g>
+                            <path d="M 346 211 L 429.63 211" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10"
+                                pointer-events="stroke" />
+                            <path d="M 434.88 211 L 427.88 214.5 L 429.63 211 L 427.88 207.5 Z" fill="rgb(0, 0, 0)"
+                                stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="all" />
+                        </g>
+                    </g>
+                </g>
+                <g data-cell-id="35">
+                    <g id="cell-35">
+                        <g>
+                            <path d="M 191 211 L 266 211" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10"
+                                pointer-events="stroke" />
+                        </g>
+                    </g>
+                </g>
+                <g data-cell-id="34">
+                    <g id="cell-34">
+                        <g style="filter: drop-shadow(rgba(0, 0, 0, 0.25) 2px 3px 2px);">
+                            <rect x="266" y="196" width="80" height="30" rx="4.5" ry="4.5" fill-opacity="0.8"
+                                fill="#dae8fc" stroke="#6c8ebf" stroke-opacity="0.8" stroke-dasharray="8 8"
+                                pointer-events="all" />
+                        </g>
+                        <g>
+                            <g transform="translate(-0.5 -0.5)">
+                                <switch>
+                                    <foreignObject pointer-events="none" width="100%" height="100%"
+                                        requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
+                                        style="overflow: visible; text-align: left;">
+                                        <div xmlns="http://www.w3.org/1999/xhtml"
+                                            style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 78px; height: 1px; padding-top: 211px; margin-left: 267px;">
+                                            <div data-drawio-colors="color: rgb(0, 0, 0); "
+                                                style="box-sizing: border-box; font-size: 0px; text-align: center;">
+                                                <div
+                                                    style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: normal; overflow-wrap: normal;">
+                                                    Proposal creation</div>
+                                            </div>
+                                        </div>
+                                    </foreignObject><text x="306" y="215" fill="rgb(0, 0, 0)"
+                                        font-family="&quot;Helvetica&quot;" font-size="12px"
+                                        text-anchor="middle">Proposal crea...</text>
+                                </switch>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+                <g data-cell-id="36">
+                    <g id="cell-36">
+                        <g>
+                            <path
+                                d="M 509.83 110.5 L 506.17 110.5 L 506.17 85.86 L 499.94 85.86 L 508 74.5 L 516.06 85.86 L 509.83 85.86 Z"
+                                fill="#faf0ff" stroke="#b266ff" stroke-miterlimit="10" stroke-dasharray="1 1"
+                                pointer-events="all" />
+                        </g>
+                    </g>
+                </g>
+                <g data-cell-id="37">
+                    <g id="cell-37">
+                        <g>
+                            <path d="M 506.17 241.5 L 509.83 241.5 L 509.83 300.5 L 506.17 300.5 Z" fill="#faf0ff"
+                                stroke="#b266ff" stroke-miterlimit="10" stroke-dasharray="1 1" pointer-events="all" />
+                        </g>
+                    </g>
+                </g>
+                <g data-cell-id="32">
+                    <g id="cell-32">
+                        <g style="filter: drop-shadow(rgba(0, 0, 0, 0.25) 2px 3px 2px);">
+                            <rect x="468" y="301" width="80" height="30" rx="4.5" ry="4.5" fill-opacity="0.8"
+                                fill="#f9edfc" stroke="#cc99ff" stroke-opacity="0.8" stroke-dasharray="8 8"
+                                pointer-events="all" />
+                        </g>
+                        <g>
+                            <g transform="translate(-0.5 -0.5)">
+                                <switch>
+                                    <foreignObject pointer-events="none" width="100%" height="100%"
+                                        requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
+                                        style="overflow: visible; text-align: left;">
+                                        <div xmlns="http://www.w3.org/1999/xhtml"
+                                            style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 78px; height: 1px; padding-top: 316px; margin-left: 469px;">
+                                            <div data-drawio-colors="color: rgb(0, 0, 0); "
+                                                style="box-sizing: border-box; font-size: 0px; text-align: center;">
+                                                <div
+                                                    style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: normal; overflow-wrap: normal;">
+                                                    <font style="font-size: 11px;">Vote<br />recording</font>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </foreignObject><text x="508" y="320" fill="rgb(0, 0, 0)"
+                                        font-family="&quot;Helvetica&quot;" font-size="12px" text-anchor="middle">Vote
+                                        recor...</text>
+                                </switch>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+                <g data-cell-id="40">
+                    <g id="cell-40">
+                        <g>
+                            <path
+                                d="M 509.83 170.61 L 514.55 170.61 L 508 180.5 L 501.45 170.61 L 506.17 170.61 L 506.17 141.5 L 509.83 141.5 Z"
+                                fill="#faf0ff" stroke="#b266ff" stroke-miterlimit="10" stroke-dasharray="1 1"
+                                pointer-events="all" />
+                        </g>
+                    </g>
+                </g>
+                <g data-cell-id="39">
+                    <g id="cell-39">
+                        <g style="filter: drop-shadow(rgba(0, 0, 0, 0.25) 2px 3px 2px);">
+                            <rect x="468" y="111" width="80" height="30" rx="4.5" ry="4.5" fill-opacity="0.8"
+                                fill="#f9edfc" stroke="#cc99ff" stroke-opacity="0.8" stroke-dasharray="8 8"
+                                pointer-events="all" />
+                        </g>
+                        <g>
+                            <g transform="translate(-0.5 -0.5)">
+                                <switch>
+                                    <foreignObject pointer-events="none" width="100%" height="100%"
+                                        requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
+                                        style="overflow: visible; text-align: left;">
+                                        <div xmlns="http://www.w3.org/1999/xhtml"
+                                            style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 78px; height: 1px; padding-top: 126px; margin-left: 469px;">
+                                            <div data-drawio-colors="color: rgb(0, 0, 0); "
+                                                style="box-sizing: border-box; font-size: 0px; text-align: center;">
+                                                <div
+                                                    style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: normal; overflow-wrap: normal;">
+                                                    <span style="font-size: 11px;">Read Voting Power</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </foreignObject><text x="508" y="130" fill="rgb(0, 0, 0)"
+                                        font-family="&quot;Helvetica&quot;" font-size="12px" text-anchor="middle">Read
+                                        Voting...</text>
+                                </switch>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+                <g data-cell-id="42">
+                    <g id="cell-42">
+                        <g>
+                            <path d="M 326 44 L 429.63 44" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10"
+                                pointer-events="stroke" />
+                            <path d="M 434.88 44 L 427.88 47.5 L 429.63 44 L 427.88 40.5 Z" fill="rgb(0, 0, 0)"
+                                stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="all" />
+                        </g>
+                    </g>
+                </g>
+                <g data-cell-id="44">
+                    <g id="cell-44">
+                        <g>
+                            <path d="M 176 44 L 246 44" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10"
+                                pointer-events="stroke" />
+                        </g>
+                    </g>
+                </g>
+                <g data-cell-id="43">
+                    <g id="cell-43" content="&lt;object label=&quot;Enregistre le power voting&quot;/&gt;"
+                        data-label="Enregistre le power voting">
+                        <g style="filter: drop-shadow(rgba(0, 0, 0, 0.25) 2px 3px 2px);">
+                            <rect x="246" y="29" width="80" height="30" rx="4.5" ry="4.5" fill-opacity="0.8"
+                                fill="#f8cecc" stroke="#b85450" stroke-opacity="0.8" stroke-dasharray="8 8"
+                                pointer-events="all" />
+                        </g>
+                        <g>
+                            <g transform="translate(-0.5 -0.5)">
+                                <switch>
+                                    <foreignObject pointer-events="none" width="100%" height="100%"
+                                        requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
+                                        style="overflow: visible; text-align: left;">
+                                        <div xmlns="http://www.w3.org/1999/xhtml"
+                                            style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 78px; height: 1px; padding-top: 44px; margin-left: 247px;">
+                                            <div data-drawio-colors="color: rgb(0, 0, 0); "
+                                                style="box-sizing: border-box; font-size: 0px; text-align: center;">
+                                                <div
+                                                    style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: normal; overflow-wrap: normal;">
+                                                    Records voting power</div>
+                                            </div>
+                                        </div>
+                                    </foreignObject><text x="286" y="48" fill="rgb(0, 0, 0)"
+                                        font-family="&quot;Helvetica&quot;" font-size="12px"
+                                        text-anchor="middle">Records voti...</text>
+                                </switch>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+                <g data-cell-id="47">
+                    <g id="cell-47">
+                        <g>
+                            <path d="M 665 181 L 705 211 L 665 241 L 625 211 Z" fill="#ffffc0" stroke="#ff0000"
+                                stroke-miterlimit="10" pointer-events="all" />
+                        </g>
+                        <g>
+                            <g transform="translate(-0.5 -0.5)">
+                                <switch>
+                                    <foreignObject pointer-events="none" width="100%" height="100%"
+                                        requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
+                                        style="overflow: visible; text-align: left;">
+                                        <div xmlns="http://www.w3.org/1999/xhtml"
+                                            style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 78px; height: 1px; padding-top: 211px; margin-left: 626px;">
+                                            <div data-drawio-colors="color: #000000; "
+                                                style="box-sizing: border-box; font-size: 0px; text-align: center;">
+                                                <div
+                                                    style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: normal; overflow-wrap: normal;">
+                                                    Vote<br />Result</div>
+                                            </div>
+                                        </div>
+                                    </foreignObject><text x="665" y="215" fill="#000000"
+                                        font-family="&quot;Helvetica&quot;" font-size="12px"
+                                        text-anchor="middle">Vote...</text>
+                                </switch>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+                <g data-cell-id="48">
+                    <g id="cell-48">
+                        <g>
+                            <path d="M 705 211 L 822.76 211" fill="none" stroke="#00cc00" stroke-miterlimit="10"
+                                pointer-events="stroke" />
+                            <path d="M 814.88 215.5 L 823.88 211 L 814.88 206.5" fill="none" stroke="#00cc00"
+                                stroke-miterlimit="10" pointer-events="all" />
+                        </g>
+                        <g>
+                            <g transform="translate(-0.5 -0.5)">
+                                <switch>
+                                    <foreignObject pointer-events="none" width="100%" height="100%"
+                                        requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
+                                        style="overflow: visible; text-align: left;">
+                                        <div xmlns="http://www.w3.org/1999/xhtml"
+                                            style="display: flex; align-items: unsafe flex-end; justify-content: unsafe flex-start; width: 1px; height: 1px; padding-top: 208px; margin-left: 707px;">
+                                            <div data-drawio-colors="color: rgb(0, 0, 0); background-color: rgb(255, 255, 255); "
+                                                style="box-sizing: border-box; font-size: 0px; text-align: left;">
+                                                <div
+                                                    style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; background-color: rgb(255, 255, 255); white-space: nowrap;">
+                                                    Yes</div>
+                                            </div>
+                                        </div>
+                                    </foreignObject><text x="707" y="208" fill="rgb(0, 0, 0)"
+                                        font-family="&quot;Helvetica&quot;" font-size="12px">Yes</text>
+                                </switch>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+                <g data-cell-id="49">
+                    <g id="cell-49">
+                        <g>
+                            <path d="M 665 241 L 665 271 L 665 298.76" fill="none" stroke="#ff0000"
+                                stroke-miterlimit="10" pointer-events="stroke" />
+                            <path d="M 660.5 290.88 L 665 299.88 L 669.5 290.88" fill="none" stroke="#ff0000"
+                                stroke-miterlimit="10" pointer-events="all" />
+                        </g>
+                        <g>
+                            <g transform="translate(-0.5 -0.5)">
+                                <switch>
+                                    <foreignObject pointer-events="none" width="100%" height="100%"
+                                        requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
+                                        style="overflow: visible; text-align: left;">
+                                        <div xmlns="http://www.w3.org/1999/xhtml"
+                                            style="display: flex; align-items: unsafe flex-start; justify-content: unsafe flex-start; width: 1px; height: 1px; padding-top: 248px; margin-left: 667px;">
+                                            <div data-drawio-colors="color: rgb(0, 0, 0); background-color: rgb(255, 255, 255); "
+                                                style="box-sizing: border-box; font-size: 0px; text-align: left;">
+                                                <div
+                                                    style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; background-color: rgb(255, 255, 255); white-space: nowrap;">
+                                                    No</div>
+                                            </div>
+                                        </div>
+                                    </foreignObject><text x="667" y="260" fill="rgb(0, 0, 0)"
+                                        font-family="&quot;Helvetica&quot;" font-size="12px">No</text>
+                                </switch>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+                <g data-cell-id="50">
+                    <g id="cell-50">
+                        <g>
+                            <path d="M 580 211 L 618.63 211" fill="none" stroke="#9673a6" stroke-miterlimit="10"
+                                pointer-events="stroke" />
+                            <path d="M 623.88 211 L 616.88 214.5 L 618.63 211 L 616.88 207.5 Z" fill="none"
+                                stroke="#9673a6" stroke-miterlimit="10" pointer-events="all" />
+                        </g>
+                    </g>
+                </g>
+                <g data-cell-id="51">
+                    <g id="cell-51">
+                        <g style="filter: drop-shadow(rgba(0, 0, 0, 0.25) 2px 3px 2px);">
+                            <rect x="625" y="301" width="80" height="30" rx="4.5" ry="4.5" fill-opacity="0.8"
+                                fill="#f9edfc" stroke="#cc99ff" stroke-opacity="0.8" stroke-dasharray="8 8"
+                                pointer-events="all" />
+                        </g>
+                        <g>
+                            <g transform="translate(-0.5 -0.5)">
+                                <switch>
+                                    <foreignObject pointer-events="none" width="100%" height="100%"
+                                        requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
+                                        style="overflow: visible; text-align: left;">
+                                        <div xmlns="http://www.w3.org/1999/xhtml"
+                                            style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 78px; height: 1px; padding-top: 316px; margin-left: 626px;">
+                                            <div data-drawio-colors="color: rgb(0, 0, 0); "
+                                                style="box-sizing: border-box; font-size: 0px; text-align: center;">
+                                                <div
+                                                    style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: normal; overflow-wrap: normal;">
+                                                    <span style="font-size: 11px;">Proposal Cancelled</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </foreignObject><text x="665" y="320" fill="rgb(0, 0, 0)"
+                                        font-family="&quot;Helvetica&quot;" font-size="12px"
+                                        text-anchor="middle">Proposal Canc...</text>
+                                </switch>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+                <g data-cell-id="53">
+                    <g id="cell-53">
+                        <g />
+                    </g>
+                    <g data-cell-id="54">
+                        <g id="cell-54">
+                            <g>
+                                <rect x="825" y="181" width="144" height="60" rx="9" ry="9" fill="#e1d5e7"
+                                    stroke="#9673a6" pointer-events="all" />
+                            </g>
+                            <g>
+                                <g transform="translate(-0.5 -0.5)">
+                                    <switch>
+                                        <foreignObject pointer-events="none" width="100%" height="100%"
+                                            requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
+                                            style="overflow: visible; text-align: left;">
+                                            <div xmlns="http://www.w3.org/1999/xhtml"
+                                                style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 142px; height: 1px; padding-top: 211px; margin-left: 826px;">
+                                                <div data-drawio-colors="color: rgb(0, 0, 0); "
+                                                    style="box-sizing: border-box; font-size: 0px; text-align: center;">
+                                                    <div
+                                                        style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: normal; overflow-wrap: normal;">
+                                                        REGTreasuryDAO</div>
+                                                </div>
+                                            </div>
+                                        </foreignObject><text x="897" y="215" fill="rgb(0, 0, 0)"
+                                            font-family="&quot;Helvetica&quot;" font-size="12px"
+                                            text-anchor="middle">REGTreasuryDAO</text>
+                                    </switch>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                    <g data-cell-id="55">
+                        <g id="cell-55">
+                            <g>
+                                <image x="944.5" y="166.5" width="35" height="34"
+                                    xlink:href="https://embed.diagrams.net/img/lib/ibm/blockchain/smart_contract.svg" />
+                            </g>
+                        </g>
+                    </g>
+                </g>
+                <g data-cell-id="58">
+                    <g id="cell-58">
+                        <g style="filter: drop-shadow(rgba(0, 0, 0, 0.25) 2px 3px 2px);">
+                            <rect x="752" y="214" width="50" height="30" rx="4.5" ry="4.5" fill-opacity="0.8"
+                                fill="#f9edfc" stroke="#cc99ff" stroke-opacity="0.8" stroke-dasharray="8 8"
+                                pointer-events="all" />
+                        </g>
+                        <g>
+                            <g transform="translate(-0.5 -0.5)">
+                                <switch>
+                                    <foreignObject pointer-events="none" width="100%" height="100%"
+                                        requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
+                                        style="overflow: visible; text-align: left;">
+                                        <div xmlns="http://www.w3.org/1999/xhtml"
+                                            style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 48px; height: 1px; padding-top: 229px; margin-left: 753px;">
+                                            <div data-drawio-colors="color: rgb(0, 0, 0); "
+                                                style="box-sizing: border-box; font-size: 0px; text-align: center;">
+                                                <div
+                                                    style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: normal; overflow-wrap: normal;">
+                                                    <span style="font-size: 11px;">Queue</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </foreignObject><text x="777" y="233" fill="rgb(0, 0, 0)"
+                                        font-family="&quot;Helvetica&quot;" font-size="12px"
+                                        text-anchor="middle">Queue</text>
+                                </switch>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+                <g data-cell-id="61">
+                    <g id="cell-61">
+                        <g>
+                            <image x="871.5" y="330.5" width="50" height="60"
+                                xlink:href="https://embed.diagrams.net/img/clipart/Gear_128x128.png"
+                                preserveAspectRatio="none" />
+                        </g>
+                    </g>
+                </g>
+                <g data-cell-id="62">
+                    <g id="cell-62">
+                        <g>
+                            <path d="M 897.5 297 L 897.09 324.63" fill="none" stroke="rgb(0, 0, 0)"
+                                stroke-miterlimit="10" pointer-events="stroke" />
+                            <path d="M 897.02 329.88 L 893.62 322.83 L 897.09 324.63 L 900.62 322.93 Z"
+                                fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="all" />
+                        </g>
+                    </g>
+                </g>
+                <g data-cell-id="64">
+                    <g id="cell-64">
+                        <g>
+                            <path d="M 897 241 L 897.5 267" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10"
+                                pointer-events="stroke" />
+                        </g>
+                    </g>
+                </g>
+                <g data-cell-id="63">
+                    <g id="cell-63">
+                        <g style="filter: drop-shadow(rgba(0, 0, 0, 0.25) 2px 3px 2px);">
+                            <rect x="866" y="267" width="63" height="30" rx="4.5" ry="4.5" fill-opacity="0.8"
+                                fill="#f9edfc" stroke="#cc99ff" stroke-opacity="0.8" stroke-dasharray="8 8"
+                                pointer-events="all" />
+                        </g>
+                        <g>
+                            <g transform="translate(-0.5 -0.5)">
+                                <switch>
+                                    <foreignObject pointer-events="none" width="100%" height="100%"
+                                        requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
+                                        style="overflow: visible; text-align: left;">
+                                        <div xmlns="http://www.w3.org/1999/xhtml"
+                                            style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 61px; height: 1px; padding-top: 282px; margin-left: 867px;">
+                                            <div data-drawio-colors="color: rgb(0, 0, 0); "
+                                                style="box-sizing: border-box; font-size: 0px; text-align: center;">
+                                                <div
+                                                    style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: normal; overflow-wrap: normal;">
+                                                    <span style="font-size: 11px;">Execution</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </foreignObject><text x="898" y="286" fill="rgb(0, 0, 0)"
+                                        font-family="&quot;Helvetica&quot;" font-size="12px"
+                                        text-anchor="middle">Execution</text>
+                                </switch>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+    <switch>
+        <g requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" /><a transform="translate(0,-5)"
+            xlink:href="https://www.drawio.com/doc/faq/svg-export-text-problems" target="_blank"><text
+                text-anchor="middle" font-size="10px" x="50%" y="100%">Text is not SVG - cannot display</text></a>
+    </switch>
+</svg>
