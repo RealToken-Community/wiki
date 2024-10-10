@@ -1,3 +1,13 @@
+---
+title: Ressources
+description: 
+published: true
+date: 2024-10-10T09:40:54.742Z
+tags: 
+editor: markdown
+dateCreated: 2024-10-10T08:56:04.567Z
+---
+
 # 7. Resources and support
 
 ## 7.1. Technical documentation

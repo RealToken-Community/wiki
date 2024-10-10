@@ -1,3 +1,13 @@
+---
+title: Perspectives
+description: 
+published: true
+date: 2024-10-10T09:40:46.010Z
+tags: 
+editor: markdown
+dateCreated: 2024-10-10T08:55:56.276Z
+---
+
 # 6. Future Perspectives
 
 ## 6.1. Planned evolutions of the DAO

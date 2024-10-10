@@ -1,3 +1,13 @@
+---
+title: 1. Introduction aux DAO
+description: 
+published: true
+date: 2024-10-10T09:41:30.305Z
+tags: 
+editor: markdown
+dateCreated: 2024-10-08T08:37:40.653Z
+---
+
 # 5. Practical Guide
 
 ## **5.1. How to participate in the DAO**

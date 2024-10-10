@@ -2,7 +2,7 @@
 title: 3. Phase1, Version simplifiée
 description: 
 published: true
-date: 2024-10-09T08:36:02.849Z
+date: 2024-10-10T09:41:37.445Z
 tags: 
 editor: markdown
 dateCreated: 2024-10-08T08:37:50.764Z
