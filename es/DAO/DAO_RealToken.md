@@ -1,10 +1,20 @@
+---
+title: DAO_RealToken
+description: 
+published: true
+date: 2024-10-10T17:06:54.807Z
+tags: 
+editor: markdown
+dateCreated: 2024-10-10T16:45:58.982Z
+---
+
 ## **2.1. Objetivos y visión de la DAO RealToken**
 
 #### **⭐ Para principiantes**
 
 La DAO RealToken (REG) tiene como objetivo crear una comunidad descentralizada donde los poseedores de tokens `REG` puedan participar en las decisiones importantes del ecosistema de aplicaciones descentralizadas (DApps) utilizables por los tokens Realtokens. La idea es hacer que la inversión en activos del mundo físico sea lo más accesible, líquida y transparente posible, al tiempo que se ofrecen más oportunidades y casos de uso a los inversores con sus inversiones. Un usuario puede participar en la gobernanza de la DAO con la posesión de REG, y realizar inversiones a través de la compra y posesión de tokens Realtoken, puede ser uno u otro o ambos, no es necesario poseer tokens Realtoken para participar en la gobernanza de la DAO, como no es necesario poseer tokens REG para utilizar los servicios de la DAO.
 
-> REG = gobernanza DAO
+> REG = Realtoken Ecosystem Governance
 > {.is-info}
 
 > Realtoken = Inversión tokenizada
@@ -161,9 +171,22 @@ El papel de los poseedores de REG es multidimensional y crucial para el ecosiste
 8.  Resolución de conflictos:
     - Participar en mecanismos de resolución de disputas dentro de la comunidad,
     - Votar sobre propuestas para abordar desafíos o controversias importantes.
-9.  Evolución del token REG:
-    - Proponer y votar sobre cambios en la tokenomics del REG,
-    - Participar en decisiones sobre la distribución y quema de tokens,
-    - Contribuir a la definición de nuevos casos de uso para el token REG dentro del ecosistema.
-10. Interoperabilidad y colaboraciones: - Evaluar y votar sobre propuestas de colaboración con otros proyectos blockchain, - Participar en la toma de decisiones sobre la integración con otras DAOs o protocolos DeFi.
-    Los poseedores de REG tienen la responsabilidad de mantenerse informados sobre los desarrollos del ecosistema, participar activamente en las discusiones y votaciones, y actuar en el mejor interés de la DAO y su comunidad en general.
+Los `poseedores de REG` tienen un papel determinante en el ecosistema, son a la vez `los guardianes` de la tesorería de la `DAO` pero también los que deciden su futuro, velando por la estabilidad y seguridad del ecosistema mientras se benefician de ventajas en el uso de los servicios de la DAO.
+
+## ⭐Resumen
+En este punto es importante subrayar la importancia de la distinción entre el REG, es decir la DAO, y los Realtokens, las inversiones en activos tokenizados.
+La DAO a través del REG da un derecho sobre el ecosistema de aplicaciones descentralizadas, y todos los servicios relacionados con la DAO.
+Los Realtokens (inversión en activos) dan individualmente derechos sobre sus subyacentes.
+La DAO controlará varias aplicaciones descentralizadas que serán utilizadas por clientes de la DAO (los inversores en activos tokenizados con Realtokens), estas aplicaciones podrán cobrar tarifas, ofrecer funciones premium, o ser gratuitas según las decisiones de la DAO.
+
+
+> Estas dos clases de tokens son complementarias y pueden ser poseídas y utilizadas en dúo o individualmente según el perfil de cada uno.
+{.is-info}
+
+> **El REG** no da ningún derecho sobre los activos tokenizados, su gestión, ni sobre la gobernanza de las empresas que operan como socios, el único derecho sobre estas últimas deriva de los mandatos otorgados por la DAO.
+{.is-danger}
+
+> **Los Realtokens** no dan ningún derecho sobre la gestión, la tesorería o los diversos bonos relacionados con el ecosistema, los Realtokens representan únicamente los derechos sobre el activo subyacente.
+{.is-danger}
+
+[Página siguiente](/es/DAO/Phase1)
