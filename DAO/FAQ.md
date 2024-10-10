@@ -1,8 +1,8 @@
 ---
-title: FAQ
+title: 8. FAQ
 description: 
 published: true
-date: 2024-10-10T12:43:09.272Z
+date: 2024-10-10T16:02:32.189Z
 tags: 
 editor: markdown
 dateCreated: 2024-10-10T08:55:44.366Z
