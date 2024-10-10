@@ -1,3 +1,13 @@
+---
+title: 8. FAQ
+description: 
+published: true
+date: 2024-10-10T17:54:23.396Z
+tags: 
+editor: markdown
+dateCreated: 2024-10-10T16:46:03.587Z
+---
+
 ## 8.1 Fundamentos de la DAO ⭐
 
 > P: ¿Qué es el REG y cómo se obtiene?
