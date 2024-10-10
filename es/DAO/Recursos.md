@@ -1,8 +1,8 @@
 ---
-title: 7. Ressources et support
+title: 7. Recursos y apoyo
 description: 
 published: true
-date: 2024-10-10T17:53:19.683Z
+date: 2024-10-10T17:53:52.855Z
 tags: 
 editor: markdown
 dateCreated: 2024-10-10T16:46:32.488Z
