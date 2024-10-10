@@ -1,3 +1,13 @@
+---
+title: 7. Ressources et support
+description: 
+published: true
+date: 2024-10-10T17:53:19.683Z
+tags: 
+editor: markdown
+dateCreated: 2024-10-10T16:46:32.488Z
+---
+
 ## 7.1. Documentación técnica
 
 ### 7.1.1. Contratos inteligentes v1 ⭐⭐⭐
