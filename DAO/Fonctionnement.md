@@ -2,7 +2,7 @@
 title: 4. Technical operation of the DAO REG
 description: 
 published: true
-date: 2024-10-10T16:14:51.835Z
+date: 2024-10-10T16:37:47.487Z
 tags: 
 editor: markdown
 dateCreated: 2024-10-08T08:36:22.466Z
@@ -221,4 +221,4 @@ New types of rewards will be introduced such as dark matter from Cityzen NFTs, s
 
 The RealToken ecosystem is designed to have numerous tools for optimizing participation in votes, and encouraging various actions and contributions that are beneficial to the DAO while allowing precise control of the DAO's finances to avoid squandering the treasury or devaluing the REG token.
 
-[Next Page](/en/DAO/Practical_Guide)
+[Next Page](/en/DAO/Guide_Pratique)
