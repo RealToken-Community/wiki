@@ -1,3 +1,13 @@
+---
+title: 5. Guía práctica para titulares de REG
+description: 
+published: true
+date: 2024-10-10T17:51:44.774Z
+tags: 
+editor: markdown
+dateCreated: 2024-10-10T16:46:18.361Z
+---
+
 El siguiente documento es una guía para descubrir las cinco nuevas aplicaciones del ecosistema RealTokens:
 Te ayudará a:
 
