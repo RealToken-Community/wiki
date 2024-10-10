@@ -2,7 +2,7 @@
 title: Guide_Pratique
 description: 
 published: true
-date: 2024-10-10T12:44:08.513Z
+date: 2024-10-10T17:51:58.457Z
 tags: 
 editor: markdown
 dateCreated: 2024-10-10T09:51:45.594Z
@@ -19,6 +19,7 @@ Il vous aidera :
 
 [Télécharger le guide PDF](/fr/fr/documents/tuto_gouvernance_dao_v2.pdf)
 
-![schema_dao_v2.jpg](/fr/fr/assets/img/schema_dao_v2.jpg){.img75 .center}
+![dao_gov_en.svg](/imag-en/dao_gov_en.svg){.img75 .center}
+
 
 [Page suivante](/fr/DAO/Perspectives)
