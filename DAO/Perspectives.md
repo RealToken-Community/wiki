@@ -1,8 +1,8 @@
 ---
-title: Perspectives
+title: 6. Future prospects
 description: 
 published: true
-date: 2024-10-10T09:40:46.010Z
+date: 2024-10-10T12:15:30.963Z
 tags: 
 editor: markdown
 dateCreated: 2024-10-10T08:55:56.276Z
