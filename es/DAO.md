@@ -1,3 +1,13 @@
+---
+title: DAO
+description: 
+published: true
+date: 2024-10-10T17:19:18.855Z
+tags: 
+editor: markdown
+dateCreated: 2024-10-10T16:45:54.264Z
+---
+
 # Bienvenido a la DAO RealToken
 
 ## Nuestra visión
