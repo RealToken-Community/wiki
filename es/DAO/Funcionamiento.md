@@ -1,3 +1,13 @@
+---
+title: 4. Operación técnica del DAO REG
+description: 
+published: true
+date: 2024-10-10T17:51:07.515Z
+tags: 
+editor: markdown
+dateCreated: 2024-10-10T16:46:13.369Z
+---
+
 ## **4.1. Contratos inteligentes principales**
 
 #### **Direcciones de los contratos inteligentes:**
