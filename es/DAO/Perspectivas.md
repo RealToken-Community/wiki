@@ -1,3 +1,13 @@
+---
+title: Perspectivas
+description: 
+published: true
+date: 2024-10-10T17:52:11.735Z
+tags: 
+editor: markdown
+dateCreated: 2024-10-10T16:46:27.918Z
+---
+
 ## 6.1. Evoluciones previstas de la DAO
 
 #### ⭐ Para principiantes
