@@ -2,7 +2,7 @@
 title: 4. Technical operation of the DAO REG
 description: 
 published: true
-date: 2024-10-10T09:40:38.639Z
+date: 2024-10-10T12:43:12.755Z
 tags: 
 editor: markdown
 dateCreated: 2024-10-08T08:36:22.466Z

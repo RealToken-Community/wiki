@@ -2,7 +2,7 @@
 title: Tuto
 description: 
 published: true
-date: 2024-10-10T09:41:09.872Z
+date: 2024-10-10T12:43:47.139Z
 tags: 
 editor: markdown
 dateCreated: 2024-10-08T08:38:00.887Z

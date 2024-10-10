@@ -2,7 +2,7 @@
 title: 5. Practical guide for REG holders
 description: 
 published: true
-date: 2024-10-10T12:14:52.436Z
+date: 2024-10-10T12:43:26.567Z
 tags: 
 editor: markdown
 dateCreated: 2024-10-10T09:51:40.828Z

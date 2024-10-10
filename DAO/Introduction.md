@@ -2,7 +2,7 @@
 title: 1. Introduction to DAOs
 description: 
 published: true
-date: 2024-10-10T10:21:47.482Z
+date: 2024-10-10T12:43:16.162Z
 tags: 
 editor: markdown
 dateCreated: 2024-10-08T08:36:27.047Z

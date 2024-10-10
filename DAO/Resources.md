@@ -2,7 +2,7 @@
 title: Ressources
 description: 
 published: true
-date: 2024-10-10T09:40:54.742Z
+date: 2024-10-10T12:43:31.626Z
 tags: 
 editor: markdown
 dateCreated: 2024-10-10T08:56:04.567Z
