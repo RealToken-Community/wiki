@@ -2,7 +2,7 @@
 title: Welcome
 description: 
 published: true
-date: 2024-10-10T10:25:51.089Z
+date: 2024-10-10T10:28:43.158Z
 tags: 
 editor: markdown
 dateCreated: 2024-10-07T14:30:54.729Z
@@ -17,12 +17,7 @@ dateCreated: 2024-10-07T14:30:54.729Z
 
 # Introduction
 
-This Wiki is created and managed by the volunteer Community of 
-<a href="https://realt.co/" target="_blank">RealT</a> 
-
-[RealT](https://realt.co/){:target="_blank"} 
-
-investors.  
+This Wiki is created and managed by the volunteer Community of [RealT](https://realt.co/){.blank} investors.  
 On the occasion of the launch of the RealToken DAO, this new Wiki complements the [existing one](https://community-realt.gitbook.io/tuto-community) (with another solution: Wiki.js vs Gitbook). It is set up to test a solution that should offer more flexibility and contribution possibilities for the entire community.  
 The first articles therefore concern the DAO and are created here as a test. If this proves conclusive, other topics will follow...  
 Happy reading and thank you for your feedback and contributions.
