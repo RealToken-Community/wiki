@@ -2,7 +2,7 @@
 title: 4. Operación técnica del DAO REG
 description: 
 published: true
-date: 2024-10-10T17:51:07.515Z
+date: 2024-10-11T05:14:35.692Z
 tags: 
 editor: markdown
 dateCreated: 2024-10-10T16:46:13.369Z
