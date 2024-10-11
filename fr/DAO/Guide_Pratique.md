@@ -2,7 +2,7 @@
 title: Guide_Pratique
 description: 
 published: true
-date: 2024-10-10T17:51:58.457Z
+date: 2024-10-11T05:16:29.542Z
 tags: 
 editor: markdown
 dateCreated: 2024-10-10T09:51:45.594Z
