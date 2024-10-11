@@ -1,8 +1,8 @@
 ---
-title: 8. FAQ
+title: 8. Questions / Réponses fréquentes
 description: 
 published: true
-date: 2024-10-10T12:44:00.551Z
+date: 2024-10-11T13:22:22.115Z
 tags: 
 editor: markdown
 dateCreated: 2024-10-08T08:37:26.457Z
