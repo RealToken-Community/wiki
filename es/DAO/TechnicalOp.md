@@ -2,7 +2,7 @@
 title: 4. Operación técnica del DAO REG
 description: 
 published: true
-date: 2024-10-11T05:14:35.692Z
+date: 2024-10-11T05:32:56.055Z
 tags: 
 editor: markdown
 dateCreated: 2024-10-10T16:46:13.369Z
@@ -221,4 +221,3 @@ Se introducirán nuevos tipos de recompensas como la materia oscura de los NFT C
 
 El ecosistema RealToken está pensado para disponer de numerosas herramientas de optimización de participación en las votaciones, y fomentar las acciones y contribuciones diversas que son beneficiosas para la DAO, al tiempo que permite un control preciso de las finanzas de la DAO para no dilapidar la tesorería o devaluar el token REG.
 
-[Página siguiente](/es/DAO/Guia_Practica)
