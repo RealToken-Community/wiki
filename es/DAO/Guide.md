@@ -2,7 +2,7 @@
 title: 5. Guía práctica para titulares de REG
 description: 
 published: true
-date: 2024-10-11T05:19:46.085Z
+date: 2024-10-11T05:34:09.784Z
 tags: 
 editor: markdown
 dateCreated: 2024-10-10T16:46:18.361Z
@@ -21,4 +21,3 @@ Te ayudará a:
 
 ![dao_gov_en.svg](/imag-en/dao_gov_en.svg){.img75 .center}
 
-[Página siguiente](/es/DAO/Perspectivas)
