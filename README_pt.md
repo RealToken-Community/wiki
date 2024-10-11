@@ -2,7 +2,7 @@
 title: README
 description: 
 published: true
-date: 2024-10-10T12:42:53.246Z
+date: 2024-10-11T04:51:49.982Z
 tags: 
 editor: markdown
 dateCreated: 2024-10-08T08:36:48.389Z
@@ -61,7 +61,7 @@ Contribuições para esta Wiki são bem-vindas. Aqui está como você pode parti
 3. Clique no botão "Editar" no canto superior direito,
 4. Faça suas modificações,
 5. Clique em "Salvar" no canto superior direito,
-6. Sua modificação é enviada para a equipe de administração que irá validá-la e adicioná-la à versão online.
+
 
 ## Como Contribuir para o Código da Wiki
 
