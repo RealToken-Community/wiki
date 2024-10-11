@@ -1,8 +1,8 @@
 ---
-title: Guide_Pratique
+title: Guide
 description: 
 published: true
-date: 2024-10-11T05:16:29.542Z
+date: 2024-10-11T05:33:51.218Z
 tags: 
 editor: markdown
 dateCreated: 2024-10-10T09:51:45.594Z
@@ -22,4 +22,3 @@ Il vous aidera :
 ![dao_gov_en.svg](/imag-en/dao_gov_en.svg){.img75 .center}
 
 
-[Page suivante](/fr/DAO/Perspectives)
