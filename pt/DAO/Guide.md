@@ -1,8 +1,8 @@
 ---
-title: 5. Guia
+title: 5. Guia practica
 description: 
 published: true
-date: 2024-10-11T09:54:36.388Z
+date: 2024-10-11T13:40:21.684Z
 tags: 
 editor: markdown
 dateCreated: 2024-10-11T09:54:36.388Z
