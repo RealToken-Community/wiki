@@ -1,8 +1,8 @@
 ---
-title: 3. Phase1, Version simplifiée
+title: 3. Fase 1: versión simplificada
 description: 
 published: true
-date: 2024-10-11T05:31:32.459Z
+date: 2024-10-11T13:35:47.441Z
 tags: 
 editor: markdown
 dateCreated: 2024-10-10T16:46:08.623Z
