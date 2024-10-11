@@ -1,8 +1,8 @@
 ---
-title: 2. DAO_RealToken
+title: 2. O DAO_RealToken
 description: 
 published: true
-date: 2024-10-11T09:43:35.184Z
+date: 2024-10-11T13:39:02.952Z
 tags: 
 editor: markdown
 dateCreated: 2024-10-11T09:34:57.086Z
