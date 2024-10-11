@@ -2,7 +2,7 @@
 title: 2. DAO_RealToken
 description: 
 published: true
-date: 2024-10-10T18:20:54.198Z
+date: 2024-10-11T05:29:55.255Z
 tags: 
 editor: markdown
 dateCreated: 2024-10-08T08:36:17.271Z
@@ -194,4 +194,4 @@ The DAO will control several decentralized applications that will be used by DAO
 > **Realtokens** do not give any rights over the management, treasury, or various bonuses related to the ecosystem, Realtokens represent rights over the underlying asset only.
 > {.is-danger}
 
-[Next Page](/en/DAO/Phase1)
+
