@@ -2,7 +2,7 @@
 title: 7. Ressources et support
 description: 
 published: true
-date: 2024-10-10T12:44:24.522Z
+date: 2024-10-11T05:36:10.051Z
 tags: 
 editor: markdown
 dateCreated: 2024-10-08T08:37:55.787Z
@@ -243,4 +243,3 @@ Les interactions se font principalement avec les interfaces suivantes :
 -   GitHub : Dépôt des smart contracts → [Governance, incentive, treasury](https://github.com/real-token/reg-governance-core)
 -   GitHub : interfaces incentive → [github.com/real-token/voting-front/tree/incentive](https://github.com/real-token/voting-front/tree/incentive)
 
-[Page suivante](/fr/DAO/FAQ)
