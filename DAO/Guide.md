@@ -2,7 +2,7 @@
 title: 5. Practical guide for REG holders
 description: 
 published: true
-date: 2024-10-11T05:15:35.733Z
+date: 2024-10-11T05:34:24.361Z
 tags: 
 editor: markdown
 dateCreated: 2024-10-10T09:51:40.828Z
@@ -21,5 +21,3 @@ It will help you:
 
 ![dao_gov_en.svg](/imag-en/dao_gov_en.svg){.img75 .center}
 
-
-[Next Page](/en/DAO/Perspectives)
