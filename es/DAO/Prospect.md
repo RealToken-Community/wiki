@@ -2,7 +2,7 @@
 title: 6. Perspectivas de futuro
 description: 
 published: true
-date: 2024-10-11T05:23:17.454Z
+date: 2024-10-11T05:35:23.211Z
 tags: 
 editor: markdown
 dateCreated: 2024-10-10T16:46:27.918Z
@@ -203,4 +203,3 @@ Promover el ecosistema:
 Al contribuir en estos diferentes niveles, puede jugar un papel crucial en la configuración del futuro de la DAO RealToken y del ecosistema más amplio de la tokenización de activos clásicos.  
 **Cada contribución, sin importar su forma, es valiosa y puede ayudar enormemente** a llevar a cabo los diferentes objetivos de la DAO, permitiendo hacer crecer el ecosistema, haciendo evolucionar las posibilidades, y creando nuevas oportunidades.
 
-[Página siguiente](/es/DAO/Recursos)
