@@ -1,8 +1,8 @@
 ---
-title: DAO
+title: DAOs
 description: 
 published: true
-date: 2024-10-11T05:03:51.630Z
+date: 2024-10-11T05:06:50.930Z
 tags: 
 editor: markdown
 dateCreated: 2024-10-08T08:36:12.572Z
