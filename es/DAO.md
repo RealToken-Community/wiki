@@ -1,8 +1,8 @@
 ---
-title: DAOs
+title: DAO
 description: 
 published: true
-date: 2024-10-11T05:07:56.234Z
+date: 2024-10-11T13:31:43.330Z
 tags: 
 editor: markdown
 dateCreated: 2024-10-10T16:45:54.264Z
@@ -22,7 +22,6 @@ La DAO RealToken es una organización autónoma descentralizada diseñada para r
 - **Innovación constante**: Contribuye a la evolución de una plataforma que redefine los estándares de tokenización de activos tradicionales.
 - **Oportunidades**: Tus talentos puestos a disposición de la DAO podrían dar lugar a nuevos tipos de actividades lucrativas o no.
 
-![infografia_00001.svg](/es/es/assets/img/infografia_00001.svg){.align-center}
 
 ## Cómo participar
 
@@ -32,7 +31,6 @@ La DAO RealToken es una organización autónoma descentralizada diseñada para r
 4.  **Votar sobre las propuestas**: Expresa tu opinión sobre las decisiones clave de la DAO,
 5.  **Desempeñar un papel en la DAO**: Pon a disposición tus habilidades, desarrolla nuevas (conviértete en delegado, influencer, desarrollador, formador, etc.)
 
-![infografia_00002.svg](/es/es/assets/img/infografia_00002.svg){.align-center}
 
 ## Próximos pasos
 
@@ -57,4 +55,3 @@ El documento está dirigido tanto a personas experimentadas con las DAO como a a
 7.  [Recursos y soporte](/es/DAO/Recursos)
 8.  [Preguntas frecuentes](/es/DAO/FAQ)
 
-![infografia_00003.svg](/es/es/assets/img/infografia_00003.svg){.align-center}
