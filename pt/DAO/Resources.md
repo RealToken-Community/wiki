@@ -2,7 +2,7 @@
 title: 7. Recursos e apoio
 description: 
 published: true
-date: 2024-10-11T10:07:45.860Z
+date: 2024-10-11T10:18:01.521Z
 tags: 
 editor: markdown
 dateCreated: 2024-10-11T10:06:43.357Z
@@ -187,7 +187,7 @@ Contrato inteiramente criado pela RealT, as principais funções são:
 #### Diagramas de arquitetura:
 
 \[*Um diagrama que mostra as interações entre contratos*\]
-xxx #### 
+![diagram_en.svg](/assets/img/diagram_en.svg)
 
 
 Relatórios de auditoria de segurança:
