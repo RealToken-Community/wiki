@@ -2,7 +2,7 @@
 title: 7. Recursos y apoyo
 description: 
 published: true
-date: 2024-10-11T05:36:47.058Z
+date: 2024-10-11T10:19:06.420Z
 tags: 
 editor: markdown
 dateCreated: 2024-10-10T16:46:32.488Z
@@ -190,7 +190,7 @@ La documentación de los contratos inteligentes es esencial para comprender el f
 #### Diagramas de arquitectura:
 
 \[_Un diagrama mostrando las interacciones entre los contratos_\]
-xxxxxx
+![diagram_en.svg](/assets/img/diagram_en.svg)
 
 #### Informes de auditoría de seguridad:
 
