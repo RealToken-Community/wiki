@@ -1,0 +1,193 @@
+<!--
+Ce fichier est utiliser comme sauvegarde de la configuration des injections de style et de script dans le theme
+-->
+
+<!--
+injection de style CSS
+-->
+<style>
+    h3 {
+        margin-top: 20px
+    }
+
+    .center {
+        display: flex;
+        margin-left: auto;
+        margin-right: auto
+    }
+
+    .img25 {
+        width: 25%
+    }
+
+    .img50 {
+        width: 50%
+    }
+
+    .img75 {
+        width: 75%
+    }
+
+    .img100 {
+        width: 100%
+    }
+
+    .accordion-content {
+        display: none;
+        overflow: hidden;
+        transition: max-height .2s ease-out
+    }
+
+    .v-list-item>div {
+        display: inline-block;
+        vertical-align: middle
+    }
+
+    .v-subheader {
+        cursor: pointer
+    }
+
+    .v-main .contents blockquote.is-question {
+        background-color: #0d80a1bf;
+        border-color: #009b8fbd;
+        color: #0d47a1
+    }
+
+    .theme--dark .v-main .contents blockquote.is-question {
+        background-color: #0d80a1bf;
+        color: #e3f2fd;
+        border-color: #009b8fbd
+    }
+
+    .v-main .contents blockquote.is-question:before {
+        content: "?"
+    }
+
+    .v-main .contents blockquote.is-result {
+        background-color: #0a290a36;
+        border-color: #0c270e;
+        color: #0d47a1;
+        border-left: 12px solid
+    }
+
+    .theme--dark .v-main .contents blockquote.is-result {
+        background-color: #0a290a36;
+        color: #e3f2fd;
+        border-color: #0c270e;
+        margin-bottom: 50px;
+        margin-left: 40px
+    }
+
+    .v-main .contents blockquote.is-result:before {
+        content: "➥"
+    }
+
+    /* Ajoutez ces nouvelles règles CSS */
+    .v-navigation-drawer__content a {
+        text-decoration: none;
+        color: inherit;
+        display: block;
+        padding: 8px 16px;
+        transition: background-color 0.3s;
+    }
+
+    .v-navigation-drawer__content a.active {
+        background-color: rgba(0, 0, 0, 0.1);
+        font-weight: bold;
+    }
+
+    .theme--dark .v-navigation-drawer__content a.active {
+        background-color: rgba(255, 255, 255, 0.1);
+    }
+</style>
+
+<!--
+dans le head HTML
+-->
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/img/reg_logo_32x32.png">
+
+<!--
+injection de script pour la gestion des sous-menus
+-->
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        var subheaders = document.getElementsByClassName("v-subheader");
+
+        // Récupérer l'état sauvegardé
+        var savedState = localStorage.getItem('menuState');
+
+        function toggleSubMenu(subheader) {
+            var nextSibling = subheader.nextElementSibling;
+            var isOpen = false;
+            while (nextSibling && !nextSibling.classList.contains('v-subheader') && !nextSibling.classList.contains('v-divider')) {
+                if (nextSibling.style.display === "none") {
+                    nextSibling.style.display = "";
+                    isOpen = true;
+                } else {
+                    nextSibling.style.display = "none";
+                }
+                nextSibling = nextSibling.nextElementSibling;
+            }
+            return isOpen;
+        }
+
+        function closeAllSubMenus() {
+            for (var i = 0; i < subheaders.length; i++) {
+                var nextSibling = subheaders[i].nextElementSibling;
+                while (nextSibling && !nextSibling.classList.contains('v-subheader') && !nextSibling.classList.contains('v-divider')) {
+                    nextSibling.style.display = "none";
+                    nextSibling = nextSibling.nextElementSibling;
+                }
+            }
+        }
+
+        // Fermer tous les sous-menus par défaut
+        closeAllSubMenus();
+
+        for (var i = 0; i < subheaders.length; i++) {
+            subheaders[i].addEventListener("click", function () {
+                var currentState = localStorage.getItem('menuState');
+                var clickedMenu = this.textContent.trim();
+
+                closeAllSubMenus();
+
+                if (currentState !== clickedMenu) {
+                    toggleSubMenu(this);
+                    localStorage.setItem('menuState', clickedMenu);
+                } else {
+                    localStorage.removeItem('menuState');
+                }
+            });
+        }
+
+        // Ouvrir le sous-menu sauvegardé s'il existe
+        if (savedState) {
+            for (var i = 0; i < subheaders.length; i++) {
+                if (subheaders[i].textContent.trim() === savedState) {
+                    toggleSubMenu(subheaders[i]);
+                    break;
+                }
+            }
+        }
+
+        // Ajoutez cette nouvelle fonction
+        function setActiveLink() {
+            var links = document.querySelectorAll('.v-navigation-drawer__content a');
+            var currentPath = window.location.pathname;
+
+            links.forEach(function (link) {
+                if (link.getAttribute('href') === currentPath) {
+                    link.classList.add('active');
+                } else {
+                    link.classList.remove('active');
+                }
+            });
+        }
+
+        // Appelez la fonction au chargement de la page
+        setActiveLink();
+
+        // Ajoutez un écouteur d'événements pour les changements d'historique
+        window.addEventListener('popstate', setActiveLink);
+    });
+</script>
