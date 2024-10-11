@@ -2,7 +2,7 @@
 title: 6. Perspectivas de futuro
 description: 
 published: true
-date: 2024-10-10T17:52:39.186Z
+date: 2024-10-11T05:23:17.454Z
 tags: 
 editor: markdown
 dateCreated: 2024-10-10T16:46:27.918Z
