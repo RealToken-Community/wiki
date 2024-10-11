@@ -2,7 +2,7 @@
 title: 5. Guía práctica para titulares de REG
 description: 
 published: true
-date: 2024-10-11T05:17:02.727Z
+date: 2024-10-11T05:19:46.085Z
 tags: 
 editor: markdown
 dateCreated: 2024-10-10T16:46:18.361Z
@@ -19,6 +19,6 @@ Te ayudará a:
 
 [Descargar la guía PDF](/es/es/documentos/tutorial_gobernanza_dao_v2.pdf)
 
-![esquema_dao_v2.jpg](/es/es/assets/img/esquema_dao_v2.jpg){.img75 .center}
+![dao_gov_en.svg](/imag-en/dao_gov_en.svg){.img75 .center}
 
 [Página siguiente](/es/DAO/Perspectivas)
