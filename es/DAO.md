@@ -2,7 +2,7 @@
 title: DAO
 description: 
 published: true
-date: 2024-10-11T13:31:43.330Z
+date: 2024-10-11T13:33:23.059Z
 tags: 
 editor: markdown
 dateCreated: 2024-10-10T16:45:54.264Z
@@ -46,12 +46,12 @@ El documento está dirigido tanto a personas experimentadas con las DAO como a a
 
 ## Enlaces de los capítulos
 
-1.  [Introducción a las DAO](/es/DAO/Introduccion)
+1.  [Introducción a las DAO](/es/DAO/Introduction)
 2.  [DAO RealToken: Visión general](/es/DAO/DAO_RealToken)
-3.  [DAO V1: Implementación y objetivos](/es/DAO/Fase1)
-4.  [Funcionamiento técnico de la DAO V1](/es/DAO/Funcionamiento)
-5.  [Guía práctica para los poseedores de REG](/es/DAO/Guia_Practica)
-6.  [Perspectivas de futuro](/es/DAO/Perspectivas)
-7.  [Recursos y soporte](/es/DAO/Recursos)
+3.  [DAO V1: Implementación y objetivos](/es/DAO/Phase1)
+4.  [Funcionamiento técnico de la DAO V1](/es/DAO/TechnicalOp)
+5.  [Guía práctica para los poseedores de REG](/es/DAO/Guide)
+6.  [Perspectivas de futuro](/es/DAO/Prospect)
+7.  [Recursos y soporte](/es/DAO/Resources)
 8.  [Preguntas frecuentes](/es/DAO/FAQ)
 
