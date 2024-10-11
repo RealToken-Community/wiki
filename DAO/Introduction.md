@@ -2,7 +2,7 @@
 title: 1. Introduction to DAOs
 description: 
 published: true
-date: 2024-10-10T12:43:16.162Z
+date: 2024-10-11T05:29:00.476Z
 tags: 
 editor: markdown
 dateCreated: 2024-10-08T08:36:27.047Z
@@ -120,4 +120,4 @@ Challenges:
 - Divergence of perspective between ecosystem actors that can lead to blockages and splits,
 - Transmission of knowledge and skills to newcomers.
 
-[Next Page](/en/DAO/DAO_RealToken)
+
