@@ -1,8 +1,8 @@
 ---
-title: 8. FAQ
+title: 8. Perguntas e Respostas frequentes
 description: 
 published: true
-date: 2024-10-11T10:26:27.608Z
+date: 2024-10-11T10:28:43.058Z
 tags: 
 editor: markdown
 dateCreated: 2024-10-11T10:26:27.608Z
