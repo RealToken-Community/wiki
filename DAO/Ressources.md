@@ -2,7 +2,7 @@
 title: 7. Resources and support
 description: 
 published: true
-date: 2024-10-10T16:01:20.676Z
+date: 2024-10-11T05:38:13.109Z
 tags: 
 editor: markdown
 dateCreated: 2024-10-10T08:56:04.567Z
@@ -344,4 +344,3 @@ A feed of official announcements from the DAO:
 - Partnership announcements
 - Community events
 
-[Next Page](/en/DAO/FAQ)
