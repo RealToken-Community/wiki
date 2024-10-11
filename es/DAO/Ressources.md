@@ -2,7 +2,7 @@
 title: 7. Recursos y apoyo
 description: 
 published: true
-date: 2024-10-11T05:24:44.150Z
+date: 2024-10-11T05:36:47.058Z
 tags: 
 editor: markdown
 dateCreated: 2024-10-10T16:46:32.488Z
@@ -242,4 +242,3 @@ Las interacciones se realizan principalmente con las siguientes interfaces:
 - GitHub: Repositorio de contratos inteligentes → [Governance, incentive, treasury](https://github.com/real-token/reg-governance-core)
 - GitHub: interfaces de incentivos → [github.com/real-token/voting-front/tree/incentive](https://github.com/real-token/voting-front/tree/incentive)
 
-[Página siguiente](/es/DAO/FAQ)
