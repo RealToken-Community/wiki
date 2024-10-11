@@ -2,7 +2,7 @@
 title: 7. Recursos e apoio
 description: 
 published: true
-date: 2024-10-11T10:06:43.357Z
+date: 2024-10-11T10:07:45.860Z
 tags: 
 editor: markdown
 dateCreated: 2024-10-11T10:06:43.357Z
