@@ -2,7 +2,7 @@
 title: 1. Introduction aux DAO
 description: 
 published: true
-date: 2024-10-10T12:44:12.154Z
+date: 2024-10-11T05:28:39.059Z
 tags: 
 editor: markdown
 dateCreated: 2024-10-08T08:37:40.653Z
@@ -121,5 +121,3 @@ Défis :
 - Rationalité des décisions prises par la DAO, afin de garantir la cohérence et la stabilité de l'écosystème,
 - Divergence de perspective entre les acteurs de l'écosystème pouvant mener à des blocages et scissions,
 - Transmission des connaissances et des compétences aux nouveaux arrivants.
-
-[Page suivante](/fr/DAO/DAO_RealToken)
