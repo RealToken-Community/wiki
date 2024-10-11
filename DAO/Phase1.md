@@ -2,7 +2,7 @@
 title: 3. Phase1, Simplified version
 description: 
 published: true
-date: 2024-10-10T16:36:50.383Z
+date: 2024-10-11T05:31:53.241Z
 tags: 
 editor: markdown
 dateCreated: 2024-10-08T08:36:31.522Z
@@ -232,4 +232,3 @@ For in-depth participation in the initial phase:
 
 Your active participation at all these levels will contribute to shaping the future of the RealToken DAO and ensuring its long-term success.
 
-[Next Page](/en/DAO/Fonctionnement)
