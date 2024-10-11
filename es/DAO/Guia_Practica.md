@@ -2,7 +2,7 @@
 title: 5. Guía práctica para titulares de REG
 description: 
 published: true
-date: 2024-10-10T17:51:44.774Z
+date: 2024-10-11T05:17:02.727Z
 tags: 
 editor: markdown
 dateCreated: 2024-10-10T16:46:18.361Z
