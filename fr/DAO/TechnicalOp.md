@@ -2,7 +2,7 @@
 title: 4. Fonctionnement technique de la DAO REG
 description: 
 published: true
-date: 2024-10-11T04:57:54.152Z
+date: 2024-10-11T05:33:15.495Z
 tags: 
 editor: markdown
 dateCreated: 2024-10-08T08:37:31.066Z
@@ -227,6 +227,3 @@ La mécanique de récompense sera entièrement revu avec la mise en service de l
 De nouveaux types de récompenses seront introduits comme comme la matière noire des NFT Cityzen, des points de soutien pour les votes permettant la mise en avant des contenus liés au NFT Activity, etc...
 
 L'écosystème RealToken est pensé pour disposer de nombreux outils d'optimisation de participation aux votes, et encourager les actions et contributions divers qui sont bénéfiques à la DAO tout en permettant un contrôle précis des finances de la DAO afin de ne pas dilapider la trésorerie ou dévaluer le token REG.  
- 
-
-[Page suivante](/fr/DAO/Guide_Pratique)
