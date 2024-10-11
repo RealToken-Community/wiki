@@ -2,7 +2,7 @@
 title: 1. Introducción a las DAO
 description: 
 published: true
-date: 2024-10-11T05:00:11.879Z
+date: 2024-10-11T05:29:24.314Z
 tags: 
 editor: markdown
 dateCreated: 2024-10-10T16:46:23.458Z
@@ -120,4 +120,4 @@ Desafíos:
 - Divergencia de perspectivas entre los actores del ecosistema que pueden llevar a bloqueos y escisiones,
 - Transmisión de conocimientos y competencias a los recién llegados.
 
-[Página siguiente](/es/DAO/DAO_RealToken)
+
