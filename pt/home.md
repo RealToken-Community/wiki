@@ -2,7 +2,7 @@
 title: Bem-vindo
 description: 
 published: true
-date: 2024-10-11T09:29:43.560Z
+date: 2024-10-12T09:27:17.056Z
 tags: 
 editor: markdown
 dateCreated: 2024-10-11T09:29:43.560Z
