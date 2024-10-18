@@ -2,7 +2,7 @@
 title: 7. Resources and support
 description: 
 published: true
-date: 2024-10-18T13:55:20.296Z
+date: 2024-10-18T14:30:58.154Z
 tags: 
 editor: markdown
 dateCreated: 2024-10-10T08:56:04.567Z
@@ -68,10 +68,10 @@ The documentation of smart contracts is essential to understand the internal wor
 
       **Returns:** The ID of the cancelled proposal.
       **Access Control:** Restricted to addresses with the `CANCELLER_ROLE`.
-
+<br>
 2.  **REGTreasuryDAO.sol**: DAO treasury management, this contract manages the DAO's funds and executes approved transactions after a security timelock delay.  
     There are no main non-standard functions added.
-
+<br>
 3.  **REGIncentiveVault.sol**: Incentive and reward system, this contract manages the calculation and distribution of rewards to DAO participants if activated by the DAO.  
      Contract entirely created by RealT, the main functions are:
 
@@ -79,8 +79,7 @@ The documentation of smart contracts is essential to understand the internal wor
       **Description:** Sets a new epoch (period) for the incentive program. This function initializes a new epoch with the specified parameters.
       **Parameters:**
       - `subscriptionStart`: Timestamp of the start of the subscription period.
-    - `subscriptionEnd`: Timestamp of the end of the subscription period.
-
+      - `subscriptionEnd`: Timestamp of the end of the subscription period.
       - `lockPeriodEnd`: Timestamp of the end of the lock period.
       - `bonusToken`: Address of the token used as reward.
       - `totalBonus`: Total amount of bonus tokens to distribute for this epoch.
@@ -88,18 +87,18 @@ The documentation of smart contracts is essential to understand the internal wor
       **Access Control:** Only the `DEFAULT_ADMIN_ROLE` can call this function.
       **Event Emitted:** `SetNewEpoch`
 
-    - **`function deposit(uint256 amount) public whenNotPaused;`**
+	- **`function deposit(uint256 amount) public whenNotPaused;`**
       **Description:** Allows users to deposit REG tokens into the vault during the subscription period to participate in the incentive program.
       **Parameters:** `amount`: Amount of REG tokens to deposit.  
        **Conditions:** The function can only be called when the contract is not paused and during the subscription period.  
       **Event Emitted:** `Deposit`
+      
     - **`function depositWithPermit(uint256 amount, uint256 deadline, uint8 v, bytes32 r,     bytes32 s ) external whenNotPaused;`**  
        **Description:** Allows users to deposit REG tokens using EIP-2612 approval (permit), which allows deposit in a single transaction without prior approval.
-      **Parameters:**
-
-      -     `amount`: Amount of REG tokens to deposit.
-      -     `deadline`: Timestamp after which the signature is no longer valid.
-      -      `v, r, s`: Signature components for approval.
+      **Parameters:** : 
+      	- `amount`: Amount of REG tokens to deposit.
+        - `deadline`: Timestamp after which the signature is no longer valid.
+        - `v, r, s`: Signature components for approval.
 
       **Conditions:** The function can only be called when the contract is not paused and during the subscription period.  
       **Event Emitted:** `Deposit`
@@ -123,11 +122,9 @@ The documentation of smart contracts is essential to understand the internal wor
     - **`function calculateBonus(address user) external view returns (address[] memory, uint256[] memory)`**
       **Description:** Calculates the amount of bonus a user can claim for each past epoch.
       **Parameters:**
-
       - `user`: Address of the user for which to calculate the bonus.
-
-        **Returns:**
-
+      
+      **Returns:**
       - `address[]`: Array of bonus token addresses.
       - `uint256[]`: Array of corresponding bonus amounts.
 
@@ -159,20 +156,18 @@ The documentation of smart contracts is essential to understand the internal wor
       **Description:** Returns information about a user's state for a specific epoch.
       **Parameters:**
       - `user`: Address of the user.
-    - `epoch`: Number of the epoch.
+   	  - `epoch`: Number of the epoch.
 
     - **`function getUserGlobalState(address user) external view returns (UserGlobalState memory)`**
       **Description:** Returns global information about a user's state.
       **Parameters:**
-    - `user`: Address of the user.
-
+	    - `user`: Address of the user.
+<br>
 4.  **REGPowerVotingRegistry.sol**: Registration of voting powers, this contract records the voting power of participants calculated off-chain by RealT according to the algorithm defined and validated by the DAO.  
     Contract entirely created by RealT, the main functions are: - `registerVotingPower(VotingPower[] calldata votingPower) external override onlyRole(REGISTER_ROLE)` You will notice that for reasons of compatibility with standards and the operation of the Governor contract, the PowerVotingRegistry contract is based on the ERC20 standard with a modification of the behaviors of basic functions such as:
 
         	- transfer, transferFrom, approve, etc. are overridden to return false
-        	- delegate is overridden to return an error
-
-        - `REGVotingPowerRegistryErrors.DelegateToOtherNotAllowed()` if a user tries to delegate their vote to another user.
+        	- delegate is overridden to return an error `REGVotingPowerRegistryErrors.DelegateToOtherNotAllowed()` if a user tries to delegate their vote to another user.
 
 #### Guides for interacting with contracts:
 
@@ -237,9 +232,13 @@ Interactions mainly occur through the following interfaces:
 
 ### 7.2.1. Official Channels ⭐
 
-- Official community website: [realtoken.community](https://www.realtoken.community/)
-- Governance forum: [forum.realtoken.community](https://forum.realtoken.community)
-- Twitter: @RealTokenDAO
+- Community Website: [RealToken.community](https://www.realtoken.community/)
+- Governance Forum: [Forum.RealToken.community](https://forum.realtoken.community)
+- Vote Website : [Tally.xyz/gov/RealToken-ecosystem-governance](https://www.tally.xyz/gov/realtoken-ecosystem-governance)
+- Vote Dashboard : [Vote.RealToken.network/dao/incentive](https://vote.realtoken.network/dao/incentive)
+- Twitter: [RealTokenDAO](https://x.com/RealTokenDAO)
+- Discord [RealToken](https://discord.gg/aPSWyGxMUk)
+- Telegram [RealTokenDAO](https://t.me/realtokendao)
 
 ### 7.2.2. Resources for Developers ⭐⭐⭐
 
