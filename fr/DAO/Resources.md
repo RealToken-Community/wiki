@@ -2,7 +2,7 @@
 title: 7. Ressources et support
 description: 
 published: true
-date: 2024-10-11T05:36:10.051Z
+date: 2024-10-18T15:15:47.484Z
 tags: 
 editor: markdown
 dateCreated: 2024-10-08T08:37:55.787Z
@@ -234,9 +234,13 @@ Les interactions se font principalement avec les interfaces suivantes :
 
 ### 7.2.1. Canaux officiels ⭐
 
-- Site web officiel communauté : [realtoken.community](https://www.realtoken.community/)
-- Forum de gouvernance : [forum.realtoken.community](https://forum.realtoken.community)
-- Twitter : @RealTokenDAO
+- Site web de la Communité: [RealToken.community](https://www.realtoken.community/)
+- Forum de Governance: [Forum.RealToken.community](https://forum.realtoken.community)
+- Site web de Vote : [Tally.xyz/gov/RealToken-ecosystem-governance](https://www.tally.xyz/gov/realtoken-ecosystem-governance)
+- Vote Dashboard : [Vote.RealToken.network/dao/incentive](https://vote.realtoken.network/dao/incentive)
+- Twitter: [RealTokenDAO](https://x.com/RealTokenDAO)
+- Discord [RealToken](https://discord.gg/aPSWyGxMUk)
+- Telegram [RealTokenDAO](https://t.me/realtokendao)
 
 ### 7.2.2. Ressources pour les développeurs ⭐⭐⭐
 
