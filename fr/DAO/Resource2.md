@@ -2,7 +2,7 @@
 title: 7. Ressources et support
 description: 
 published: true
-date: 2024-10-18T08:07:51.436Z
+date: 2024-10-18T08:58:28.848Z
 tags: 
 editor: markdown
 dateCreated: 2024-10-18T06:01:19.928Z
@@ -182,6 +182,7 @@ Contrat entièrement créé par RealT, les principales fonctions sont :
 #### Diagrammes d'architecture :
 
 \[*Un diagramme montrant les interactions entre les contrats*\] 
+![diagram_en.svg](/assets/img/diagram_en.svg)
 
 #### Considérations de sécurité :
 - Contrôle d'accès : utilisation d'AccessControl d'OpenZeppelin pour la gestion des rôles,
@@ -240,7 +241,7 @@ Informations sur les fonctionnalités avancées de la DAO :
 
 ### 7.3.1. Forum officiel ⭐
 
-Lien vers le forum officiel de RealToken DAO, où se déroulent les discussions sur les propositions et la gouvernance.
+[Lien](https://forum.realtoken.community/) vers le forum officiel de RealToken DAO, où se déroulent les discussions sur les propositions et la gouvernance.
 
 ### 7.3.2. Réseaux sociaux ⭐
 
