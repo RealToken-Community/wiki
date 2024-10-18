@@ -2,7 +2,7 @@
 title: home
 description: 
 published: true
-date: 2024-10-18T08:46:58.068Z
+date: 2024-10-18T08:47:35.730Z
 tags: 
 editor: markdown
 dateCreated: 2024-10-10T16:46:55.657Z
@@ -17,7 +17,7 @@ Buena lectura y gracias por sus comentarios y contribuciones.
 
 # Contribución
 
-Cualquier persona que desee contribuir es bienvenida, solo necesita seguir la [Guía.](/en/Tuto/Guide)
+Cualquier persona que desee contribuir es bienvenida, solo necesita seguir la [Guía.](/es/Tuto/Guide)
 
 # Lista de temas
 
