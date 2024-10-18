@@ -2,7 +2,7 @@
 title: 7. Resources and support
 description: 
 published: true
-date: 2024-10-11T05:38:13.109Z
+date: 2024-10-18T08:56:16.035Z
 tags: 
 editor: markdown
 dateCreated: 2024-10-10T08:56:04.567Z
@@ -254,7 +254,7 @@ Information on advanced features of the DAO:
 
 ### 7.3.1. Official Forum ⭐
 
-Link to the official RealToken DAO forum, where discussions on proposals and governance take place.
+[Link](https://forum.realtoken.community/) to the official RealToken DAO forum, where discussions on proposals and governance take place.
 
 ### 7.3.2. Social Media Channels ⭐
 
