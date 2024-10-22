@@ -2,7 +2,7 @@
 title: 5. Practical guide for REG holders
 description: 
 published: true
-date: 2024-10-11T07:53:38.283Z
+date: 2024-10-22T06:51:06.173Z
 tags: 
 editor: markdown
 dateCreated: 2024-10-10T09:51:40.828Z
@@ -18,7 +18,8 @@ It will help you:
 - earn **Bonuses** by participating in votes and locking REG tokens.
 
 
-[Download the PDF guide](/en/assets/document/tuto_gouv_en.pdf)
+
+[Download the PDF guide](/en/assets/document/tuto_gouvernance_dao_v3_en.pdf)
 
 ![dao_gov_en.svg](/imag-en/dao_gov_en.svg){.img75 .center}
 
