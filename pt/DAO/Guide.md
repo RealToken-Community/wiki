@@ -2,7 +2,7 @@
 title: 5. Guia practica
 description: 
 published: true
-date: 2024-10-11T13:40:21.684Z
+date: 2024-10-22T06:52:18.621Z
 tags: 
 editor: markdown
 dateCreated: 2024-10-11T09:54:36.388Z
@@ -18,7 +18,7 @@ Isso irá ajudá-lo:
 - receber **Bónus** participando em votações e bloqueando REGs.
 
 
-[Descarregue o guia em PDF (EN)](/en/assets/document/tuto_gouv_en.pdf)
+[Descarregue o guia em PDF (EN)](/en/assets/document/tuto_gouvernance_dao_v3_en.pdf)
 
 ![dao_gov_en.svg](/imag-en/dao_gov_en.svg){.img75 .center}
 
