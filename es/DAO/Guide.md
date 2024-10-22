@@ -2,7 +2,7 @@
 title: 5. Guía práctica para titulares de REG
 description: 
 published: true
-date: 2024-10-11T07:56:59.705Z
+date: 2024-10-22T06:51:47.026Z
 tags: 
 editor: markdown
 dateCreated: 2024-10-10T16:46:18.361Z
@@ -17,7 +17,7 @@ Te ayudará a:
 - **votar** en la blockchain,
 - recibir **Bonificaciones** participando en las votaciones y bloqueando REG.
 
-[Descargar la guía PDF (EN)](/en/assets/document/tuto_gouv_en.pdf)
+[Descargar la guía PDF (EN)](/en/assets/document/tuto_gouvernance_dao_v3_en.pdf)
 
 ![dao_gov_en.svg](/imag-en/dao_gov_en.svg){.img75 .center}
 
