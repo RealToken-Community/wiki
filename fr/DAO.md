@@ -1,8 +1,8 @@
 ---
-title: DAOs
+title: DAO
 description: 
 published: true
-date: 2024-10-11T05:07:26.859Z
+date: 2024-10-25T11:13:13.928Z
 tags: 
 editor: markdown
 dateCreated: 2024-10-08T08:37:16.457Z
@@ -51,10 +51,10 @@ Le document s'adresse aux personnes expérimentés, avec les DAO, ainsi qu'à ce
 1.  [Introduction aux DAO](/fr/DAO/Introduction)
 1.  [DAO RealToken : Vue d'ensemble](/fr/DAO/DAO_RealToken)
 1.  [DAO V1 : Mise en place et objectifs](/fr/DAO/Phase1)
-1.  [Fonctionnement technique de la DAO V1](/fr/DAO/Fonctionnement)
-1.  [Guide pratique pour les détenteurs de REG](/fr/DAO/Guide_Pratique)
-1.  [Perspectives d'avenir](/fr/DAO/Perspectives)
-1.  [Ressources et support](/fr/DAO/Ressources)
+1.  [Fonctionnement technique de la DAO V1](/fr/DAO/TechnicalOp)
+1.  [Guide pratique pour les détenteurs de REG](/fr/DAO/Guide)
+1.  [Perspectives d'avenir](/fr/DAO/Prospect)
+1.  [Ressources et support](/fr/DAO/Resources)
 1.  [FAQ](/fr/DAO/FAQ)
 
 ![infographie_00003.svg](/fr/fr/assets/img/infographie_00003.svg){.align-center}
