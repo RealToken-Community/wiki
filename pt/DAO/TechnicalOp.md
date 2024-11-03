@@ -2,7 +2,7 @@
 title: 4. Operação técnica do DAO REG
 description: 
 published: true
-date: 2024-10-11T09:49:43.096Z
+date: 2024-11-03T06:58:25.334Z
 tags: 
 editor: markdown
 dateCreated: 2024-10-11T09:49:43.096Z
@@ -16,6 +16,8 @@ dateCreated: 2024-10-11T09:49:43.096Z
 - [REGTreasuryDAO: 0x3f2d192F64020dA31D44289d62DB82adE6ABee6c](https://gnosisscan.io/address/0x3f2d192F64020dA31D44289d62DB82adE6ABee6c#code)
 - [PowerVotingRegistry: 0x6382856a731Af535CA6aea8D364FCE67457da438](https://gnosisscan.io/address/0x6382856a731Af535CA6aea8D364FCE67457da438#code)
 - [Incentivo: 0xe1877d33471e37fe0f62d20e60c469eff83fb4a0](https://gnosisscan.io/address/0xe1877d33471e37fe0f62d20e60c469eff83fb4a0#code)
+#### Exemplos de interações entre contratos inteligentes
+![reg-vote-bonus.drawio.svg](/assets/img/reg-vote-bonus.drawio.svg)
 
 #### **⭐ Para principiantes**
 
