@@ -2,7 +2,7 @@
 title: 7. Recursos y apoyo
 description: 
 published: true
-date: 2024-11-14T06:27:01.456Z
+date: 2024-11-14T06:27:41.322Z
 tags: 
 editor: markdown
 dateCreated: 2024-10-10T16:46:32.488Z
@@ -241,11 +241,11 @@ Las interacciones se realizan principalmente con las siguientes interfaces:
 - Discord [RealToken](https://discord.gg/aPSWyGxMUk)
 - Telegram [RealTokenDAO](https://t.me/realtokendao)
 
-### 7.2.1. Whitepaper
+### 7.2.2. Whitepaper
 - [WhitePaper](https://drive.google.com/file/d/15ujjaXpvLIFPN9GQ0u2FzUWdh5an2o3S/edit)
 
 
-### 7.2.2. Recursos para desarrolladores ⭐⭐⭐
+### 7.2.3. Recursos para desarrolladores ⭐⭐⭐
 
 - GitHub: Repositorio de contratos inteligentes → [Governance, incentive, treasury](https://github.com/real-token/reg-governance-core)
 - GitHub: interfaces de incentivos → [github.com/real-token/voting-front/tree/incentive](https://github.com/real-token/voting-front/tree/incentive)
