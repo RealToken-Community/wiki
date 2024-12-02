@@ -2,7 +2,7 @@
 title: 7. Ressources et support
 description: 
 published: true
-date: 2024-11-14T06:22:19.431Z
+date: 2024-12-02T05:55:25.222Z
 tags: 
 editor: markdown
 dateCreated: 2024-10-08T08:37:55.787Z
@@ -240,7 +240,7 @@ Les interactions se font principalement avec les interfaces suivantes :
 - Vote Dashboard : [Vote.RealToken.network/dao/incentive](https://vote.realtoken.network/dao/incentive)
 - Twitter: [RealTokenDAO](https://x.com/RealTokenDAO)
 - Discord [RealToken](https://discord.gg/aPSWyGxMUk)
-- Telegram [RealTokenDAO](https://t.me/realtokendao)
+- Telegram [Annonces](https://t.me/realtokendao), [Echanges](https://t.me/realtokendao_official)
 
 ### 7.2.2. Whitepaper
 - [WhitePaper](https://drive.google.com/file/d/15qJMlREYjhYeYQubP1sAE8HCOFhsh6K6/edit)
