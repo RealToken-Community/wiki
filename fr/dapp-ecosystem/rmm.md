@@ -2,7 +2,7 @@
 title: RMM
 description: 
 published: true
-date: 2024-12-08T21:03:58.118Z
+date: 2024-12-08T22:18:27.660Z
 tags: rmm
 editor: markdown
 dateCreated: 2024-12-08T21:03:58.118Z
@@ -26,6 +26,8 @@ Le Wrapper joue un rôle crucial dans l'écosystème RMM en :
 - Le wrapper crée et dépose autant de RTW que la valeur (en $) des RealTokens déposés.
   Le déposant reçoit autant de armmRTW (preuve de dépôt) que la valeur de ses RealTokens déposés..
 - Le wrapper gère les balances de RTW en fonction de la valeur de chaque RealToken en créant ou brulant des RTW pour garder la valeur déposée (en RTW) toujours égale à la valeur déposée en RealToken.
+
+![rmm_update.drawio.svg](/assets/img/rmm_update.drawio.svg)
 
 ## **2. Modifications majeures apportées aux wrapper par la v3**
 
