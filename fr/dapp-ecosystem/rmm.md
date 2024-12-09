@@ -2,7 +2,7 @@
 title: RMM
 description: 
 published: true
-date: 2024-12-08T22:18:27.660Z
+date: 2024-12-09T05:51:37.782Z
 tags: rmm
 editor: markdown
 dateCreated: 2024-12-08T21:03:58.118Z
@@ -22,7 +22,7 @@ Le Wrapper joue un rôle crucial dans l'écosystème RMM en :
 
 - Standardisant l'interface des RealTokens pour le protocole RMM
 - Permettant d'étendre la capacité en nombre de token du RMM limité de base a 128 tokens, il permet de déposer 2000 tokens par Wrapper, soit environ 100x2000 tokens
-- Pour chaque RealToken déposé, le Wrapper crée des RTW (RealToken Wrapped) d'une valeur de 1$ par RTW, est utilisé dans le RMM comme dépôt pour emprunter.
+- Pour chaque RealToken déposé, le Wrapper crée des RTW (RealToken Wrapped) d'une valeur de 1$ par RTW, qui sont utilisés dans le RMM comme dépôt pour emprunter.
 - Le wrapper crée et dépose autant de RTW que la valeur (en $) des RealTokens déposés.
   Le déposant reçoit autant de armmRTW (preuve de dépôt) que la valeur de ses RealTokens déposés..
 - Le wrapper gère les balances de RTW en fonction de la valeur de chaque RealToken en créant ou brulant des RTW pour garder la valeur déposée (en RTW) toujours égale à la valeur déposée en RealToken.
@@ -127,7 +127,7 @@ Les principales considérations sont :
 
 ## **4. ⭐⭐⭐ informations Techniques**
 
-### **4.1. repayForRecover**
+### **4.1. repayForRecover**    
 
 #### **Paramètres :**
 
@@ -139,7 +139,7 @@ Les principales considérations sont :
 - `payer` (address) : L'adresse responsable du paiement de la dette,  
   ! important : cette adresse doit avoir une balance des tokens debtAssets supérieur ou égale à la dette à rembourser et avoir une approval de la fonction `transferFrom` de chaque token debtAssets au bénéfice du Wrapper.
 
-Note : La valeur des actifs quels qu'ils soient dans le RMM est calculé en $USD, ainsi il est possible qu'un USDC/XDAI ou autre ne soit pas exactement a 1$USD, il est donc important de bien calculer la balance du `payer` avec une marge de sécurité qui peux être raisonnablement de 5/100k.
+Note : La valeur des actifs quels qu'ils soient dans le RMM est calculé en dollard USD, ainsi il est possible qu'un USDC/XDAI ou autre ne soit pas exactement a 1$USD, il est donc important de bien calculer la balance du `payer` avec une marge de sécurité qui peux être raisonnablement de 5/100k.
 
 #### **Comportement de l'exécution de la fonction :**
 
