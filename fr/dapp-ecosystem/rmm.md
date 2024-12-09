@@ -2,7 +2,7 @@
 title: RMM
 description: 
 published: true
-date: 2024-12-09T05:51:37.782Z
+date: 2024-12-09T09:11:52.490Z
 tags: rmm
 editor: markdown
 dateCreated: 2024-12-08T21:03:58.118Z
@@ -262,34 +262,40 @@ Les adresses qui à un moment récéptionnent des RealTokens, doivent impérativ
 
 Les appouvals, et solde de balance pour le paiement des dettes doivent impérativement inclure un marge minimum de 5/100k, sans quoi la proposal dans son intégralité échouera si la valeur du token de dette à rembourser à une valeur inférieur a 1$USD.
 
-## **6. Modifications**
+## **6. Modifications Smart Contract**
 
 Liste des modifications dans la mise à jour de RealTokenWrapper :
 
 - Suppression de la vérification \_isRealTokenWhitelisted pour la fonction withdraw (ligne 171) : puisqu'elle vérifie déjà le solde de tokens de l'utilisateur dans RealTokenWrapper. S'il y a un solde > 0, cela signifie que le RealToken était whitelisté. Il devrait permettre le retrait et ne pas permettre l'approvisionnement si le RealToken n'est plus whitelisté maintenant.
 
-```
-if (!_isRealTokenWhitelisted[asset]) revert WrapperErrors.TokenNotWhitelisted(asset);
-```
-
+	```
+	if (!_isRealTokenWhitelisted[asset]) revert WrapperErrors.TokenNotWhitelisted(asset);
+	```
+	https://gnosisscan.io/address/0x12a000a8A2Cd339D85119C346142Adb444bc5ce5#code#F1#L168
+<br>
 - Utilisation du tableau de tokens en cache de l'utilisateur pour l'optimisation du gas (\_tokenListOfUser au lieu de \_realTokenList)
+	Changement de la lecture directe depuis le mapping de stockage \_realTokenList
 
-Changement de la lecture directe depuis le mapping de stockage \_realTokenList
+	```
+	uint256 length = _realTokenList.length;
+	uint256 userIndex = 0;
+	```
+  https://gnosisscan.io/address/0x12a000a8A2Cd339D85119C346142Adb444bc5ce5#code#F1#L479
 
-```
-uint256 length = _realTokenList.length;
-uint256 userIndex = 0;
-```
+	vers la copie de \_tokenListOfUser[user] en mémoire (cette liste est individuelle pour chaque utilisateur) (lignes 484-485)
 
-vers la copie de \_tokenListOfUser[user] en mémoire (cette liste est individuelle pour chaque utilisateur) (lignes 484-485)
-
-```
-// Cache user token list for gas optimization
-address[] memory userTokenList = _tokenListOfUser[user];
-uint256 length = userTokenList.length;
-```
-
+	```
+	// Cache user token list for gas optimization
+	address[] memory userTokenList = _tokenListOfUser[user];
+	uint256 length = userTokenList.length;
+	```
+	https://gnosisscan.io/address/0xd32616a28fcfb8fab292c3819e87821733f74a83#code#F1#L481
+  <br>
 - Suppression de tous les anciens recoverByGovernance et ajout des 2 nouvelles fonctions repayForRecover/recoverByGovernance (lignes 643 à 870)
+
+	https://gnosisscan.io/address/0xd32616a28fcfb8fab292c3819e87821733f74a83#code#F1#L643
+
+	https://gnosisscan.io/address/0xd32616a28fcfb8fab292c3819e87821733f74a83#code#F1#L764
 
 > IMPORTANT : la validation d'une proposal qui executera les fonctions `repayForRecover` et `recoverByGovernance` doit être faite avec une grande attention, car elle peux etre très dangereuse si elle n'est pas correctement configurée ou utilisée à des fins malveillantes.
 > {.is-warning}
