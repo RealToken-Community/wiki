@@ -2,7 +2,7 @@
 title: RMM
 description: 
 published: true
-date: 2024-12-09T09:11:52.490Z
+date: 2024-12-20T15:41:10.445Z
 tags: rmm
 editor: markdown
 dateCreated: 2024-12-08T21:03:58.118Z
@@ -299,6 +299,23 @@ Liste des modifications dans la mise à jour de RealTokenWrapper :
 
 > IMPORTANT : la validation d'une proposal qui executera les fonctions `repayForRecover` et `recoverByGovernance` doit être faite avec une grande attention, car elle peux etre très dangereuse si elle n'est pas correctement configurée ou utilisée à des fins malveillantes.
 > {.is-warning}
+
+---
+### Upgrade du 20 décembre 2024
+**Objectif** : fix un bug lier à l'optimisation de gas de la liste de tokens déposer.
+
+**Problème rencontré** : Quant un utilisateur effectue une liquidation et récupère les aTokens si ses aTokens ne sont pas dans la liste de dépose, les fonctions qui utilise cette liste ne trouve pas ses aTokens.
+Les valeurs sont correctemetn enregistrer dans le Wrapper, les RTW sont bien créer et déposer mais le RMM et le Wrapper ne trouve pas les valeur car les fonctions `getAllTokenBalancesOfUser` et `getUserIndex` utilise la variable `_tokenListOfUser` qui ne contien pas toutes les inforamtions
+
+**Solution** : Corriger la fonction de liquidation pour vérifier si les tokens résupérer sont dans `_tokenListOfUser`, si ce n'est pas le cas alors il les ajoutes se qui permet au Wrapper et RMM de récupérer toutes les informations correctement
+
+Nouvelle implémentation déployer : https://gnosisscan.io/address/0xc7ca0b893c22f99bb99dfc9dafdb6a83e0e7a946#code
+
+modification : code ajouter ligne 312 à 317
+https://gnosisscan.io/address/0xc7ca0b893c22f99bb99dfc9dafdb6a83e0e7a946#code#F1#L312
+
+modification : code ajouter ligne 357 à 362
+https://gnosisscan.io/address/0xc7ca0b893c22f99bb99dfc9dafdb6a83e0e7a946#code#F1#L357
 
 ## **7. Audit**
 
