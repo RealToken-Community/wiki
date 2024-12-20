@@ -2,7 +2,7 @@
 title: RMM
 description: 
 published: true
-date: 2024-12-08T22:20:16.574Z
+date: 2024-12-20T15:46:49.889Z
 tags: rmm
 editor: markdown
 dateCreated: 2024-12-08T21:15:34.828Z
@@ -126,6 +126,23 @@ uint256 length = userTokenList.length;
 
 > IMPORTANTE: a validação de uma proposta que execute as funções `repayForRecover` e `recoverByGovernance` deve ser realizada com grande atenção, pois pode ser muito perigosa se não estiver corretamente configurada ou for usada com fins maliciosos.
 > {.is-warning}
+
+### Atualização 20 de dezembro 2024
+**Objetivo**: Corrigir um bug relacionado à otimização de gas para a lista de tokens depositados.
+
+**Problema encontrado**: Quando um usuário realiza uma liquidação e recebe aTokens, se estes aTokens não estiverem na lista de depósitos, as funções que utilizam esta lista não conseguem encontrar estes aTokens.
+Os valores são registrados corretamente no Wrapper, os RTWs são criados e depositados adequadamente, mas o RMM e o Wrapper não conseguem encontrar os valores porque as funções `getAllTokenBalancesOfUser` e `getUserIndex` utilizam a variável `_tokenListOfUser` que não contém todas as informações.
+
+**Solução**: Corrigir a função de liquidação para verificar se os tokens recuperados estão em `_tokenListOfUser`. Caso não estejam, eles são adicionados, permitindo que o Wrapper e RMM recuperem corretamente todas as informações.
+
+Nova implementação implantada: https://gnosisscan.io/address/0xc7ca0b893c22f99bb99dfc9dafdb6a83e0e7a946#code
+
+Modificações:
+- Código adicionado linhas 312 a 317
+https://gnosisscan.io/address/0xc7ca0b893c22f99bb99dfc9dafdb6a83e0e7a946#code#F1#L312
+
+- Código adicionado linhas 357 a 362
+https://gnosisscan.io/address/0xc7ca0b893c22f99bb99dfc9dafdb6a83e0e7a946#code#F1#L357
 
 ## **7. Auditoria**
 
