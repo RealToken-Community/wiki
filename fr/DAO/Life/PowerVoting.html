@@ -1,0 +1,20 @@
+<!--
+title: Power Voting
+description: 
+published: true
+date: 2024-12-31T18:01:18.658Z
+tags: 
+editor: ckeditor
+dateCreated: 2024-12-31T18:01:18.658Z
+-->
+
+<p>Le pouvoir de vote est établi à partir des REG possédés par un wallet, quelque soit la façon dont ils les possèdent (sur son Wallet, ou &nbsp;déposé sur une Pool de liquidité ou sur le Vault d'incentive) et quelque soit la blockchain utilisée.</p>
+<p>A une date non prévisible (afin qu'il n'y ait pas de manipulation), RealT fait une photo (snapshot) pour collecter la situation de tous les REG.&nbsp;<br>A la suite de quoi ils appliquent un algorithme (avec un programme offChain), pour pondérer le mode de détention des REG (et des stablecoin associés dans les pools de liquidités).</p>
+<p>La valeur du pouvoir d'achat reste inchangée, jusqu'au prochain snapshot (même si les REG ont bougés entre temps).</p>
+<h1>Algorithme</h1>
+<p>Les premiers snapshot ont utilisé la pondération inchangée suivante :&nbsp;</p>
+<ul>
+  <li>1 REG dans un Wallet ou le Vault d'incentive vaut 1 PowerVoting</li>
+  <li>1 REG dans un pool de liquidité vaut 1,2 PowerVoting,</li>
+  <li>Les stablecoins apportés en contre partie dans le Pool de liquidité valent 0,5 PowerVoting par equivalent REG</li>
+</ul>
