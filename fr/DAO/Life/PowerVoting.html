@@ -2,17 +2,19 @@
 title: Power Voting
 description: 
 published: true
-date: 2025-01-01T17:19:15.186Z
+date: 2025-01-01T17:40:56.562Z
 tags: 
 editor: ckeditor
 dateCreated: 2024-12-31T18:01:18.658Z
 -->
 
 <p>Le pouvoir de vote est établi à partir des REG possédés, quelque soit :&nbsp;</p>
-<p>- la façon dont ils sont possédés : sur son Wallet, &nbsp;déposé sur une Pool de liquidité ou déposé sur le Vault d'incentive,</p>
-<p>- la blockchain utilisée (Gnosis, Polygon ou Ethereum).</p>
-<p>A une date non prévisible (afin qu'il n'y ait pas de manipulation), RealT fait une photo (snapshot) pour collecter la situation de tous les REG.&nbsp;<br>A la suite de quoi, &nbsp;un programme (offChain) calcul le Pouvoir de vote. Il s'agit d'une pondération du mode de détention des REG (et des stablecoin associés dans les pools de liquidités) qui est décidé par la DAO.</p>
-<p>La quantité de token VotingPower de chacun reste inchangée, jusqu'au prochain snapshot (même si la quantité de REG a bougée entre temps). Ce token est non transférable.</p>
+<ul>
+  <li>la façon dont ils sont possédés : sur son Wallet, &nbsp;déposé sur une Pool de liquidité ou déposé sur le Vault d'incentive,</li>
+  <li>&nbsp;la blockchain utilisée (Gnosis, Polygon ou Ethereum).</li>
+</ul>
+<p>A une date non prévisible (afin qu'il n'y ait pas de manipulation), RealT fait une photo (snapshot) pour collecter la situation de tous les REG.&nbsp;<br>A partir de cette collecte, un programme (offChain) calcul le Pouvoir de vote de chacun. Il s'agit d'une pondération du mode de détention des REG (et des contre-parties dans les pools de liquidités) qui est décidée par la DAO.</p>
+<p>La quantité de token Voting Power de chacun reste inchangée, jusqu'au prochain snapshot (même si la quantité de REG a bougée entre temps). Ce token est non transférable. La quantité de Voting Power d'un wallet est visible sur l'application <a href="https://www.tally.xyz/gov/realtoken-ecosystem-governance">Tally</a>.</p>
 <h1>Algorithme</h1>
 <p>Les premiers snapshots ont utilisé, la pondération suivante :&nbsp;</p>
 <ul>
@@ -20,7 +22,7 @@ dateCreated: 2024-12-31T18:01:18.658Z
   <li>1 REG dans un pool de liquidité vaut 1,2 PowerVoting,</li>
   <li>Les stablecoins apportés en contre partie dans le Pool de liquidité valent 0,5 PowerVoting de l'équivalent REG</li>
 </ul>
-<p>Cette algorithme a été établi par RealT, un Comité &nbsp;dédié va se constituer pour préparer et faire voter les prochaines versions (RIP00007).<br><br>Le programme de calcul se prochainement rendu publique.</p>
+<p>Cette algorithme a été établi par RealT, un Comité &nbsp;dédié va se constituer pour préparer et faire voter les prochaines versions (RIP00007).<br><br>Le programme de calcul sera prochainement rendu publique.</p>
 <h1>Snapshot</h1>
 <p>A l'occasion de chaque snapshot, RealT génère deux types de fichier (au format csv et json) :&nbsp;</p>
 <ul>
@@ -30,6 +32,12 @@ dateCreated: 2024-12-31T18:01:18.658Z
 <p>Date des snapshots :&nbsp;</p>
 <ul>
   <li>29 Octobre,</li>
-  <li>14 novembre&nbsp;</li>
-  <li>27 Décembre&nbsp;</li>
+  <li>14 novembre,&nbsp;</li>
+  <li>27 Décembre, Fichiers correspondants :&nbsp;<ul>
+      <li>&nbsp;<a href="/assets/document/balancesreg_2024-12-27t11h51mn57_utc+01.csv">/assets/document/balancesreg_2024-12-27t11h51mn57_utc+01.csv</a></li>
+      <li><a href="/assets/document/powervotingreg_balancesregmodel_linearmodel_2024_12_27t11h53mn47.csv">/assets/document/powervotingreg_balancesregmodel_linearmodel_2024_12_27t11h53mn47.csv</a></li>
+      <li><a href="/assets/document/balancesreg_2024-12-27t11h51mn57_utc+01.json">/assets/document/balancesreg_2024-12-27t11h51mn57_utc+01.json</a></li>
+      <li><a href="/assets/document/powervotingreg_balancesregmodel_linearmodel_2024_12_27t11h53mn47.json">/assets/document/powervotingreg_balancesregmodel_linearmodel_2024_12_27t11h53mn47.json</a></li>
+    </ul>
+  </li>
 </ul>
