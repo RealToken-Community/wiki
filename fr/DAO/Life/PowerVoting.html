@@ -2,19 +2,23 @@
 title: Power Voting
 description: 
 published: true
-date: 2024-12-31T18:01:18.658Z
+date: 2025-01-01T08:50:24.601Z
 tags: 
 editor: ckeditor
 dateCreated: 2024-12-31T18:01:18.658Z
 -->
 
-<p>Le pouvoir de vote est établi à partir des REG possédés par un wallet, quelque soit la façon dont ils les possèdent (sur son Wallet, ou &nbsp;déposé sur une Pool de liquidité ou sur le Vault d'incentive) et quelque soit la blockchain utilisée.</p>
-<p>A une date non prévisible (afin qu'il n'y ait pas de manipulation), RealT fait une photo (snapshot) pour collecter la situation de tous les REG.&nbsp;<br>A la suite de quoi ils appliquent un algorithme (avec un programme offChain), pour pondérer le mode de détention des REG (et des stablecoin associés dans les pools de liquidités).</p>
-<p>La valeur du pouvoir d'achat reste inchangée, jusqu'au prochain snapshot (même si les REG ont bougés entre temps).</p>
+<p>Le pouvoir de vote est établi à partir des REG possédés, quelque soit :&nbsp;</p>
+<p>- la façon dont ils sont possédés : sur son Wallet, &nbsp;déposé sur une Pool de liquidité ou déposé sur le Vault d'incentive,</p>
+<p>- la blockchain utilisée (Gnosis, Polygon ou Ethereum).</p>
+<p>A une date non prévisible (afin qu'il n'y ait pas de manipulation), RealT fait une photo (snapshot) pour collecter la situation de tous les REG.&nbsp;<br>A la suite de quoi, &nbsp;un programme (offChain) calcul le Pouvoir de vote. Il s'agit d'une pondération du mode de détention des REG (et des stablecoin associés dans les pools de liquidités) qui est décidé par la DAO.</p>
+<p>La quantité de token VotingPower de chacun reste inchangée, jusqu'au prochain snapshot (même si la quantité de REG a bougée entre temps).</p>
 <h1>Algorithme</h1>
-<p>Les premiers snapshot ont utilisé la pondération inchangée suivante :&nbsp;</p>
+<p>Les premiers snapshots ont utilisé, la pondération suivante :&nbsp;</p>
 <ul>
   <li>1 REG dans un Wallet ou le Vault d'incentive vaut 1 PowerVoting</li>
   <li>1 REG dans un pool de liquidité vaut 1,2 PowerVoting,</li>
-  <li>Les stablecoins apportés en contre partie dans le Pool de liquidité valent 0,5 PowerVoting par equivalent REG</li>
+  <li>Les stablecoins apportés en contre partie dans le Pool de liquidité valent 0,5 PowerVoting de l'equivalent REG</li>
 </ul>
+<p>Cette algorithme a été établi par RealT, un Comité &nbsp;dédié va se constituer pour préparer et faire voter les prochains algorithme (RIP00007)</p>
+<p>&nbsp;</p>
