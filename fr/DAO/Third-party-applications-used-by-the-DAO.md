@@ -2,7 +2,7 @@
 title: Applications tiers utilisé par la DAO
 description: 
 published: false
-date: 2025-01-02T17:32:35.677Z
+date: 2025-01-02T17:56:45.690Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-02T17:32:35.677Z
@@ -13,7 +13,7 @@ dateCreated: 2025-01-02T17:32:35.677Z
 #### **⭐ Pour les novices**
 
 Sablier.com est une plateforme de finance décentralisée (DeFi) qui permet de gérer des flux de paiements continus sur la blockchain. Imaginez un robinet qui verse de l'argent goutte à goutte, en temps réel, directement dans votre portefeuille numérique.
-Sablier c'est exactement ce qu'il fais, distribuer un token en temps réel d'une adresse a une autre adresse.
+Sablier c'est exactement ce qu'il fait, distribuer un token en temps réel d'une adresse à une autre adresse.
 
 #### **⭐⭐ Pour les initiés**
 
@@ -21,7 +21,7 @@ Sablier utilise des smart contracts pour créer des flux de paiements continus, 
 
 #### **⭐⭐⭐ Pour les experts**
 
-Sablier repose sur des contrats intelligents déployés sur plusieurs blockchains, utilisant des protocoles de distribution de jetons pour gérer les flux de paiements/distribution de token. Les flux sont créés en verrouillant des tokens dans un contrat intelligent, qui libère ensuite les fonds de manière continue selon un taux prédéfini. Les développeurs peuvent intégrer Sablier dans leurs applications via des API et des modèles d'intégration disponibles dans la [documentation officielle](https://docs.sablier.com/). Les flux de paiements peuvent être surveillés et analysés à l'aide de sous-graphes et d'indexeurs off-chain, offrant une visibilité complète sur les transactions.
+Sablier repose sur des contrats intelligents déployés sur plusieurs blockchains, utilisant des protocoles de distribution de jetons pour gérer les flux de paiements/distribution de tokens. Les flux sont créés en verrouillant des tokens dans un contrat intelligent, qui libère ensuite les fonds de manière continue selon un taux prédéfini. Les développeurs peuvent intégrer Sablier dans leurs applications via des API et des modèles d'intégration disponibles dans la [documentation officielle](https://docs.sablier.com/). Les flux de paiements peuvent être surveillés et analysés à l'aide de sous-graphes et d'indexeurs off-chain, offrant une visibilité complète sur les transactions.
 
 ## Pourquoi la DAO pourrait utiliser Sablier.com
 
@@ -44,7 +44,7 @@ Pour la DAO, l'intégration de Sablier permettrait une gestion granulaire des fl
 
 ## Conclusion
 
-L'intégration de Sablier.com dans l'écosystème de la DAO RealToken pourrait apporter des avantages significatifs en termes de gestion financière et de transparence. En adoptant cette technologie, la DAO pourrait non seulement améliorer son efficacité opérationnelle mais aussi renforcer la confiance de ses membres grâce à une gestion transparente et automatisée des paiements.
+L'intégration de Sablier.com dans l'écosystème de la DAO RealToken pourrait apporter des avantages significatifs en termes de gestion financière et de transparence. En adoptant cette technologie, la DAO pourrait non seulement améliorer son efficacité opérationnelle, mais aussi renforcer la confiance de ses membres grâce à une gestion transparente et automatisée des paiements.
 
 ## Ressources
 
