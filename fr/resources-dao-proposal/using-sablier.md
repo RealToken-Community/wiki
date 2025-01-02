@@ -2,7 +2,7 @@
 title: Proposition utilisant Sablier.com
 description: 
 published: false
-date: 2025-01-02T18:25:02.048Z
+date: 2025-01-02T18:30:05.202Z
 tags: sablier, stream, vesting
 editor: markdown
 dateCreated: 2025-01-02T16:29:46.001Z
@@ -16,11 +16,11 @@ dateCreated: 2025-01-02T16:29:46.001Z
 - docs : https://docs.sablier.com/
 - docs Vesting : https://docs.sablier.com/apps/features/vesting
 - docs Courbe : https://docs.sablier.com/concepts/lockup/stream-shapes#lockup-linear
-- docs contrats déployés : https://docs.sablier.com/guides/lockup/deployments#mainnets
-- sepolia exemple :https://sepolia.etherscan.io/tx/0x86239fed5f924b61c7f5656e0e9322d7809097f2c2153b478fb38c07f85bdb4d
+- Docs déploed contract : https://docs.sablier.com/guides/lockup/deployments#mainnets
+- Sepolia exemple :https://sepolia.etherscan.io/tx/0x86239fed5f924b61c7f5656e0e9322d7809097f2c2153b478fb38c07f85bdb4d
 - tally exemple test net : https://www.tally.xyz/gov/reg-dao-beta/proposal/6332954951702383415567855302130620076860949854692323526582374508844353542470
 
-## Instructions communes à tous les types de stream
+## Instructions communes a toutes les types de stream
 
 1. Créer une nouvelle proposal
 1. Compléter le formulaire de description de la proposal
@@ -34,7 +34,7 @@ dateCreated: 2025-01-02T16:29:46.001Z
      - Contrat Sablier SablierV2BatchLockup ([docs déploiement](https://docs.sablier.com/guides/lockup/deployments))
      - Use the imported ABI (si réussi, si non il faut fournir l'abi)
      - Contract Method -> [Selectionner la methode qui est adapter] (de préférance celle avec timestamps sont plus simple a configurer)
-     - Calldatas -> [Renseigner les paramètres] la partie batch peut etre compliquée à compléter, surtout les éléments de type tulpe[]
+     - Calldatas -> [Renseigner les paramètres] la partie batche peut etre compliquer a compléter, surtout les éléments de type tulpe[]
 1. Effectuer la simulation pour vérifier que tout est bon
 
 ## Types de stream
@@ -44,7 +44,7 @@ Il existe plusieurs types de stream qui donnent des comportements de déverrouil
 ### Stream Linéaire (Linear)
 
 - Distribution à taux constant par seconde
-- La courbe forme une ligne droite en diagonale
+- La courbe forme une ligne droite diagonale
 - Idéal pour des distributions simples et prévisibles
 
 #### variante
@@ -56,18 +56,18 @@ Linear avec Cliff
 - Après le cliff, la distribution devient linéaire
 - Parfait pour les plans de vesting avec période de blocage
 
-Déverrouillage et Linear
+Dévérouillage et Linear
 
-- Similaire au stream linéaire mais avec un déverrouillage initial
-- Un nombre de token est déverrouillé instantanément
+- Similaire au stream linéaire mais avec un dévérouillage initial
+- Un nombre de token est dévérouillé instantanément
 - Solde de la distribution devient linéaire
-- Parfait pour les plans incitatifs à court et moyen terme
+- Parfait pour les plans incitatifs a court et moyen terme
 
-Déverrouillage, Cliff et Linear
+Dévérouillage, Cliff et Linear
 
-- Combinaison de déverrouillage, cliff et linéaire
-- Un nombre de token est déverrouillé instantanément
-- Après le premier déverrouillage, une periode de lock est appliqué
+- Combinaison de dévérouillage, cliff et linéaire
+- Un nombre de token est dévérouillé instantanément
+- Après le premier dévérouillage, une periode de lock est appliqué
 - Solde de la distribution devient linéaire après la periode de lock
 - Parfait pour les plans de lancement de token
 
@@ -109,8 +109,8 @@ Unlock Monthly
 
 BackWeighted
 
-- Déverrouillage par paliers progressifs
-- Palier avec valeur indépendante
+- Déverrouillage paler progressif
+- palier avec valeur indépendante
 - Les tokens non réclamés s'accumulent
 - Idéal pour les plans de vesting avec des paliers de déverrouillage
 
@@ -122,10 +122,10 @@ Cette structure est utilisé par le stream dynamique (LD)
 Chaque `segment` dans un `stream dynamique` est défini par trois paramètres :
 
 - `amount` : montant de tokens à distribuer (uint128)
-- `exponent` : l'exposant définissant la courbe de distribution (UD2x18)
+- `exponent` : exposant définissant la courbe de distribution (UD2x18)
 - `timestamp` : horodatage de fin du segment (uint40)
 
-La formule de distribution est : f(x) = x^exp \* csa + Σ(esa)
+La formule de distribution suit : f(x) = x^exp \* csa + Σ(esa)
 où :
 
 - x = temps écoulé / temps total du segment
@@ -135,8 +135,8 @@ où :
 
 #### Structure du tuple
 
-Dans Tally, la partie Batch des fonctions de type LD sont composées d'un champ `segments` qui est un tableau de type `tuple[]`.
-Attention les explications suivantes sont basées sur la fonction `createWithTimestampsLD`, pour d'autre fonctions de type LD, il faudra adapter les types de tuple.
+Dans Tally, la partie Barch des fonctions de type LD sont composer un champs `segments` qui est un tableau de type `tuple[]`.
+Attention les explications suivante sont baser sur la fonction `createWithTimestampsLD`, pour d'autre fonction de type LD, il faudra adapter les types de tuple.
 
 ```solidity
 struct Segment {
@@ -154,7 +154,7 @@ le champs `segments` dans la fonction `createWithTimestampsLD` est composer de 3
 
 ### Exemple complet de paramètre pour la fonction `createWithTimestampsLD`
 
-Cet exemple est basé sur les paramètres de la proposal [RIP000xx] - Liberation des REG du budget Team RealT
+Cette exemple est baser sur les paramètre de la proposal [RIP000xx] - Liberation des REG du budget Team RealT
 Le stream est de type Cliff Exponential, cela signifie que le stream commence après une période de cliff, puis distribue les tokens de manière exponentielle, avec des déblocages plus importants vers la fin de la période.
 
 Retrouver la proposition sur Tally : https://www.tally.xyz/gov/realtoken-ecosystem-governance/proposals
@@ -195,7 +195,7 @@ batch -> tuple[]:
 - segment 1 : ["500000000000000000000000", "1000000000000000000", "1746057601"]
 - segment 2 : ["49500000000000000000000000", "3000000000000000000", "1872288000"]
 
-##### Explications :
+##### explication :
 
 - segment 0 :
 
@@ -217,6 +217,6 @@ batch -> tuple[]:
 
 **Le segment 1**, définit une date de fin de segment avec une distribution de 0 depuis le paramètre `startTime`, ce qui crée une periode de lock dur sans distribution.
 
-**Le segment 2**, définit une date de fin de segment avec une distribution de 500k tokens, ce qui libere une somme définie dans amount disponnibe instantanément à la date de fin du segment.
+**Le segment 2**, définit une date de fin de segment avec une distribution de 500k tokens, ce qui libere une somme définie dans amount disponnibe instantanément a la date de fin du segment.
 
-**Le segment 3**, définit une date de fin de segment avec une distribution de 49.5 Millions tokens, ce qui crée la courbe exponentielle à partir de la fin du segment 2 jusqu'à la date de fin du segment 3, il va distribuer le montant amount sur la periode avec un exposant de 3
+**Le segment 3**, définit une date de fin de segment avec une distribution de 49.5 Millions tokens, ce qui crée la courbe exponentielle a partir de la fin du segment 2 jusqu'a la date de fin du segment 3, il vas distribuer le montant amount sur la periode avec un exposant de 3
