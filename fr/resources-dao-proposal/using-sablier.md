@@ -2,7 +2,7 @@
 title: Proposition utilisant Sablier.com
 description: 
 published: false
-date: 2025-01-02T18:30:05.202Z
+date: 2025-01-02T18:34:18.204Z
 tags: sablier, stream, vesting
 editor: markdown
 dateCreated: 2025-01-02T16:29:46.001Z
@@ -20,7 +20,7 @@ dateCreated: 2025-01-02T16:29:46.001Z
 - Sepolia exemple :https://sepolia.etherscan.io/tx/0x86239fed5f924b61c7f5656e0e9322d7809097f2c2153b478fb38c07f85bdb4d
 - tally exemple test net : https://www.tally.xyz/gov/reg-dao-beta/proposal/6332954951702383415567855302130620076860949854692323526582374508844353542470
 
-## Instructions communes a toutes les types de stream
+## Instructions communes à tous les types de stream
 
 1. Créer une nouvelle proposal
 1. Compléter le formulaire de description de la proposal
@@ -34,7 +34,7 @@ dateCreated: 2025-01-02T16:29:46.001Z
      - Contrat Sablier SablierV2BatchLockup ([docs déploiement](https://docs.sablier.com/guides/lockup/deployments))
      - Use the imported ABI (si réussi, si non il faut fournir l'abi)
      - Contract Method -> [Selectionner la methode qui est adapter] (de préférance celle avec timestamps sont plus simple a configurer)
-     - Calldatas -> [Renseigner les paramètres] la partie batche peut etre compliquer a compléter, surtout les éléments de type tulpe[]
+     - Calldatas -> [Renseigner les paramètres] la partie batch peut être compliqué à compléter, surtout les éléments de type tulpe[]
 1. Effectuer la simulation pour vérifier que tout est bon
 
 ## Types de stream
@@ -56,18 +56,18 @@ Linear avec Cliff
 - Après le cliff, la distribution devient linéaire
 - Parfait pour les plans de vesting avec période de blocage
 
-Dévérouillage et Linear
+Déverrouillage et Linear
 
-- Similaire au stream linéaire mais avec un dévérouillage initial
-- Un nombre de token est dévérouillé instantanément
+- Similaire au stream linéaire mais avec un déverrouillage initial
+- Un nombre de token est déverrouillé instantanément
 - Solde de la distribution devient linéaire
 - Parfait pour les plans incitatifs a court et moyen terme
 
-Dévérouillage, Cliff et Linear
+Déverrouillage, Cliff et Linear
 
-- Combinaison de dévérouillage, cliff et linéaire
-- Un nombre de token est dévérouillé instantanément
-- Après le premier dévérouillage, une periode de lock est appliqué
+- Combinaison de déverrouillage, cliff et linéaire
+- Un nombre de token est déverrouillé instantanément
+- Après le premier déverrouillage, une periode de lock est appliqué
 - Solde de la distribution devient linéaire après la periode de lock
 - Parfait pour les plans de lancement de token
 
@@ -195,7 +195,7 @@ batch -> tuple[]:
 - segment 1 : ["500000000000000000000000", "1000000000000000000", "1746057601"]
 - segment 2 : ["49500000000000000000000000", "3000000000000000000", "1872288000"]
 
-##### explication :
+##### Explications :
 
 - segment 0 :
 
@@ -217,6 +217,6 @@ batch -> tuple[]:
 
 **Le segment 1**, définit une date de fin de segment avec une distribution de 0 depuis le paramètre `startTime`, ce qui crée une periode de lock dur sans distribution.
 
-**Le segment 2**, définit une date de fin de segment avec une distribution de 500k tokens, ce qui libere une somme définie dans amount disponnibe instantanément a la date de fin du segment.
+**Le segment 2**, définit une date de fin de segment avec une distribution de 500k tokens, ce qui libere une somme définie dans amount disponnibe instantanément à la date de fin du segment.
 
-**Le segment 3**, définit une date de fin de segment avec une distribution de 49.5 Millions tokens, ce qui crée la courbe exponentielle a partir de la fin du segment 2 jusqu'a la date de fin du segment 3, il vas distribuer le montant amount sur la periode avec un exposant de 3
+**Le segment 3**, définit une date de fin de segment avec une distribution de 49.5 Millions tokens, ce qui crée la courbe exponentielle a partir de la fin du segment 2 jusqu'à la date de fin du segment 3, il va distribuer le montant amount sur la periode avec un exposant de 3
