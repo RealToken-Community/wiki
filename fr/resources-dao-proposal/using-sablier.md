@@ -2,7 +2,7 @@
 title: Proposition utilisant Sablier.com
 description: 
 published: false
-date: 2025-01-02T18:34:18.204Z
+date: 2025-01-02T18:40:04.239Z
 tags: sablier, stream, vesting
 editor: markdown
 dateCreated: 2025-01-02T16:29:46.001Z
@@ -44,7 +44,7 @@ Il existe plusieurs types de stream qui donnent des comportements de déverrouil
 ### Stream Linéaire (Linear)
 
 - Distribution à taux constant par seconde
-- La courbe forme une ligne droite diagonale
+- La courbe forme une ligne droite en diagonale
 - Idéal pour des distributions simples et prévisibles
 
 #### variante
@@ -61,7 +61,7 @@ Déverrouillage et Linear
 - Similaire au stream linéaire mais avec un déverrouillage initial
 - Un nombre de token est déverrouillé instantanément
 - Solde de la distribution devient linéaire
-- Parfait pour les plans incitatifs a court et moyen terme
+- Parfait pour les plans incitatifs à court et moyen terme
 
 Déverrouillage, Cliff et Linear
 
@@ -109,8 +109,8 @@ Unlock Monthly
 
 BackWeighted
 
-- Déverrouillage paler progressif
-- palier avec valeur indépendante
+- Déverrouillage palier progressif
+- Palier avec valeur indépendante
 - Les tokens non réclamés s'accumulent
 - Idéal pour les plans de vesting avec des paliers de déverrouillage
 
@@ -122,7 +122,7 @@ Cette structure est utilisé par le stream dynamique (LD)
 Chaque `segment` dans un `stream dynamique` est défini par trois paramètres :
 
 - `amount` : montant de tokens à distribuer (uint128)
-- `exponent` : exposant définissant la courbe de distribution (UD2x18)
+- `exponent` : l'exposant définissant la courbe de distribution (UD2x18)
 - `timestamp` : horodatage de fin du segment (uint40)
 
 La formule de distribution suit : f(x) = x^exp \* csa + Σ(esa)
@@ -135,8 +135,8 @@ où :
 
 #### Structure du tuple
 
-Dans Tally, la partie Barch des fonctions de type LD sont composer un champs `segments` qui est un tableau de type `tuple[]`.
-Attention les explications suivante sont baser sur la fonction `createWithTimestampsLD`, pour d'autre fonction de type LD, il faudra adapter les types de tuple.
+Dans Tally, la partie Batch des fonctions de type LD sont composés d'un champs `segments` qui est un tableau de type `tuple[]`.
+Attention les explications suivante sont basées sur la fonction `createWithTimestampsLD`, pour d'autre fonctions de type LD, il faudra adapter les types de tuple.
 
 ```solidity
 struct Segment {
