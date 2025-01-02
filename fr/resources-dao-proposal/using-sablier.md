@@ -2,7 +2,7 @@
 title: Proposition utilisant Sablier.com
 description: 
 published: false
-date: 2025-01-02T18:40:04.239Z
+date: 2025-01-02T18:56:44.700Z
 tags: sablier, stream, vesting
 editor: markdown
 dateCreated: 2025-01-02T16:29:46.001Z
@@ -33,7 +33,7 @@ dateCreated: 2025-01-02T16:29:46.001Z
    - custom action
      - Contrat Sablier SablierV2BatchLockup ([docs déploiement](https://docs.sablier.com/guides/lockup/deployments))
      - Use the imported ABI (si réussi, si non il faut fournir l'abi)
-     - Contract Method -> [Selectionner la methode qui est adapter] (de préférance celle avec timestamps sont plus simple a configurer)
+     - Contract Method -> [Selectionner la methode qui est adaptée] (de préférance celle avec timestamps sont plus simple à configurer)
      - Calldatas -> [Renseigner les paramètres] la partie batch peut être compliqué à compléter, surtout les éléments de type tulpe[]
 1. Effectuer la simulation pour vérifier que tout est bon
 
@@ -118,7 +118,7 @@ BackWeighted
 
 ### Structure technique des segments
 
-Cette structure est utilisé par le stream dynamique (LD)
+Cette structure est utilisée par le stream dynamique (LD)
 Chaque `segment` dans un `stream dynamique` est défini par trois paramètres :
 
 - `amount` : montant de tokens à distribuer (uint128)
@@ -152,9 +152,10 @@ le champs `segments` dans la fonction `createWithTimestampsLD` est composer de 3
 - segment 1 : Représente la periode entre la fin du segment 0 et la fin du segment 1
 - segment 2 : Représente la periode entre la fin du segment 1 et la fin du stream
 
+
 ### Exemple complet de paramètre pour la fonction `createWithTimestampsLD`
 
-Cette exemple est baser sur les paramètre de la proposal [RIP000xx] - Liberation des REG du budget Team RealT
+Cet exemple est basé sur les paramètres de la proposal [RIP000xx] - Liberation des REG du budget Team RealT
 Le stream est de type Cliff Exponential, cela signifie que le stream commence après une période de cliff, puis distribue les tokens de manière exponentielle, avec des déblocages plus importants vers la fin de la période.
 
 Retrouver la proposition sur Tally : https://www.tally.xyz/gov/realtoken-ecosystem-governance/proposals
