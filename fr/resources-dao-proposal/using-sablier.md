@@ -2,14 +2,14 @@
 title: Proposition utilisant Sablier.com
 description: 
 published: false
-date: 2025-01-03T09:27:58.031Z
+date: 2025-01-03T09:33:05.846Z
 tags: sablier, stream, vesting
 editor: markdown
 dateCreated: 2025-01-02T16:29:46.001Z
 ---
 
 # Création d'un stream Sablier
-
+Les paramètres pour créer un flux sablier sont préalablement présentés, puis en fin de document l'exemple concret de la création du sablier pour le Budget DAO Team RealT est détaillé.
 ## Ressources
 
 - site : https://sablier.com/
