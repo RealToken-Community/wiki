@@ -2,7 +2,7 @@
 title: Proposition utilisant Sablier.com
 description: 
 published: false
-date: 2025-01-03T09:58:21.672Z
+date: 2025-01-03T10:00:08.348Z
 tags: sablier, stream, vesting
 editor: markdown
 dateCreated: 2025-01-02T16:29:46.001Z
@@ -13,7 +13,7 @@ L'objectif de cet article est double :
 - Toute proposition de vote (sur tally) doit être analysée en détail, notamment la partie qui concerne le code qui sera executé.
 La fin de l'article aidera à comprendre le code de la proposition : Liberation des REG du budget DAO Team RealT.
 - A l'avenir des Proposer souhaiteront peut être utiliser cet exemple pour construire de nouvelles propositions sur Tally.
-L'article débute par la présentation des paramètres (sur Tally et sablier) pour créer un flux sablier.
+L'article débute par la présentation des paramètres (sur Tally et Sablier) pour créer un flux Sablier.
 
 ## Ressources
 
