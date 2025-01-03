@@ -1,8 +1,8 @@
 ---
 title: Application tiers utilisée par la DAO
 description: 
-published: false
-date: 2025-01-03T09:09:36.464Z
+published: true
+date: 2025-01-03T12:06:31.840Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-02T17:32:35.677Z
