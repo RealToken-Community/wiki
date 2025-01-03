@@ -2,7 +2,7 @@
 title: Proposition utilisant Sablier.com
 description: 
 published: false
-date: 2025-01-02T18:56:44.700Z
+date: 2025-01-03T05:37:06.654Z
 tags: sablier, stream, vesting
 editor: markdown
 dateCreated: 2025-01-02T16:29:46.001Z
@@ -162,7 +162,7 @@ Retrouver la proposition sur Tally : https://www.tally.xyz/gov/realtoken-ecosyst
 
 ```
 Fonction/Signature: createWithTimestampsLD(address,address,tuple[])
-Constact Targate : 0x0F324E5CB01ac98b2883c8ac4231aCA7EfD3e750
+Contract Target : 0x0F324E5CB01ac98b2883c8ac4231aCA7EfD3e750
 
 Calldata (batch):
 lockupDynamic -> address : 0x555eb55cbc477Aebbe5652D25d0fEA04052d3971
