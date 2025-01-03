@@ -2,7 +2,7 @@
 title: Application tiers utilisée par la DAO
 description: 
 published: false
-date: 2025-01-03T05:44:40.585Z
+date: 2025-01-03T06:46:58.606Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-02T17:32:35.677Z
@@ -45,7 +45,7 @@ Pour la DAO, l'intégration de Sablier permettrait une gestion granulaire des fl
 ## Conclusion
 
 L'intégration de Sablier.com dans l'écosystème de la DAO RealToken pourrait apporter des avantages significatifs en termes de gestion financière et de transparence. En adoptant cette technologie, la DAO pourrait non seulement améliorer son efficacité opérationnelle, mais aussi renforcer la confiance de ses membres grâce à une gestion transparente et automatisée des paiements.
-L'utilisation de Sablier est entièrement gratuite et le restera dans un avenir proche. Outre les coûts de gaz de la blockchain, il n'y a aucun frais et il n'y aura jamais de frais rétroactifs.
+L'utilisation de Sablier est entièrement gratuite : outre les coûts de gaz de la blockchain, il n'y a aucun frais.
 
 ## Ressources
 
