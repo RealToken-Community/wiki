@@ -1,8 +1,8 @@
 ---
 title: Proposition utilisant Sablier.com
 description: 
-published: false
-date: 2025-01-03T10:00:08.348Z
+published: true
+date: 2025-01-03T12:33:35.686Z
 tags: sablier, stream, vesting
 editor: markdown
 dateCreated: 2025-01-02T16:29:46.001Z
