@@ -2,14 +2,19 @@
 title: Proposition utilisant Sablier.com
 description: 
 published: false
-date: 2025-01-03T09:33:05.846Z
+date: 2025-01-03T09:58:21.672Z
 tags: sablier, stream, vesting
 editor: markdown
 dateCreated: 2025-01-02T16:29:46.001Z
 ---
 
 # Création d'un stream Sablier
-Les paramètres pour créer un flux sablier sont préalablement présentés, puis en fin de document l'exemple concret de la création du sablier pour le Budget DAO Team RealT est détaillé.
+L'objectif de cet article est double : 
+- Toute proposition de vote (sur tally) doit être analysée en détail, notamment la partie qui concerne le code qui sera executé.
+La fin de l'article aidera à comprendre le code de la proposition : Liberation des REG du budget DAO Team RealT.
+- A l'avenir des Proposer souhaiteront peut être utiliser cet exemple pour construire de nouvelles propositions sur Tally.
+L'article débute par la présentation des paramètres (sur Tally et sablier) pour créer un flux sablier.
+
 ## Ressources
 
 - site : https://sablier.com/
@@ -20,7 +25,7 @@ Les paramètres pour créer un flux sablier sont préalablement présentés, pui
 - Sepolia exemple :https://sepolia.etherscan.io/tx/0x86239fed5f924b61c7f5656e0e9322d7809097f2c2153b478fb38c07f85bdb4d
 - tally exemple test net : https://www.tally.xyz/gov/reg-dao-beta/proposal/6332954951702383415567855302130620076860949854692323526582374508844353542470
 
-## Instructions communes à tous les types de stream
+## Instructions communes à tous les types de stream sur Tally
 
 1. Créer une nouvelle proposal
 1. Compléter le formulaire de description de la proposal
@@ -37,7 +42,7 @@ Les paramètres pour créer un flux sablier sont préalablement présentés, pui
      - Calldatas -> [Renseigner les paramètres] la partie batch peut être compliqué à compléter, surtout les éléments de type tulpe[]
 1. Effectuer la simulation pour vérifier que tout est bon
 
-## Types de stream
+## Types de stream Sablier
 
 Il existe plusieurs types de stream qui donnent des comportements de déverrouillage différents :
 
