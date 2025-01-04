@@ -2,7 +2,7 @@
 title: Bem-vindo
 description: 
 published: true
-date: 2024-10-18T08:48:47.616Z
+date: 2025-01-04T11:07:49.189Z
 tags: 
 editor: markdown
 dateCreated: 2024-10-11T09:29:43.560Z
@@ -18,6 +18,4 @@ Desfrute da leitura e obrigado pelos seus comentários e contribuições.
 # Contribuição
 Quem quiser contribuir é bem-vindo, basta seguir o [Guia.](/pt/Tuto/Guide)
 
-# Lista de tópicos
 
-- [Organização Autónoma Descentralizada (DAO)](/pt/DAO)
