@@ -2,7 +2,7 @@
 title: Power Voting
 description: 
 published: true
-date: 2025-01-01T18:25:23.025Z
+date: 2025-01-04T09:51:35.343Z
 tags: 
 editor: ckeditor
 dateCreated: 2024-12-31T18:01:18.658Z
@@ -13,21 +13,21 @@ dateCreated: 2024-12-31T18:01:18.658Z
   <li>la façon dont ils sont possédés : sur son Wallet, &nbsp;déposé sur une Pool de liquidité ou déposé sur le Vault d'incentive,</li>
   <li>la blockchain utilisée (Gnosis, Polygon ou Ethereum).</li>
 </ul>
-<p>A une date non prévisible (afin qu'il n'y ait pas de manipulation), RealT fait une photo (snapshot) pour collecter la situation de tous les REG.&nbsp;<br>A partir de cette collecte, un programme (offChain) calcul le Pouvoir de vote de chacun. Il s'agit d'une pondération du mode de détention des REG (et des contre-parties dans les pools de liquidités) qui est décidée par la DAO.</p>
+<p>A une date non prévisible (afin qu'il n'y ait pas de manipulation), RealT fait une photo (snapshot) pour collecter la situation de tous les REG.&nbsp;<br>A partir de cette collecte, un programme (offChain) calcul le Pouvoir de vote de chacun. Il s'agit d'une pondération du mode d'utilisation des REG (et des contre-parties dans les pools de liquidité) qui est décidée par la DAO.</p>
 <p>La quantité de token Voting Power de chacun reste inchangée, jusqu'au prochain snapshot (même si la quantité de REG a bougée entre temps). Ce token est non transférable.&nbsp;<br>La quantité de Voting Power d'un wallet est visible sur l'application <a href="https://www.tally.xyz/gov/realtoken-ecosystem-governance">Tally</a>, ou sur<a href="https://gnosisscan.io/token/0x6382856a731Af535CA6aea8D364FCE67457da438#balances"> l'explorateur&nbsp;</a></p>
-<h1>Algorithme</h1>
+<h1>Algorithme de pondération</h1>
 <p>Les premiers snapshots ont utilisé, la pondération suivante :&nbsp;</p>
 <ul>
   <li>1 REG dans un Wallet ou le Vault d'incentive vaut 1 PowerVoting</li>
   <li>1 REG dans un pool de liquidité vaut 1,2 PowerVoting,</li>
   <li>Les stablecoins apportés en contre partie dans le Pool de liquidité valent 0,5 PowerVoting de l'équivalent REG</li>
 </ul>
-<p>Cette algorithme a été établi par RealT, un Comité &nbsp;dédié va se constituer pour préparer et faire voter les prochaines versions (RIP00007).<br><br>Le programme de calcul sera prochainement rendu publique.</p>
+<p>Cette algorithme a été établi par RealT.&nbsp;<br>Un Comité &nbsp;dédié va se constituer pour préparer et faire voter les prochaines versions de l'algorithme (RIP00007).<br><br>Le programme de calcul correspondant, sera prochainement rendu publique.</p>
 <h1>Snapshot</h1>
 <p>A l'occasion de chaque snapshot, RealT génère deux types de fichier (au format csv et json) :&nbsp;</p>
 <ul>
-  <li>balancesREG : Liste tous les wallets qui possèdent des REG, avec la quantité pour chaque mode de détention,</li>
-  <li>powerVotingREG_balances : Liste des wallets qui possèdent des PowerVoting avec la quantité résultant du calcul par l'algorithme.<br>Sont exclus de cette seconde liste (car ils ne peuvent pas voter) les adresses : des Pool de liquidité, du Vault d'incentive et des safes qui gère les budgets de la DAO et l'allocation à Mt Pelerin.</li>
+  <li>balancesREG : Liste tous les wallets qui possèdent des REG, avec la quantité pour chaque mode de d'utilisation,</li>
+  <li>powerVotingREG_balances : Liste des wallets qui possèdent des PowerVoting avec la quantité résultant du calcul par l'algorithme.<br>Sont exclus de cette seconde liste (car ils ne peuvent pas voter) les adresses : des Pool de liquidité, du Vault d'incentive, des safes qui gèrent les budgets de la DAO, ainsi que l'allocation à Mt Pelerin.</li>
 </ul>
 <p>Date des snapshots :&nbsp;</p>
 <ul>
@@ -37,7 +37,7 @@ dateCreated: 2024-12-31T18:01:18.658Z
       <li><a href="/assets/document/balancesreg_2024-12-27t11h51mn57_utc+01.csv">/assets/document/balancesreg_2024-12-27t11h51mn57_utc+01.csv</a></li>
       <li><a href="/assets/document/powervotingreg_balancesregmodel_linearmodel_2024_12_27t11h53mn47.csv">/assets/document/powervotingreg_balancesregmodel_linearmodel_2024_12_27t11h53mn47.csv</a></li>
       <li><a href="/assets/document/balancesreg_2024-12-27t11h51mn57_utc+01.json">/assets/document/balancesreg_2024-12-27t11h51mn57_utc+01.json</a></li>
-      <li><a href="/assets/document/powervotingreg_balancesregmodel_linearmodel_2024_12_27t11h53mn47.json">/assets/document/powervotingreg_balancesregmodel_linearmodel_2024_12_27t11h53mn47.json</a></li>
+      <li><a href="/assets/document/powervotingreg_balancesregmodel_linearmodel_2024_12_27t11h53mn47.json">/assets/document/powervotingreg_balancesregmodel_linearmodel_2024_12_27t11h53mn47.json</a><br>&nbsp;</li>
     </ul>
   </li>
 </ul>
