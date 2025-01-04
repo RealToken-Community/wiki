@@ -2,7 +2,7 @@
 title: Welcome
 description: 
 published: true
-date: 2024-10-18T08:44:54.158Z
+date: 2025-01-04T11:05:56.954Z
 tags: 
 editor: markdown
 dateCreated: 2024-10-07T14:30:54.729Z
@@ -26,6 +26,4 @@ Happy reading and thank you for your feedback and contributions.
 
 Anyone wishing to contribute is welcome. To do so, simply follow the [Guide.](/en/Tuto/Guide)
 
-# List of topics
 
-- [Decentralized Autonomous Organization (DAO)](/en/DAO)
