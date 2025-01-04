@@ -2,7 +2,7 @@
 title: Accueil
 description: 
 published: true
-date: 2024-10-18T08:44:00.594Z
+date: 2025-01-04T11:05:25.308Z
 tags: 
 editor: markdown
 dateCreated: 2024-10-08T08:38:17.963Z
@@ -18,6 +18,4 @@ Bonne lecture et merci pour vos retours et contributions.
 # Contribution
 Toute personne désireuse de contribuer est la bienvenue, il vous suffit pour cela de suivre le [Guide.](/fr/Tuto/Guide) 
 
-# Liste des sujets 
 
--   [Organisation Autonome Décentralisé (DAO)](/fr/DAO)
