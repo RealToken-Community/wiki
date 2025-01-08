@@ -1,0 +1,43 @@
+<!--
+title: Voting Power
+description: 
+published: true
+date: 2025-01-08T15:24:00.749Z
+tags: 
+editor: ckeditor
+dateCreated: 2025-01-08T15:24:00.749Z
+-->
+
+<p>Voting power is established from the REGs owned, regardless of:</p>
+<ul>
+  <li>the way they are owned: on its Wallet, deposited on a Liquidity Pool or deposited on the Incentive Vault,</li>
+  <li>the blockchain used (Gnosis, Polygon or Ethereum).</li>
+</ul>
+<p>At an unpredictable date (so that there is no manipulation), RealT takes a snapshot to collect the situation of all the REGs. From this collection, a program (offChain) calculates the Voting Power of each. This is a weighting of the mode of use of the REGs (and the counterparts in the liquidity pools) which is decided by the DAO.</p>
+<p>The quantity of Voting Power token of each remains unchanged, until the next snapshot (even if the quantity of REG has moved in the meantime). This token is non-transferable. The quantity of Voting Power of a wallet is visible on the application <a href="https://www.tally.xyz/gov/realtoken-ecosystem-governance">Tally</a>, or&nbsp;<a href="https://gnosisscan.io/token/0x6382856a731Af535CA6aea8D364FCE67457da438#balances"> explorer.</a></p>
+<h1>Weighting algorithm</h1>
+<p>The first snapshots used the following weighting:</p>
+<ul>
+  <li>1 REG in a Wallet or the Incentive Vault is worth 1 PowerVoting</li>
+  <li>1 REG in a liquidity pool is worth 1.2 PowerVoting,</li>
+  <li>The stablecoins brought in return in the Liquidity Pool are worth 0.5 PowerVoting of the REG equivalent</li>
+</ul>
+<p>This algorithm was established by RealT. A dedicated Committee will be formed to prepare and vote on the next versions of the algorithm (RIP00007). The corresponding calculation program will soon be made public.</p>
+<h1>Snapshot</h1>
+<p>For each snapshot, RealT generates two types of files (in csv and json format):</p>
+<ul>
+  <li>balancesREG: Lists all wallets that have REG, with the quantity for each mode of use,</li>
+  <li>powerVotingREG_balances: List of wallets that have PowerVoting with the quantity resulting from the calculation by the algorithm. The following addresses are excluded from this second list (because they cannot vote): Liquidity Pools, Incentive Vaults, Safes that manage the DAO budgets, and the allocation to Mt Pelerin.</li>
+</ul>
+<p>Snapshot dates:</p>
+<ul>
+  <li>October 29,</li>
+  <li>November 14,</li>
+  <li>December 27, Corresponding files:<ul>
+      <li><a href="/assets/document/balancesreg_2024-12-27t11h51mn57_utc+01.csv">/assets/document/balancesreg_2024-12-27t11h51mn57_utc+01.csv</a></li>
+      <li><a href="/assets/document/powervotingreg_balancesregmodel_linearmodel_2024_12_27t11h53mn47.csv">/assets/document/powervotingreg_balancesregmodel_linearmodel_2024_12_27t11h53mn47.csv</a></li>
+      <li><a href="/assets/document/balancesreg_2024-12-27t11h51mn57_utc+01.json">/assets/document/balancesreg_2024-12-27t11h51mn57_utc+01.json</a></li>
+      <li><a href="/assets/document/powervotingreg_balancesregmodel_linearmodel_2024_12_27t11h53mn47.json">/assets/document/powervotingreg_balancesregmodel_linearmodel_2024_12_27t11h53mn47.json</a><br>&nbsp;</li>
+    </ul>
+  </li>
+</ul>
