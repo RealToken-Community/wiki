@@ -2,7 +2,7 @@
 title: Réclamation des REG
 description: 
 published: true
-date: 2025-01-20T18:35:58.912Z
+date: 2025-01-20T19:04:37.441Z
 tags: 
 editor: ckeditor
 dateCreated: 2025-01-20T18:02:32.995Z
@@ -95,9 +95,83 @@ dateCreated: 2025-01-20T18:02:32.995Z
   <li>Vault&nbsp;: <a href="https://sepolia.etherscan.io/address/0x88979a8cB79b7E87b11eCe488D46cCCa9B204313">https://sepolia.etherscan.io/address/0x88979a8cB79b7E87b11eCe488D46cCCa9B204313</a></li>
 </ul>
 <p>Merkel Tree&nbsp;: <a href="https://github.com/real-token/public-datas/tree/main/usd-reg-conversion/sepolia">https://github.com/real-token/public-datas/tree/main/usd-reg-conversion/sepolia&nbsp;</a></p>
-<h1><br><strong>Détail de fonctionnement du Vault </strong>⭐⭐⭐</h1>
-<p><br>L’addresse ci-dessus est celle du Proxy (invariable) qui pointe sur l’implementation (qui peut varier suivant les mises à jour) suivante : <a href="https://sepolia.etherscan.io/address/0xaf38a8e7edb2f671b99dffdd3edaf7d5bde2ed4b#code">https://sepolia.etherscan.io/address/0xaf38a8e7edb2f671b99dffdd3edaf7d5bde2ed4b#code</a></p>
-<p><br>&nbsp;</p>
+<h1><br><strong>Détail de fonctionnement du contrat Vault </strong>⭐⭐⭐</h1>
+<p><br>L’adresse ci-dessus est celle du Proxy (invariable) qui pointe sur l’implementation suivante &nbsp;(qui peut varier suivant les mises à jour) &nbsp;: <a href="https://sepolia.etherscan.io/address/0xaf38a8e7edb2f671b99dffdd3edaf7d5bde2ed4b#code">https://sepolia.etherscan.io/address/0xaf38a8e7edb2f671b99dffdd3edaf7d5bde2ed4b#code</a></p>
+<p>Le&nbsp;programme gère la&nbsp;conversion et la&nbsp;distribution&nbsp;de tokens REG,&nbsp;basés&nbsp;sur des montants en USDREG enregistré sur un Merkel Tree.</p>
+<h2>Principales fonctionnalités</h2>
+<ol>
+  <li><strong>Rôles et&nbsp;Permissions</strong>&nbsp;: Le contrat utilise le&nbsp;système de&nbsp;contrôle&nbsp;d'accès&nbsp;d'OpenZeppelin&nbsp;pour gérer&nbsp;différents rôles&nbsp;(administrateur, opérateur, pauser, et&nbsp;upgradeur) afin&nbsp;de sécuriser&nbsp;les&nbsp;opérations critiques.</li>
+  <li><strong>Gestion&nbsp;des Tokens</strong>&nbsp;: Il&nbsp;interagit&nbsp;avec&nbsp;le token&nbsp;REG, en permettant aux utilisateurs de réclamer des&nbsp;tokens REG&nbsp;en fonction de montants en USDREG, tout&nbsp;en vérifiant les&nbsp;preuves de&nbsp;Merkle pour&nbsp;garantir&nbsp;l'éligibilité.</li>
+  <li><strong>Fonctionnalités&nbsp;de&nbsp;Réclamation</strong>&nbsp;: Les utilisateurs&nbsp;peuvent&nbsp;réclamer des&nbsp;tokens, soit&nbsp;directement, soit par&nbsp;l'intermédiaire&nbsp;d'un délégué. Le contrat gère également&nbsp;des&nbsp;fonctionnalités de&nbsp;réclamation&nbsp;automatique&nbsp;et&nbsp;de&nbsp;réclamation WalletLess.</li>
+  <li><strong>Gestion des Timestamps</strong>&nbsp;: Le contrat inclut&nbsp;des&nbsp;mécanismes pour&nbsp;vérifier&nbsp;que&nbsp;les réclamations&nbsp;se produisent dans&nbsp;une période&nbsp;de&nbsp;temps définie, empêchant les&nbsp;réclamations en&nbsp;dehors&nbsp;de cette&nbsp;période.</li>
+  <li><strong>Bridge et&nbsp;Transferts</strong>&nbsp;: Il&nbsp;permet&nbsp;également de transférer des tokens&nbsp;vers&nbsp;d'autres chaînes&nbsp;(bridge) et&nbsp;de gérer les&nbsp;frais&nbsp;associés&nbsp;à ces transferts.</li>
+  <li><strong>Mises à Jour</strong> : Le contrat est conçu pour être mis à jour via un mécanisme d'upgrade, permettant d'ajouter de nouvelles fonctionnalités ou de corriger des bugs sans perdre l'état du contrat.</li>
+  <li><strong>Événements</strong>&nbsp;: Il émet des&nbsp;événements pour&nbsp;suivre&nbsp;les actions importantes, comme&nbsp;les réclamations&nbsp;de&nbsp;tokens, les mises&nbsp;à&nbsp;jour&nbsp;de&nbsp;paramètres, et les erreurs.</li>
+</ol>
+<h2>Validation avec preuve de Merkel</h2>
+<p>La validation avec preuve de Merkle fonctionne en vérifiant que les informations d'un utilisateur (adresse et montant) sont bien incluses dans une structure de données appelée arbre de Merkle.&nbsp;<br>Execution dans le programme :</p>
+<p>1<strong> Génération de la Feuille</strong> : Pour chaque réclamation, une «&nbsp;feuille&nbsp;» est générée en hachant les données de l'utilisateur (adresse et montant) avec la fonction keccak256. Cela crée un hachage unique qui représente cette réclamation.&nbsp;</p>
+<figure class="image image-style-align-right"><img src="/imag-en/leaf.png"></figure>
+<p>&nbsp;Ligne 659&nbsp;:&nbsp;</p>
+<p>&nbsp;</p>
+<p>2 <strong>Vérification de la Preuve</strong> : La fonction <i>_validateMerkleProof</i> prend en entrée l'adresse de l'utilisateur, le montant, la racine de Merkle attendue et un tableau de preuves de Merkle. Elle vérifie si la feuille (hachage) de l'utilisateur peut être reconstruite à partir de la racine de Merkle en utilisant les preuves fournies.</p>
+<figure class="image image-style-align-right"><img src="/imag-en/validatemerkel.png"></figure>
+<p>&nbsp;</p>
+<p><a href="https://sepolia.etherscan.io/address/0xaf38a8e7edb2f671b99dffdd3edaf7d5bde2ed4b#code">https://sepolia.etherscan.io/address/0xaf38a8e7edb2f671b99dffdd3edaf7d5bde2ed4b#code</a>#F1#L652<br>&nbsp;</p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
+<p>3. <strong>Vérification de l'Arbre de Merkle</strong> : La fonction <i>_verifyAsm</i> utilise une approche d'assemblage pour parcourir les preuves de Merkle. Elle prend chaque nœud de la preuve et le combine avec la feuille pour reconstruire le hachage jusqu'à atteindre la racine de Merkle. Si la racine reconstruite correspond à la racine de Merkle attendue, cela signifie que la réclamation est valide.</p>
+<figure class="image image-style-align-right"><img src="/imag-en/verifyasm.png"></figure>
+<p><br><br><a href="https://sepolia.etherscan.io/address/0xaf38a8e7edb2f671b99dffdd3edaf7d5bde2ed4b#code">https://sepolia.etherscan.io/address/0xaf38a8e7edb2f671b99dffdd3edaf7d5bde2ed4b#code</a>#F1#L702</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><strong>4. Rejet des Réclamations Invalides</strong> : Si la vérification échoue, le contrat rejette la réclamation en lançant une erreur, garantissant ainsi que seules les réclamations valides, qui correspondent à la structure de l'arbre de Merkle, sont acceptées.<br>&nbsp;</p>
+<h2><strong>Mode de réclamation</strong></h2>
+<p>Principaux modes de réclamation dans le contrat :</p>
+<h3><strong>1. Réclamation par l'utilisateur </strong><span class="text-tiny">(lignes 176 à 200)</span></h3>
+<ul>
+  <li>Fonction : <i>claim</i></li>
+  <li>Description : Ce mode permet à un utilisateur de réclamer des tokens REG en fonction d'un montant en USDREG.</li>
+  <li>Processus :</li>
+</ul>
+<ol>
+  <li>L'utilisateur appelle la fonction claim avec le montant qu'il souhaite réclamer et une preuve de Merkle.</li>
+  <li>La fonction vérifie que le contrat n'est pas en pause et que les timestamps sont valides.</li>
+  <li>Elle vérifie&nbsp;que&nbsp;la preuve&nbsp;de&nbsp;Merkle est valide pour&nbsp;l'utilisateur&nbsp;et le&nbsp;montant spécifié.</li>
+  <li>Elle vérifie le montant déjà réclamé par l'utilisateur pour éviter les doubles réclamations.</li>
+  <li>Si toutes les vérifications passent, le contrat calcule le montant de REG à émettre et effectue la minting des tokens REG pour l'utilisateur.</li>
+</ol>
+<figure class="image image-style-align-right"><img src="/imag-en/claim_man.png"></figure>
+<p>&nbsp;</p>
+<p><a href="https://sepolia.etherscan.io/address/0xaf38a8e7edb2f671b99dffdd3edaf7d5bde2ed4b#code">https://sepolia.etherscan.io/address/0xaf38a8e7edb2f671b99dffdd3edaf7d5bde2ed4b#code</a>#F1#L176<br>&nbsp;</p>
+<h2><strong>Réclamation par un délégué </strong><span class="text-tiny">(lignes 297 à 331)</span></h2>
+<ul>
+  <li>Fonction : <i>claimByDelegate</i></li>
+  <li>Description : Ce mode permet à un utilisateur de désigner un délégué pour réclamer des tokens en son nom.</li>
+  <li>Processus :</li>
+</ul>
+<ol>
+  <li>L'utilisateur fournit des informations de réclamation (adresse du compte, montant, destinataire) et une signature pour prouver l'autorisation.</li>
+  <li>La fonction vérifie que le contrat n'est pas en pause et que les timestamps sont valides.</li>
+  <li>Elle valide la signature pour s'assurer que le délégué est autorisé à agir au nom de l'utilisateur.</li>
+  <li>Comme dans le mode de réclamation par l'utilisateur, la preuve de Merkle est validée, et le montant déjà réclamé est vérifié.</li>
+  <li>Si tout est valide, le contrat mint les tokens REG pour le destinataire.</li>
+</ol>
+<figure class="image image-style-align-right"><img src="/imag-en/deleg_claim.png"></figure>
+<p><br><a href="https://sepolia.etherscan.io/address/0xaf38a8e7edb2f671b99dffdd3edaf7d5bde2ed4b#code">https://sepolia.etherscan.io/address/0xaf38a8e7edb2f671b99dffdd3edaf7d5bde2ed4b#code</a>#F1#L297</p>
+<h2><strong>Réclamation automatique </strong><span class="text-tiny">(lignes 540 à 623)</span></h2>
+<ul>
+  <li>Fonction : claimByAutoClaim</li>
+  <li>Description : Ce mode permet aux utilisateurs de réclamer automatiquement des tokens REG sans avoir à initier manuellement la réclamation.</li>
+  <li>Processus :</li>
+</ul>
+<ol>
+  <li>L'utilisateur appelle la fonction avec un tableau de structures de réclamation.</li>
+  <li>La fonction vérifie que le contrat n'est pas en pause et que les timestamps sont valides.</li>
+  <li>Pour chaque réclamation, elle vérifie si l'auto-réclamation est activée pour le destinataire.</li>
+  <li>Elle valide la preuve de Merkle et vérifie le montant déjà réclamé.</li>
+  <li>Les tokens REG sont mintés pour le destinataire, et des frais peuvent être appliqués si configurés.</li>
+</ol>
+<p>&nbsp;</p>
+<p><a href="https://sepolia.etherscan.io/address/0xaf38a8e7edb2f671b99dffdd3edaf7d5bde2ed4b#code">https://sepolia.etherscan.io/address/0xaf38a8e7edb2f671b99dffdd3edaf7d5bde2ed4b#code</a>#F1#L540</p>
 <p>&nbsp;</p>
