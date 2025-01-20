@@ -2,7 +2,7 @@
 title: Réclamation des REG
 description: 
 published: true
-date: 2025-01-20T18:16:29.785Z
+date: 2025-01-20T18:27:44.463Z
 tags: 
 editor: ckeditor
 dateCreated: 2025-01-20T18:02:32.995Z
@@ -52,7 +52,7 @@ dateCreated: 2025-01-20T18:02:32.995Z
 <h1>Comment ça marche</h1>
 <p>&nbsp;</p>
 <h2><strong>Avant la création du contrat de réclamation</strong></h2>
-<p>&nbsp;</p>
+<figure class="image image-style-align-right image_resized" style="width:49.53%;"><img src="/imag-en/ccm1 .png"></figure>
 <p>Pendant la période des Soon (2021 à début 2025) et avant la création du contrat de réclamation des REG (Vault):&nbsp;</p>
 <ul class="todo-list">
   <li><label class="todo-list__label"><input type="checkbox" disabled="disabled"><span class="todo-list__label__description">1. A l’issu de chaque réévaluation d’un Realtoken, RealT lance le Mint des Soon correspondants,</span></label></li>
@@ -67,6 +67,7 @@ dateCreated: 2025-01-20T18:02:32.995Z
 </ul>
 <p>L’ensemble des actions ci avant sont exécutées qu’une seule fois, et disparaitront dès l’activation du contrat de réclamation.<br>&nbsp;</p>
 <h2><strong>Réclamation «&nbsp;manuelle&nbsp;»</strong></h2>
+<figure class="image image-style-align-right image_resized" style="width:49.62%;"><img src="/imag-en/ccm2.png"></figure>
 <p>Une fois le fichier «&nbsp;Merkle tree&nbsp;» initialisé, (la première fois à partir des Soon accumulés)&nbsp;:&nbsp;</p>
 <ol>
   <li>La réclamation des REG peut etre demandée&nbsp;:&nbsp;<br>- à partir de l’application de claim qui affiche le nombre de REG claimable,<br>- ou directement à partir du wallet utilisateur (solution plus complexe)</li>
@@ -78,15 +79,15 @@ dateCreated: 2025-01-20T18:02:32.995Z
   <li>Les réévaluations/distributions qui suivront se feront directement en $REG par mise à jour du Merkel tree. Cette mise à jour fera apparaître de nouveaux REG a réclamer dans l’application.<br>&nbsp;</li>
 </ol>
 <h2><br><strong>Réclamation «&nbsp;automatique&nbsp;»</strong></h2>
-<p><br>L’exectution de la réclamation par le smart contract Vault peut être déclenché soit manuellement par l’utilisateur, soit automatiquement par un automate. Il faudra au préalable avoir autorisé ce mode opératoire.</p>
+<figure class="image image-style-align-right image_resized" style="width:49.81%;"><img src="/imag-en/ccm3.png"></figure>
+<p><br>L’exécution de la réclamation par le smart contract Vault peut être déclenché soit manuellement par l’utilisateur, soit automatiquement par un automate. Il faudra au préalable avoir autorisé ce mode opératoire.</p>
 <ol>
-  <li>L’automate va surveiller les mises à jour du Merkel Tree pour les utilisateurs inscrits, puis déclencher une reclamation des REG pour les utilisateurs concernés,</li>
-  <li>Suivant le paramétrage du smart contract Vault de conversion, des frais de réclamation automatique pourront être appliqués (0&nbsp;% au départ)</li>
-  <li>Le Vault demandera le mint des REG correspondants au frais et de ceux pour l’utilisateur</li>
-  <li>Le contrat REG mintera les REG de frais vers le wallet de l’automate</li>
-  <li>Le contrat REG mintera les REG de l’utilisateur vers son wallet</li>
+  <li>L’automate va surveiller les mises à jour du Merkel Tree pour les utilisateurs inscrits, puis déclencher une réclamation des REG pour les utilisateurs concernés,</li>
+  <li>Suivant le paramétrage du smart contract Vault de conversion, des frais de réclamation automatique pourront être appliqués (0&nbsp;% au départ),</li>
+  <li>Le Vault demandera le mint des REG correspondants au frais et de ceux pour l’utilisateur,</li>
+  <li>Le contrat REG mintera les REG de frais vers le wallet de l’automate,</li>
+  <li>Le contrat REG mintera les REG de l’utilisateur vers son wallet.<br>&nbsp;</li>
 </ol>
-<p><br>&nbsp;</p>
 <h2><strong>Adresse</strong></h2>
 <p>Smart contract&nbsp;:</p>
 <ul>
