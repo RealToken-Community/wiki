@@ -2,7 +2,7 @@
 title: Réclamation des REG
 description: 
 published: true
-date: 2025-01-20T18:02:32.995Z
+date: 2025-01-20T18:12:33.494Z
 tags: 
 editor: ckeditor
 dateCreated: 2025-01-20T18:02:32.995Z
@@ -12,11 +12,11 @@ dateCreated: 2025-01-20T18:02:32.995Z
 <p><br>A chaque tokenisation d’un actif, 10&nbsp;% du prix du jeton est alloué à RealT en tant que frais de «&nbsp;sourcing&nbsp;».<br>Ces frais restent inclus dans le prix du Realtoken, jusqu’à la première réévaluation (ce qui permet, dans l’interval, une revente sans perte de ces frais).</p>
 <p>Lors de la première réévaluation, les 10&nbsp;% de frais sont retirés de la valeur du jeton et en compensation le propriétaire reçoit un montant équivalent de jeton de gouvernance.</p>
 <p>Avant la création du REG, ce montant était versé en token SOON, dont la valeur était 1$ de token REG.<br><br>Une fois l’application de réclamation des REG mise en service, les SOON disparaitront et l’allocation lors de la première réévaluation se fera directement en $ convertible en REG (cf RIP00009).<br>&nbsp;</p>
-<figure class="image image-style-align-right image_resized" style="width:41.4%;"><img src="/imag-en/valuation.png"></figure>
+<figure class="image image_resized image-style-align-right" style="width:41.4%;"><img src="/imag-en/valuation.png"></figure>
 <p><br>Les réévaluations des biens sont faites par des sociétés indépendantes de RealT.<br>Le cout de cette action devient élevé (notamment pour les multi-family) et conduit RealT à décaler cette réévaluation qui devait être annuelle à l’origine.</p>
 <p>A l’avenir, la distribution de $ REG ne devrait plus être lié à la réévaluation, mais à un délai après la tokenisation.<br>&nbsp;</p>
 <h1><strong>L'application pour réclamer ses REG</strong></h1>
-<figure class="image image-style-align-right image_resized" style="width:41.32%;"><img src="/imag-en/claim1.png"></figure>
+<figure class="image image_resized image-style-align-right" style="width:41.32%;"><img src="/imag-en/claim1.png"></figure>
 <p>&nbsp;</p>
 <p><a href="https://claim.realtoken.network/">https://claim.realtoken.network/</a><br>&nbsp;</p>
 <ol>
@@ -52,7 +52,8 @@ dateCreated: 2025-01-20T18:02:32.995Z
 <h1>Comment ça marche</h1>
 <p>&nbsp;</p>
 <h2><strong>Avant la création du contrat de réclamation</strong></h2>
-<figure class="image image-style-align-right image_resized" style="width:58.69%;"><img src="/imag-en/ccm1.png"></figure>
+<figure class="image image-style-align-right image_resized" style="width:50.61%;"><img src="/imag-en/initiatclaim.svg"></figure>
+<p>&nbsp;</p>
 <p>Pendant la période des Soon (2021 à début 2025) et avant la création du contrat de réclamation des REG (Vault):&nbsp;</p>
 <ul class="todo-list">
   <li><label class="todo-list__label"><input type="checkbox" disabled="disabled"><span class="todo-list__label__description">1. A l’issu de chaque réévaluation d’un Realtoken, RealT lance le Mint des Soon correspondants,</span></label></li>
@@ -65,6 +66,37 @@ dateCreated: 2025-01-20T18:02:32.995Z
   <li>5. Les Soon sont convertis en $REG ($ claimable en REG). Ce montant pour chaque wallet, est inscrit dans fichier off-chain (Merkel tree),</li>
   <li>6. Les tokens Soon sont détruits (burn).<br>&nbsp;</li>
 </ul>
-<p>L’ensemble des actions ci avant sont exécutées qu’une seule fois, et disparaitront dès l’activation du contrat de réclamation.</p>
+<p>L’ensemble des actions ci avant sont exécutées qu’une seule fois, et disparaitront dès l’activation du contrat de réclamation.<br>&nbsp;</p>
+<h2><strong>Réclamation «&nbsp;manuelle&nbsp;»</strong></h2>
+<p>Une fois le fichier «&nbsp;Merkle tree&nbsp;» initialisé, (la première fois à partir des Soon accumulés)&nbsp;:&nbsp;</p>
+<ol>
+  <li>La réclamation des REG peut etre demandée&nbsp;:&nbsp;<br>- à partir de l’application de claim qui affiche le nombre de REG claimable,<br>- ou directement à partir du wallet utilisateur (solution plus complexe)</li>
+  <li>La reclamation est executée par le smart contract Vault de conversion,&nbsp;</li>
+  <li>Il vérifie à partir de la racine du merkle tree qui lui a été transmis que l’utilisateur à les droits correspondants,</li>
+  <li>Il calcul le nombre de REG à minté à partir des REG déjà réclamé (dont il stoke la valeur) et de la parité du REG du moment,</li>
+  <li>Il demande au contrat REG de minté les REG</li>
+  <li>vers le wallet de l’utilisateur.</li>
+  <li>Les réévaluations/distributions qui suivront se feront directement en $REG par mise à jour du Merkel tree. Cette mise à jour fera apparaître de nouveaux REG a réclamer dans l’application.<br>&nbsp;</li>
+</ol>
+<h2><br><strong>Réclamation «&nbsp;automatique&nbsp;»</strong></h2>
+<p><br>L’exectution de la réclamation par le smart contract Vault peut être déclenché soit manuellement par l’utilisateur, soit automatiquement par un automate. Il faudra au préalable avoir autorisé ce mode opératoire.</p>
+<ol>
+  <li>L’automate va surveiller les mises à jour du Merkel Tree pour les utilisateurs inscrits, puis déclencher une reclamation des REG pour les utilisateurs concernés,</li>
+  <li>Suivant le paramétrage du smart contract Vault de conversion, des frais de réclamation automatique pourront être appliqués (0&nbsp;% au départ)</li>
+  <li>Le Vault demandera le mint des REG correspondants au frais et de ceux pour l’utilisateur</li>
+  <li>Le contrat REG mintera les REG de frais vers le wallet de l’automate</li>
+  <li>Le contrat REG mintera les REG de l’utilisateur vers son wallet</li>
+</ol>
+<p><br>&nbsp;</p>
+<h2><strong>Adresse</strong></h2>
+<p>Smart contract&nbsp;:</p>
+<ul>
+  <li>Soon&nbsp;: <a href="https://gnosisscan.io/token/0xaa2c0cf54cb418eb24e7e09053b82c875c68bb88">https://gnosisscan.io/token/0xaa2c0cf54cb418eb24e7e09053b82c875c68bb88</a></li>
+  <li>REG&nbsp;: <a href="https://gnosisscan.io/token/0x0aa1e96d2a46ec6beb2923de1e61addf5f5f1dce">https://gnosisscan.io/token/0x0aa1e96d2a46ec6beb2923de1e61addf5f5f1dce</a></li>
+  <li>Vault&nbsp;: <a href="https://sepolia.etherscan.io/address/0x88979a8cB79b7E87b11eCe488D46cCCa9B204313">https://sepolia.etherscan.io/address/0x88979a8cB79b7E87b11eCe488D46cCCa9B204313</a></li>
+</ul>
+<p>Merkel Tree&nbsp;: <a href="https://github.com/real-token/public-datas/tree/main/usd-reg-conversion/sepolia">https://github.com/real-token/public-datas/tree/main/usd-reg-conversion/sepolia</a></p>
+<p><br>&nbsp;</p>
+<p>&nbsp;</p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
