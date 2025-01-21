@@ -2,29 +2,31 @@
 title: Réclamation des REG
 description: 
 published: true
-date: 2025-01-21T08:55:12.636Z
+date: 2025-01-21T09:27:07.642Z
 tags: 
 editor: ckeditor
 dateCreated: 2025-01-20T18:02:32.995Z
 -->
 
 <h1><strong>Préambule : Pourquoi des REG vous sont alloués </strong>⭐</h1>
-<p><br>A chaque tokenisation d’un actif, 10&nbsp;% du prix du jeton est alloué à RealT en tant que frais de «&nbsp;sourcing&nbsp;».<br>Ces frais restent inclus dans le prix du Realtoken, jusqu’à la première réévaluation (ce qui permet, dans l’interval, une revente sans perte de ces frais).</p>
+<p><br>A chaque tokenisation d’un actif, 10&nbsp;% du prix du jeton est alloué à RealT en tant que frais de «&nbsp;Sourcing&nbsp;».<br>Ces frais restent inclus dans le prix du Realtoken, jusqu’à la première réévaluation (ce qui permet, dans l’intervalle, une revente sans perte de ces frais).</p>
 <p>Lors de la première réévaluation, les 10&nbsp;% de frais sont retirés de la valeur du jeton et en compensation le propriétaire reçoit un montant équivalent de jeton de gouvernance.</p>
 <p>Avant la création du REG, ce montant était versé en token SOON, dont la valeur était 1$ de token REG.<br><br>Une fois l’application de réclamation des REG mise en service, les SOON disparaitront et l’allocation lors de la première réévaluation se fera directement en $ convertible en REG (cf RIP00009).&nbsp;</p>
 <figure class="image image_resized image-style-align-right" style="width:41.4%;"><img src="/imag-en/valuation.png"></figure>
-<p><br>Les réévaluations des biens sont faites par des sociétés indépendantes de RealT.<br>Le cout de cette action devient élevé (notamment pour les multi-family) et conduit RealT à décaler cette réévaluation qui devait être annuelle à l’origine.</p>
-<p>A l’avenir, la distribution de $ REG ne devrait plus être lié à la réévaluation, mais à un délai après la tokenisation.<br>&nbsp;</p>
+<p><br>Les réévaluations des biens sont faites par des sociétés indépendantes de RealT.<br>Le cout de cette action devient élevé (notamment pour les multi-family) et conduit RealT à décaler ces réévaluations qui devaient être annuelles à l’origine.</p>
+<p>A l’avenir, la distribution de $ REG ne devrait plus être liée à la réévaluation, mais à un délai après la tokenisation.<br>&nbsp;</p>
 <h1><strong>L' application pour réclamer vos REG </strong>⭐</h1>
 <figure class="image image_resized image-style-align-right" style="width:41.32%;"><img src="/imag-en/claim1.png"></figure>
 <p>&nbsp;</p>
 <p><a href="https://claim.realtoken.network/">https://claim.realtoken.network/</a><br>&nbsp;</p>
 <ol>
   <li>L’application fonctionne sur la blockchain Gnosis,</li>
-  <li>Vous devez connecter le portefeuille qui reçoit vos Realtokens lors d’une vente sur le site RealTokens,</li>
-  <li>Choississez votre mode de présentation (langue, fond),</li>
-  <li>Vérifier que vous êtes bien en «&nbsp;REG Claim » et pas «&nbsp;Genesis&nbsp;»</li>
+  <li>Vous devez connecter le portefeuille qui reçoit vos Realtokens, lors d’une vente sur le site <a href="https://realt.co/">Realt.co</a>,</li>
+  <li>Choisissez votre mode de présentation (langue, fond),</li>
+  <li>Vérifier que vous êtes bien en «&nbsp;REG Claim » et pas «&nbsp;Genesis&nbsp;».</li>
 </ol>
+<p>&nbsp;</p>
+<p>Nota : Les utilisateurs en <i>Walletless</i> devront migrer vers le <i>Realtoken Wallet</i> pour se connecter<br><a href="https://community-realt.gitbook.io/tuto-community/site-realt/option-realtoken-wallet-account-abstraction">Lien d'aide&nbsp;</a></p>
 <p><br>&nbsp;</p>
 <figure class="image image-style-align-right"><img src="/imag-en/claim2.png"></figure>
 <p>Une fois connecté, vous voyez&nbsp;:&nbsp;</p>
@@ -38,16 +40,16 @@ dateCreated: 2025-01-20T18:02:32.995Z
 </ol>
 <h2>Claim délégué</h2>
 <figure class="image image_resized image-style-align-right" style="width:42.89%;"><img src="/imag-en/delegateclaim .png"></figure>
-<p>Il est possible de déléguer le claim à une autre adresse (par exemple si votre adresse initiale a été corrompue) :&nbsp;</p>
+<p><br>Il est possible de déléguer le claim à une autre adresse (par exemple si votre adresse initiale a été corrompue) :&nbsp;</p>
 <ol>
   <li>Connection à l'application avec le wallet initiale (0x69…94a sur l'image),</li>
   <li>Cocher la réclamation avec une autre adresse, et indiquer l'adresse déléguée (0x…C08 sur l'image). Puis signer cette autorisation de délégation,</li>
   <li>L'application indique que vous devez changer d'adresse de connexion pour claimer,</li>
-  <li>Connectez vous avec l'adresse délégué (0x…C08 sur l'image),</li>
-  <li>Lancer le claim</li>
-  <li>Le claim adressera les REG alloués à l'adresse initiale à l'adresse déléguée.<br>&nbsp;</li>
+  <li>Connectez vous avec l'adresse déléguée (0x…C08 sur l'image),</li>
+  <li>Lancer le claim,</li>
+  <li>Le claim adressera les REG, alloués à l'adresse initiale, à l'adresse déléguée.<br>&nbsp;</li>
 </ol>
-<p>&nbsp;</p>
+<p><br>&nbsp;</p>
 <h1>Comment ça marche ⭐⭐</h1>
 <p>&nbsp;</p>
 <h2><strong>Avant la création du contrat de réclamation</strong></h2>
@@ -57,11 +59,11 @@ dateCreated: 2025-01-20T18:02:32.995Z
   <li><label class="todo-list__label"><input type="checkbox" disabled="disabled"><span class="todo-list__label__description">1. A l’issu de chaque réévaluation d’un Realtoken, RealT lance le Mint des Soon correspondants,</span></label></li>
   <li><label class="todo-list__label"><input type="checkbox" disabled="disabled"><span class="todo-list__label__description">2. Ces Soon sont attribués aux wallet des propriétaires du Realtoken au moment de la réévaluation.</span></label></li>
 </ul>
-<p>Pour initialiser le contrat de réclamation, les Soon sont converti en $REG et détruits :&nbsp;</p>
+<p>Pour initialiser le contrat de réclamation, les Soon sont convertis en $REG puis détruits :&nbsp;</p>
 <ul>
   <li>3. RealT lance la conversion des Soon,</li>
   <li>4. Collecte de tous les wallets ayant des Soon avec leur quantité,</li>
-  <li>5. Les Soon sont convertis en $REG ($ claimable en REG). Ce montant pour chaque wallet, est inscrit dans fichier off-chain (Merkel tree),</li>
+  <li>5. Les Soon sont convertis en $REG ($ claimable en REG). Ce montant pour chaque wallet, est inscrit dans fichier off-chain (Merkel Tree),</li>
   <li>6. Les tokens Soon sont détruits (burn).<br>&nbsp;</li>
 </ul>
 <p>L’ensemble des actions ci avant sont exécutées qu’une seule fois, et disparaitront dès l’activation du contrat de réclamation.<br>&nbsp;</p>
@@ -69,23 +71,23 @@ dateCreated: 2025-01-20T18:02:32.995Z
 <figure class="image image_resized image-style-align-right" style="width:49.62%;"><img src="/imag-en/ccm2.png"></figure>
 <p>Une fois le fichier «&nbsp;Merkle tree&nbsp;» initialisé, (la première fois à partir des Soon accumulés)&nbsp;:&nbsp;</p>
 <ol>
-  <li>La réclamation des REG peut etre demandée&nbsp;:&nbsp;<br>- à partir de l’application de claim qui affiche le nombre de REG claimable,<br>- ou directement à partir du wallet utilisateur (solution plus complexe)</li>
-  <li>La reclamation est executée par le smart contract Vault de conversion,</li>
-  <li>Il vérifie à partir de la racine du merkle tree qui lui a été transmis que l’utilisateur à les droits correspondants,</li>
-  <li>Il calcul le nombre de REG à minté à partir des REG déjà réclamé (dont il stoke la valeur) et de la parité du REG du moment,</li>
-  <li>Il demande au contrat REG de minté les REG</li>
-  <li>vers le wallet de l’utilisateur.</li>
-  <li>Les réévaluations/distributions qui suivront se feront directement en $REG par mise à jour du Merkel tree. Cette mise à jour fera apparaître de nouveaux REG a réclamer dans l’application.</li>
+  <li>La réclamation des REG peut etre demandée&nbsp;:&nbsp;<br>- à partir de l’application de claim qui affiche le nombre de REG claimable,<br>- ou directement à partir du wallet utilisateur (solution plus complexe).</li>
+  <li>La réclamation est exécutée par le smart contract Vault de conversion,</li>
+  <li>Il vérifie à partir de la racine du Merkle Tree, qui lui a été transmise, que l’utilisateur à les droits correspondants,</li>
+  <li>Il calcul le nombre de REG à créer (mint) à partir des REG déjà réclamé (dont il stocke la valeur) et de la parité du REG du moment,</li>
+  <li>Il demande au contrat REG de minter les REG</li>
+  <li>Vers le wallet de l’utilisateur.</li>
+  <li>Les réévaluations/distributions qui suivront se feront directement en $REG, par mise à jour du Merkel Tree. Cette mise à jour fera apparaître de nouveaux REG à réclamer dans l’application.</li>
 </ol>
 <h2><br><strong>Réclamation «&nbsp;automatique&nbsp;»</strong></h2>
 <figure class="image image_resized image-style-align-right" style="width:49.81%;"><img src="/imag-en/ccm3.png"></figure>
-<p><br>L’exécution de la réclamation par le smart contract Vault peut être déclenché soit manuellement par l’utilisateur, soit automatiquement par un automate. Il faudra au préalable avoir autorisé ce mode opératoire.</p>
+<p><br>L’exécution de la réclamation par le smart contract Vault peut être déclenché soit manuellement par l’utilisateur, soit automatiquement par un automate (bot). Il faudra au préalable avoir autorisé ce mode opératoire.</p>
 <ol>
   <li>L’automate va surveiller les mises à jour du Merkel Tree pour les utilisateurs inscrits, puis déclencher une réclamation des REG pour les utilisateurs concernés,</li>
   <li>Suivant le paramétrage du smart contract Vault de conversion, des frais de réclamation automatique pourront être appliqués (0&nbsp;% au départ),</li>
-  <li>Le Vault demandera le mint des REG correspondants au frais et de ceux pour l’utilisateur,</li>
+  <li>Le Vault demandera le mint de deux quantités de REG : pour les frais et pour l’utilisateur,</li>
   <li>Le contrat REG mint les REG de frais vers le wallet de l’automate,</li>
-  <li>Le contrat REG mint les REG de l’utilisateur vers son wallet.<br>&nbsp;</li>
+  <li>Le contrat REG mint les REG de l’utilisateur vers le wallet de l'utilisateur.<br>&nbsp;</li>
 </ol>
 <h2><strong>Adresse</strong></h2>
 <p>Smart contract&nbsp;:</p>
@@ -96,8 +98,8 @@ dateCreated: 2025-01-20T18:02:32.995Z
 </ul>
 <p>Merkel Tree&nbsp;: <a href="https://github.com/real-token/public-datas/tree/main/usd-reg-conversion/sepolia">https://github.com/real-token/public-datas/tree/main/usd-reg-conversion/sepolia&nbsp;</a></p>
 <h1><br><strong>Détail de fonctionnement du contrat Vault </strong>⭐⭐⭐</h1>
-<p><br>L’adresse ci-dessus est celle du Proxy (invariable) qui pointe sur l’implementation suivante &nbsp;(qui peut varier suivant les mises à jour) &nbsp;: <a href="https://sepolia.etherscan.io/address/0xaf38a8e7edb2f671b99dffdd3edaf7d5bde2ed4b#code">https://sepolia.etherscan.io/address/0xaf38a8e7edb2f671b99dffdd3edaf7d5bde2ed4b#code</a></p>
-<p>Le&nbsp;programme gère la&nbsp;conversion et la&nbsp;distribution&nbsp;de tokens REG,&nbsp;basés&nbsp;sur des montants en USDREG enregistré sur un Merkel Tree.</p>
+<p><br>L’adresse du samrt contract ci-dessus est celle du Proxy (invariable) qui pointe sur l’implementation suivante &nbsp;(qui peut varier, suivant les mises à jour) &nbsp;: <a href="https://sepolia.etherscan.io/address/0xaf38a8e7edb2f671b99dffdd3edaf7d5bde2ed4b#code">https://sepolia.etherscan.io/address/0xaf38a8e7edb2f671b99dffdd3edaf7d5bde2ed4b#code</a></p>
+<p>Le&nbsp;programme gère la&nbsp;conversion et la&nbsp;distribution&nbsp;de tokens REG,&nbsp;basés&nbsp;sur des montants en USDREG enregistrés sur un Merkel Tree.</p>
 <h2>Principales fonctionnalités</h2>
 <ol>
   <li><strong>Rôles et&nbsp;Permissions</strong>&nbsp;: Le contrat utilise le&nbsp;système de&nbsp;contrôle&nbsp;d'accès&nbsp;d'OpenZeppelin&nbsp;pour gérer&nbsp;différents rôles&nbsp;(administrateur, opérateur, pauser, et&nbsp;upgradeur) afin&nbsp;de sécuriser&nbsp;les&nbsp;opérations critiques.</li>
@@ -110,24 +112,27 @@ dateCreated: 2025-01-20T18:02:32.995Z
 </ol>
 <h2>Validation avec preuve de Merkel</h2>
 <p>La validation avec preuve de Merkle fonctionne en vérifiant que les informations d'un utilisateur (adresse et montant) sont bien incluses dans une structure de données appelée arbre de Merkle.&nbsp;<br>Execution dans le programme :</p>
-<p>1<strong> Génération de la Feuille</strong> : Pour chaque réclamation, une «&nbsp;feuille&nbsp;» est générée en hachant les données de l'utilisateur (adresse et montant) avec la fonction keccak256. Cela crée un hachage unique qui représente cette réclamation.&nbsp;</p>
+<p>1<strong> Génération de la Feuille</strong> : Pour chaque réclamation, une «&nbsp;feuille&nbsp;» (leaf) est générée en hachant les données de l'utilisateur (adresse et montant) avec la fonction keccak256. Cela crée un hachage unique qui représente cette réclamation.&nbsp;</p>
 <figure class="image image-style-align-right"><img src="/imag-en/leaf.png"></figure>
 <p>&nbsp;Ligne 659&nbsp;:&nbsp;</p>
 <p>&nbsp;</p>
-<p>2 <strong>Vérification de la Preuve</strong> : La fonction <i>_validateMerkleProof</i> prend en entrée l'adresse de l'utilisateur, le montant, la racine de Merkle attendue et un tableau de preuves de Merkle. Elle vérifie si la feuille (hachage) de l'utilisateur peut être reconstruite à partir de la racine de Merkle en utilisant les preuves fournies.</p>
+<p>2 <strong>Vérification de la Preuve</strong> : La fonction <i>_validateMerkleProof</i> prend en entrée l'adresse de l'utilisateur, le montant, la racine de Merkle attendue et un tableau de preuves de Merkle. Elle vérifie que la preuve de Merkle est valide pour l'utilisateur et le montant spécifié.</p>
 <figure class="image image_resized image-style-align-right" style="width:51.13%;"><img src="/imag-en/validatemerkel.png"></figure>
 <p>&nbsp;</p>
 <p><a href="https://sepolia.etherscan.io/address/0xaf38a8e7edb2f671b99dffdd3edaf7d5bde2ed4b#code#F1#L652">Lien vers le code correspondant</a></p>
 <p><br>&nbsp;</p>
+<p>&nbsp;</p>
 <p>&nbsp;</p>
 <p>3. <strong>Vérification de l'Arbre de Merkle</strong> : La fonction <i>_verifyAsm</i> utilise une approche d'assemblage pour parcourir les preuves de Merkle. Elle prend chaque nœud de la preuve et le combine avec la feuille pour reconstruire le hachage jusqu'à atteindre la racine de Merkle. Si la racine reconstruite correspond à la racine de Merkle attendue, cela signifie que la réclamation est valide.</p>
 <figure class="image image_resized image-style-align-right" style="width:38.55%;"><img src="/imag-en/verifyasm.png"></figure>
 <p><br><a href="https://sepolia.etherscan.io/address/0xaf38a8e7edb2f671b99dffdd3edaf7d5bde2ed4b#code#F1#L702">Lien vers le code correspondant</a></p>
 <p><br><br>&nbsp;</p>
 <p>&nbsp;</p>
+<p>&nbsp;</p>
 <p><strong>4. Rejet des Réclamations Invalides</strong> : Si la vérification échoue, le contrat rejette la réclamation en lançant une erreur, garantissant ainsi que seules les réclamations valides, qui correspondent à la structure de l'arbre de Merkle, sont acceptées.<br>&nbsp;</p>
 <h2><strong>Mode de réclamation</strong></h2>
-<p>Principaux modes de réclamation dans le contrat :</p>
+<p>Les principaux modes de réclamation dans le contrat, sont :</p>
+<p>&nbsp;</p>
 <h3><strong>1. Réclamation par l'utilisateur </strong><span class="text-tiny">(lignes 176 à 200)</span></h3>
 <ul>
   <li>Fonction : <i>claim</i></li>
@@ -139,13 +144,13 @@ dateCreated: 2025-01-20T18:02:32.995Z
   <li>La fonction vérifie que le contrat n'est pas en pause et que les timestamps sont valides.</li>
   <li>Elle vérifie&nbsp;que&nbsp;la preuve&nbsp;de&nbsp;Merkle est valide pour&nbsp;l'utilisateur&nbsp;et le&nbsp;montant spécifié.</li>
   <li>Elle vérifie le montant déjà réclamé par l'utilisateur pour éviter les doubles réclamations.</li>
-  <li>Si toutes les vérifications passent, le contrat calcule le montant de REG à émettre et effectue la minting des tokens REG pour l'utilisateur.</li>
+  <li>Si toutes les vérifications passent, le contrat calcule le montant de REG à émettre et effectue la minti des tokens REG pour l'utilisateur.</li>
 </ol>
 <figure class="image image_resized image-style-align-right" style="width:52.25%;"><img src="/imag-en/claim_man.png"></figure>
 <p>&nbsp;</p>
 <p><a href="https://sepolia.etherscan.io/address/0xaf38a8e7edb2f671b99dffdd3edaf7d5bde2ed4b#code#F1#L176">Lien vers le code correspondant</a></p>
 <p>&nbsp;</p>
-<h2><strong>Réclamation par un délégué </strong><span class="text-tiny">(lignes 297 à 331)</span></h2>
+<h3><strong>Réclamation par un délégué </strong><span class="text-tiny">(lignes 297 à 331)</span></h3>
 <ul>
   <li>Fonction : <i>claimByDelegate</i></li>
   <li>Description : Ce mode permet à un utilisateur de désigner un délégué pour réclamer des tokens en son nom.</li>
