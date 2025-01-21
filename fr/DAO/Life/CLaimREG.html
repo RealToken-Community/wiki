@@ -2,7 +2,7 @@
 title: Réclamation des REG
 description: 
 published: true
-date: 2025-01-20T19:04:37.441Z
+date: 2025-01-21T08:46:27.907Z
 tags: 
 editor: ckeditor
 dateCreated: 2025-01-20T18:02:32.995Z
@@ -172,6 +172,25 @@ dateCreated: 2025-01-20T18:02:32.995Z
   <li>Elle valide la preuve de Merkle et vérifie le montant déjà réclamé.</li>
   <li>Les tokens REG sont mintés pour le destinataire, et des frais peuvent être appliqués si configurés.</li>
 </ol>
+<figure class="image image-style-align-right"><img src="/imag-en/claim_auto.png"></figure>
 <p>&nbsp;</p>
 <p><a href="https://sepolia.etherscan.io/address/0xaf38a8e7edb2f671b99dffdd3edaf7d5bde2ed4b#code">https://sepolia.etherscan.io/address/0xaf38a8e7edb2f671b99dffdd3edaf7d5bde2ed4b#code</a>#F1#L540</p>
+<p>&nbsp;</p>
+<h2><strong>Réclamation avec Walletless </strong><span class="text-tiny">(ligne 509 à 537)</span></h2>
+<ul>
+  <li>Fonction : claimByWalletless</li>
+  <li>Description : Ce mode permet de réclamer des tokens pour des utilisateurs en mode walletless.</li>
+  <li>Processus :</li>
+</ul>
+<ol>
+  <li>Un opérateur (ayant le rôle approprié) appelle la fonction avec les informations de réclamation.</li>
+  <li>La fonction vérifie que le contrat n'est pas en pause et que les timestamps sont valides.</li>
+  <li>Elle valide la preuve de Merkle pour s'assurer que l'utilisateur est éligible.</li>
+  <li>Le montant déjà réclamé est vérifié.</li>
+  <li>Si tout est valide, les tokens REG sont mintés pour le destinataire.</li>
+</ol>
+<figure class="image image-style-align-right"><img src="/imag-en/claim_walletless.png"></figure>
+<p>&nbsp;</p>
+<p><a href="https://sepolia.etherscan.io/address/0xaf38a8e7edb2f671b99dffdd3edaf7d5bde2ed4b#code">https://sepolia.etherscan.io/address/0xaf38a8e7edb2f671b99dffdd3edaf7d5bde2ed4b#code</a>#F1#L509</p>
+<p>&nbsp;</p>
 <p>&nbsp;</p>
