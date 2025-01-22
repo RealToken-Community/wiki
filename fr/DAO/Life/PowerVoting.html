@@ -2,7 +2,7 @@
 title: Pouvoir de vote
 description: 
 published: true
-date: 2025-01-04T10:35:58.544Z
+date: 2025-01-22T06:14:29.761Z
 tags: 
 editor: ckeditor
 dateCreated: 2024-12-31T18:01:18.658Z
@@ -10,7 +10,7 @@ dateCreated: 2024-12-31T18:01:18.658Z
 
 <p>Le pouvoir de vote est établi à partir des REG possédés, quelque soit :&nbsp;</p>
 <ul>
-  <li>la façon dont ils sont possédés : sur son Wallet, &nbsp;déposé sur une Pool de liquidité ou déposé sur le Vault d'incentive,</li>
+  <li>la façon dont ils sont utilisés : sur son Wallet, &nbsp;déposé sur une Pool de liquidité ou déposé sur le Vault d'incentive,</li>
   <li>la blockchain utilisée (Gnosis, Polygon ou Ethereum).</li>
 </ul>
 <p>A une date non prévisible (afin qu'il n'y ait pas de manipulation), RealT fait une photo (snapshot) pour collecter la situation de tous les REG.&nbsp;<br>A partir de cette collecte, un programme (offChain) calcul le Pouvoir de vote de chacun. Il s'agit d'une pondération du mode d'utilisation des REG (et des contre-parties dans les pools de liquidité) qui est décidée par la DAO.</p>
@@ -18,16 +18,17 @@ dateCreated: 2024-12-31T18:01:18.658Z
 <h1>Algorithme de pondération</h1>
 <p>Les premiers snapshots ont utilisé, la pondération suivante :&nbsp;</p>
 <ul>
-  <li>1 REG dans un Wallet ou le Vault d'incentive vaut 1 PowerVoting</li>
+  <li>1 REG dans un Wallet ou le Vault d'incentive vaut 1 PowerVoting,</li>
   <li>1 REG dans un pool de liquidité vaut 1,2 PowerVoting,</li>
-  <li>Les stablecoins apportés en contre partie dans le Pool de liquidité valent 0,5 PowerVoting de l'équivalent REG</li>
+  <li>Les stablecoins apportés en contre partie dans une Pool de liquidité valent 0,5 PowerVoting de l'équivalent REG.</li>
 </ul>
-<p>Cette algorithme a été établi par RealT.&nbsp;<br>Un Comité &nbsp;dédié va se constituer pour préparer et faire voter les prochaines versions de l'algorithme (RIP00007).<br><br>Le programme de calcul correspondant, sera prochainement rendu publique.</p>
+<p>Ce premier algorithme a été établi par RealT.&nbsp;<br>Un Comité &nbsp;dédié a été constitué pour préparer et faire voter les prochaines versions de l'algorithme (RIP00007).<br>Les échanges de ce Comité sont visibles (en lecture seule) sur ce <a href="https://t.me/powervoting_realtoken_dao">Telegram</a></p>
+<p><br>Le programme, réalisé par RealT, pour le snapshot et le calcul &nbsp;est disponible : <a href="https://github.com/real-token/balance-calculator">Github</a></p>
 <h1>Snapshot</h1>
 <p>A l'occasion de chaque snapshot, RealT génère deux types de fichier (au format csv et json) :&nbsp;</p>
 <ul>
-  <li>balancesREG : Liste tous les wallets qui possèdent des REG, avec la quantité pour chaque mode de d'utilisation,</li>
-  <li>powerVotingREG_balances : Liste des wallets qui possèdent des PowerVoting avec la quantité résultant du calcul par l'algorithme.<br>Sont exclus de cette seconde liste (car ils ne peuvent pas voter) les adresses : des Pool de liquidité, du Vault d'incentive, des safes qui gèrent les budgets de la DAO, ainsi que l'allocation à Mt Pelerin.</li>
+  <li><strong>balancesREG</strong> : Liste tous les wallets qui possèdent des REG, avec la quantité pour chaque mode de d'utilisation,</li>
+  <li><strong>powerVotingREG_balances</strong> : Liste des wallets qui possèdent des PowerVoting avec la quantité résultant du calcul par l'algorithme.<br>Sont exclus de cette seconde liste (car ils ne peuvent pas voter) les adresses : des Pool de liquidité, du Vault d'incentive, des safes qui gèrent les budgets de la DAO, ainsi que l'allocation à Mt Pelerin.</li>
 </ul>
 <p>Date des snapshots :&nbsp;</p>
 <ul>
