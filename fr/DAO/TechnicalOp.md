@@ -2,7 +2,7 @@
 title: 4. Fonctionnement technique de la DAO REG
 description: 
 published: true
-date: 2024-11-03T06:52:03.470Z
+date: 2025-01-30T10:32:05.531Z
 tags: 
 editor: markdown
 dateCreated: 2024-10-08T08:37:31.066Z
@@ -231,3 +231,36 @@ La mécanique de récompense sera entièrement revu avec la mise en service de l
 De nouveaux types de récompenses seront introduits comme comme la matière noire des NFT Cityzen, des points de soutien pour les votes permettant la mise en avant des contenus liés au NFT Activity, etc...
 
 L'écosystème RealToken est pensé pour disposer de nombreux outils d'optimisation de participation aux votes, et encourager les actions et contributions divers qui sont bénéfiques à la DAO tout en permettant un contrôle précis des finances de la DAO afin de ne pas dilapider la trésorerie ou dévaluer le token REG.  
+
+## **4.4. Système de calcul du Pouvoir de Vote**
+
+#### **⭐ Pour les novices**
+Ce programme calcule le Pouvoir de Vote à partir des REG detenus, quelque soit la blockchain et l'usage qui en est fait.
+Une pondération est appliquée, suivant l'utilisation que fait le detenteur de ses REG, afin d'inciter certains usages favorables à la DAO.
+Les paramètres et l'execution de ce programme sont votés par la DAO.
+
+#### **⭐⭐ Pour les initiés**
+
+Le programme OffChain effectue les actions suivantes : 
+- Collecte de l'ensemble des wallets qui detiennent des REG : 
+  - sur différentes blockchain (Gnosis, Ethereum, Polygon),
+  - sur différentes Pool de liquidité (Honeyswap, sushiswap, Balancer, SwaprHQ),
+  - sur le Valut Incentive
+pour une période donnée.
+- Applique une pondération spécifique à chaque cas d'usage des REG :
+  - sur un wallet,
+  - déposé sur une Pool de Liquidité (pour le REG et sa contre-partie),
+  - déposé sur le Vault Incentive.
+- Calcul à partir des montants pondérés, le Pouvoir de Vote (suivant un modèle).
+
+Le résultat de ce programme (snapshot) est utilisé pour actualiser la quantité de token PowerVoting, pour chaque wallet qui en détient.
+L'algorithme de pondération a été initialisé par RealT et est maintenant voté par la DAO.
+Il en est de même pour le programme de calcul, qui a été écrit par RealT et est maintenant à la disposition de la DAO (qui peut voter des modifications).
+
+#### **⭐⭐⭐ Pour les experts**
+
+Le programme est disponible sur [GitHub](https://github.com/real-token/balance-calculator)
+
+![pv_calculator.svg](/imag-en/pv_calculator.svg)
+
+Un guide pour l'installer, l'executer, voire demander des modification est disponible dans le ReadMe.
