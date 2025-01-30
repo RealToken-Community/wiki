@@ -2,7 +2,7 @@
 title: 4. Technical operation of the DAO REG
 description: 
 published: true
-date: 2024-11-03T06:55:48.114Z
+date: 2025-01-30T10:42:55.660Z
 tags: 
 editor: markdown
 dateCreated: 2024-10-08T08:36:22.466Z
@@ -222,4 +222,37 @@ The reward mechanism will be entirely revised with the implementation of V2 gove
 New types of rewards will be introduced such as dark matter from Cityzen NFTs, support points for votes allowing the highlighting of content related to Activity NFTs, etc...
 
 The RealToken ecosystem is designed to have numerous tools for optimizing participation in votes, and encouraging various actions and contributions that are beneficial to the DAO while allowing precise control of the DAO's finances to avoid squandering the treasury or devaluing the REG token.
+
+## **4.4. Voting Power Calculation System**
+
+#### **⭐ For beginners**
+This program calculates the Voting Power from the REG held, regardless of the blockchain and the use made of it.
+A weighting is applied, depending on the use made by the holder of his REG, in order to encourage certain uses favorable to the DAO.
+The parameters and execution of this program are voted by the DAO.
+
+#### **⭐⭐ For insiders**
+
+The OffChain program performs the following actions:
+- Collection of all wallets that hold REG:
+  - on different blockchains (Gnosis, Ethereum, Polygon),
+  - on different Liquidity Pools (Honeyswap, sushiswap, Balancer, SwaprHQ),
+  - on the Valut Incentive
+for a given period.
+- Applies a specific weighting to each use case of REG:
+  - on a wallet,
+  - deposited on a Liquidity Pool (for the REG and its counterpart),
+  - deposited on the Incentive Vault.
+ - Calculation from the weighted amounts, the Voting Power (following a model).
+
+The result of this program (snapshot) is used to update the quantity of PowerVoting tokens, for each wallet that holds them.
+The weighting algorithm was initialized by RealT and is now voted on by the DAO.
+The same goes for the calculation program, which was written by RealT and is now available to the DAO (which can vote on modifications).
+
+#### **⭐⭐⭐ For experts**
+
+The program is available on [GitHub](https://github.com/real-token/balance-calculator)
+
+![pv_calculator_en.svg](/imag-en/pv_calculator_en.svg)
+
+A guide to install it, run it, and even request modifications is available in the ReadMe.
 
