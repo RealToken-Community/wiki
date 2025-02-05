@@ -2,7 +2,7 @@
 title: RMM
 description: 
 published: true
-date: 2024-12-20T15:44:03.231Z
+date: 2025-02-05T20:16:38.328Z
 tags: rmm
 editor: markdown
 dateCreated: 2024-12-08T21:03:58.118Z
@@ -85,7 +85,7 @@ La DAO doit donc veiller à ce que ces fonctionnalités soient activées uniquem
 
 #### **⭐⭐ Pour les initiés**
 
-L'usage abusif de ces fonctionnalités pourrait conduire à des voles de tokens, des remboursements de dettes abusifs, des emprunts non légitimes, portant atteinte à la sécurité du RMM et à ses utilisateurs.
+L'usage abusif de ces fonctionnalités pourrait conduire à des vols de tokens, des remboursements de dettes abusifs, des emprunts non légitimes, portant atteinte à la sécurité du RMM et à ses utilisateurs.
 
 Les principaux enjeux liés au Wrapper sont :
 
