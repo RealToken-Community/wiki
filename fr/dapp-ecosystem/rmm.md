@@ -2,7 +2,7 @@
 title: RMM
 description: 
 published: true
-date: 2025-02-05T20:16:38.328Z
+date: 2025-02-05T20:18:31.100Z
 tags: rmm
 editor: markdown
 dateCreated: 2024-12-08T21:03:58.118Z
@@ -260,7 +260,7 @@ La fonction `recoverByGovernance` ne vérifie pas les dettes existantes. Cela do
 
 Les adresses qui à un moment récéptionnent des RealTokens, doivent impérativement respecter les règles de la compliance registry de ces tokens, sans quoi la proposal dans son intégralité échouera.
 
-Les appouvals, et solde de balance pour le paiement des dettes doivent impérativement inclure un marge minimum de 5/100k, sans quoi la proposal dans son intégralité échouera si la valeur du token de dette à rembourser à une valeur inférieur a 1$USD.
+Les approbations, et solde de balance pour le paiement des dettes doivent impérativement inclure un marge minimum de 5/100k, sans quoi la proposal dans son intégralité échouera si la valeur du token de dette à rembourser à une valeur inférieur a 1$USD.
 
 ## **6. Modifications Smart Contract**
 
