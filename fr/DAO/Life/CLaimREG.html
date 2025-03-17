@@ -2,16 +2,16 @@
 title: Réclamation des REG
 description: 
 published: true
-date: 2025-01-21T17:08:04.615Z
+date: 2025-03-17T19:33:45.674Z
 tags: 
 editor: ckeditor
 dateCreated: 2025-01-20T18:02:32.995Z
 -->
 
 <h1><strong>Préambule : Pourquoi des REG vous sont alloués </strong>⭐</h1>
-<p><br>A chaque tokenisation d’un bien immobilier, des frais de "Sourcing" sont alloués à RealT (10 % en général).<br>Ces frais restent inclus dans le prix du Realtoken, jusqu’à la première réévaluation (ce qui permet, dans l’intervalle, une revente sans perte de ces frais).</p>
-<p>Lors de la première réévaluation, les 10&nbsp;% de frais sont retirés de la valeur du jeton et en compensation le propriétaire reçoit un montant équivalent de jeton de gouvernance.</p>
-<p>Avant la création du REG, ce montant était versé en token SOON, dont la valeur était 1$ de token REG.<br><br>Une fois l’application de réclamation des REG mise en service, les SOON disparaitront et l’allocation lors de la première réévaluation se fera directement en $ convertible en REG (cf RIP00009).&nbsp;</p>
+<p><br>A chaque tokenisation d’un actif émis dans l'écosystème, &nbsp;la DAO permetà ses partenaires de tokenisation d'attribuer un montant en $ aux clients qui ont acheter et conserver les tokens pour une durée variable en fonction des actifs, ce montant est convertible en REG au prix du marché .</p>
+<p>Actuellement le montant de l’émission est a auteur des frais prélever par RealT pour le travail de sourcing des biens et est attribué au moment de la première réévaluation du bien immobilier.<br>RealT à annoncé la volonté de faire évoluer les critère d’attribution des droit en &nbsp;USD-REG pour etre applicable a tout les types de tokenisations que RealT propose et pas uniquement aux biens immobilier classique</p>
+<p>Avant la création du REG, ce montant était versé en token SOON, dont la valeur était 1$ de token REG.<br><br>Une fois l’application de réclamation des REG mise en service, les SOON disparaîtront et l’allocation lors de la première réévaluation se fera directement en $ convertible en REG (cf RIP00009).&nbsp;</p>
 <figure class="image image_resized image-style-align-right" style="width:41.4%;"><img src="/imag-en/valuation.png"></figure>
 <p><br>Les réévaluations des biens sont faites par des sociétés indépendantes de RealT.<br>Le cout de cette action devient élevé (notamment pour les multi-family) et conduit RealT à décaler ces réévaluations qui devaient être annuelles à l’origine.</p>
 <p>A l’avenir, la distribution de $ REG ne devrait plus être liée à la réévaluation, mais à un délai après la tokenisation.<br>&nbsp;</p>
@@ -26,7 +26,7 @@ dateCreated: 2025-01-20T18:02:32.995Z
   <li>Vérifier que vous êtes bien en «&nbsp;REG Claim » et pas «&nbsp;Genesis&nbsp;».</li>
 </ol>
 <p>&nbsp;</p>
-<p>Nota : Les utilisateurs en <i>Walletless</i> devront migrer vers le <i>Realtoken Wallet</i> pour se connecter<br><a href="https://community-realt.gitbook.io/tuto-community/site-realt/option-realtoken-wallet-account-abstraction">Lien d'aide&nbsp;</a></p>
+<p>Nota : Les utilisateurs en <i>Walletless</i> devront migrer vers le <i>Realtoken Wallet ou autre wallet compatible</i> pour se connecter à l'applications, puis demander aux support d'effectuer le claim sur le nouveau Wallet pour les tokens attribué au Walletless<br><a href="https://community-realt.gitbook.io/tuto-community/site-realt/option-realtoken-wallet-account-abstraction">Lien d'aide</a></p>
 <p><br>&nbsp;</p>
 <figure class="image image-style-align-right"><img src="/imag-en/claim2.png"></figure>
 <p>Une fois connecté, vous voyez&nbsp;:&nbsp;</p>
@@ -43,11 +43,11 @@ dateCreated: 2025-01-20T18:02:32.995Z
 <p><br>Il est possible de déléguer le claim à une autre adresse (par exemple si votre adresse initiale a été corrompue) :&nbsp;</p>
 <ol>
   <li>Connection à l'application avec le wallet initiale (0x69…94a sur l'image),</li>
-  <li>Cocher la réclamation avec une autre adresse, et indiquer l'adresse déléguée (0x…C08 sur l'image). Puis signer cette autorisation de délégation,</li>
+  <li>Cocher la réclamation avec une autre adresse, et indiquer l'adresse déléguée (0x…C08 sur l'image). Puis signer cette autorisation de délégation avec la première adresse</li>
   <li>L'application indique que vous devez changer d'adresse de connexion pour claimer,</li>
   <li>Connectez vous avec l'adresse déléguée (0x…C08 sur l'image),</li>
   <li>Lancer le claim,</li>
-  <li>Le claim adressera les REG, alloués à l'adresse initiale, à l'adresse déléguée.<br>&nbsp;</li>
+  <li>Le claim enverra les REG, alloués à l'adresse initiale, à l'adresse déléguée.<br>&nbsp;</li>
 </ol>
 <p><br>&nbsp;</p>
 <h1>Comment ça marche ⭐⭐</h1>
@@ -63,10 +63,10 @@ dateCreated: 2025-01-20T18:02:32.995Z
 <ul>
   <li>3. RealT lance la conversion des Soon,</li>
   <li>4. Collecte de tous les wallets ayant des Soon avec leur quantité,</li>
-  <li>5. Les Soon sont convertis en $REG ($ claimable en REG). Ce montant pour chaque wallet, est inscrit dans fichier off-chain (Merkel Tree),</li>
+  <li>5. Les Soon sont convertis en $REG ($ claimable en REG). Ce montant pour chaque wallet, est inscrit dans fichier off-chain (<a href="https://raw.githubusercontent.com/real-token/vault-merkle-data/refs/heads/main/dao/usdreg_convertion/current.json">Merkel Tree</a>), les soon converti sont attribuer pour chaque adresse en détenant a la dernière adresse de livraison des Realtokens connu sur le site realt.co de l'utilisateur</li>
   <li>6. Les tokens Soon sont détruits (burn).<br>&nbsp;</li>
 </ul>
-<p>L’ensemble des actions ci avant sont exécutées qu’une seule fois, et disparaitront dès l’activation du contrat de réclamation.<br>&nbsp;</p>
+<p>L’ensemble des actions ci avant sont exécutées qu’une seule fois, et disparaîtront dès l’activation du contrat de réclamation.<br>&nbsp;</p>
 <h2><strong>Réclamation «&nbsp;manuelle&nbsp;»</strong></h2>
 <figure class="image image_resized image-style-align-right" style="width:49.62%;"><img src="/imag-en/ccm2.png"></figure>
 <p>Une fois le fichier «&nbsp;Merkle tree&nbsp;» initialisé, (la première fois à partir des Soon accumulés)&nbsp;:&nbsp;</p>
@@ -74,17 +74,18 @@ dateCreated: 2025-01-20T18:02:32.995Z
   <li>La réclamation des REG peut etre demandée&nbsp;:&nbsp;<br>- à partir de l’application de claim qui affiche le nombre de REG claimable,<br>- ou directement à partir du wallet utilisateur (solution plus complexe).</li>
   <li>La réclamation est exécutée par le smart contract Vault de conversion,</li>
   <li>Il vérifie à partir de la racine du Merkle Tree, qui lui a été transmise, que l’utilisateur à les droits correspondants,</li>
-  <li>Il calcul le nombre de REG à créer (mint) à partir des REG déjà réclamé (dont il stocke la valeur) et de la parité du REG du moment,</li>
+  <li>Il calcul le nombre de $REG à partir des données du merkle tree et des $REG déjà réclamé (dont il stocke la valeur) pour déterminer le nombre de $REG réclamée, se montant est en suite converti en nombre de REG à partir du prix de l'oracle</li>
   <li>Il demande au contrat REG de minter les REG</li>
-  <li>Vers le wallet de l’utilisateur.</li>
+  <li>Les nouveaux REG sont mint sur wallet de l’utilisateur.</li>
   <li>Les réévaluations/distributions qui suivront se feront directement en $REG, par mise à jour du Merkel Tree. Cette mise à jour fera apparaître de nouveaux REG à réclamer dans l’application.</li>
+  <li>L’attribution de nouveau $REG sera effectué à l'adresse qui détiens des Realtokens au moment du snapshot, contrairement au droit en $REG issus de la conversion SOON qui sont attribué a la dernière adresse de livraison de RealToken enregistrer sur votre compte realt.co</li>
 </ol>
 <h2><br><strong>Réclamation «&nbsp;automatique&nbsp;»</strong></h2>
 <figure class="image image_resized image-style-align-right" style="width:49.81%;"><img src="/imag-en/ccm3.png"></figure>
-<p><br>L’exécution de la réclamation par le smart contract Vault peut être déclenché soit manuellement par l’utilisateur, soit automatiquement par un automate (bot). Il faudra au préalable avoir autorisé ce mode opératoire.</p>
+<p><br>L’exécution de la réclamation par le smart contract Vault peut être déclenché soit manuellement par l’utilisateur au moment de sont choix, soit automatiquement par un automate (bot). Il faudra au préalable avoir autorisé ce mode opératoire.</p>
 <ol>
   <li>L’automate va surveiller les mises à jour du Merkel Tree pour les utilisateurs inscrits, puis déclencher une réclamation des REG pour les utilisateurs concernés,</li>
-  <li>Suivant le paramétrage du smart contract Vault de conversion, des frais de réclamation automatique pourront être appliqués (0&nbsp;% au départ),</li>
+  <li>Suivant le paramétrage du smart contract Vault de conversion, des frais de réclamation automatique pourront être appliqués (0&nbsp;% au départ), afin d'encourager et subventionner les frais de transaction (l'activation de frais devras faire l'objet d'un vote de gouvernance)</li>
   <li>Le Vault demandera le mint de deux quantités de REG : pour les frais et pour l’utilisateur,</li>
   <li>Le contrat REG mint les REG de frais vers le wallet de l’automate,</li>
   <li>Le contrat REG mint les REG de l’utilisateur vers le wallet de l'utilisateur.<br>&nbsp;</li>
@@ -92,19 +93,20 @@ dateCreated: 2025-01-20T18:02:32.995Z
 <h2><strong>Adresse</strong></h2>
 <p>Smart contract&nbsp;:</p>
 <ul>
-  <li>Soon&nbsp;: <a href="https://gnosisscan.io/token/0xaa2c0cf54cb418eb24e7e09053b82c875c68bb88">https://gnosisscan.io/token/0xaa2c0cf54cb418eb24e7e09053b82c875c68bb88</a></li>
-  <li>REG&nbsp;: <a href="https://gnosisscan.io/token/0x0aa1e96d2a46ec6beb2923de1e61addf5f5f1dce">https://gnosisscan.io/token/0x0aa1e96d2a46ec6beb2923de1e61addf5f5f1dce</a></li>
-  <li>Vault&nbsp;: <a href="https://sepolia.etherscan.io/address/0x88979a8cB79b7E87b11eCe488D46cCCa9B204313">https://sepolia.etherscan.io/address/0x88979a8cB79b7E87b11eCe488D46cCCa9B204313</a></li>
+  <li>Soon&nbsp;: <a href="https://gnosisscan.io/token/0xaa2c0cf54cb418eb24e7e09053b82c875c68bb88">0xaa2c0cf54cb418eb24e7e09053b82c875c68bb88</a></li>
+  <li>REG&nbsp;: <a href="https://gnosisscan.io/token/0x0aa1e96d2a46ec6beb2923de1e61addf5f5f1dce">0x0aa1e96d2a46ec6beb2923de1e61addf5f5f1dce</a></li>
+  <li>Vault&nbsp;: <a href="https://gnosisscan.io/address/0x71eb2b2518556700f5b778b9cc313bfe8de5086e">0x71eb2b2518556700f5b778b9cc313bfe8de5086e</a></li>
 </ul>
-<p>Merkel Tree&nbsp;: <a href="https://github.com/real-token/public-datas/tree/main/usd-reg-conversion/sepolia">https://github.com/real-token/public-datas/tree/main/usd-reg-conversion/sepolia&nbsp;</a></p>
+<p>Merkel Tree&nbsp;: https://raw.githubusercontent.com/real-token/vault-merkle-data/refs/heads/main/dao/usdreg_convertion/current.json</p>
+<p>ce fichier peux être sauvegarder par la communauté pour rester disponible dans toutes les situations, la dernière version dont le root es inscrit dans le contrat reste valable meme si l'interface ou le fichier source n'existe plus</p>
 <h1><br><strong>Détail de fonctionnement du contrat Vault </strong>⭐⭐⭐</h1>
-<p><br>L’adresse du samrt contract ci-dessus est celle du Proxy (invariable) qui pointe sur l’implementation suivante &nbsp;(qui peut varier, suivant les mises à jour) &nbsp;: <a href="https://sepolia.etherscan.io/address/0xaf38a8e7edb2f671b99dffdd3edaf7d5bde2ed4b#code">https://sepolia.etherscan.io/address/0xaf38a8e7edb2f671b99dffdd3edaf7d5bde2ed4b#code</a></p>
-<p>Le&nbsp;programme gère la&nbsp;conversion et la&nbsp;distribution&nbsp;de tokens REG,&nbsp;basés&nbsp;sur des montants en USDREG enregistrés sur un Merkel Tree.</p>
+<p><br>L’adresse du samrt contract ci-dessus est celle du Proxy (invariable) qui pointe sur l’implementation suivante &nbsp;(qui peut varier, suivant les mises à jour) &nbsp;: <a href="https://gnosisscan.io/address/0x71eb2b2518556700f5b778b9cc313bfe8de5086e/advanced#code">https://gnosisscan.io/address/0x71eb2b2518556700f5b778b9cc313bfe8de5086e/advanced#code</a></p>
+<p>Le&nbsp;programme gère la&nbsp;conversion et la&nbsp;distribution&nbsp;de tokens REG,&nbsp;basés&nbsp;sur des montants en USDREG enregistrés sur un Merkel Tree et la valeur du REG fournis par l'oracle <a href="https://gnosisscan.io/address/0x86339b40e588f774bd766eB70D47bEFBe68B6F64/advanced#code">https://gnosisscan.io/address/0x86339b40e588f774bd766eB70D47bEFBe68B6F64/advanced#code</a>.</p>
 <h2>Principales fonctionnalités</h2>
 <ol>
   <li><strong>Rôles et&nbsp;Permissions</strong>&nbsp;: Le contrat utilise le&nbsp;système de&nbsp;contrôle&nbsp;d'accès&nbsp;d'OpenZeppelin&nbsp;pour gérer&nbsp;différents rôles&nbsp;(administrateur, opérateur, pauser, et&nbsp;upgradeur) afin&nbsp;de sécuriser&nbsp;les&nbsp;opérations critiques.</li>
   <li><strong>Gestion&nbsp;des Tokens</strong>&nbsp;: Il&nbsp;interagit&nbsp;avec&nbsp;le token&nbsp;REG, en permettant aux utilisateurs de réclamer des&nbsp;tokens REG&nbsp;en fonction de montants en USDREG, tout&nbsp;en vérifiant les&nbsp;preuves de&nbsp;Merkle pour&nbsp;garantir&nbsp;l'éligibilité.</li>
-  <li><strong>Fonctionnalités&nbsp;de&nbsp;Réclamation</strong>&nbsp;: Les utilisateurs&nbsp;peuvent&nbsp;réclamer des&nbsp;tokens, soit&nbsp;directement, soit par&nbsp;l'intermédiaire&nbsp;d'un délégué. Le contrat gère également&nbsp;des&nbsp;fonctionnalités de&nbsp;réclamation&nbsp;automatique&nbsp;et&nbsp;de&nbsp;réclamation WalletLess.</li>
+  <li><strong>Fonctionnalités&nbsp;de&nbsp;Réclamation</strong>&nbsp;: Les utilisateurs&nbsp;peuvent&nbsp;réclamer des&nbsp;tokens, soit&nbsp;directement, soit par&nbsp;l'intermédiaire&nbsp;d'un délégué. Le contrat gère également&nbsp;des&nbsp;fonctionnalités de&nbsp;réclamation&nbsp;automatique,&nbsp;réclamation WalletLess existe mais n'es pas implémenter offChain, ils devrons migré sur un nouveau wallet.</li>
   <li><strong>Gestion des Timestamps</strong>&nbsp;: Le contrat inclut&nbsp;des&nbsp;mécanismes pour&nbsp;vérifier&nbsp;que&nbsp;les réclamations&nbsp;se produisent dans&nbsp;une période&nbsp;de&nbsp;temps définie, empêchant les&nbsp;réclamations en&nbsp;dehors&nbsp;de cette&nbsp;période.</li>
   <li><strong>Bridge et&nbsp;Transferts</strong>&nbsp;: Il&nbsp;permet&nbsp;également de transférer des tokens&nbsp;vers&nbsp;d'autres chaînes&nbsp;(bridge) et&nbsp;de gérer les&nbsp;frais&nbsp;associés&nbsp;à ces transferts.</li>
   <li><strong>Mises à Jour</strong> : Le contrat est conçu pour être mis à jour via un mécanisme d'upgrade, permettant d'ajouter de nouvelles fonctionnalités ou de corriger des bugs sans perdre l'état du contrat.</li>
@@ -163,6 +165,8 @@ dateCreated: 2025-01-20T18:02:32.995Z
   <li>Comme dans le mode de réclamation par l'utilisateur, la preuve de Merkle est validée, et le montant déjà réclamé est vérifié.</li>
   <li>Si tout est valide, le contrat mint les tokens REG pour le destinataire.</li>
 </ol>
+<p>!!! ATTENTION: l'interface pour cette fonction enverra les REG a l'adresse délégué, dans une future mise a jours de l'interface il sera possible de délégué le claim sans faire envoyé les tokens au déléguer mais a une adresse déterminer au moment de la signature</p>
+<p>&nbsp;</p>
 <figure class="image image_resized image-style-align-right" style="width:53.66%;"><img src="/imag-en/deleg_claim.png"></figure>
 <p>&nbsp;</p>
 <p><a href="https://sepolia.etherscan.io/address/0xaf38a8e7edb2f671b99dffdd3edaf7d5bde2ed4b#code#F1#L297">Lien vers le code correspondant</a><br>&nbsp;</p>
