@@ -2,7 +2,7 @@
 title: Réclamation des REG
 description: 
 published: true
-date: 2025-03-18T10:43:54.689Z
+date: 2025-03-18T19:02:33.666Z
 tags: 
 editor: ckeditor
 dateCreated: 2025-01-20T18:02:32.995Z
@@ -21,7 +21,7 @@ dateCreated: 2025-01-20T18:02:32.995Z
 <p><a href="https://claim.realtoken.network/">https://claim.realtoken.network/</a><br>&nbsp;</p>
 <ol>
   <li>L’application fonctionne sur la blockchain Gnosis,</li>
-  <li>Vous devez connecter le portefeuille qui reçoit vos Realtokens, lors d’une vente sur le site <a href="https://realt.co/">Realt.co</a>,</li>
+  <li>Vous devez connecter l'un des wallets suivants : &nbsp;<br>&nbsp;- celui déclaré comme recevant les Realtokens sur Realt.co (au moment du lancement de la conversion) : pour claimer les USDREG ($ convertible en REG) qui correspondent aux Soon reçus depuis plusieurs années,<br>- celui possédant les Realtokens, qui seront réévalués par le suite (une fois la distribution de Soon stoppée)</li>
   <li>Choisissez votre mode de présentation (langue, fond),</li>
   <li>Vérifier que vous êtes bien en «&nbsp;REG Claim » et pas «&nbsp;Genesis&nbsp;».</li>
 </ol>
@@ -57,31 +57,32 @@ dateCreated: 2025-01-20T18:02:32.995Z
 <p>Pendant la période des Soon (2021 à début 2025) et avant la création du contrat de réclamation des REG (Vault):&nbsp;</p>
 <ul>
   <li>1. A l’issu de chaque réévaluation d’un Realtoken, RealT lance le Mint des Soon correspondants,</li>
-  <li>2. Ces Soon sont attribués aux wallet des propriétaires du Realtoken au moment de la réévaluation.</li>
+  <li>2. Ces Soon sont attribués aux wallets des propriétaires du Realtoken au moment de la réévaluation.</li>
 </ul>
-<p>Pour initialiser le contrat de réclamation, les Soon sont convertis en $REG puis détruits :&nbsp;</p>
+<p>Pour initialiser le contrat de réclamation, les Soon sont convertis en USDREG, puis détruits :&nbsp;</p>
 <ul>
   <li>3. RealT lance la conversion des Soon,</li>
   <li>4. Collecte de tous les wallets ayant des Soon avec leur quantité,</li>
-  <li>5. Les Soon sont convertis en $REG ($ claimable en REG). Ce montant pour chaque wallet, est inscrit dans fichier off-chain (<a href="https://raw.githubusercontent.com/real-token/vault-merkle-data/refs/heads/main/dao/usdreg_convertion/current.json">Merkel Tree</a>), les soon convertis sont attribués pour chaque adresse en détenant à la dernière adresse de livraison des Realtokens connu sur le site realt.co de l'utilisateur</li>
+  <li>5. Les Soon sont convertis en USDREG. Ce montant pour chaque wallet, est inscrit dans fichier off-chain (<a href="https://raw.githubusercontent.com/real-token/vault-merkle-data/refs/heads/main/dao/usdreg_convertion/current.json">Merkel Tree</a>), les Soon convertis sont attribués pour chaque adresse à la dernière adresse de livraison des Realtokens connu sur le site realt.co de l'utilisateur</li>
   <li>6. Les tokens Soon sont détruits (burn).<br>&nbsp;</li>
 </ul>
-<p>L’ensemble des actions ci avant sont exécutées qu’une seule fois, et disparaîtront dès l’activation du contrat de réclamation.<br>&nbsp;</p>
+<p>L’ensemble des actions ci-avant sont exécutées qu’une seule fois, et disparaîtront dès l’activation du contrat de réclamation.<br>&nbsp;</p>
 <h2><strong>Réclamation «&nbsp;manuelle&nbsp;»</strong></h2>
 <figure class="image image_resized image-style-align-right" style="width:49.62%;"><img src="/imag-en/ccm2.png"></figure>
 <p>Une fois le fichier «&nbsp;Merkle tree&nbsp;» initialisé, (la première fois à partir des Soon accumulés)&nbsp;:&nbsp;</p>
 <ol>
-  <li>La réclamation des REG peut être demandée&nbsp;:&nbsp;<br>- à partir de l’application de claim qui affiche le nombre de REG claimable,<br>- ou directement à partir du wallet utilisateur (solution plus complexe).</li>
+  <li>La réclamation des REG peut être demandée&nbsp;:&nbsp;<br>- à partir de l’application de claim qui affiche le nombre d'USDREG,<br>- ou directement sur le contrat partir du wallet utilisateur (solution plus complexe).</li>
   <li>La réclamation est exécutée par le smart contract Vault de conversion,</li>
   <li>Il vérifie à partir de la racine du Merkle Tree, qui lui a été transmise, que l’utilisateur à les droits correspondants,</li>
   <li>Il calcul le nombre d'USDREG à partir des données du merkle tree et des USDREG déjà réclamés (dont il stocke la valeur) pour déterminer le nombre d'USDREG à réclamer, ce montant est en suite converti en nombre de REG à partir du prix de l'oracle,</li>
   <li>Il demande au contrat REG de minter les REG,</li>
   <li>Les nouveaux REG sont mint sur wallet de l’utilisateur.</li>
-  <li>Les réévaluations/distributions qui suivront se feront directement en USDREG, par mise à jour du Merkel Tree. Cette mise à jour fera apparaître de nouveaux REG à réclamer dans l’application.<br>L’attribution de nouveaux USDREG sera effectuée à l'adresse qui détient des Realtokens au moment du snapshot, contrairement au droit en USDREG issus de la conversion SOON qui sont attribué a la dernière adresse de livraison de RealToken enregistrer sur votre compte realt.co</li>
+  <li>Les réévaluations/distributions qui suivront (après disparition des Soon) se feront directement en USDREG, par mise à jour du Merkel Tree. Cette mise à jour fera apparaître de nouveaux USDREG à réclamer dans l’application.<br>L’attribution de nouveaux USDREG sera effectuée à l'adresse qui détient des Realtokens au moment du snapshot (contrairement au droit en USDREG issus de la conversion Soon, qui sont attribués a la dernière adresse de livraison de RealTokens enregistrée sur votre compte realt.co)</li>
 </ol>
+<p>Nota : Un claim délégué est un claim manuel ponctuellement délégué à une autre adresse, pour executer le claim….</p>
 <h2><br><strong>Réclamation «&nbsp;automatique&nbsp;»</strong></h2>
 <figure class="image image_resized image-style-align-right" style="width:49.81%;"><img src="/imag-en/ccm3.png"></figure>
-<p><br>L’exécution de la réclamation par le smart contract Vault peut être déclenché soit manuellement par l’utilisateur au moment de sont choix, soit automatiquement par un automate (bot). Il faudra au préalable avoir autorisé ce mode opératoire.</p>
+<p><br>L’exécution de la réclamation par le smart contract Vault peut être déclenché soit manuellement par l’utilisateur au moment de son choix, soit automatiquement par un automate (bot). Il faudra au préalable avoir autorisé ce mode opératoire.</p>
 <ol>
   <li>L’automate va surveiller les mises à jour du Merkel Tree pour les utilisateurs inscrits, puis déclencher une réclamation des REG pour les utilisateurs concernés,</li>
   <li>Suivant le paramétrage du smart contract Vault de conversion, des frais de réclamation automatique pourront être appliqués (0&nbsp;% au départ), afin d'encourager et subventionner les frais de transaction (l'activation de frais devra faire l'objet d'un vote de gouvernance)</li>
@@ -189,7 +190,7 @@ dateCreated: 2025-01-20T18:02:32.995Z
 <h2>Oracle de prix REG</h2>
 <p>Le contrat de l'oracle de prix du REG est basé sur le code de Chainlink, il comprend :</p>
 <ul>
-  <li>&nbsp;le smart contract <a href="https://gnosisscan.io/address/0x86339b40e588f774bd766eB70D47bEFBe68B6F64/advanced#code">https://gnosisscan.io/address/0x86339b40e588f774bd766eB70D47bEFBe68B6F64/advanced#code&nbsp;</a></li>
+  <li>le smart contract <a href="https://gnosisscan.io/address/0x86339b40e588f774bd766eB70D47bEFBe68B6F64/advanced#code">https://gnosisscan.io/address/0x86339b40e588f774bd766eB70D47bEFBe68B6F64/advanced#code&nbsp;</a></li>
   <li>une infrastructure Chainlink pour automatiser les relevés de prix onchain et offchain sur plusieurs sources et effectuer un calcule qui a pour objectif d’éviter les manipulations de prix.<br>Le calcule prend en compte les volumes d’échange, le temps passé à un prix, les différences entre les source de prix, il crée une pondération afin d'éviter les manipulations, le taux d'actualisation avec la valeur calculé est mise à jours onchain tout les 24h par un automate Chainlink.</li>
 </ul>
 <p>&nbsp;</p>
