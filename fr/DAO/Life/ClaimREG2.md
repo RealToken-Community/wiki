@@ -2,7 +2,7 @@
 title: Réclamation des REG
 description: 
 published: true
-date: 2025-03-19T09:57:10.943Z
+date: 2025-03-19T10:06:53.484Z
 tags: 
 editor: markdown
 dateCreated: 2025-03-19T09:02:40.132Z
@@ -22,14 +22,11 @@ Une fois l’application de réclamation des REG mise en service, les SOON dispa
 
 ![](/imag-en/valuation.png){.align-right .img40}
 
-  
-
 Les réévaluations des biens sont faites par des sociétés indépendantes de RealT.  
 Le cout de cette action devient élevé (notamment pour les multi-family) et conduit RealT à décaler ces réévaluations, qui devaient être annuelles à l’origine.
 
 A l’avenir, la distribution d'USDREG ne devrait plus être liée à la réévaluation, mais à un délai après la tokenisation.  
  
-
 # **L'application pour réclamer vos REG** ⭐
 
 ![](/imag-en/claim1.png){.align-right .img35}
@@ -46,7 +43,6 @@ A l’avenir, la distribution d'USDREG ne devrait plus être liée à la rééva
 Nota : Les utilisateurs en *Walletless* devront migrer vers le *Realtoken Wallet ou autre wallet compatible* pour se connecter à l'applications, puis demander au support d'effectuer le claim sur le nouveau Wallet pour les tokens attribués au Walletless  
 [Lien d'aide](https://community-realt.gitbook.io/tuto-community/site-realt/option-realtoken-wallet-account-abstraction)  
  
-
 ![](/imag-en/claim2.png){.align-right .img30}
 
 Une fois connecté, vous voyez : 
@@ -60,13 +56,9 @@ Une fois connecté, vous voyez : 
     Vous pouvez autoriser l’exécution de claim automatique à votre attention (par un robot), dès que des USDREG vous seront alloués (délais max 24h).   
     Des frais pourront être prélevés pour ce service (0 % actuellement).  
      
-
-
 ## Claim délégué
 
-
 ![delegateclaim2.png](/imag-en/delegateclaim2.png){.align-right .img35}
-
   
 Il est possible de déléguer le claim à une autre adresse (par exemple si votre adresse initiale a été corrompue ) : 
 
@@ -76,15 +68,12 @@ Il est possible de déléguer le claim à une autre adresse (par exemple si votr
 4.  Connectez vous avec l'adresse déléguée (0x…C08 sur l'image),
 5.  Lancer le claim,
 6.  Le claim enverra les REG, alloués à l'adresse initiale, à l'adresse déléguée.  
-     
- 
 
 # Comment ça marche ⭐⭐
 
 ## **Avant la création du contrat de réclamation**
 
 ![](/imag-en/ccm1.png){.align-right .img50}
-
 
 Pendant la période des Soon (2021 à début 2025) et avant la création du contrat de réclamation des REG (Vault): 
 
@@ -97,14 +86,12 @@ Pour initialiser le contrat de réclamation, les Soon sont convertis en USDREG, 
 -   4\. Collecte de tous les wallets ayant des Soon avec leur quantité,
 -   5\. Les Soon sont convertis en USDREG. Ce montant pour chaque wallet, est inscrit dans fichier off-chain ([Merkel Tree)](https://github.com/real-token/vault-merkle-data/blob/main/dao/usdreg_convertion/current.json), les Soon convertis sont attribués pour chaque adresse à la dernière adresse de livraison des Realtokens connu sur le site realt.co de l'utilisateur
 -   6\. Les tokens Soon sont détruits (burn).  
-     
 
 L’ensemble des actions ci-avant sont exécutées qu’une seule fois, et disparaîtront dès l’activation du contrat de réclamation.  
  
-
 ## **Réclamation « manuelle »**
 
-![](/imag-en/ccm2.png)
+![](/imag-en/ccm2.png){.align-right .img50}
 
 Une fois le fichier « Merkle tree » initialisé, (la première fois à partir des Soon accumulés) : 
 
@@ -121,12 +108,10 @@ Une fois le fichier « Merkle tree » initialisé, (la première fois à parti
 
 Si l'adresse dotée d'USDREG a été corrompue, il est possible de simplement signer avec l'adresse corrompue le fait de déléguer le claim à une autre adresse. Cette autre adresse, pourra alors claimer les REG et les recevoir. 
 
-##   
-**Réclamation « automatique »**
+## **Réclamation « automatique »**
 
-![](/imag-en/ccm3.png)
+![](/imag-en/ccm3.png){.align-right .img50}
 
-  
 L’exécution de la réclamation par le smart contract Vault peut être déclenché soit manuellement par l’utilisateur au moment de son choix, soit automatiquement par un automate (bot). Ce dernier mode, devra au préalable avoir été autorisé.
 
 1.  L’automate va surveiller les mises à jour du Merkel Tree pour les utilisateurs inscrits, puis déclencher une réclamation des REG pour les utilisateurs concernés,
@@ -148,11 +133,9 @@ Smart contract :
 
 Merkel Tree (OffChain) : [https://github.com/real-token/vault-merkle-data/blob/main/dao/usdreg\_convertion/current.json](https://github.com/real-token/vault-merkle-data/blob/main/dao/usdreg_convertion/current.json)
 
-Ce fichier peux être sauvegardé par la communauté pour rester disponible dans toutes les situations. La dernière version, dont le root est inscrit dans le contrat de claim, reste valable même si l'interface ou le fichier source n'existe plus.
+Ce fichier peux être sauvegardé par la communauté pour rester disponible dans toutes les 	situations. La dernière version, dont le root est inscrit dans le contrat de claim, reste valable même si l'interface ou le fichier source n'existe plus.
 
-#   
-**Détail de fonctionnement du contrat Vault** ⭐⭐⭐
-
+#  **Détail de fonctionnement du contrat Vault** ⭐⭐⭐
   
 L’adresse du smart contract ci-dessus est celle du Proxy (invariable) qui pointe sur l’implementation suivante  (qui peut varier, suivant les mises à jour)  : [https://gnosisscan.io/address/0x94223f067dbf9b43ed3bfea1d02cc1839031b6d2#code](https://gnosisscan.io/address/0x94223f067dbf9b43ed3bfea1d02cc1839031b6d2#code)
 
@@ -174,26 +157,27 @@ La validation avec preuve de Merkle fonctionne en vérifiant que les information
 Execution dans le programme :
 
 1 **Génération de la Feuille** : Pour chaque réclamation, une « feuille » (leaf) est générée en hachant les données de l'utilisateur (adresse et montant) avec la fonction keccak256. Cela crée un hachage unique qui représente cette réclamation. 
+![](/imag-en/regconvertor/rc2.png){.align-right .img50}
 
-![](/imag-en/regconvertor/rc2.png)
+<br>
 
 2 **Vérification de la Preuve** : La fonction *\_validateMerkleProof* prend en entrée l'adresse de l'utilisateur, le montant, la racine de Merkle attendue et un tableau de preuves de Merkle. Elle vérifie que la preuve de Merkle est valide pour l'utilisateur et le montant spécifié.
 
-![](/imag-en/regconvertor/rc1.png)
-
+![](/imag-en/regconvertor/rc1.png){.align-right .img50}
+<br>
 [Lien vers le code correspondant](https://gnosisscan.io/address/0x94223f067dbf9b43ed3bfea1d02cc1839031b6d2#code#F1#L669)
-
-  
- 
+ <br>
+ <br>
 
 3\. **Vérification de l'Arbre de Merkle** : La fonction *\_verifyAsm* utilise une approche d'assemblage pour parcourir les preuves de Merkle. Elle prend chaque nœud de la preuve et le combine avec la feuille pour reconstruire le hachage jusqu'à atteindre la racine de Merkle. Si la racine reconstruite correspond à la racine de Merkle attendue, cela signifie que la réclamation est valide.
 
-![](/imag-en/regconvertor/rc3.png)
+![](/imag-en/regconvertor/rc3.png){.align-right .img50}
 
-  
+<br>
+
 [Lien vers le code correspondant](https://gnosisscan.io/address/0x94223f067dbf9b43ed3bfea1d02cc1839031b6d2#code#F1#L719)
-
-  
+<br>
+<br>
   
  
 
@@ -216,9 +200,11 @@ Les principaux modes de réclamation dans le contrat, sont :
 4.  Elle vérifie le montant déjà réclamé par l'utilisateur pour éviter les doubles réclamations.
 5.  Si toutes les vérifications passent, le contrat calcule le montant de REG à émettre et effectue la minti des tokens REG pour l'utilisateur.
 
-![](/imag-en/regconvertor/rc4.png)
+![](/imag-en/regconvertor/rc4.png){.align-right .img50}
 
 [Lien vers le code correspondant](https://gnosisscan.io/address/0x94223f067dbf9b43ed3bfea1d02cc1839031b6d2#code#F1#L176)
+<br>
+<br>
 
 ### **Réclamation par un délégué** (lignes 302 à 336)
 
@@ -234,11 +220,11 @@ Les principaux modes de réclamation dans le contrat, sont :
 
 !!! ATTENTION: l'interface pour cette fonction enverra les REG a l'adresse délégué. Dans une future mise à jour de l'interface : il sera possible de déléguer le claim, sans faire envoyer les tokens au délégué, mais à une adresse déterminée au moment de la signature.
 
-![](/imag-en/regconvertor/rc5.png)
+![](/imag-en/regconvertor/rc5.png){.align-right .img50}
 
 [Lien vers le code correspondant](https://gnosisscan.io/address/0x94223f067dbf9b43ed3bfea1d02cc1839031b6d2#code#F1#L302)  
- 
-
+<br>
+<br>
 ### **Réclamation automatique** (lignes 540 à 623)
 
 -   Fonction : claimByAutoClaim
@@ -251,9 +237,10 @@ Les principaux modes de réclamation dans le contrat, sont :
 4.  Elle valide la preuve de Merkle et vérifie le montant déjà réclamé.
 5.  Les tokens REG sont mintés pour le destinataire, et des frais peuvent être appliqués si configurés.
 
-![](/imag-en/regconvertor/rc6.png)
+![](/imag-en/regconvertor/rc6.png){.align-right .img50}
 
 [Lien vers le code correspondant](https://gnosisscan.io/address/0x94223f067dbf9b43ed3bfea1d02cc1839031b6d2#code#F1#L552)
+<br>
 
 ## Oracle de prix REG
 
