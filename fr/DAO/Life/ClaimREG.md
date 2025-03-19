@@ -2,7 +2,7 @@
 title: Réclamation des REG
 description: 
 published: true
-date: 2025-03-19T11:01:35.957Z
+date: 2025-03-19T11:04:06.094Z
 tags: 
 editor: markdown
 dateCreated: 2025-03-19T09:02:40.132Z
@@ -216,12 +216,14 @@ Dans une future mise à jour de l'interface : il sera possible de déléguer le 
 {.is-warning}
 
 ![](/imag-en/regconvertor/rc5.png){.align-right .img50}
-
+<br>
 [Lien vers le code correspondant](https://gnosisscan.io/address/0x94223f067dbf9b43ed3bfea1d02cc1839031b6d2#code#F1#L302)  
 <br>
 <br>
 
+
 ### **Réclamation automatique** (lignes 540 à 623)
+
 
 -   Fonction : claimByAutoClaim
 -   Description : Ce mode permet aux utilisateurs de réclamer automatiquement des tokens REG sans avoir à initier manuellement la réclamation.
