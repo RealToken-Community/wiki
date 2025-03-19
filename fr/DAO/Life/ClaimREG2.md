@@ -2,7 +2,7 @@
 title: Réclamation des REG
 description: 
 published: true
-date: 2025-03-19T09:33:54.440Z
+date: 2025-03-19T09:34:33.138Z
 tags: 
 editor: markdown
 dateCreated: 2025-03-19T09:02:40.132Z
@@ -20,9 +20,10 @@ Avant la création du REG, ce montant était versé en token SOON, dont la valeu
   
 Une fois l’application de réclamation des REG mise en service, les SOON disparaîtront et l’allocation lors de la première réévaluation se fera directement en USDREG (cf RIP00009). 
 
-![](/imag-en/valuation.png){.align-right .img50}
+![](/imag-en/valuation.png){.align-right .img25}
 
   
+
 Les réévaluations des biens sont faites par des sociétés indépendantes de RealT.  
 Le cout de cette action devient élevé (notamment pour les multi-family) et conduit RealT à décaler ces réévaluations, qui devaient être annuelles à l’origine.
 
