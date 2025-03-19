@@ -2,7 +2,7 @@
 title: Réclamation des REG
 description: 
 published: true
-date: 2025-03-19T12:48:11.353Z
+date: 2025-03-19T12:48:57.149Z
 tags: 
 editor: markdown
 dateCreated: 2025-03-19T09:02:40.132Z
@@ -53,6 +53,7 @@ Une fois connecté, vous voyez : 
 6.  L’option d’Auto Claim  
     Vous pouvez autoriser l’exécution de claim automatique à votre attention (par un robot), dès que des USDREG vous seront alloués (délais max 24h).   
     Des frais pourront être prélevés pour ce service (0 % actuellement).  
+<br>
      
 ## Claim délégué
 
