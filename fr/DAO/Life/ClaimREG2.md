@@ -2,7 +2,7 @@
 title: Réclamation des REG
 description: 
 published: true
-date: 2025-03-19T09:44:56.646Z
+date: 2025-03-19T09:46:47.700Z
 tags: 
 editor: markdown
 dateCreated: 2025-03-19T09:02:40.132Z
@@ -47,7 +47,7 @@ Nota : Les utilisateurs en *Walletless* devront migrer vers le *Realtoken Wallet
 [Lien d'aide](https://community-realt.gitbook.io/tuto-community/site-realt/option-realtoken-wallet-account-abstraction)  
  
 
-![](/imag-en/claim2.png){.align-right .img35}
+![](/imag-en/claim2.png){.align-right .img40}
 
 Une fois connecté, vous voyez : 
 
@@ -60,7 +60,6 @@ Une fois connecté, vous voyez : 
     Vous pouvez autoriser l’exécution de claim automatique à votre attention (par un robot), dès que des USDREG vous seront alloués (délais max 24h).   
     Des frais pourront être prélevés pour ce service (0 % actuellement).  
      
- <br>   
 
 
 ## Claim délégué
