@@ -2,7 +2,7 @@
 title: Réclamation des REG
 description: 
 published: true
-date: 2025-03-19T12:51:00.046Z
+date: 2025-03-19T12:51:52.910Z
 tags: 
 editor: markdown
 dateCreated: 2025-03-19T09:02:40.132Z
@@ -64,6 +64,7 @@ Une fois connecté, vous voyez : 
 4.  Connectez vous avec l'adresse déléguée (0x…C08 sur l'image),
 5.  Lancer le claim,
 6.  Le claim enverra les REG, alloués à l'adresse initiale, vers l'adresse déléguée. 
+<br>
 
 # Comment ça marche ⭐⭐
 
