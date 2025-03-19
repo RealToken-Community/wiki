@@ -2,7 +2,7 @@
 title: Réclamation des REG
 description: 
 published: true
-date: 2025-03-19T10:09:29.590Z
+date: 2025-03-19T10:10:12.280Z
 tags: 
 editor: markdown
 dateCreated: 2025-03-19T09:02:40.132Z
@@ -58,7 +58,7 @@ Une fois connecté, vous voyez : 
      
 ## Claim délégué
 
-![delegateclaim2.png](/imag-en/delegateclaim2.png){.align-right .img50}
+![delegateclaim2.png](/imag-en/delegateclaim2.png){.align-right .img45}
   
 Il est possible de déléguer le claim à une autre adresse (par exemple si votre adresse initiale a été corrompue ) : 
 
@@ -67,7 +67,8 @@ Il est possible de déléguer le claim à une autre adresse (par exemple si votr
 3.  L'application indique que vous devez changer d'adresse de connexion pour claimer,
 4.  Connectez vous avec l'adresse déléguée (0x…C08 sur l'image),
 5.  Lancer le claim,
-6.  Le claim enverra les REG, alloués à l'adresse initiale, à l'adresse déléguée.  
+6.  Le claim enverra les REG, alloués à l'adresse initiale, à l'adresse déléguée. 
+<br>
 
 # Comment ça marche ⭐⭐
 
