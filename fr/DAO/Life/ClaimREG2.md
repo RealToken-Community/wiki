@@ -2,7 +2,7 @@
 title: Réclamation des REG
 description: 
 published: true
-date: 2025-03-19T09:49:22.244Z
+date: 2025-03-19T09:50:17.563Z
 tags: 
 editor: markdown
 dateCreated: 2025-03-19T09:02:40.132Z
@@ -47,7 +47,7 @@ Nota : Les utilisateurs en *Walletless* devront migrer vers le *Realtoken Wallet
 [Lien d'aide](https://community-realt.gitbook.io/tuto-community/site-realt/option-realtoken-wallet-account-abstraction)  
  
 
-![](/imag-en/claim2.png){.align-right .img50}
+![](/imag-en/claim2.png){.align-right .img30}
 
 Une fois connecté, vous voyez : 
 
