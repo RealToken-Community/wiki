@@ -2,7 +2,7 @@
 title: Réclamation des REG
 description: 
 published: true
-date: 2025-03-19T09:50:17.563Z
+date: 2025-03-19T09:51:28.356Z
 tags: 
 editor: markdown
 dateCreated: 2025-03-19T09:02:40.132Z
@@ -20,7 +20,7 @@ Avant la création du REG, ce montant était versé en token SOON, dont la valeu
   
 Une fois l’application de réclamation des REG mise en service, les SOON disparaîtront et l’allocation lors de la première réévaluation se fera directement en USDREG (cf RIP00009). 
 
-![](/imag-en/valuation.png){.align-right .img35}
+![](/imag-en/valuation.png){.align-right .img40}
 
   
 
