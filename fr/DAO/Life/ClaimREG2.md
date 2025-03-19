@@ -2,7 +2,7 @@
 title: Réclamation des REG
 description: 
 published: true
-date: 2025-03-19T09:33:13.442Z
+date: 2025-03-19T09:33:54.440Z
 tags: 
 editor: markdown
 dateCreated: 2025-03-19T09:02:40.132Z
@@ -31,7 +31,7 @@ A l’avenir, la distribution d'USDREG ne devrait plus être liée à la rééva
 
 # **L' application pour réclamer vos REG** ⭐
 
-![](/imag-en/claim1.png){.align-right .img50}
+![](/imag-en/claim1.png){.align-right .img25}
 
 [https://claim.realtoken.network/](https://claim.realtoken.network/)
 
