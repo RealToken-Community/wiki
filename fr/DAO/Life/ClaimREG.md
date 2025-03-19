@@ -2,7 +2,7 @@
 title: Réclamation des REG
 description: 
 published: true
-date: 2025-03-19T10:22:02.843Z
+date: 2025-03-19T10:59:46.913Z
 tags: 
 editor: markdown
 dateCreated: 2025-03-19T09:02:40.132Z
@@ -20,7 +20,7 @@ Avant la création du REG, ce montant était versé en token SOON, dont la valeu
   
 Une fois l’application de réclamation des REG mise en service, les SOON disparaîtront et l’allocation lors de la première réévaluation se fera directement en USDREG (cf RIP00009). 
 
-![](/imag-en/valuation.png){.align-right .img40}
+![valuation.png](/imag-en/regconvertor/valuation.png){.align-right .img40}
 
 Les réévaluations des biens sont faites par des sociétés indépendantes de RealT.  
 Le cout de cette action devient élevé (notamment pour les multi-family) et conduit RealT à décaler ces réévaluations, qui devaient être annuelles à l’origine.
@@ -29,7 +29,7 @@ A l’avenir, la distribution d'USDREG ne devrait plus être liée à la rééva
  
 # **L'application pour réclamer vos REG** ⭐
 
-![](/imag-en/claim1.png){.align-right .img35}
+![claim1.png](/imag-en/regconvertor/claim1.png){.align-right .img35}
 
 [https://claim.realtoken.network/](https://claim.realtoken.network/)
 
@@ -43,7 +43,7 @@ A l’avenir, la distribution d'USDREG ne devrait plus être liée à la rééva
 Nota : Les utilisateurs en *Walletless* devront migrer vers le *Realtoken Wallet ou autre wallet compatible* pour se connecter à l'applications, puis demander au support d'effectuer le claim sur le nouveau Wallet pour les tokens attribués au Walletless  
 [Lien d'aide](https://community-realt.gitbook.io/tuto-community/site-realt/option-realtoken-wallet-account-abstraction)  
  
-![](/imag-en/claim2.png){.align-right .img30}
+![claim2.png](/imag-en/regconvertor/claim2.png){.align-right .img30}
 
 Une fois connecté, vous voyez : 
 
@@ -58,7 +58,7 @@ Une fois connecté, vous voyez : 
      
 ## Claim délégué
 
-![delegateclaim2.png](/imag-en/delegateclaim2.png){.align-right .img45}
+![delegateclaim.png](/imag-en/regconvertor/delegateclaim.png){.align-right .img45}
   
 Il est possible de déléguer le claim à une autre adresse (par exemple si votre adresse initiale a été corrompue ) : 
 
@@ -74,7 +74,7 @@ Il est possible de déléguer le claim à une autre adresse (par exemple si votr
 
 ## **Avant la création du contrat de réclamation**
 
-![](/imag-en/ccm1.png){.align-right .img50}
+![ccm1.png](/imag-en/regconvertor/ccm1.png){.align-right .img50}
 
 Pendant la période des Soon (2021 à début 2025) et avant la création du contrat de réclamation des REG (Vault): 
 
@@ -94,7 +94,7 @@ L’ensemble des actions ci-avant sont exécutées qu’une seule fois, et dispa
 
 Une fois le fichier « Merkle tree » initialisé, (la première fois à partir des Soon accumulés) : 
 
-![](/imag-en/ccm2.png){.align-right .img50}
+![ccm2.png](/imag-en/regconvertor/ccm2.png){.align-right .img50}
 
 1.  La réclamation des REG peut être demandée :   
     \- à partir de l’application de claim qui affiche le nombre d'USDREG,  
@@ -113,7 +113,7 @@ Si l'adresse dotée d'USDREG a été corrompue, il est possible de simplement si
 
 L’exécution de la réclamation par le smart contract Vault peut être déclenché soit manuellement par l’utilisateur au moment de son choix, soit automatiquement par un automate (bot). Ce dernier mode, devra au préalable avoir été autorisé.
 
-![](/imag-en/ccm3.png){.align-right .img50}
+![ccm3.png](/imag-en/regconvertor/ccm3.png){.align-right .img50}
 
 1.  L’automate va surveiller les mises à jour du Merkel Tree pour les utilisateurs inscrits, puis déclencher une réclamation des REG pour les utilisateurs concernés,
 2.  Suivant le paramétrage du smart contract Vault de conversion, des frais de réclamation automatique pourront être appliqués (0 % au départ), afin d'encourager et subventionner les frais de transaction (l'activation de frais devra faire l'objet d'un vote de gouvernance)
