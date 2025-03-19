@@ -2,7 +2,7 @@
 title: Réclamation des REG
 description: 
 published: true
-date: 2025-03-19T12:50:00.733Z
+date: 2025-03-19T12:51:00.046Z
 tags: 
 editor: markdown
 dateCreated: 2025-03-19T09:02:40.132Z
@@ -42,9 +42,8 @@ A l’avenir, la distribution d'USDREG ne devrait plus être liée à la rééva
 Nota : Les utilisateurs en *Walletless* devront migrer vers le *Realtoken Wallet ou autre wallet compatible* pour se connecter à l'application, puis demander au support d'effectuer la réclamation sur le nouveau Wallet pour les tokens attribués au Walletless.  
 [Lien d'aide](https://community-realt.gitbook.io/tuto-community/site-realt/option-realtoken-wallet-account-abstraction)  
  
-Une fois connecté, vous voyez : 
 ![claim2.png](/imag-en/regconvertor/claim2.png){.align-right .img30}
-
+Une fois connecté, vous voyez : 
 1.  Le montant en USDREG qui vous est alloué (20 sur l’image),
 2.  La parité du REG en $ du moment (1,93),
 3.  Le nombre de REG correspondant (10,34), que vous pouvez claimer (qu'en totalité),
