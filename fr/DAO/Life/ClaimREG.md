@@ -2,7 +2,7 @@
 title: Réclamation des REG
 description: 
 published: true
-date: 2025-03-19T12:48:57.149Z
+date: 2025-03-19T12:50:00.733Z
 tags: 
 editor: markdown
 dateCreated: 2025-03-19T09:02:40.132Z
@@ -57,16 +57,14 @@ Une fois connecté, vous voyez : 
      
 ## Claim délégué
 
-Il est possible de déléguer une autre adresse, pour réclamer et percevoir vos REG (par exemple en cas de wallet corrompu) : 
 ![delegateclaim.png](/imag-en/regconvertor/delegateclaim.png){.align-right .img45}
- 
+ Il est possible de déléguer une autre adresse, pour réclamer et percevoir vos REG (par exemple en cas de wallet corrompu) : 
 1.  Connection à l'application avec le wallet initial (0x69…94a sur l'image),
 2.  Cocher la réclamation avec une autre adresse, et indiquer l'adresse déléguée (0x…C08 sur l'image). Puis signer cette autorisation de délégation avec l'adresse initiale.
 3.  L'application indique que vous devez changer d'adresse de connexion pour claimer,
 4.  Connectez vous avec l'adresse déléguée (0x…C08 sur l'image),
 5.  Lancer le claim,
 6.  Le claim enverra les REG, alloués à l'adresse initiale, vers l'adresse déléguée. 
-<br>
 
 # Comment ça marche ⭐⭐
 
