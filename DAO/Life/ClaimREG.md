@@ -2,7 +2,7 @@
 title: REG Claim
 description: 
 published: true
-date: 2025-03-19T13:10:47.930Z
+date: 2025-03-19T13:29:38.538Z
 tags: 
 editor: markdown
 dateCreated: 2025-03-19T13:08:51.748Z
@@ -129,6 +129,21 @@ Smart contract:
 Merkel Tree (OffChain): [https://github.com/real-token/vault-merkle-data/blob/main/dao/usdreg_conversion/current.json](https://github.com/real-token/vault-merkle-data/blob/main/dao/usdreg_conversion/current.json)
 
 This file can be backed up by the community to remain available in all situations. The latest version, whose root is registered in the claim contract, remains valid even if the interface or source file no longer exists.
+
+# Vault Contract Operation Details ⭐⭐⭐
+
+The smart contract address above is the Proxy's (unchanged) address, which points to the following implementation (which may vary depending on updates): [https://gnosisscan.io/address/0x94223f067dbf9b43ed3bfea1d02cc1839031b6d2#code](https://gnosisscan.io/address/0x94223f067dbf9b43ed3bfea1d02cc1839031b6d2#code)
+
+The program manages the conversion and distribution of REG tokens, based on USDREG amounts recorded on a Merkel Tree and the REG value provided by the Oracle.
+
+## Key Features
+
+1. Roles and Permissions: The contract uses OpenZeppelin's access control system to manage different roles (administrator, operator, pauser, and upgrader) to secure critical operations.
+2. Token Management: It interacts with the REG token, allowing users to claim REG tokens based on USDREG amounts, while verifying Merkle proofs to ensure eligibility.
+3. Claiming Features: Users can claim tokens either directly or through a delegate. The contract also supports automated claiming features. Walletless claims exist, but are not implemented off-chain: Walletless accounts will need to migrate to a new wallet.
+4. **Timestamp Management**: The contract includes mechanisms to verify that claims occur within a defined time period, preventing claims outside of this period.
+5. **Bridge and Transfers**: It also allows tokens to be transferred to other chains (bridge) and manage the fees associated with these transfers.
+6. **Updates**: The contract is designed to be updated via an upgrade mechanism, allowing new features to be added or bugs to be fixed without losing the contract's state. 7. **Events**: It emits events to track important actions, such as token claims, parameter updates, and errors.
 
 ## Validation with Merkle Proof
 
