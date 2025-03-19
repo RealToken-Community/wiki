@@ -2,7 +2,7 @@
 title: Réclamation des REG
 description: 
 published: true
-date: 2025-03-19T11:04:06.094Z
+date: 2025-03-19T11:10:46.343Z
 tags: 
 editor: markdown
 dateCreated: 2025-03-19T09:02:40.132Z
@@ -29,9 +29,8 @@ A l’avenir, la distribution d'USDREG ne devrait plus être liée à la rééva
  
 # **L'application pour réclamer vos REG** ⭐
 
-![claim1.png](/imag-en/regconvertor/claim1.png){.align-right .img35}
-
 [https://claim.realtoken.network/](https://claim.realtoken.network/)
+![claim1.png](/imag-en/regconvertor/claim1.png){.align-right .img35}
 
 1.  L’application fonctionne sur la blockchain Gnosis,
 2.  Vous devez connecter l'un des wallets suivants :    
@@ -57,10 +56,9 @@ Une fois connecté, vous voyez : 
      
 ## Claim délégué
 
-![delegateclaim.png](/imag-en/regconvertor/delegateclaim.png){.align-right .img45}
-  
 Il est possible de déléguer le claim à une autre adresse (par exemple si votre adresse initiale a été corrompue ) : 
-
+![delegateclaim.png](/imag-en/regconvertor/delegateclaim.png){.align-right .img45}
+ 
 1.  Connection à l'application avec le wallet initial (0x69…94a sur l'image),
 2.  Cocher la réclamation avec une autre adresse, et indiquer l'adresse déléguée (0x…C08 sur l'image). Puis signer cette autorisation de délégation avec la première adresse,
 3.  L'application indique que vous devez changer d'adresse de connexion pour claimer,
@@ -73,11 +71,11 @@ Il est possible de déléguer le claim à une autre adresse (par exemple si votr
 
 ## **Avant la création du contrat de réclamation**
 
-![ccm1.png](/imag-en/regconvertor/ccm1.png){.align-right .img50}
-
 Pendant la période des Soon (2021 à début 2025) et avant la création du contrat de réclamation des REG (Vault): 
 
+
 -   1\. A l’issu de chaque réévaluation d’un Realtoken, RealT lance le Mint des Soon correspondants,
+![ccm1.png](/imag-en/regconvertor/ccm1.png){.align-right .img50}
 -   2\. Ces Soon sont attribués aux wallets des propriétaires du Realtoken au moment de la réévaluation.
 
 Pour initialiser le contrat de réclamation, les Soon sont convertis en USDREG, puis détruits : 
@@ -93,11 +91,12 @@ L’ensemble des actions ci-avant sont exécutées qu’une seule fois, et dispa
 
 Une fois le fichier « Merkle tree » initialisé, (la première fois à partir des Soon accumulés) : 
 
-![ccm2.png](/imag-en/regconvertor/ccm2.png){.align-right .img50}
+
 
 1.  La réclamation des REG peut être demandée :   
     \- à partir de l’application de claim qui affiche le nombre d'USDREG,  
     \- ou directement sur le contrat partir du wallet utilisateur (solution plus complexe).
+![ccm2.png](/imag-en/regconvertor/ccm2.png){.align-right .img50}
 2.  La réclamation est exécutée par le smart contract Vault de conversion,
 3.  Il vérifie à partir de la racine du Merkle Tree, qui lui a été transmise, que l’utilisateur à les droits correspondants,
 4.  Il calcul le nombre d'USDREG à partir des données du merkle tree et des USDREG déjà réclamés (dont il stocke la valeur) pour déterminer le nombre d'USDREG à réclamer, ce montant est en suite converti en nombre de REG à partir du prix de l'oracle,
@@ -112,9 +111,8 @@ Si l'adresse dotée d'USDREG a été corrompue, il est possible de simplement si
 
 L’exécution de la réclamation par le smart contract Vault peut être déclenché soit manuellement par l’utilisateur au moment de son choix, soit automatiquement par un automate (bot). Ce dernier mode, devra au préalable avoir été autorisé.
 
-![ccm3.png](/imag-en/regconvertor/ccm3.png){.align-right .img50}
-
 1.  L’automate va surveiller les mises à jour du Merkel Tree pour les utilisateurs inscrits, puis déclencher une réclamation des REG pour les utilisateurs concernés,
+![ccm3.png](/imag-en/regconvertor/ccm3.png){.align-right .img50}
 2.  Suivant le paramétrage du smart contract Vault de conversion, des frais de réclamation automatique pourront être appliqués (0 % au départ), afin d'encourager et subventionner les frais de transaction (l'activation de frais devra faire l'objet d'un vote de gouvernance)
 3.  Le Vault demandera le mint de deux quantités de REG : pour les frais et pour l’utilisateur,
 4.  Le contrat REG mint les REG de frais vers le wallet de l’automate,
