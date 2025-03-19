@@ -2,7 +2,7 @@
 title: Réclamation des REG
 description: 
 published: true
-date: 2025-03-19T10:10:12.280Z
+date: 2025-03-19T10:22:02.843Z
 tags: 
 editor: markdown
 dateCreated: 2025-03-19T09:02:40.132Z
@@ -92,9 +92,9 @@ L’ensemble des actions ci-avant sont exécutées qu’une seule fois, et dispa
  
 ## **Réclamation « manuelle »**
 
-![](/imag-en/ccm2.png){.align-right .img50}
-
 Une fois le fichier « Merkle tree » initialisé, (la première fois à partir des Soon accumulés) : 
+
+![](/imag-en/ccm2.png){.align-right .img50}
 
 1.  La réclamation des REG peut être demandée :   
     \- à partir de l’application de claim qui affiche le nombre d'USDREG,  
@@ -111,9 +111,9 @@ Si l'adresse dotée d'USDREG a été corrompue, il est possible de simplement si
 
 ## **Réclamation « automatique »**
 
-![](/imag-en/ccm3.png){.align-right .img50}
-
 L’exécution de la réclamation par le smart contract Vault peut être déclenché soit manuellement par l’utilisateur au moment de son choix, soit automatiquement par un automate (bot). Ce dernier mode, devra au préalable avoir été autorisé.
+
+![](/imag-en/ccm3.png){.align-right .img50}
 
 1.  L’automate va surveiller les mises à jour du Merkel Tree pour les utilisateurs inscrits, puis déclencher une réclamation des REG pour les utilisateurs concernés,
 2.  Suivant le paramétrage du smart contract Vault de conversion, des frais de réclamation automatique pourront être appliqués (0 % au départ), afin d'encourager et subventionner les frais de transaction (l'activation de frais devra faire l'objet d'un vote de gouvernance)
@@ -157,32 +157,25 @@ Le programme gère la conversion et la distribution de tokens REG, basés 
 La validation avec preuve de Merkle fonctionne en vérifiant que les informations d'un utilisateur (adresse et montant) sont bien incluses dans une structure de données appelée arbre de Merkle.   
 Execution dans le programme :
 
-1 **Génération de la Feuille** : Pour chaque réclamation, une « feuille » (leaf) est générée en hachant les données de l'utilisateur (adresse et montant) avec la fonction keccak256. Cela crée un hachage unique qui représente cette réclamation. 
+- 1 **Génération de la Feuille** : Pour chaque réclamation, une « feuille » (leaf) est générée en hachant les données de l'utilisateur (adresse et montant) avec la fonction keccak256. Cela crée un hachage unique qui représente cette réclamation. 
 ![](/imag-en/regconvertor/rc2.png){.align-right .img50}
 
 <br>
 
-2 **Vérification de la Preuve** : La fonction *\_validateMerkleProof* prend en entrée l'adresse de l'utilisateur, le montant, la racine de Merkle attendue et un tableau de preuves de Merkle. Elle vérifie que la preuve de Merkle est valide pour l'utilisateur et le montant spécifié.
-
+- 2 **Vérification de la Preuve** : La fonction *\_validateMerkleProof* prend en entrée l'adresse de l'utilisateur, le montant, la racine de Merkle attendue et un tableau de preuves de Merkle. Elle vérifie que la preuve de Merkle est valide pour l'utilisateur et le montant spécifié.
 ![](/imag-en/regconvertor/rc1.png){.align-right .img50}
 <br>
 [Lien vers le code correspondant](https://gnosisscan.io/address/0x94223f067dbf9b43ed3bfea1d02cc1839031b6d2#code#F1#L669)
  <br>
  <br>
 
-3\. **Vérification de l'Arbre de Merkle** : La fonction *\_verifyAsm* utilise une approche d'assemblage pour parcourir les preuves de Merkle. Elle prend chaque nœud de la preuve et le combine avec la feuille pour reconstruire le hachage jusqu'à atteindre la racine de Merkle. Si la racine reconstruite correspond à la racine de Merkle attendue, cela signifie que la réclamation est valide.
-
+- 3. **Vérification de l'Arbre de Merkle** : La fonction *\_verifyAsm* utilise une approche d'assemblage pour parcourir les preuves de Merkle. Elle prend chaque nœud de la preuve et le combine avec la feuille pour reconstruire le hachage jusqu'à atteindre la racine de Merkle. Si la racine reconstruite correspond à la racine de Merkle attendue, cela signifie que la réclamation est valide.
 ![](/imag-en/regconvertor/rc3.png){.align-right .img50}
-
 <br>
-
 [Lien vers le code correspondant](https://gnosisscan.io/address/0x94223f067dbf9b43ed3bfea1d02cc1839031b6d2#code#F1#L719)
 <br>
-<br>
-  
- 
-
-**4\. Rejet des Réclamations Invalides** : Si la vérification échoue, le contrat rejette la réclamation en lançant une erreur, garantissant ainsi que seules les réclamations valides, qui correspondent à la structure de l'arbre de Merkle, sont acceptées.  
+  
+- 4. **Rejet des Réclamations Invalides** : Si la vérification échoue, le contrat rejette la réclamation en lançant une erreur, garantissant ainsi que seules les réclamations valides, qui correspondent à la structure de l'arbre de Merkle, sont acceptées.  
  
 
 ## **Mode de réclamation**
@@ -195,11 +188,11 @@ Les principaux modes de réclamation dans le contrat, sont :
 -   Description : Ce mode permet à un utilisateur de réclamer des tokens REG en fonction d'un montant en USDREG.
 -   Processus :
 
-1.  L'utilisateur appelle la fonction claim avec le montant qu'il souhaite réclamer et une preuve de Merkle.
-2.  La fonction vérifie que le contrat n'est pas en pause et que les timestamps sont valides.
-3.  Elle vérifie que la preuve de Merkle est valide pour l'utilisateur et le montant spécifié.
-4.  Elle vérifie le montant déjà réclamé par l'utilisateur pour éviter les doubles réclamations.
-5.  Si toutes les vérifications passent, le contrat calcule le montant de REG à émettre et effectue la minti des tokens REG pour l'utilisateur.
+	1.  L'utilisateur appelle la fonction claim avec le montant qu'il souhaite réclamer et une preuve de Merkle.
+	2.  La fonction vérifie que le contrat n'est pas en pause et que les timestamps sont valides.
+	3.  Elle vérifie que la preuve de Merkle est valide pour l'utilisateur et le montant spécifié.
+	4.  Elle vérifie le montant déjà réclamé par l'utilisateur pour éviter les doubles réclamations.
+	5.  Si toutes les vérifications passent, le contrat calcule le montant de REG à émettre et effectue la minti des tokens REG pour l'utilisateur.
 
 ![](/imag-en/regconvertor/rc4.png){.align-right .img50}
 
@@ -213,13 +206,15 @@ Les principaux modes de réclamation dans le contrat, sont :
 -   Description : Ce mode permet à un utilisateur de désigner un délégué pour réclamer des tokens en son nom.
 -   Processus :
 
-1.  L'utilisateur fournit des informations de réclamation (adresse du compte, montant, destinataire) et une signature pour prouver l'autorisation.
-2.  La fonction vérifie que le contrat n'est pas en pause et que les timestamps sont valides.
-3.  Elle valide la signature pour s'assurer que le délégué est autorisé à agir au nom de l'utilisateur.
-4.  Comme dans le mode de réclamation par l'utilisateur, la preuve de Merkle est validée, et le montant déjà réclamé est vérifié.
-5.  Si tout est valide, le contrat mint les tokens REG pour le destinataire.
+	1.  L'utilisateur fournit des informations de réclamation (adresse du compte, montant, destinataire) et une signature pour prouver l'autorisation.
+	2.  La fonction vérifie que le contrat n'est pas en pause et que les timestamps sont valides.
+	3.  Elle valide la signature pour s'assurer que le délégué est autorisé à agir au nom de l'utilisateur.
+	4.  Comme dans le mode de réclamation par l'utilisateur, la preuve de Merkle est validée, et le montant déjà réclamé est vérifié.
+	5.  Si tout est valide, le contrat mint les tokens REG pour le destinataire.
 
-!!! ATTENTION: l'interface pour cette fonction enverra les REG a l'adresse délégué. Dans une future mise à jour de l'interface : il sera possible de déléguer le claim, sans faire envoyer les tokens au délégué, mais à une adresse déterminée au moment de la signature.
+> L'interface pour cette fonction envoie les REG à l'adresse déléguée.
+Dans une future mise à jour de l'interface : il sera possible de déléguer le claim, sans faire envoyer les tokens au délégué, mais à une adresse déterminée au moment de la signature.
+{.is-warning}
 
 ![](/imag-en/regconvertor/rc5.png){.align-right .img50}
 
@@ -233,11 +228,11 @@ Les principaux modes de réclamation dans le contrat, sont :
 -   Description : Ce mode permet aux utilisateurs de réclamer automatiquement des tokens REG sans avoir à initier manuellement la réclamation.
 -   Processus :
 
-1.  L'utilisateur appelle la fonction avec un tableau de structures de réclamation.
-2.  La fonction vérifie que le contrat n'est pas en pause et que les timestamps sont valides.
-3.  Pour chaque réclamation, elle vérifie si l'auto-réclamation est activée pour le destinataire.
-4.  Elle valide la preuve de Merkle et vérifie le montant déjà réclamé.
-5.  Les tokens REG sont mintés pour le destinataire, et des frais peuvent être appliqués si configurés.
+	1.  L'utilisateur appelle la fonction avec un tableau de structures de réclamation.
+	2.  La fonction vérifie que le contrat n'est pas en pause et que les timestamps sont valides.
+	3.  Pour chaque réclamation, elle vérifie si l'auto-réclamation est activée pour le destinataire.
+	4.  Elle valide la preuve de Merkle et vérifie le montant déjà réclamé.
+	5.  Les tokens REG sont mintés pour le destinataire, et des frais peuvent être appliqués si configurés.
 
 ![](/imag-en/regconvertor/rc6.png){.align-right .img50}
 
