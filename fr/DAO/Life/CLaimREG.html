@@ -2,7 +2,7 @@
 title: Réclamation des REG
 description: 
 published: true
-date: 2025-03-19T07:54:12.697Z
+date: 2025-03-19T08:04:56.990Z
 tags: 
 editor: ckeditor
 dateCreated: 2025-01-20T18:02:32.995Z
@@ -124,6 +124,7 @@ dateCreated: 2025-01-20T18:02:32.995Z
 <p><a href="https://gnosisscan.io/address/0x94223f067dbf9b43ed3bfea1d02cc1839031b6d2#code#F1#L669">Lien vers le code correspondant</a></p>
 <p><br>&nbsp;</p>
 <p>&nbsp;</p>
+<p>&nbsp;</p>
 <p>3. <strong>Vérification de l'Arbre de Merkle</strong> : La fonction <i>_verifyAsm</i> utilise une approche d'assemblage pour parcourir les preuves de Merkle. Elle prend chaque nœud de la preuve et le combine avec la feuille pour reconstruire le hachage jusqu'à atteindre la racine de Merkle. Si la racine reconstruite correspond à la racine de Merkle attendue, cela signifie que la réclamation est valide.</p>
 <figure class="image image-style-align-right"><img src="/imag-en/regconvertor/rc3.png"></figure>
 <p><br><a href="https://gnosisscan.io/address/0x94223f067dbf9b43ed3bfea1d02cc1839031b6d2#code#F1#L719">Lien vers le code correspondant</a></p>
@@ -147,11 +148,12 @@ dateCreated: 2025-01-20T18:02:32.995Z
   <li>Elle vérifie le montant déjà réclamé par l'utilisateur pour éviter les doubles réclamations.</li>
   <li>Si toutes les vérifications passent, le contrat calcule le montant de REG à émettre et effectue la minti des tokens REG pour l'utilisateur.</li>
 </ol>
-<figure class="image image_resized image-style-align-right" style="width:52.25%;"><img src="/imag-en/claim_man.png"></figure>
+<figure class="image image-style-align-right"><img src="/imag-en/regconvertor/rc4.png"></figure>
 <p>&nbsp;</p>
-<p><a href="https://sepolia.etherscan.io/address/0xaf38a8e7edb2f671b99dffdd3edaf7d5bde2ed4b#code#F1#L176">Lien vers le code correspondant</a></p>
+<p><a href="https://gnosisscan.io/address/0x94223f067dbf9b43ed3bfea1d02cc1839031b6d2#code#F1#L176">Lien vers le code correspondant</a></p>
 <p>&nbsp;</p>
-<h3><strong>Réclamation par un délégué </strong><span class="text-tiny">(lignes 297 à 331)</span></h3>
+<p>&nbsp;</p>
+<h3><strong>Réclamation par un délégué </strong><span class="text-tiny">(lignes 302 à 336)</span></h3>
 <ul>
   <li>Fonction : <i>claimByDelegate</i></li>
   <li>Description : Ce mode permet à un utilisateur de désigner un délégué pour réclamer des tokens en son nom.</li>
@@ -165,9 +167,9 @@ dateCreated: 2025-01-20T18:02:32.995Z
   <li>Si tout est valide, le contrat mint les tokens REG pour le destinataire.</li>
 </ol>
 <p>!!! ATTENTION: l'interface pour cette fonction enverra les REG a l'adresse délégué. Dans une future mise à jour de l'interface : il sera possible de déléguer le claim, sans faire envoyer les tokens au délégué, mais à une adresse déterminée au moment de la signature.</p>
-<figure class="image image_resized image-style-align-right" style="width:53.66%;"><img src="/imag-en/deleg_claim.png"></figure>
+<figure class="image image-style-align-right"><img src="/imag-en/regconvertor/rc5.png"></figure>
 <p>&nbsp;</p>
-<p><a href="https://sepolia.etherscan.io/address/0xaf38a8e7edb2f671b99dffdd3edaf7d5bde2ed4b#code#F1#L297">Lien vers le code correspondant</a><br>&nbsp;</p>
+<p><a href="https://gnosisscan.io/address/0x94223f067dbf9b43ed3bfea1d02cc1839031b6d2#code#F1#L302">Lien vers le code correspondant</a><br>&nbsp;</p>
 <p>&nbsp;</p>
 <h3><strong>Réclamation automatique </strong><span class="text-tiny">(lignes 540 à 623)</span></h3>
 <ul>
@@ -182,9 +184,9 @@ dateCreated: 2025-01-20T18:02:32.995Z
   <li>Elle valide la preuve de Merkle et vérifie le montant déjà réclamé.</li>
   <li>Les tokens REG sont mintés pour le destinataire, et des frais peuvent être appliqués si configurés.</li>
 </ol>
-<figure class="image image_resized image-style-align-right" style="width:52.58%;"><img src="/imag-en/claim_auto.png"></figure>
+<figure class="image image-style-align-right"><img src="/imag-en/regconvertor/rc6.png"></figure>
 <p>&nbsp;</p>
-<p><a href="https://sepolia.etherscan.io/address/0xaf38a8e7edb2f671b99dffdd3edaf7d5bde2ed4b#code#F1#L54">Lien vers le code correspondant</a></p>
+<p><a href="https://gnosisscan.io/address/0x94223f067dbf9b43ed3bfea1d02cc1839031b6d2#code#F1#L552">Lien vers le code correspondant</a></p>
 <p>&nbsp;</p>
 <h2>Oracle de prix REG</h2>
 <p>Le contrat de l'oracle de prix du REG est basé sur le code de Chainlink, il comprend :</p>
