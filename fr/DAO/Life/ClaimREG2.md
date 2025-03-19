@@ -2,7 +2,7 @@
 title: Réclamation des REG
 description: 
 published: true
-date: 2025-03-19T09:03:50.028Z
+date: 2025-03-19T09:26:33.538Z
 tags: 
 editor: markdown
 dateCreated: 2025-03-19T09:02:40.132Z
@@ -20,7 +20,7 @@ Avant la création du REG, ce montant était versé en token SOON, dont la valeu
   
 Une fois l’application de réclamation des REG mise en service, les SOON disparaîtront et l’allocation lors de la première réévaluation se fera directement en USDREG (cf RIP00009). 
 
-![](/imag-en/valuation.png)
+![](/imag-en/valuation.png){.align-right .img50}
 
   
 Les réévaluations des biens sont faites par des sociétés indépendantes de RealT.  
@@ -31,9 +31,9 @@ A l’avenir, la distribution d'USDREG ne devrait plus être liée à la rééva
 
 # **L' application pour réclamer vos REG** ⭐
 
-![](/imag-en/claim1.png)
+![](/imag-en/claim1.png){.align-right .img50}
 
-[https://claim.realtoken.network/](https://claim.realtoken.network/) 
+[https://claim.realtoken.network/](https://claim.realtoken.network/)
 
 1.  L’application fonctionne sur la blockchain Gnosis,
 2.  Vous devez connecter l'un des wallets suivants :    
@@ -46,7 +46,7 @@ Nota : Les utilisateurs en *Walletless* devront migrer vers le *Realtoken Wallet
 [Lien d'aide](https://community-realt.gitbook.io/tuto-community/site-realt/option-realtoken-wallet-account-abstraction)  
  
 
-![](/imag-en/claim2.png)
+![](/imag-en/claim2.png){.align-right .img50}
 
 Une fois connecté, vous voyez : 
 
@@ -62,7 +62,7 @@ Une fois connecté, vous voyez : 
 
 ## Claim délégué
 
-![](/imag-en/delegateclaim .png)
+![](/imag-en/delegateclaim.png){.align-right .img50}
 
   
 Il est possible de déléguer le claim à une autre adresse (par exemple si votre adresse initiale a été corrompue ) : 
@@ -82,7 +82,7 @@ Il est possible de déléguer le claim à une autre adresse (par exemple si votr
 
 ## **Avant la création du contrat de réclamation**
 
-![](/imag-en/ccm1 .png)
+![](/imag-en/ccm1 .png){.align-right .img50}
 
 Pendant la période des Soon (2021 à début 2025) et avant la création du contrat de réclamation des REG (Vault): 
 
