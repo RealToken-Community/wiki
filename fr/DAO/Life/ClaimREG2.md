@@ -2,7 +2,7 @@
 title: Réclamation des REG
 description: 
 published: true
-date: 2025-03-19T10:08:23.136Z
+date: 2025-03-19T10:09:29.590Z
 tags: 
 editor: markdown
 dateCreated: 2025-03-19T09:02:40.132Z
@@ -58,7 +58,7 @@ Une fois connecté, vous voyez : 
      
 ## Claim délégué
 
-![delegateclaim2.png](/imag-en/delegateclaim2.png){.align-right .img35}
+![delegateclaim2.png](/imag-en/delegateclaim2.png){.align-right .img50}
   
 Il est possible de déléguer le claim à une autre adresse (par exemple si votre adresse initiale a été corrompue ) : 
 
