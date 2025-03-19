@@ -2,7 +2,7 @@
 title: Réclamation des REG
 description: 
 published: true
-date: 2025-03-19T09:51:59.587Z
+date: 2025-03-19T09:57:10.943Z
 tags: 
 editor: markdown
 dateCreated: 2025-03-19T09:02:40.132Z
@@ -30,7 +30,7 @@ Le cout de cette action devient élevé (notamment pour les multi-family) et con
 A l’avenir, la distribution d'USDREG ne devrait plus être liée à la réévaluation, mais à un délai après la tokenisation.  
  
 
-# **L' application pour réclamer vos REG** ⭐
+# **L'application pour réclamer vos REG** ⭐
 
 ![](/imag-en/claim1.png){.align-right .img35}
 
@@ -64,9 +64,8 @@ Une fois connecté, vous voyez : 
 
 ## Claim délégué
 
+
 ![delegateclaim2.png](/imag-en/delegateclaim2.png){.align-right .img35}
-
-
 
   
 Il est possible de déléguer le claim à une autre adresse (par exemple si votre adresse initiale a été corrompue ) : 
@@ -78,15 +77,14 @@ Il est possible de déléguer le claim à une autre adresse (par exemple si votr
 5.  Lancer le claim,
 6.  Le claim enverra les REG, alloués à l'adresse initiale, à l'adresse déléguée.  
      
-
-  
  
 
 # Comment ça marche ⭐⭐
 
 ## **Avant la création du contrat de réclamation**
 
-![](/imag-en/ccm1 .png){.align-right .img50}
+![](/imag-en/ccm1.png){.align-right .img50}
+
 
 Pendant la période des Soon (2021 à début 2025) et avant la création du contrat de réclamation des REG (Vault): 
 
