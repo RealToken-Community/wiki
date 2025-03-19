@@ -2,13 +2,13 @@
 title: Réclamation des REG
 description: 
 published: true
-date: 2025-03-19T12:52:31.425Z
+date: 2025-03-19T12:57:17.669Z
 tags: 
 editor: markdown
 dateCreated: 2025-03-19T09:02:40.132Z
 ---
 
-# **Préambule : Pourquoi des REG vous sont alloués** ⭐
+# Préambule : Pourquoi des REG vous sont alloués ⭐
 
   
 A chaque tokenisation d’un actif émis dans l'écosystème,  la DAO permet à ses partenaires de tokenisation d'attribuer un montant d'USDREG ($ convertible uniquement en REG) aux clients qui ont acheté et conservé les tokens pour une durée variable en fonction des actifs. Ces USDREG sont convertibles en REG, à tout moment au prix du marché.
@@ -27,7 +27,7 @@ Le cout de cette action devient élevé (notamment pour les multi-family) et con
 
 A l’avenir, la distribution d'USDREG ne devrait plus être liée à la réévaluation, mais à un délai après la tokenisation.  
  
-# **L'application pour réclamer vos REG** ⭐
+# L'application pour réclamer vos REG ⭐
 
 [https://claim.realtoken.network/](https://claim.realtoken.network/)
 ![claim1.png](/imag-en/regconvertor/claim1.png){.align-right .img35}
@@ -69,7 +69,7 @@ Une fois connecté, vous voyez : 
 
 # Comment ça marche ⭐⭐
 
-## **Avant la création du contrat de réclamation**
+## Avant la création du contrat de réclamation
 
 Pendant la période des Soon (2021 à mars 2025) et avant la création du contrat de réclamation des REG (Vault): 
 
@@ -87,7 +87,7 @@ Ce montant pour chaque wallet, est inscrit dans un fichier off-chain ([Merkel Tr
 
 L’ensemble des actions ci-avant sont exécutées qu’une seule fois, à la création du contrat de réclamation.
  
-## **Réclamation « manuelle »**
+## Réclamation par l'utilisateur
 
 Une fois le fichier « Merkle Tree » initialisé (la première fois à partir des Soon accumulés) : 
 
@@ -105,7 +105,7 @@ Une fois le fichier « Merkle Tree » initialisé (la première fois à partir
 
 Si l'adresse dotée d'USDREG a été corrompue, il est possible de simplement signer avec l'adresse corrompue le fait de déléguer la réclamation à une autre adresse. Cette autre adresse, pourra alors réclamer les REG et les recevoir. 
 
-## **Réclamation « automatique »**
+## Réclamation « automatique »
 
 L’exécution de la réclamation par le smart contract Vault peut être déclenché : 
 - soit manuellement, à tout moment, par l’utilisateur (la parité étant alors choisie), 
@@ -118,9 +118,9 @@ L’exécution de la réclamation par le smart contract Vault peut être déclen
 4.  Le contrat REG mint les REG de frais vers le wallet de l’automate,
 5.  Le contrat REG mint les REG de l’utilisateur vers le wallet de l'utilisateur.
 
-Nota : Cette fonction n'est pas cumulable avec une réclamation déléguée (qui s'apparente à une réclamation manuelle).
+Nota : Cette fonction n'est pas cumulable avec une réclamation déléguée (qui s'apparente à une réclamation par l'utilisateur).
 
-## **Adresse**
+## Adresse
 
 Smart contract :
 
@@ -133,7 +133,7 @@ Merkel Tree (OffChain) : [https://github.com/real-token/vault-merkle-data/blob/
 
 Ce fichier peux être sauvegardé par la communauté pour rester disponible dans toutes les situations. La dernière version, dont le root est inscrit dans le contrat de claim, reste valable même si l'interface ou le fichier source n'existe plus.
 
-#  **Détail de fonctionnement du contrat Vault** ⭐⭐⭐
+#  Détail de fonctionnement du contrat Vault ⭐⭐⭐
   
 L’adresse du smart contract ci-dessus est celle du Proxy (invariable) qui pointe sur l’implementation suivante  (qui peut varier, suivant les mises à jour)  : [https://gnosisscan.io/address/0x94223f067dbf9b43ed3bfea1d02cc1839031b6d2#code](https://gnosisscan.io/address/0x94223f067dbf9b43ed3bfea1d02cc1839031b6d2#code)
 
@@ -176,11 +176,11 @@ Execution dans le programme :
 4. **Rejet des Réclamations Invalides** : Si la vérification échoue, le contrat rejette la réclamation en lançant une erreur, garantissant ainsi que seules les réclamations valides, qui correspondent à la structure de l'arbre de Merkle, sont acceptées.  
  
 
-## **Mode de réclamation**
+## Mode de réclamation
 
 Les principaux modes de réclamation dans le contrat, sont :
 
-### **1\. Réclamation par l'utilisateur** (lignes 176 à 200)
+### Réclamation par l'utilisateur (lignes 176 à 200)
 
 -   Fonction : *claim*
 -   Description : Ce mode permet à un utilisateur de réclamer des tokens REG en fonction d'un montant en USDREG.
@@ -198,7 +198,7 @@ Les principaux modes de réclamation dans le contrat, sont :
 <br>
 <br>
 
-### **Réclamation par un délégué** (lignes 302 à 336)
+### Réclamation par un délégué (lignes 302 à 336)
 
 -   Fonction : *claimByDelegate*
 -   Description : Ce mode permet à un utilisateur de désigner un délégué pour réclamer des tokens en son nom.
@@ -221,7 +221,7 @@ Dans une future mise à jour de l'interface : il sera possible de déléguer le 
 <br>
 
 
-### **Réclamation automatique** (lignes 540 à 623)
+### Réclamation automatique (lignes 552 à 640)
 
 -   Fonction : claimByAutoClaim
 -   Description : Ce mode permet aux utilisateurs de réclamer automatiquement des tokens REG sans avoir à initier manuellement la réclamation.
