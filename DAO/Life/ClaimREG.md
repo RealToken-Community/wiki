@@ -2,7 +2,7 @@
 title: REG Claim
 description: 
 published: true
-date: 2025-03-19T13:08:51.748Z
+date: 2025-03-19T13:10:47.930Z
 tags: 
 editor: markdown
 dateCreated: 2025-03-19T13:08:51.748Z
@@ -40,7 +40,7 @@ In the future, the distribution of USDREG should no longer be linked to the reva
 3. Choose your presentation mode (language, background).
 4. Make sure you are in "REG Claim" and not "Genesis".
 
-Note: *Walletless* users will need to migrate to *Realtoken Wallet or other compatible wallet* to connect to the application, then ask support to make the claim on the new Wallet for the tokens allocated to the Walletless. [Help Link](https://community-realt.gitbook.io/tuto-community/site-realt/option-realtoken-wallet-account-abstraction)
+Note: *Walletless* users will need to migrate to *Realtoken Wallet or other compatible wallet* to connect to the application, then ask support to make the claim on the new Wallet for the tokens allocated to the Walletless. [FR Help Link](https://community-realt.gitbook.io/tuto-community/site-realt/option-realtoken-wallet-account-abstraction)
 
 ![claim2.png](/imag-en/regconvertor/claim2.png){.align-right .img30}
 Once logged in, you will see:
