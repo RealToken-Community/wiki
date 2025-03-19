@@ -2,7 +2,7 @@
 title: Réclamation des REG
 description: 
 published: true
-date: 2025-03-19T10:06:53.484Z
+date: 2025-03-19T10:08:23.136Z
 tags: 
 editor: markdown
 dateCreated: 2025-03-19T09:02:40.132Z
@@ -225,6 +225,7 @@ Les principaux modes de réclamation dans le contrat, sont :
 [Lien vers le code correspondant](https://gnosisscan.io/address/0x94223f067dbf9b43ed3bfea1d02cc1839031b6d2#code#F1#L302)  
 <br>
 <br>
+
 ### **Réclamation automatique** (lignes 540 à 623)
 
 -   Fonction : claimByAutoClaim
@@ -240,6 +241,7 @@ Les principaux modes de réclamation dans le contrat, sont :
 ![](/imag-en/regconvertor/rc6.png){.align-right .img50}
 
 [Lien vers le code correspondant](https://gnosisscan.io/address/0x94223f067dbf9b43ed3bfea1d02cc1839031b6d2#code#F1#L552)
+<br>
 <br>
 
 ## Oracle de prix REG
