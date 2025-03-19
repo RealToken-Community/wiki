@@ -1,249 +1,246 @@
 ---
-title: Réclamation des REG
+title: Reivindicação REG
 description: 
 published: true
-date: 2025-03-19T12:57:17.669Z
+date: 2025-03-19T13:36:00.305Z
 tags: 
 editor: markdown
 dateCreated: 2025-03-19T09:02:40.132Z
 ---
 
-# Préambule : Pourquoi des REG vous sont alloués ⭐
+# Preâmbulo: Porque é que os REG lhe são atribuídos ⭐
 
-  
-A chaque tokenisation d’un actif émis dans l'écosystème,  la DAO permet à ses partenaires de tokenisation d'attribuer un montant d'USDREG ($ convertible uniquement en REG) aux clients qui ont acheté et conservé les tokens pour une durée variable en fonction des actifs. Ces USDREG sont convertibles en REG, à tout moment au prix du marché.
 
-Actuellement le montant d'USDREG correspond aux frais prélevés par RealT pour le travail de sourcing des biens et est attribué au moment de la première réévaluation du bien immobilier.  
-RealT à annoncé sa volonté de faire évoluer les critères d’attribution des droit en USDREG, pour être applicables à tout les types de tokenisations que RealT propose et pas uniquement aux biens immobilier classiques (la tokenisation de prêt, n'ayant par exemple pas de réévaluation).
+Com cada tokenização de um ativo emitido no ecossistema, o DAO permite que os seus parceiros de tokenização aloquem um montante de USDREG (US$ convertível apenas em REG) aos clientes que compraram e mantiveram os tokens por uma duração variável, dependendo dos ativos. Estes USDREG são convertíveis em REG a qualquer momento ao preço de mercado.
 
-Avant la création du REG, ce montant était versé en token SOON, dont la valeur était 1 USDREG.  
-  
-Une fois l’application de réclamation des REG mise en service, les SOON disparaîtront et l’allocation lors de la première réévaluation se fera directement en USDREG (cf RIP00009). 
+Atualmente, o valor do USDREG corresponde às taxas cobradas pela RealT pelo trabalho de procura de imóveis e é alocado no momento da primeira reavaliação do imóvel.
+A RealT anunciou a sua intenção de desenvolver os critérios para a concessão de direitos no USDREG, para serem aplicáveis ​​a todos os tipos de tokenizações que a RealT oferece e não apenas aos imóveis tradicionais (tokenização de empréstimos, por exemplo, que não tem reavaliação).
 
-![valuation.png](/imag-en/regconvertor/valuation.png){.align-right .img40}
+Antes da criação do REG, este valor era pago em tokens SOON, cujo valor era de 1 USDREG.
 
-Les réévaluations des biens sont faites par des sociétés indépendantes de RealT.  
-Le cout de cette action devient élevé (notamment pour les multi-family) et conduit RealT à décaler ces réévaluations, qui devaient être annuelles à l’origine.
+Assim que o pedido de reclamação do REG for implementado, o SOON desaparecerá e a alocação durante a primeira reavaliação será feita diretamente no USDREG (consulte RIP00009).
 
-A l’avenir, la distribution d'USDREG ne devrait plus être liée à la réévaluation, mais à un délai après la tokenisation.  
- 
-# L'application pour réclamer vos REG ⭐
+![avaliação.png](/imag-en/regconvertor/avaliação.png){.align-right .img40}
+
+As reavaliações de imóveis são feitas por empresas independentes da RealT.
+O custo desta ação está a tornar-se elevado (principalmente para os multifamiliares) e está a levar a RealT a adiar estas reavaliações, que originalmente deveriam ser anuais.
+
+No futuro, a distribuição do USDREG já não deverá estar ligada à reavaliação, mas sim a um atraso após a tokenização.
+
+# A aplicação para reivindicar o seu REG ⭐
 
 [https://claim.realtoken.network/](https://claim.realtoken.network/)
 ![claim1.png](/imag-en/regconvertor/claim1.png){.align-right .img35}
 
-1.  L’application fonctionne sur la blockchain Gnosis,
-2.  Vous devez connecter l'un des wallets suivants :    
-     - celui déclaré comme recevant les Realtokens, sur [Realt.co](https://realt.co/) (au moment du lancement de la conversion) : pour réclamer les USDREG ($ convertible en REG) qui correspondent aux Soon reçus depuis plusieurs années,  
-    - celui possédant les Realtokens, qui seront réévalués par le suite (une fois la distribution de Soon stoppée).
-3.  Choisissez votre mode de présentation (langue, fond),
-4.  Vérifier que vous êtes bien en « REG Claim » et pas « Genesis ».
+1. A aplicação é executada no blockchain Gnosis,
+2.º Precisa de ligar uma das seguintes carteiras:
+- o declarado como receptor dos Realtokens, no [Realt.co](https://realt.co/) (no momento do lançamento da conversão): para reclamar os USDREG ($ convertíveis em REG) que correspondem aos Soon recebidos durante vários anos,
+ - aquele que possui os Realtokens, que serão reavaliados posteriormente (assim que a distribuição de Soon for interrompida).
+3.º Escolha o seu modo de apresentação (língua, fundo),
+4.º Verifique se está em “REG Claim” e não em “Genesis”.
 
-Nota : Les utilisateurs en *Walletless* devront migrer vers le *Realtoken Wallet ou autre wallet compatible* pour se connecter à l'application, puis demander au support d'effectuer la réclamation sur le nouveau Wallet pour les tokens attribués au Walletless.  
-[Lien d'aide](https://community-realt.gitbook.io/tuto-community/site-realt/option-realtoken-wallet-account-abstraction)  
- 
+Nota: os utilizadores *sem carteira* terão de migrar para a *Realtoken Wallet ou outra carteira compatível* para fazer login na aplicação e, em seguida, pedir ao suporte para fazer o pedido na nova carteira dos tokens alocados à Walletless.
+[Link de ajuda](https://community-realt.gitbook.io/tuto-community/site-realt/option-realtoken-wallet-account-abstraction)
+
 ![claim2.png](/imag-en/regconvertor/claim2.png){.align-right .img30}
-Une fois connecté, vous voyez : 
-1.  Le montant en USDREG qui vous est alloué (20 sur l’image),
-2.  La parité du REG en $ du moment (1,93),
-3.  Le nombre de REG correspondant (10,34), que vous pouvez claimer (qu'en totalité),
-4.  Le montant d'USDREG que vous avez déjà claimé (100), avant une nouvelle attributionn,
-5.  L’option de délégation (voir chapitre suivant),
-6.  L’option d’Auto Claim  
-    Vous pouvez autoriser l’exécution de claim automatique à votre attention (par un robot), dès que des USDREG vous seront alloués (délais max 24h).   
-    Des frais pourront être prélevés pour ce service (0 % actuellement).  
+Após efetuar login, verá:
+1. O valor em USDREG que lhe está alocado (20 na imagem),
+2.º A paridade do REG em $ no momento (1,93),
+3.º O número correspondente do REG (10.34), que pode reclamar (na totalidade),
+4. O montante de USDREG que já reivindicou (100), antes de uma nova atribuição,
+5. A opção de delegação (ver próximo capítulo),
+6. A opção de reclamação automática
+ Pode autorizar a execução automática das reivindicações à sua atenção (por um robô), assim que os USDREGs lhe forem alocados (atraso máximo de 24 horas).
+ Poderá ser cobrada uma taxa por este serviço (atualmente 0%).
 <br>
-     
-## Claim délégué
+
+## Reivindicar delegado
 
 ![delegateclaim.png](/imag-en/regconvertor/delegateclaim.png){.align-right .img45}
 
- Il est possible de déléguer une autre adresse, pour réclamer et percevoir vos REG (par exemple en cas de wallet corrompu) : 
-1.  Connection à l'application avec le wallet initial (0x69…94a sur l'image),
-2.  Cocher la réclamation avec une autre adresse, et indiquer l'adresse déléguée (0x…C08 sur l'image). Puis signer cette autorisation de délégation avec l'adresse initiale.
-3.  L'application indique que vous devez changer d'adresse de connexion pour claimer,
-4.  Connectez vous avec l'adresse déléguée (0x…C08 sur l'image),
-5.  Lancer le claim,
-6.  Le claim enverra les REG, alloués à l'adresse initiale, vers l'adresse déléguée. 
+ É possível delegar outro endereço para reclamar e recolher o seu REG (por exemplo, no caso de uma carteira corrompida):
+1. Ligação à aplicação com a carteira inicial (0x69…94a na imagem),
+2.º Verifique a reclamação com outro endereço e indique o endereço delegado (0x…C08 na imagem). Em seguida, assine esta autorização de delegação com o endereço inicial.
+3. A aplicação indica que deve alterar o seu endereço de login para reivindicar,
+4. Ligue com o endereço delegado (0x…C08 na imagem),
+5.º Inicie a reclamação,
+6.º A reclamação enviará os REG, alocados ao endereço inicial, para o endereço delegado.
 <br>
 
-# Comment ça marche ⭐⭐
+# Como funciona ⭐⭐
 
-## Avant la création du contrat de réclamation
+## Antes da criação do contrato de sinistro
 
-Pendant la période des Soon (2021 à mars 2025) et avant la création du contrat de réclamation des REG (Vault): 
+Durante o período Soon (2021 a março de 2025) e antes da criação do contrato de sinistro REG (Vault):
 
 
-1. A l’issu de chaque réévaluation d’un Realtoken, RealT a lancé le Mint des Soon correspondants,
+1. No final de cada reavaliação de um Realtoken, a RealT lançava a Mint do Soon correspondente,
 ![ccm1.png](/imag-en/regconvertor/ccm1.png){.align-right .img50}
-2. Ces Soon ont été attribués aux wallets des propriétaires du Realtoken au moment de la réévaluation.
+2.º Estes Soon foram alocados nas carteiras dos proprietários do Realtoken no momento da reavaliação.
 
-Pour initialiser le contrat de réclamation, les Soon sont convertis en USDREG, puis détruits : 
-3. RealT lance la conversion des Soon,
-4. Collecte de tous les wallets ayant des Soon avec leur quantité,
-5. Les Soon sont convertis en USDREG, 
-Ce montant pour chaque wallet, est inscrit dans un fichier off-chain ([Merkel Tree)](https://github.com/real-token/vault-merkle-data/blob/main/dao/usdreg_convertion/current.json), les Soon convertis sont attribués pour chaque adresse à la dernière adresse de livraison des Realtokens connu sur le site realt.co de l'utilisateur,
-6. Les tokens Soon sont détruits (burn).  
+Para inicializar o contrato de reclamação, os Soons são convertidos para USDREG e depois destruídos:
+3.º O RealT lança a conversão de Soon,
+4.º Recolha de todas as carteiras que possuam em breve com a sua quantidade,
+5.º Em breve serão convertidos para USDREG,
+Este valor para cada carteira é registado num ficheiro off-chain ([Merkel Tree)](https://github.com/real-token/vault-merkle-data/blob/main/dao/usdreg_convertion/current.json), os Soon convertidos são alocados a cada endereço no último endereço de entrega Realtoken conhecido no site realt.co do utilizador,
+6.º Logo os tokens são destruídos (queimados).
 
-L’ensemble des actions ci-avant sont exécutées qu’une seule fois, à la création du contrat de réclamation.
- 
-## Réclamation par l'utilisateur
+Todas as ações acima referidas são executadas apenas uma vez, quando o contrato de sinistro é criado.
 
-Une fois le fichier « Merkle Tree » initialisé (la première fois à partir des Soon accumulés) : 
+## Reclamação do utilizador
 
-1.  La réclamation des REG peut être demandée :   
-    \- à partir de l’application de claim qui affiche le nombre d'USDREG,  
-    \- ou directement sur le contrat partir du wallet utilisateur (solution plus complexe).
+Depois de o ficheiro "Merkle Tree" ser inicializado (a primeira vez a partir dos Soons acumulados):
+
+1.º O pedido de REG pode ser requerido:
+ \- do requerimento de reclamação que exibe o número do USDREG,
+ \- ou directamente no contrato da carteira do utilizador (solução mais complexa).
 ![ccm2.png](/imag-en/regconvertor/ccm2.png){.align-right .img50}
-2.  La réclamation est exécutée par le smart contract Vault de conversion,
-3.  Il vérifie à partir de la racine du Merkle Tree, qui lui a été transmise, que l’utilisateur à les droits correspondants,
-4.  Il calcul le nombre d'USDREG à partir des données du Merkle Tree et des USDREG déjà réclamés (dont il stocke la valeur) pour déterminer le nombre d'USDREG qui peuvent être réclamé, ce montant est en suite converti en nombre de REG à partir du prix de l'Oracle,
-5.  Il demande au contrat REG de créer (mint) les REG,
-6.  Les nouveaux REG sont transférés sur wallet de l’utilisateur.
-7.  Les réévaluations/distributions qui suivront (après disparition des Soon) se feront directement en USDREG, par mise à jour du Merkel Tree. Cette mise à jour fera apparaître de nouveaux USDREG à réclamer dans l’application.  
-    Les nouveaux USDREG seront attribués à l'adresse qui détient des Realtokens au moment du snapshot (contrairement au droit en USDREG issus de la conversion Soon, qui sont attribués à la dernière adresse de livraison de RealTokens enregistrée sur votre compte realt.co)
+2. A reclamação é executada pelo contrato inteligente de conversão do Vault,
+3.º Verifica a partir da raiz da Árvore Merkle, que lhe foi transmitida, se o utilizador tem os direitos correspondentes,
+4.º Calcula o número de USDREG a partir dos dados da Árvore Merkle e do USDREG já reclamado (cujo valor armazena) para determinar o número de USDREG que pode ser reclamado, este valor é então convertido no número de REG do preço do Oracle,
+5.º Solicita ao REG o contrato para criar (cunhar) os REG,
+6.º Novos REG são transferidos para a carteira do utilizador.
+7.As reavaliações/distribuições que se seguirão (após o desaparecimento do Soon) serão feitas diretamente no USDREG, através da atualização da Árvore Merkel. Esta atualização trará novos USDREGs para a aplicação reivindicar.
+ O novo USDREG será alocado ao endereço que contém os Realtokens no momento do snapshot (diferentemente do direito ao USDREG da conversão Soon, que é alocado ao último endereço de entrega do RealToken registado na sua conta realt.co)
 
-Si l'adresse dotée d'USDREG a été corrompue, il est possible de simplement signer avec l'adresse corrompue le fait de déléguer la réclamation à une autre adresse. Cette autre adresse, pourra alors réclamer les REG et les recevoir. 
+Se o endereço com USDREG tiver sido corrompido, é possível simplesmente assinar com o endereço corrompido delegando a reclamação noutro endereço. Este outro endereço poderá então solicitar os REG e recebê-los.
 
-## Réclamation « automatique »
+## Alegação “automática”
 
-L’exécution de la réclamation par le smart contract Vault peut être déclenché : 
-- soit manuellement, à tout moment, par l’utilisateur (la parité étant alors choisie), 
-- soit automatiquement par un automate (bot) après l'attribution de nouveaux USDREG (la parité n'est alors pas choisie). Ce dernier mode, necessite une autorisation préalable.
+A execução da reclamação pelo contrato inteligente do Vault pode ser acionada:
+- manualmente, em qualquer momento, pelo utilizador (sendo então escolhida a paridade),
+- automaticamente por um autómato (bot) após a alocação do novo USDREG (a paridade não é então escolhida). Este último método requer autorização prévia.
 
-1.  L’automate va surveiller les mises à jour du Merkel Tree pour les utilisateurs inscrits, puis déclencher une réclamation des REG pour les utilisateurs concernés,
+1. A máquina monitorizará as atualizações da Árvore Merkel para utilizadores registados e, em seguida, desencadeará uma reivindicação REG para os utilizadores afetados,
 ![ccm3.png](/imag-en/regconvertor/ccm3.png){.align-right .img50}
-2.  Suivant le paramétrage du smart contract Vault de conversion, des frais de réclamation automatique pourront être appliqués (0 % au départ), afin d'encourager la création de tel automate et prendre en charge les frais de transaction associés (l'activation de frais, devra faire l'objet d'un vote de gouvernance)
-3.  Le Vault demandera le mint de deux quantités de REG : une pour les frais et une pour l’utilisateur,
-4.  Le contrat REG mint les REG de frais vers le wallet de l’automate,
-5.  Le contrat REG mint les REG de l’utilisateur vers le wallet de l'utilisateur.
+2.º Dependendo da configuração do contrato inteligente de conversão do Vault, poderão ser aplicadas taxas de reclamação automáticas (0% inicialmente), a fim de incentivar a criação de tal autómato e cobrir as taxas de transação associadas (a ativação das taxas terá de ser objeto de uma votação de governação)
+3. O Vault solicitará a cunhagem de duas quantias de REG: uma para a taxa e outra para o utilizador,
+4. O contrato REG cunha as taxas REG na carteira ATM,
+5. O contrato REG cunha o REG do utilizador na carteira do utilizador.
 
-Nota : Cette fonction n'est pas cumulable avec une réclamation déléguée (qui s'apparente à une réclamation par l'utilisateur).
+Nota: esta função não pode ser combinada com uma reivindicação delegada (que é semelhante a uma reivindicação do utilizador).
 
-## Adresse
+## Endereço
 
-Smart contract :
+Contrato inteligente:
 
--   Soon : [0xaa2c0cf54cb418eb24e7e09053b82c875c68bb88](https://gnosisscan.io/token/0xaa2c0cf54cb418eb24e7e09053b82c875c68bb88)
--   REG : [0x0aa1e96d2a46ec6beb2923de1e61addf5f5f1dce](https://gnosisscan.io/token/0x0aa1e96d2a46ec6beb2923de1e61addf5f5f1dce)
--   Vault : [0x71eb2b2518556700f5b778b9cc313bfe8de5086e](https://gnosisscan.io/address/0x71eb2b2518556700f5b778b9cc313bfe8de5086e)
--   Oracle : [0x86339b40e588f774bd766eB70D47bEFBe68B6F64](https://gnosisscan.io/address/0x86339b40e588f774bd766eB70D47bEFBe68B6F64/advanced)
+- Brevemente: [0xaa2c0cf54cb418eb24e7e09053b82c875c68bb88](https://gnosisscan.io/token/0xaa2c0cf54cb418eb24e7e09053b82c875c68bb88)
+- REG: [0x0aa1e96d2a46ec6beb2923de1e61addf5f5f1dce](https://gnosisscan.io/token/0x0aa1e96d2a46ec6beb2923de1e61addf5f5f1dce)
+- Cofre: [0x71eb2b2518556700f5b778b9cc313bfe8de5086e](https://gnosisscan.io/address/0x71eb2b2518556700f5b778b9cc313bfe8de5086e)
+- Oracle: [0x86339b40e588f774bd766eB70D47bEFBe68B6F64](https://gnosisscan.io/address/0x86339b40e588f774bd766eB70D47bEFBe68B6F64/avançado)
 
-Merkel Tree (OffChain) : [https://github.com/real-token/vault-merkle-data/blob/main/dao/usdreg\_convertion/current.json](https://github.com/real-token/vault-merkle-data/blob/main/dao/usdreg_convertion/current.json)
+Árvore Merkel (OffChain): [https://github.com/real-token/vault-merkle-data/blob/main/dao/usdreg_convertion/current.json](https://github.com/real-token/vault-merkle-data/blob/main/dao/usdreg_convertion/current.json)
 
-Ce fichier peux être sauvegardé par la communauté pour rester disponible dans toutes les situations. La dernière version, dont le root est inscrit dans le contrat de claim, reste valable même si l'interface ou le fichier source n'existe plus.
+Este ficheiro pode ser guardado pela comunidade para permanecer disponível em todas as situações. A versão mais recente, cuja raiz está registada no contrato de reclamação, permanece válida mesmo que a interface ou o ficheiro de origem já não existam.
 
-#  Détail de fonctionnement du contrat Vault ⭐⭐⭐
-  
-L’adresse du smart contract ci-dessus est celle du Proxy (invariable) qui pointe sur l’implementation suivante  (qui peut varier, suivant les mises à jour)  : [https://gnosisscan.io/address/0x94223f067dbf9b43ed3bfea1d02cc1839031b6d2#code](https://gnosisscan.io/address/0x94223f067dbf9b43ed3bfea1d02cc1839031b6d2#code)
+# Detalhes da operação do contrato do Vault ⭐⭐⭐
 
-Le programme gère la conversion et la distribution de tokens REG, basés sur des montants en USDREG enregistrés sur un Merkel Tree et la valeur du REG fournis par l'Oracle.
+O endereço do contrato inteligente acima é o do Proxy (invariável) que aponta para a seguinte implementação (que pode variar, dependendo das atualizações): [https://gnosisscan.io/address/0x94223f067dbf9b43ed3bfea1d02cc1839031b6d2#code](https://gnosisscan.io/address/0x94223f067dbf9b43ed3bfea1 d02cc1839031b6d2#code)
 
-## Principales fonctionnalités
+O programa gere a conversão e distribuição de tokens REG, com base nos valores de USDREG registados numa Árvore Merkel e no valor de REG fornecido pelo Oracle.
 
-1.  **Rôles et Permissions** : Le contrat utilise le système de contrôle d'accès d'OpenZeppelin pour gérer différents rôles (administrateur, opérateur, pauser, et upgradeur) afin de sécuriser les opérations critiques.
-2.  **Gestion des Tokens** : Il interagit avec le token REG, en permettant aux utilisateurs de réclamer des tokens REG en fonction de montants en USDREG, tout en vérifiant les preuves de Merkle pour garantir l'éligibilité.
-3.  **Fonctionnalités de Réclamation** : Les utilisateurs peuvent réclamer des tokens, soit directement, soit par l'intermédiaire d'un délégué. Le contrat gère également des fonctionnalités de réclamation automatique. La réclamation Walletless existe, mais n'est pas implémenté offChain : les comptes Walletless devront migrer sur un nouveau wallet.
-4.  **Gestion des Timestamps** : Le contrat inclut des mécanismes pour vérifier que les réclamations se produisent dans une période de temps définie, empêchant les réclamations en dehors de cette période.
-5.  **Bridge et Transferts** : Il permet également de transférer des tokens vers d'autres chaînes (bridge) et de gérer les frais associés à ces transferts.
-6.  **Mises à Jour** : Le contrat est conçu pour être mis à jour via un mécanisme d'upgrade, permettant d'ajouter de nouvelles fonctionnalités ou de corriger des bugs sans perdre l'état du contrat.
-7.  **Événements** : Il émet des événements pour suivre les actions importantes, comme les réclamations de tokens, les mises à jour de paramètres, et les erreurs.
+## Principais características
 
-## Validation avec preuve de Merkel
+1. **Funções e permissões**: O contrato utiliza o sistema de controlo de acessos do OpenZeppelin para gerir diferentes funções (administrador, operador, pausador e atualizador) para proteger operações críticas.
+2. **Gestão de tokens**: Interage com o token REG, permitindo aos utilizadores reivindicar tokens REG com base em valores USDREG, enquanto verifica as provas Merkle para garantir a elegibilidade.
+3. **Reivindicar recursos**: os utilizadores podem reivindicar tokens diretamente ou através de um delegado. O contrato também gere recursos de reclamações automáticas. A reivindicação Walletless existe, mas não é implementada offChain: as contas Walletless terão de migrar para uma nova carteira.
+4. **Gestão do registo de data e hora**: O contrato inclui mecanismos para verificar se as reclamações ocorrem dentro de um período de tempo definido, evitando reclamações fora desse período.
+5. **Ponte e Transferências**: Permite também transferir tokens para outras cadeias (ponte) e gerir as taxas associadas a estas transferências.
+6. **Atualizações**: O contrato foi concebido para ser atualizado através de um mecanismo de atualização, permitindo que novas funcionalidades sejam adicionadas ou bugs sejam corrigidos sem perder o estado do contrato.
+7. **Eventos**: Emite eventos para rastrear ações importantes, como reclamações de tokens, atualizações de parâmetros e erros.
 
-La validation avec preuve de Merkle fonctionne en vérifiant que les informations d'un utilisateur (adresse et montant) sont bien incluses dans une structure de données appelée arbre de Merkle. 
+## Validação com prova de Merkel
 
-Execution dans le programme :
+A validação de prova de Merkle funciona verificando se a informação de um utilizador (endereço e valor) está incluída numa estrutura de dados chamada árvore de Merkle.
 
-1. **Génération de la Feuille** : Pour chaque réclamation, une « feuille » (leaf) est générée en hachant les données de l'utilisateur (adresse et montant) avec la fonction keccak256. Cela crée un hachage unique qui représente cette réclamation. 
+Execução no programa:
+
+1. **Geração de folhas**: Para cada reivindicação, é gerada uma “folha” através do hash dos dados do utilizador (endereço e valor) com a função keccak256. Isto cria um hash único que representa essa afirmação.
 ![](/imag-en/regconvertor/rc2.png){.align-right .img50}
 
 <br>
 
-2. **Vérification de la Preuve** : La fonction *\_validateMerkleProof* prend en entrée l'adresse de l'utilisateur, le montant, la racine de Merkle attendue et un tableau de preuves de Merkle. Elle vérifie que la preuve de Merkle est valide pour l'utilisateur et le montant spécifié.
+2. **Verificação de Prova**: A função *\_validateMerkleProof* recebe como entrada o endereço do utilizador, o valor, a raiz de Merkle esperada e uma matriz de provas de Merkle. Verifica se a prova Merkle é válida para o utilizador e o valor especificados.
 ![](/imag-en/regconvertor/rc1.png){.align-right .img50}
 <br>
-[Lien vers le code correspondant](https://gnosisscan.io/address/0x94223f067dbf9b43ed3bfea1d02cc1839031b6d2#code#F1#L669)
+[Link para o código correspondente](https://gnosisscan.io/address/0x94223f067dbf9b43ed3bfea1d02cc1839031b6d2#code#F1#L669)
  <br>
  <br>
 
-3. **Vérification de l'Arbre de Merkle** : La fonction *\_verifyAsm* utilise une approche d'assemblage pour parcourir les preuves de Merkle. Elle prend chaque nœud de la preuve et le combine avec la feuille pour reconstruire le hachage jusqu'à atteindre la racine de Merkle. Si la racine reconstruite correspond à la racine de Merkle attendue, cela signifie que la réclamation est valide.
+3. **Verificação da Árvore Merkle**: A função *\_verifyAsm* utiliza uma abordagem de montagem para percorrer provas Merkle. Pega em cada nó da prova e combina-o com a folha para reconstruir o hash até atingir a raiz de Merkle. Se a raiz reconstruída corresponder à raiz de Merkle esperada, significa que a afirmação é válida.
 ![](/imag-en/regconvertor/rc3.png){.align-right .img50}
 <br>
-[Lien vers le code correspondant](https://gnosisscan.io/address/0x94223f067dbf9b43ed3bfea1d02cc1839031b6d2#code#F1#L719)
+[Link para o código correspondente](https://gnosisscan.io/address/0x94223f067dbf9b43ed3bfea1d02cc1839031b6d2#code#F1#L719)
 <br>
-  
-4. **Rejet des Réclamations Invalides** : Si la vérification échoue, le contrat rejette la réclamation en lançant une erreur, garantissant ainsi que seules les réclamations valides, qui correspondent à la structure de l'arbre de Merkle, sont acceptées.  
- 
 
-## Mode de réclamation
+4. **Rejeição de reclamações inválidas**: Se a verificação falhar, o contrato rejeita a reclamação lançando um erro, garantindo assim que apenas as reclamações válidas, que correspondem à estrutura da árvore Merkle, são aceites.
 
-Les principaux modes de réclamation dans le contrat, sont :
 
-### Réclamation par l'utilisateur (lignes 176 à 200)
+## MÃE
 
--   Fonction : *claim*
--   Description : Ce mode permet à un utilisateur de réclamer des tokens REG en fonction d'un montant en USDREG.
--   Processus :
+### Reclamação do utilizador (linhas 176 a 200)
 
-	1.  L'utilisateur appelle la fonction claim avec le montant qu'il souhaite réclamer et une preuve de Merkle.
-	2.  La fonction vérifie que le contrat n'est pas en pause et que les timestamps sont valides.
-	3.  Elle vérifie que la preuve de Merkle est valide pour l'utilisateur et le montant spécifié.
-	4.  Elle vérifie le montant déjà réclamé par l'utilisateur pour éviter les doubles réclamations.
-	5.  Si toutes les vérifications passent, le contrat calcule le montant de REG à émettre et effectue la minti des tokens REG pour l'utilisateur.
+- Função: *reivindicar*
+- Descrição: Este modo permite a um utilizador reivindicar tokens REG com base num valor em USDREG.
+- Processo :
+
+ 1. O utilizador chama a função de reivindicação com o valor que pretende reivindicar e uma prova de Merkle.
+ 2. A função verifica se o contrato não está em pausa e se os carimbos de data/hora são válidos.
+ 3.º Verifica se a prova Merkle é válida para o utilizador e o valor especificados.
+ 4.º Verifica o valor já reclamado pelo utilizador para evitar reivindicações duplas.
+ 5.Se todas as verificações forem aprovadas, o contrato calcula a quantidade de REG a emitir e realiza a cunhagem de tokens REG para o utilizador.
 
 ![](/imag-en/regconvertor/rc4.png){.align-right .img50}
 
-[Lien vers le code correspondant](https://gnosisscan.io/address/0x94223f067dbf9b43ed3bfea1d02cc1839031b6d2#code#F1#L176)
+[Link para o código correspondente](https://gnosisscan.io/address/0x94223f067dbf9b43ed3bfea1d02cc1839031b6d2#code#F1#L176)
 <br>
 <br>
 
-### Réclamation par un délégué (lignes 302 à 336)
+### Reivindicação de um delegado (linhas 302 a 336)
 
--   Fonction : *claimByDelegate*
--   Description : Ce mode permet à un utilisateur de désigner un délégué pour réclamer des tokens en son nom.
--   Processus :
+- Função: *claimByDelegate*
+- Descrição: Este modo permite que um utilizador designe um delegado para reivindicar tokens em seu nome.
+- Processo :
 
-	1.  L'utilisateur fournit des informations de réclamation (adresse du compte, montant, destinataire) et une signature pour prouver l'autorisation.
-	2.  La fonction vérifie que le contrat n'est pas en pause et que les timestamps sont valides.
-	3.  Elle valide la signature pour s'assurer que le délégué est autorisé à agir au nom de l'utilisateur.
-	4.  Comme dans le mode de réclamation par l'utilisateur, la preuve de Merkle est validée, et le montant déjà réclamé est vérifié.
-	5.  Si tout est valide, le contrat mint les tokens REG pour le destinataire.
+ 1. O utilizador fornece informações de reclamação (endereço da conta, valor, destinatário) e assinatura para comprovar a autorização.
+ 2. A função verifica se o contrato não está em pausa e se os registos de data e hora são válidos.
+ 3.º Valida a assinatura para garantir que o delegado está autorizado a agir em nome do utilizador.
+ 4.º Tal como no modo de reivindicação do utilizador, a prova Merkle é validada e o valor já reivindicado é verificado.
+ 5.Se tudo for válido, o contrato cunha os tokens REG para o destinatário.
 
-> L'interface pour cette fonction envoie les REG à l'adresse déléguée.
-Dans une future mise à jour de l'interface : il sera possible de déléguer le claim, sans faire envoyer les tokens au délégué, mais à une adresse déterminée au moment de la signature.
+> A interface para esta função envia os REG para o endereço delegado.
+Numa futura atualização da interface: será possível delegar a reclamação, sem enviar os tokens para o delegado, mas para um endereço determinado no momento da assinatura.
 {.is-warning}
 
 ![](/imag-en/regconvertor/rc5.png){.align-right .img50}
 <br>
-[Lien vers le code correspondant](https://gnosisscan.io/address/0x94223f067dbf9b43ed3bfea1d02cc1839031b6d2#code#F1#L302)  
+[Link para o código correspondente](https://gnosisscan.io/address/0x94223f067dbf9b43ed3bfea1d02cc1839031b6d2#code#F1#L302)
 <br>
 <br>
 
 
-### Réclamation automatique (lignes 552 à 640)
+### Reclamação automática (linhas 552 a 640)
 
--   Fonction : claimByAutoClaim
--   Description : Ce mode permet aux utilisateurs de réclamer automatiquement des tokens REG sans avoir à initier manuellement la réclamation.
--   Processus :
+- Função: claimByAutoClaim
+- Descrição: Este modo permite aos utilizadores reivindicar automaticamente os tokens REG sem ter de iniciar a reivindicação manualmente.
+- Processo :
 
-	1.  L'utilisateur appelle la fonction avec un tableau de structures de réclamation.
-	2.  La fonction vérifie que le contrat n'est pas en pause et que les timestamps sont valides.
-	3.  Pour chaque réclamation, elle vérifie si l'auto-réclamation est activée pour le destinataire.
-	4.  Elle valide la preuve de Merkle et vérifie le montant déjà réclamé.
-	5.  Les tokens REG sont mintés pour le destinataire, et des frais peuvent être appliqués si configurés.
+ 1. O utilizador chama a função com uma matriz de estruturas de reivindicações.
+ 2. A função verifica se o contrato não está em pausa e se os carimbos de data/hora são válidos.
+ 3.º Para cada reivindicação, verifica se a auto-reivindicação está habilitada para o destinatário.
+ 4.º Valida a prova Merkle e verifica o valor já reclamado.
+ 5. Os tokens REG são cunhados para o destinatário e podem ser aplicadas taxas se configuradas.
 
 ![](/imag-en/regconvertor/rc6.png){.align-right .img50}
 
-[Lien vers le code correspondant](https://gnosisscan.io/address/0x94223f067dbf9b43ed3bfea1d02cc1839031b6d2#code#F1#L552)
+[Link para o código correspondente](https://gnosisscan.io/address/0x94223f067dbf9b43ed3bfea1d02cc1839031b6d2#code#F1#L552)
 <br>
 <br>
 
-## Oracle de prix REG
+## REG Preço Oracle
 
-Le contrat de l'Oracle de prix du REG est basé sur le code de Chainlink, il comprend :
+O contrato REG Price Oracle é baseado no código Chainlink e inclui:
 
--   le smart contract [https://gnosisscan.io/address/0x86339b40e588f774bd766eB70D47bEFBe68B6F64/advanced#code](https://gnosisscan.io/address/0x86339b40e588f774bd766eB70D47bEFBe68B6F64/advanced#code) 
--   une infrastructure Chainlink pour automatiser les relevés de prix onchain et offchain sur plusieurs sources et effectuer un calcule qui a pour objectif d’éviter les manipulations de prix.  
-    Le calcul prend en compte les volumes d’échanges, le temps passé à un prix, les différences entre les sources de prix, il crée une pondération afin d'éviter les manipulations, le taux d'actualisation avec la valeur calculée est mise à jours onchain tout les 24h par un automate Chainlink.
-    
+- o contrato inteligente [https://gnosisscan.io/address/0x86339b40e588f774bd766eB70D47bEFBe68B6F64/advanced#code](https://gnosisscan.io/address/0x86339b40e588f774bd766eB70D47bEFBe68B6F64/ad vanced#code)
+- uma infraestrutura Chainlink para automatizar pesquisas de preços on-chain e off-chain em diversas fontes e realizar um cálculo que visa evitar a manipulação de preços.
+ O cálculo tem em conta os volumes de negociação, o tempo gasto num preço, as diferenças entre fontes de preço, cria uma ponderação para evitar manipulações, a taxa de atualização com o valor calculado é atualizada na cadeia a cada 24 horas por um autómato Chainlink.
