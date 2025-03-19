@@ -2,7 +2,7 @@
 title: Réclamation des REG
 description: 
 published: true
-date: 2025-03-19T09:36:26.082Z
+date: 2025-03-19T09:43:14.402Z
 tags: 
 editor: markdown
 dateCreated: 2025-03-19T09:02:40.132Z
@@ -32,7 +32,7 @@ A l’avenir, la distribution d'USDREG ne devrait plus être liée à la rééva
 
 # **L' application pour réclamer vos REG** ⭐
 
-![](/imag-en/claim1.png){.align-right .img35}
+![](/imag-en/claim1.png){.align-right .img30}
 
 [https://claim.realtoken.network/](https://claim.realtoken.network/)
 
@@ -63,7 +63,9 @@ Une fois connecté, vous voyez : 
 
 ## Claim délégué
 
-![](/imag-en/delegateclaim.png){.align-right .img25}
+![delegateclaim2.png](/imag-en/delegateclaim2.png){.align-right .img35}
+
+
 
   
 Il est possible de déléguer le claim à une autre adresse (par exemple si votre adresse initiale a été corrompue ) : 
