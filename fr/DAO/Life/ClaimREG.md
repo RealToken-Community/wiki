@@ -2,7 +2,7 @@
 title: Réclamation des REG
 description: 
 published: true
-date: 2025-03-20T13:54:29.831Z
+date: 2025-03-20T19:07:46.080Z
 tags: 
 editor: markdown
 dateCreated: 2025-03-19T13:49:52.142Z
@@ -237,7 +237,7 @@ Le contrat REG Price Oracle est basé sur le code Chainlink et comprend :
 
 Sur le graphique ci-après vous pouvez voir le prix moyen pondéré (Time-Weighted Average Price, TWAP) calculé par l'Oracle comparé au prix spot du REG
 
-![oracle_vs_spot.png](/imag-en/regconvertor/oracle_vs_spot.png)
+![oracle_vs_spot.png](/imag-en/regconvertor/oracle_vs_spot.png){.align-center .img75}
 
 ### Pourquoi utiliser ce mode de calcul pour la conversion des REG
 
