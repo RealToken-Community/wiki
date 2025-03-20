@@ -2,7 +2,7 @@
 title: REG Claim
 description: 
 published: true
-date: 2025-03-20T13:55:47.228Z
+date: 2025-03-20T19:08:15.208Z
 tags: 
 editor: markdown
 dateCreated: 2025-03-19T13:08:51.748Z
@@ -240,7 +240,7 @@ The REG Price Oracle contract is based on Chainlink code and includes:
 
 In the graph below, you can see the Time-Weighted Average Price (TWAP) calculated by the Oracle compared to the REG spot price.
 
-![oracle_vs_spot.png](/imag-en/regconvertor/oracle_vs_spot.png)
+![oracle_vs_spot.png](/imag-en/regconvertor/oracle_vs_spot.png){.align-center .img75}
 
 ### Why use this calculation method for REG conversion?
 
