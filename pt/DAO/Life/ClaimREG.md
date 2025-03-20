@@ -2,7 +2,7 @@
 title: Reivindicação REG
 description: 
 published: true
-date: 2025-03-20T13:57:57.333Z
+date: 2025-03-20T19:09:04.633Z
 tags: 
 editor: markdown
 dateCreated: 2025-03-19T09:02:40.132Z
@@ -246,7 +246,7 @@ O contrato REG Price Oracle é baseado no código Chainlink e inclui:
  O cálculo tem em conta os volumes de negociação, o tempo gasto num preço, as diferenças entre fontes de preço, cria uma ponderação para evitar manipulações, a taxa de atualização com o valor calculado é atualizada na cadeia a cada 24 horas por um autómato Chainlink.
  No gráfico abaixo pode ver o Preço Médio Ponderado pelo Tempo (TWAP) calculado pela Oracle em comparação com o preço spot do REG
 
-![oracle_vs_spot.png](/imag-en/regconvertor/oracle_vs_spot.png)
+![oracle_vs_spot.png](/imag-en/regconvertor/oracle_vs_spot.png){.align-center .img75}
 
 ### Porquê utilizar este método de cálculo para a conversão REG?
 
