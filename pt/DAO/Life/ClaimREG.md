@@ -2,7 +2,7 @@
 title: Reivindicação REG
 description: 
 published: true
-date: 2025-03-19T13:36:00.305Z
+date: 2025-03-20T13:57:57.333Z
 tags: 
 editor: markdown
 dateCreated: 2025-03-19T09:02:40.132Z
@@ -244,3 +244,18 @@ O contrato REG Price Oracle é baseado no código Chainlink e inclui:
 - o contrato inteligente [https://gnosisscan.io/address/0x86339b40e588f774bd766eB70D47bEFBe68B6F64/advanced#code](https://gnosisscan.io/address/0x86339b40e588f774bd766eB70D47bEFBe68B6F64/ad vanced#code)
 - uma infraestrutura Chainlink para automatizar pesquisas de preços on-chain e off-chain em diversas fontes e realizar um cálculo que visa evitar a manipulação de preços.
  O cálculo tem em conta os volumes de negociação, o tempo gasto num preço, as diferenças entre fontes de preço, cria uma ponderação para evitar manipulações, a taxa de atualização com o valor calculado é atualizada na cadeia a cada 24 horas por um autómato Chainlink.
+ No gráfico abaixo pode ver o Preço Médio Ponderado pelo Tempo (TWAP) calculado pela Oracle em comparação com o preço spot do REG
+
+![oracle_vs_spot.png](/imag-en/regconvertor/oracle_vs_spot.png)
+
+### Porquê utilizar este método de cálculo para a conversão REG?
+
+- **Atenuar a manipulação do mercado**: o TWAP calcula o preço ao longo de 24 horas, reduzindo o risco de manipulação em mercados ilíquidos como o REG, onde os preços spot podem ser facilmente distorcidos por pequenas transações.
+
+- **Evitar espirais descendentes**: Ao não reagir imediatamente às quedas de preços, o TWAP estabiliza o mercado e evita as vendas por pânico, o que pode levar a uma espiral descendente de tokens ilíquidos.
+
+- **Garantir a estabilidade de preços**: O TWAP oferece uma taxa de conversão constante com base em médias diárias, protegendo o REG da volatilidade do preço spot, especialmente em ambientes de baixa liquidez. Garante justiça ao assegurar que todos os utilizadores podem, ao longo de um período de tempo, obter a mesma quantidade de REG para um determinado crédito.
+
+- **Apoio ao auto-balanceamento para proteger o REG**: o TWAP ajusta a emissão do REG com base nos movimentos de preços; os utilizadores recebem menos REG quando os preços descem e mais REG quando os preços sobem.
+
+- **Desenhado para conversão**: O motor foi concebido para permitir que os utilizadores escolham quando converter, em vez de servir como uma ferramenta de negociação em tempo real.
