@@ -2,7 +2,7 @@
 title: REG Claim
 description: 
 published: true
-date: 2025-03-19T13:29:38.538Z
+date: 2025-03-20T13:55:47.228Z
 tags: 
 editor: markdown
 dateCreated: 2025-03-19T13:08:51.748Z
@@ -237,4 +237,20 @@ The REG Price Oracle contract is based on Chainlink code and includes:
 
 - the smart contract [https://gnosisscan.io/address/0x86339b40e588f774bd766eB70D47bEFBe68B6F64/advanced#code](https://gnosisscan.io/address/0x86339b40e588f774bd766eB70D47bEFBe68B6F64/advanced#code)
 - a Chainlink infrastructure to automate on-chain and off-chain price surveys across multiple sources and perform calculations aimed at preventing price manipulation. The calculation takes into account trading volumes, time spent at a price, differences between price sources, it creates a weighting to avoid manipulations, the update rate with the calculated value is updated onchain every 24 hours by a Chainlink automaton.
+
+In the graph below, you can see the Time-Weighted Average Price (TWAP) calculated by the Oracle compared to the REG spot price.
+
+![oracle_vs_spot.png](/imag-en/regconvertor/oracle_vs_spot.png)
+
+### Why use this calculation method for REG conversion?
+
+- **Mitigate market manipulation**: TWAP calculates the price over a 24-hour period, reducing the risk of manipulation in illiquid markets like REG, where spot prices can be easily distorted by small transactions.
+
+- **Prevent downward spirals**: By not reacting immediately to price drops, TWAP stabilizes the market and prevents panic selling, which can lead to a downward spiral for illiquid tokens.
+
+- **Ensure Price Stability**: TWAP offers a constant conversion rate based on daily averages, protecting REG from spot price volatility, especially in low-liquidity environments. It guarantees fairness by ensuring that all users can obtain the same amount of REG for a given credit over a given time window.
+
+- **Support Self-Balancing to Protect REG**: TWAP adjusts REG issuance based on price movements; users receive less REG when prices fall and more REG when prices rise.
+
+- **Designed for Conversion**: The mechanism is designed to allow users to choose when to convert, rather than serving as a real-time trading tool.
 
