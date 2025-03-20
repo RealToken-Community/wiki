@@ -2,7 +2,7 @@
 title: Reclamación REG
 description: 
 published: true
-date: 2025-03-19T13:27:06.290Z
+date: 2025-03-20T13:57:05.061Z
 tags: 
 editor: markdown
 dateCreated: 2025-03-19T13:27:06.290Z
@@ -245,3 +245,19 @@ El contrato de Oracle de precio REG se basa en el código de Chainlink e incluye
 - el contrato inteligente [https://gnosisscan.io/address/0x86339b40e588f774bd766eB70D47bEFBe68B6F64/advanced#code](https://gnosisscan.io/address/0x86339b40e588f774bd766eB70D47bEFBe68B6F64/advanced#code)
 - una infraestructura de Chainlink para automatizar encuestas de precios dentro y fuera de la cadena en múltiples fuentes y realizar un cálculo que apunta a evitar la manipulación de precios.
  El cálculo tiene en cuenta los volúmenes de negociación, el tiempo invertido en un precio, las diferencias entre las fuentes de precios, crea una ponderación para evitar manipulaciones, la tasa de actualización con el valor calculado se actualiza en cadena cada 24 horas por un autómata Chainlink.
+ 
+En el gráfico a continuación se puede ver el Precio Promedio Ponderado en el Tiempo (TWAP) calculado por Oracle comparado con el precio spot de REG
+
+![oracle_vs_spot.png](/imag-en/regconvertor/oracle_vs_spot.png)
+
+### ¿Por qué utilizar este método de cálculo para la conversión de REG?
+
+- **Mitigar la manipulación del mercado**: TWAP calcula el precio durante 24 horas, lo que reduce el riesgo de manipulación en mercados ilíquidos como REG, donde los precios al contado pueden distorsionarse fácilmente mediante pequeñas transacciones.
+
+- **Evita espirales descendentes**: al no reaccionar inmediatamente a las caídas de precios, TWAP estabiliza el mercado y evita las ventas de pánico, que pueden conducir a una espiral descendente para los tokens ilíquidos.
+
+- **Garantizar la estabilidad de precios**: TWAP ofrece una tasa de conversión constante basada en promedios diarios, protegiendo a REG de la volatilidad del precio al contado, especialmente en entornos de baja liquidez. Garantiza la equidad al asegurar que todos los usuarios puedan, durante un período de tiempo, obtener la misma cantidad de REG por un crédito determinado.
+
+- **Apoya el autoequilibrio para proteger REG**: TWAP ajusta la emisión de REG en función de los movimientos de precios; Los usuarios reciben menos REG cuando los precios bajan y más REG cuando los precios suben.
+
+- **Diseñado para la conversión**: el mecanismo está diseñado para permitir a los usuarios elegir cuándo convertir, en lugar de servir como una herramienta comercial en tiempo real.
