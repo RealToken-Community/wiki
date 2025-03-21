@@ -2,7 +2,7 @@
 title: Réclamation des REG
 description: 
 published: true
-date: 2025-03-20T19:07:46.080Z
+date: 2025-03-21T09:28:35.222Z
 tags: 
 editor: markdown
 dateCreated: 2025-03-19T13:49:52.142Z
@@ -125,7 +125,7 @@ Contrat intelligent :
 - Vault : [0x71eb2b2518556700f5b778b9cc313bfe8de5086e](https://gnosisscan.io/address/0x71eb2b2518556700f5b778b9cc313bfe8de5086e)
 - Oracle : [0x86339b40e588f774bd766eB70D47bEFBe68B6F64](https://gnosisscan.io/address/0x86339b40e588f774bd766eB70D47bEFBe68B6F64/advanced)
 
-Arbre de Merkel (hors chaîne) : [https://github.com/real-token/vault-merkle-data/blob/main/dao/usdreg_conversion/current.json](https://github.com/real-token/vault-merkle-data/blob/main/dao/usdreg_conversion/current.json)
+Arbre de Merkel (hors chaîne) : [https://github.com/real-token/vault-merkle-data/blob/main/dao/usdreg_convertion/current.json](https://github.com/real-token/vault-merkle-data/blob/main/dao/usdreg_convertion/current.json)
 
 Ce fichier peut être sauvegardé par la communauté afin de rester disponible en toutes circonstances. La dernière version, dont la racine est enregistrée dans le contrat de revendication, reste valide même si l'interface ou le fichier source n'existe plus.
 
