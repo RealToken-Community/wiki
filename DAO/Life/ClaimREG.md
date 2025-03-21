@@ -2,7 +2,7 @@
 title: REG Claim
 description: 
 published: true
-date: 2025-03-20T19:08:15.208Z
+date: 2025-03-21T09:29:26.238Z
 tags: 
 editor: markdown
 dateCreated: 2025-03-19T13:08:51.748Z
@@ -126,7 +126,7 @@ Smart contract:
 - Vault: [0x71eb2b2518556700f5b778b9cc313bfe8de5086e](https://gnosisscan.io/address/0x71eb2b2518556700f5b778b9cc313bfe8de5086e)
 - Oracle: [0x86339b40e588f774bd766eB70D47bEFBe68B6F64](https://gnosisscan.io/address/0x86339b40e588f774bd766eB70D47bEFBe68B6F64/advanced)
 
-Merkel Tree (OffChain): [https://github.com/real-token/vault-merkle-data/blob/main/dao/usdreg_conversion/current.json](https://github.com/real-token/vault-merkle-data/blob/main/dao/usdreg_conversion/current.json)
+Merkel Tree (OffChain): [https://github.com/real-token/vault-merkle-data/blob/main/dao/usdreg_convertion/current.json](https://github.com/real-token/vault-merkle-data/blob/main/dao/usdreg_convertion/current.json)
 
 This file can be backed up by the community to remain available in all situations. The latest version, whose root is registered in the claim contract, remains valid even if the interface or source file no longer exists.
 
