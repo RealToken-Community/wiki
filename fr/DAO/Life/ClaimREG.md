@@ -2,7 +2,7 @@
 title: Réclamation des REG
 description: 
 published: true
-date: 2025-03-21T09:28:35.222Z
+date: 2025-03-23T17:33:44.138Z
 tags: 
 editor: markdown
 dateCreated: 2025-03-19T13:49:52.142Z
@@ -226,6 +226,9 @@ Les principaux modes de reclamation du contrat sont :
 
 [Lien vers le code correspondant](https://gnosisscan.io/address/0x94223f067dbf9b43ed3bfea1d02cc1839031b6d2#code#F1#L552)
 <br>
+<br>
+
+Les réclamations automatiques sont généralement executées par un automate, mais tout le monde peut le faire. Ci-après un exemple : [autoclaim.pdf](/assets/document/autoclaim.pdf)
 <br>
 
 ## Oracle de prix REG
