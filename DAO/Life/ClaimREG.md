@@ -2,7 +2,7 @@
 title: REG Claim
 description: 
 published: true
-date: 2025-03-23T17:36:09.889Z
+date: 2025-03-23T18:38:36.523Z
 tags: 
 editor: markdown
 dateCreated: 2025-03-19T13:08:51.748Z
@@ -230,7 +230,10 @@ In a future update of the interface: it will be possible to delegate the claim w
 [Link to the corresponding code](https://gnosisscan.io/address/0x94223f067dbf9b43ed3bfea1d02cc1839031b6d2#code#F1#L552)
 <br>
 <br>
-Automated claims are usually executed by a machine, but anyone can do it. Here is an example: [autoclaim_en.pdf](/assets/document/autoclaim_en.pdf)
+Automatic claims are executed:
+- by an automaton created by RealT
+The script searches for autoclaims on Thegraph, balances those already claimed, retrieves the Merkel, sorts them to keep only those with USDREG to claim, and performs batch transactions for the claim. [First execution](https://gnosisscan.io/tx/0xc839581772372c88436049828ae8cf01740c4f51c29a5d8c47c22254134ab82e)
+- or by anyone, manually or automatically. Here's an example:[autoclaim_en.pdf](/assets/document/autoclaim_en.pdf)
 <br>
 
 ## REG Price Oracle
