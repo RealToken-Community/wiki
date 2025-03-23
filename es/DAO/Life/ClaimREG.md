@@ -2,7 +2,7 @@
 title: Reclamación REG
 description: 
 published: true
-date: 2025-03-23T17:38:30.080Z
+date: 2025-03-23T18:39:55.826Z
 tags: 
 editor: markdown
 dateCreated: 2025-03-19T13:27:06.290Z
@@ -237,7 +237,10 @@ En una futura actualización de la interfaz: será posible delegar el reclamo, s
 [Enlace al código correspondiente](https://gnosisscan.io/address/0x94223f067dbf9b43ed3bfea1d02cc1839031b6d2#code#F1#L552)
 <br>
 <br>
-Las reclamaciones automatizadas normalmente las ejecuta una máquina, pero cualquiera puede hacerlo. He aquí un ejemplo: [autoclaim_en.pdf](/assets/document/autoclaim_en.pdf)
+Las reclamaciones automáticas se ejecutan:
+- por un autómata hecho por RealT
+El script busca reclamos automáticos en Thegraph, equilibra los ya reclamados, recupera el merkel, los ordena para conservar solo aquellos que tienen USDREG para reclamar y realiza transacciones por lotes para el reclamo. [Primera ejecución](https://gnosisscan.io/tx/0xc839581772372c88436049828ae8cf01740c4f51c29a5d8c47c22254134ab82e)
+ - o por todos, de forma manual o automática. He aquí un ejemplo: [autoclaim_en.pdf](/assets/document/autoclaim_en.pdf)
 <br>
 
 ## Oráculo de precios REG
