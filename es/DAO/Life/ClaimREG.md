@@ -2,7 +2,7 @@
 title: Reclamación REG
 description: 
 published: true
-date: 2025-03-20T19:08:39.294Z
+date: 2025-03-23T17:38:30.080Z
 tags: 
 editor: markdown
 dateCreated: 2025-03-19T13:27:06.290Z
@@ -236,6 +236,8 @@ En una futura actualización de la interfaz: será posible delegar el reclamo, s
 
 [Enlace al código correspondiente](https://gnosisscan.io/address/0x94223f067dbf9b43ed3bfea1d02cc1839031b6d2#code#F1#L552)
 <br>
+<br>
+Las reclamaciones automatizadas normalmente las ejecuta una máquina, pero cualquiera puede hacerlo. He aquí un ejemplo: [autoclaim_en.pdf](/assets/document/autoclaim_en.pdf)
 <br>
 
 ## Oráculo de precios REG
