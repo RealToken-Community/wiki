@@ -2,7 +2,7 @@
 title: Réclamation des REG
 description: 
 published: true
-date: 2025-03-23T17:33:44.138Z
+date: 2025-03-23T18:36:39.415Z
 tags: 
 editor: markdown
 dateCreated: 2025-03-19T13:49:52.142Z
@@ -228,7 +228,10 @@ Les principaux modes de reclamation du contrat sont :
 <br>
 <br>
 
-Les réclamations automatiques sont généralement executées par un automate, mais tout le monde peut le faire. Ci-après un exemple : [autoclaim.pdf](/assets/document/autoclaim.pdf)
+Les réclamations automatiques sont executées : 
+- par un automate réalisé par RealT 
+Le script va chercher sur Thegraph les autoclaim, les balance déjà claim, récupère le merkel, fait le tris pour ne garder que ceux qui ont des USDREG à claimer et effectue des transactions en batch pour claim. [Première execution](https://gnosisscan.io/tx/0xc839581772372c88436049828ae8cf01740c4f51c29a5d8c47c22254134ab82e)
+ - ou par tout le monde, manuellement ou automatiquement. Ci-après un exemple : [autoclaim.pdf](/assets/document/autoclaim.pdf)
 <br>
 
 ## Oracle de prix REG
