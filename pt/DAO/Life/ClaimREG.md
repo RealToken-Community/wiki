@@ -2,7 +2,7 @@
 title: Reivindicação REG
 description: 
 published: true
-date: 2025-03-20T19:09:04.633Z
+date: 2025-03-23T17:39:38.554Z
 tags: 
 editor: markdown
 dateCreated: 2025-03-19T09:02:40.132Z
@@ -235,6 +235,8 @@ Numa futura atualização da interface: será possível delegar a reclamação, 
 
 [Link para o código correspondente](https://gnosisscan.io/address/0x94223f067dbf9b43ed3bfea1d02cc1839031b6d2#code#F1#L552)
 <br>
+<br>
+As reclamações automatizadas são geralmente executadas por uma máquina, mas qualquer pessoa pode fazê-las. Aqui está um exemplo: [autoclaim_en.pdf](/assets/document/autoclaim_en.pdf)
 <br>
 
 ## REG Preço Oracle
