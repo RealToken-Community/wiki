@@ -2,7 +2,7 @@
 title: Reivindicação REG
 description: 
 published: true
-date: 2025-03-23T17:39:38.554Z
+date: 2025-03-23T18:40:58.136Z
 tags: 
 editor: markdown
 dateCreated: 2025-03-19T09:02:40.132Z
@@ -236,7 +236,10 @@ Numa futura atualização da interface: será possível delegar a reclamação, 
 [Link para o código correspondente](https://gnosisscan.io/address/0x94223f067dbf9b43ed3bfea1d02cc1839031b6d2#code#F1#L552)
 <br>
 <br>
-As reclamações automatizadas são geralmente executadas por uma máquina, mas qualquer pessoa pode fazê-las. Aqui está um exemplo: [autoclaim_en.pdf](/assets/document/autoclaim_en.pdf)
+As reivindicações automáticas são executadas:
+- por um autómato feito pela RealT
+O script procura autoclaims no Thegraph, equilibra os já reclamados, recupera o merkel, classifica-os para manter apenas aqueles que têm USDREG para reivindicar e executa transações em lote para a reivindicação. [Primeira execução](https://gnosisscan.io/tx/0xc839581772372c88436049828ae8cf01740c4f51c29a5d8c47c22254134ab82e)
+ - ou por todos, manualmente ou automaticamente. Eis um exemplo: [autoclaim_en.pdf](/assets/document/autoclaim_en.pdf)
 <br>
 
 ## REG Preço Oracle
