@@ -2,7 +2,7 @@
 title: REG Claim
 description: 
 published: true
-date: 2025-03-23T18:38:36.523Z
+date: 2025-03-26T07:30:53.168Z
 tags: 
 editor: markdown
 dateCreated: 2025-03-19T13:08:51.748Z
@@ -83,6 +83,8 @@ This amount for each wallet is recorded in an off-chain file ([Merkel Tree](http
 6. The Soon tokens are destroyed (burned).
 
 All of the above actions are executed only once, when the reclamation contract is created.
+
+Note: The "Merkel tree" solution was chosen for storing each person's rights in USDREG, because it is the solution generally used for airdrops and distributions by claim. This off-chain solution is particularly more economical when the number of beneficiaries is large.
 
 ## User Claim
 
