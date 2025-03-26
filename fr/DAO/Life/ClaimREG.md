@@ -2,7 +2,7 @@
 title: Réclamation des REG
 description: 
 published: true
-date: 2025-03-23T18:36:39.415Z
+date: 2025-03-26T07:29:55.092Z
 tags: 
 editor: markdown
 dateCreated: 2025-03-19T13:49:52.142Z
@@ -82,6 +82,8 @@ Ce montant pour chaque portefeuille est enregistré dans un fichier hors chaîne
 6. Les jetons Soon sont détruits (burn).
 
 Toutes les actions ci-dessus ne sont exécutées qu'une seule fois, lors de la création du contrat de récupération.
+
+Nota : La solution du "merkel tree" a été retenue, pour le stockage des droits en USDREG de chacun, car c'est la solution généralement utilisée pour des airdrop et des distributions par claim. Cette solution, offchain, est notamment bien plus économique lorsque la quantité de bénéficiaire est importante. 
 
 ## Réclamation de l'utilisateur
 
