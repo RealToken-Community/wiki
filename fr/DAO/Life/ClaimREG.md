@@ -2,7 +2,7 @@
 title: Réclamation des REG
 description: 
 published: true
-date: 2025-03-26T07:29:55.092Z
+date: 2025-03-28T06:18:02.137Z
 tags: 
 editor: markdown
 dateCreated: 2025-03-19T13:49:52.142Z
@@ -64,6 +64,13 @@ Il est possible de déléguer une autre adresse pour réclamer et récupérer vo
 5. Lancez la réclamation.
 6. La réclamation enverra les REG attribués à l'adresse initiale vers l'adresse déléguée.
 <br>
+
+## Que faire des REG réclamés
+Pour savoir quoi faire des REG qui sont réclamés, faut il encore comprendre ce qu'ils sont, ce à quoi il donne droit maintenant et dans le futur... 
+Pour ce faire, un petit jeu a été inclus lors du claim : sous forme d'information / question.
+![q&a_1.png](/imag-en/regconvertor/q&a_1.png){.align-center .img75}
+Après 10 réponses justes, vous pourrez cocher pour ne plus être questionné
+![q&a_2.png](/imag-en/regconvertor/q&a_2.png){.align-center .img50}
 
 # Fonctionnement ⭐⭐
 ## Avant la création du contrat de récupération
