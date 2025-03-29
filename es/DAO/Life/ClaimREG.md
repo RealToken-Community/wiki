@@ -2,7 +2,7 @@
 title: Reclamación REG
 description: 
 published: true
-date: 2025-03-23T18:39:55.826Z
+date: 2025-03-29T09:07:55.074Z
 tags: 
 editor: markdown
 dateCreated: 2025-03-19T13:27:06.290Z
@@ -66,6 +66,15 @@ Una vez que haya iniciado sesión, verá:
 5. Lanzar la reclamación,
 6. La reclamación enviará los REGs, asignados a la dirección inicial, a la dirección delegada.
 <br>
+
+## ¿Qué hacer con los REG reclamados?
+Para saber qué hacer con los REG que se reclaman, todavía necesitamos entender qué son, a qué nos dan derecho ahora y en el futuro.
+Para ello se incluyó un pequeño juego durante la reclamación: en forma de información/pregunta.
+![q&a_es_1.png](/imag-en/regconvertor/q&a_es_1.png){.align-center .img50}
+
+Después de 10 respuestas correctas, puedes marcar la casilla para no ser interrogado nuevamente.
+
+![q&a_es_2.png](/imag-en/regconvertor/q&a_es_2.png){.align-center .img40}
 
 # Cómo funciona ⭐⭐
 
