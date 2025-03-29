@@ -2,7 +2,7 @@
 title: Reivindicação REG
 description: 
 published: true
-date: 2025-03-23T18:40:58.136Z
+date: 2025-03-29T09:10:09.183Z
 tags: 
 editor: markdown
 dateCreated: 2025-03-19T09:02:40.132Z
@@ -66,6 +66,15 @@ Após efetuar login, verá:
 5.º Inicie a reclamação,
 6.º A reclamação enviará os REG, alocados ao endereço inicial, para o endereço delegado.
 <br>
+
+## O que fazer com os REG reclamados
+Para saber o que fazer com os REG reclamados, precisamos ainda de perceber o que são, a que nos dão direito agora e no futuro.
+Para tal, foi incluído um pequeno jogo durante a reclamação: sob a forma de informação/questão.
+![q&a_en_1.png](/imag-en/regconvertor/q&a_en_1.png){.align-center .img50}
+
+Após 10 respostas corretas, pode assinalar para não ser questionado novamente.
+
+![q&a_en_2.png](/imag-en/regconvertor/q&a_en_2.png){.align-center .img40}
 
 # Como funciona ⭐⭐
 
