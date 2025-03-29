@@ -2,7 +2,7 @@
 title: REG Claim
 description: 
 published: true
-date: 2025-03-26T07:30:53.168Z
+date: 2025-03-29T09:04:00.500Z
 tags: 
 editor: markdown
 dateCreated: 2025-03-19T13:08:51.748Z
@@ -65,6 +65,14 @@ It is possible to delegate another address to claim and collect your REG (for ex
 5. Launch the claim.
 6. The claim will send the REG allocated to the initial address to the delegated address.
 <br>
+## What to do with the claimed REG
+To know what to do with the claimed REGs, you still need to understand what they are, what they entitle you to now and in the future.
+To do this, a little quiz has been included during the claim process: in the form of information/questions.
+![q&a_en_1.png](/imag-en/regconvertor/q&a_en_1.png){.align-center .img50}
+
+After 10 correct answers, you can check the box to avoid further questions.
+
+![q&a_en_2.png](/imag-en/regconvertor/q&a_en_2.png){.align-center .img35}
 
 # How it works ⭐⭐
 ## Before the creation of the reclamation contract
