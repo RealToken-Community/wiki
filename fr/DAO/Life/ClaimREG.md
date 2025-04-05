@@ -2,7 +2,7 @@
 title: Réclamation des REG
 description: 
 published: true
-date: 2025-04-05T15:29:06.982Z
+date: 2025-04-05T15:31:42.272Z
 tags: 
 editor: markdown
 dateCreated: 2025-03-19T13:49:52.142Z
@@ -269,6 +269,6 @@ Sur le graphique ci-après vous pouvez voir le prix moyen pondéré (Time-Weight
 
 ### Comment fonctionne l'Oracle 
 
-https://docs.google.com/document/d/1ffzpBoCnFEIWVEDlnx2tlCWs9YG-RQzpMoy7AMyQ9nQ/edit?tab=t.0
+https://docs.google.com/document/d/1ffzpBoCnFEIWVEDlnx2tlCWs9YG-RQzpMoy7AMyQ9nQ/edit?usp=sharing
 
  
