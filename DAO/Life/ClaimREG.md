@@ -2,7 +2,7 @@
 title: REG Claim
 description: 
 published: true
-date: 2025-03-29T09:04:00.500Z
+date: 2025-04-05T15:30:50.646Z
 tags: 
 editor: markdown
 dateCreated: 2025-03-19T13:08:51.748Z
@@ -269,3 +269,6 @@ In the graph below, you can see the Time-Weighted Average Price (TWAP) calculate
 
 - **Designed for Conversion**: The mechanism is designed to allow users to choose when to convert, rather than serving as a real-time trading tool.
 
+### How Oracle works
+
+https://docs.google.com/document/d/1dJVeioYhwxgNW9BnFuGVj7jd2KgV2Bned1wvS23VGNc/edit?usp=sharing
