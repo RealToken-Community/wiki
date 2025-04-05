@@ -2,7 +2,7 @@
 title: Réclamation des REG
 description: 
 published: true
-date: 2025-03-28T06:20:53.387Z
+date: 2025-04-05T15:29:06.982Z
 tags: 
 editor: markdown
 dateCreated: 2025-03-19T13:49:52.142Z
@@ -266,5 +266,9 @@ Sur le graphique ci-après vous pouvez voir le prix moyen pondéré (Time-Weight
 - **Supporter l’auto-équilibrage pour protéger REG** : TWAP ajuste l’émission de REG en fonction des mouvements de prix ; les utilisateurs reçoivent moins de REG lorsque les prix baissent et plus de REG lorsque les prix augmentent.
 
 - **Conçu pour la conversion** : le mécanisme est pensé pour permettre aux utilisateurs de choisir le moment de leur conversion, plutôt que de servir d’outil de trading en temps réel.
+
+### Comment fonctionne l'Oracle 
+
+https://docs.google.com/document/d/1ffzpBoCnFEIWVEDlnx2tlCWs9YG-RQzpMoy7AMyQ9nQ/edit?tab=t.0
 
  
