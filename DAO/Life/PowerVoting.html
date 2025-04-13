@@ -2,7 +2,7 @@
 title: Voting Power
 description: 
 published: true
-date: 2025-04-09T06:59:48.756Z
+date: 2025-04-13T13:04:13.740Z
 tags: 
 editor: ckeditor
 dateCreated: 2025-01-08T15:24:00.749Z
@@ -16,6 +16,7 @@ dateCreated: 2025-01-08T15:24:00.749Z
 <p>At an unpredictable date (so that there is no manipulation), RealT takes a snapshot to collect the situation of all the REGs. From this collection, a program (offChain) calculates the Voting Power of each. This is a weighting of the mode of use of the REGs (and the counterparts in the liquidity pools) which is decided by the DAO.</p>
 <p>The quantity of Voting Power token of each remains unchanged, until the next snapshot (even if the quantity of REG has moved in the meantime). This token is non-transferable. The quantity of Voting Power of a wallet is visible on the application <a href="https://www.tally.xyz/gov/realtoken-ecosystem-governance">Tally</a>, or&nbsp;<a href="https://gnosisscan.io/token/0x6382856a731Af535CA6aea8D364FCE67457da438#balances"> explorer.</a></p>
 <h1>Weighting algorithm</h1>
+<h2>Version 1</h2>
 <p>The first snapshots used the following weighting:</p>
 <ul>
   <li>1 REG in a Wallet or the Incentive Vault is worth 1 PowerVoting</li>
@@ -23,12 +24,22 @@ dateCreated: 2025-01-08T15:24:00.749Z
   <li>The stablecoins brought in return in the Liquidity Pool are worth 0.5 PowerVoting of the REG equivalent</li>
 </ul>
 <p>This first algorithm was established by RealT. The following will be voted on by the DAO:&nbsp;</p>
-<p>- Vote to create the Committee dedicated to the study of a new algorithm: <a href="https://www.tally.xyz/gov/realtoken-ecosystem-governance/proposal/12038309477773891360567843161589209812585895284284142094594393991995558709195?govId=eip155:100:0x4A5327347f077E72d2AaB19F68Ba8A7F12ec5d63">[RIP00007]</a>,&nbsp;<br>- Committee discussions visible (read-only) on this <a href="https://t.me/powervoting_realtoken_dao">Telegram</a>&nbsp;<br>- Vote for a new algorithm: <a href="https://www.tally.xyz/gov/realtoken-ecosystem-governance/proposal/14457083751489214659964508626955669743860021972341448974500176304903438439035?govId=eip155:100:0x4A5327347f077E72d2AaB19F68Ba8A7F12ec5d63">[RIP00018]</a>.<br>&nbsp;</p>
-<p>The program, created by RealT, for the snapshot and calculation is available: <a href="https://github.com/real-token/balance-calculator">Github</a></p>
-<h1>Snapshot</h1>
+<p>- Vote to create the Committee dedicated to the study of a new algorithm: <a href="https://www.tally.xyz/gov/realtoken-ecosystem-governance/proposal/12038309477773891360567843161589209812585895284284142094594393991995558709195?govId=eip155:100:0x4A5327347f077E72d2AaB19F68Ba8A7F12ec5d63">[RIP00007]</a>,&nbsp;<br>- Committee discussions visible (read-only) on this <a href="https://t.me/powervoting_realtoken_dao">Telegram</a>&nbsp;<br>- Vote for a new algorithm: <a href="https://www.tally.xyz/gov/realtoken-ecosystem-governance/proposal/14457083751489214659964508626955669743860021972341448974500176304903438439035?govId=eip155:100:0x4A5327347f077E72d2AaB19F68Ba8A7F12ec5d63">[RIP00018]</a>.&nbsp;</p>
+<h2>Version 2</h2>
+<figure class="image image-style-align-right"><img src="/imag-en/powervoting_v2.png"></figure>
+<p>&nbsp;</p>
+<p>The changes are as follows :&nbsp;</p>
+<ul>
+  <li>New weighting, based on REG usage (see image).</li>
+  <li>REG amounts are the average of REG held since the previous snapshot.</li>
+  <li>Voting Powers &lt;1 will be considered null.</li>
+</ul>
+<p>They are applied from RIP00022.</p>
+<h1>Calculation program</h1>
+<p>The program, created by RealT, for the snapshot and calculation is available: <a href="https://github.com/real-token/balance-calculator">Github</a><br>Its operation is detailed in chapter 4.4 of<a href="/en/DAO/TechnicalOp"> this page</a></p>
 <p>For each snapshot, RealT generates two types of files (in csv and json format):</p>
 <ul>
-  <li>balancesREG: Lists all wallets that have REG, with the quantity for each mode of use,</li>
-  <li>powerVotingREG_balances: List of wallets that have PowerVoting with the quantity resulting from the calculation by the algorithm. The following addresses are excluded from this second list (because they cannot vote): Liquidity Pools, Incentive Vaults, Safes that manage the DAO budgets, and the allocation to Mt Pelerin.</li>
+  <li><strong>balancesREG</strong>: Lists all wallets that have REG, with the quantity for each mode of use,</li>
+  <li><strong>powerVotingREG_balances</strong>: List of wallets that have PowerVoting with the quantity resulting from the calculation by the algorithm. The following addresses are excluded from this second list (because they cannot vote): Liquidity Pools, Incentive Vaults, Safes that manage the DAO budgets, and the allocation to Mt Pelerin.</li>
 </ul>
-<p>The files are communicated to the Community for validation before application on the DAO Telegram: <a href="https://t.me/realtokendao_official/3/10541?single">Example</a></p>
+<p>The files are communicated to the Community for validation before application on the DAO Telegram: <a href="https://t.me/realtokendao_official/3/10541?single">Example</a><br>&nbsp;</p>
