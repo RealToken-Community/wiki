@@ -2,7 +2,7 @@
 title: Réclamation des REG
 description: 
 published: true
-date: 2025-04-05T15:31:42.272Z
+date: 2025-06-26T08:36:37.327Z
 tags: 
 editor: markdown
 dateCreated: 2025-03-19T13:49:52.142Z
@@ -44,7 +44,8 @@ Remarque : Les utilisateurs de *Walletless* devront migrer vers *Realtoken Wall
 ![claim2.png](/imag-en/regconvertor/claim2.png){.align-right .img30}
 Une fois connecté, vous verrez :
 1. Le montant d'USDREG qui vous est alloué (20 sur l'image),
-2. La parité REG actuelle en $ (1,93),
+2. La parité de conversion actuelle en $ par REG (1,93),
+Nota : Cette valeur peut être différente de la parité réèlle (cf chapitre sur le fonctionnement de l'Oracle)
 3. Le nombre de REG correspondant (10,34) que vous pouvez réclamer (uniquement en totalité),
 4. Le montant d'USDREG que vous avez déjà réclamé (100), avant une nouvelle attribution,
 5. L'option de délégation (voir chapitre suivant),
