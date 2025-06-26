@@ -2,7 +2,7 @@
 title: REG Claim
 description: 
 published: true
-date: 2025-04-05T15:30:50.646Z
+date: 2025-06-26T08:47:32.169Z
 tags: 
 editor: markdown
 dateCreated: 2025-03-19T13:08:51.748Z
@@ -45,7 +45,8 @@ Note: *Walletless* users will need to migrate to *Realtoken Wallet or other comp
 ![claim2.png](/imag-en/regconvertor/claim2.png){.align-right .img30}
 Once logged in, you will see:
 1. The amount of USDREG allocated to you (20 in the image),
-2. The current REG parity in $ (1.93),
+2. The current conversion parity in $ per REG (1.93),
+Note: This value may differ from the actual parity (see chapter on how the Oracle works)
 3. The corresponding number of REG (10.34), which you can claim (only in full),
 4. The amount of USDREG you have already claimed (100), before a new allocation,
 5. The delegation option (see next chapter),
