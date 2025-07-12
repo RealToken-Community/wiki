@@ -2,7 +2,7 @@
 title: Réclamation des REG
 description: 
 published: true
-date: 2025-06-26T08:36:37.327Z
+date: 2025-07-12T07:10:05.420Z
 tags: 
 editor: markdown
 dateCreated: 2025-03-19T13:49:52.142Z
@@ -29,7 +29,7 @@ A l’avenir, la distribution d'USDREG ne devrait plus être liée à la rééva
 
 # L'application pour réclamer vos REG ⭐
 
-[https://claim.realtoken.network/](https://claim.realtoken.network/)
+En mars 2025, RealT a mis en place l'application : [https://claim.realtoken.network/](https://claim.realtoken.network/)
 ![claim1.png](/imag-en/regconvertor/claim1.png){.align-right .img35}
 
 1. L'application fonctionne sur la blockchain Gnosis.
