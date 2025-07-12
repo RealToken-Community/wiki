@@ -2,7 +2,7 @@
 title: REG Claim
 description: 
 published: true
-date: 2025-06-26T08:47:32.169Z
+date: 2025-07-12T07:11:04.749Z
 tags: 
 editor: markdown
 dateCreated: 2025-03-19T13:08:51.748Z
@@ -30,7 +30,7 @@ In the future, the distribution of USDREG should no longer be linked to the reva
 
 # The application to claim your REG ⭐
 
-[https://claim.realtoken.network/](https://claim.realtoken.network/)
+In March 2025, RealT implemented the application [https://claim.realtoken.network/](https://claim.realtoken.network/)
 ![claim1.png](/imag-en/regconvertor/claim1.png){.align-right .img35}
 
 1. The application runs on the Gnosis blockchain.
