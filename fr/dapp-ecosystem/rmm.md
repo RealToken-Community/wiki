@@ -2,7 +2,7 @@
 title: RMM
 description: 
 published: true
-date: 2025-02-05T20:18:31.100Z
+date: 2025-07-19T17:09:31.309Z
 tags: rmm
 editor: markdown
 dateCreated: 2024-12-08T21:03:58.118Z
@@ -152,6 +152,8 @@ Note : La valeur des actifs quels qu'ils soient dans le RMM est calculé en doll
   - S'il existe une dette, utiliser la fonction repay du RMMv3. Deux scénarios sont possibles :
     - Dette ≥ Collatéral : La dette est remboursée à hauteur du montant disponible lié à la valeur des tokens qui seront extraits du RMM.
     - Dette < Collatéral : La dette est entièrement remboursée, et le surplus est envoyé au refundWallet.
+
+![repayforrecover.svg](/imag-en/repayforrecover.svg)
 
 Note : si la fonciton repay est utilisée pour un seul utilisateur avec une ou plusieurs adresse, le `refundWallet` peux etre directement une adresse de l'utilisateur.
 Dans le cas d'usage en batch pour plusieurs utilisateur, le `refundWallet` doit etre une adresse de service qui permettera de distribuer les montants correctes à chaque utilisateur pour qui le montant de remboursement n'a pas été totalement consommé par le remboursement de la dette.
