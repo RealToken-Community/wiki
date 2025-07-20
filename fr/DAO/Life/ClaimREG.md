@@ -2,7 +2,7 @@
 title: Réclamation des REG
 description: 
 published: true
-date: 2025-07-20T16:45:04.387Z
+date: 2025-07-20T16:46:51.946Z
 tags: 
 editor: markdown
 dateCreated: 2025-03-19T13:49:52.142Z
@@ -163,7 +163,7 @@ La validation avec preuve Merkle consiste à vérifier que les informations d'un
 Exécution dans le programme :
 
 <br>
-1. Initialisation de la validation : La fonction *\_validateMerkleProof* prend en entrée : l'adresse de l'utilisateur, le montant, la racine Merkle attendue et un tableau de preuves Merkle. Elle initie la vérification de la validité de la preuve Merkle.
+1. Initialisation de la validation : La fonction *validateMerkleProof* prend en entrée : l'adresse de l'utilisateur, le montant, la racine Merkle attendue et un tableau de preuves Merkle. Elle initie la vérification de la validité de la preuve Merkle.
 
 ![](/imag-en/regconvertor/rc1.png){.align-right .img50}
 
