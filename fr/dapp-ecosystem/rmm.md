@@ -2,7 +2,7 @@
 title: RMM
 description: 
 published: true
-date: 2025-07-20T04:40:37.843Z
+date: 2025-07-20T04:44:00.293Z
 tags: rmm
 editor: markdown
 dateCreated: 2024-12-08T21:03:58.118Z
@@ -196,6 +196,7 @@ Dans le cas d'usage en batch pour plusieurs utilisateur, le `refundWallet` doit 
 - Valider que le paramètre percent est dans la plage valide (supérieur à 0 et inférieur ou égal à 10000).
 - Valider que repayWallet, refundWallet et payer sont des adresses non nulles.
 - Valider que le `payer` a une balance des tokens debtAssets supérieur ou égale à la dette à rembourser et avoir une approval de la fonction `transferFrom` de chaque token debtAssets au bénéfice du Wrapper.
+<br>
 
 ### **4.2. recoverByGovernance**
 
