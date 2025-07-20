@@ -2,7 +2,7 @@
 title: RMM
 description: 
 published: true
-date: 2025-07-20T09:06:30.012Z
+date: 2025-07-20T09:13:07.248Z
 tags: rmm
 editor: markdown
 dateCreated: 2024-12-08T21:03:58.118Z
@@ -33,7 +33,7 @@ Le Wrapper joue un rôle crucial dans l'écosystème RMM en :
 
 adresse du wrapper : 0x10497611Ee6524D75FC45E3739F472F83e282AD5
 
-Ces modifications font suite à la proposition de gouvernance RIP00008 qui a été acceptée par la DAO en date du 2024-12-07 21h19 UTC.
+Ces modifications font suite à la proposition de gouvernance RIP00008 qui a été acceptée par la DAO en date du 2024-12-07
 
 [RIP00008 - Transfer RealToken Wrapper RMMv3 execution functions to the DAO](https://www.tally.xyz/gov/realtoken-ecosystem-governance/proposal/4412019256781079844728885554420538992900805587725535743224739658055634526928)
 
