@@ -2,7 +2,7 @@
 title: RMM
 description: 
 published: true
-date: 2025-07-20T04:44:00.293Z
+date: 2025-07-20T07:38:03.871Z
 tags: rmm
 editor: markdown
 dateCreated: 2024-12-08T21:03:58.118Z
@@ -323,3 +323,44 @@ https://gnosisscan.io/address/0xc7ca0b893c22f99bb99dfc9dafdb6a83e0e7a946#code#F1
 ## **7. Audit**
 
 Réalisé par la société ADBK : https://github.com/abdk-consulting/audits/tree/main/realt
+
+## **8. Exemples d'utilisation**
+
+### RepayForRecover
+
+#### Cas classique, de remboursement par la DAO d’une dette User
+- Variable RepayForRecover : 
+    • repayWallet : 0xUser
+    • refundWallet : 0xDAO
+    • percent : 5000 (soit 50%)
+    • recoverAssets : [0xRealToken1, 0xRealToken2]
+    • debtAssets : [0xUSDC,, 0xWXDAI ]
+    • payer : 0xDAO
+- Données RMM de 0xUser
+    • Dépôt  : 10 RealToken1 à 51$ et 5 RealToken2 à 50$
+    • Dette : USDC : 30 $ et WXDAI : 250 $
+- Calculs
+	- Calcul de la valeur totale des collatéraux : 10 * 51 + 5 * 50 = 760 $
+	- Application du pourcentage : 50% * 760 $ = 380 $
+	- Répartition sur les debtAssets :  190$ sont au maximum remboursable sur chacun des deux debtAssets et sont prélevés par le wrapper auprès du payeur (ce dernier ayant du faire au préalable l’approbation correspondante).
+ 	- Comparaison avec la dette réelle et transferts : 
+		- Pour les USDC, la dette réèlle étant de 30$ :  le wrapper rembourse 30 $ de dette RMM et transfert le surplus de 160 $  (190 - 30) à refundWallet (0xDAO).
+		- Pour les WXDAI, la dette réèlle étant de 250 $ : le wrapper rembourse le maximum possible 190 $, il restera donc une dette de 60 $ (250-190).
+
+#### Cas particulier, d’un user qui n’a pas de dette : le repayForRecover correspond alors à un versement de la DAO vers le User 
+
+- Variable RepayForRecover : 
+		• repayWallet : 0xUser 
+		• refundWallet : 0xUser
+    • percent : 500 (soit 5%)
+    • recoverAssets : [0xRealToken1, 0xRealToken2]
+    • debtAssets : [0xUSDC]
+    • payer : 0xDAO
+- Données RMM de 0xUser
+    • Dépôt  : 10 RealToken1 à 51$ et 5 RealToken2 à 50$
+    • Dette : 0
+- Calculs
+ 	- Calcul de la valeur totale des collatéraux : 10 * 51 + 5 * 50 = 760 $
+	- Application du pourcentage : 5% * 760 $ = 38 $
+	- Répartition sur les debtAssets : 38$ sont en USDC 
+	- Transferts : 38$ d’USDC sont transférés du payeur (0xDAO) vers refundWallet (0xUser) (lorsque la dette est nulle, le transfert se fait directement, sans passer par le wrapper)
