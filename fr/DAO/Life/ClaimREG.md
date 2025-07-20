@@ -2,7 +2,7 @@
 title: Réclamation des REG
 description: 
 published: true
-date: 2025-07-20T16:38:40.709Z
+date: 2025-07-20T16:39:49.758Z
 tags: 
 editor: markdown
 dateCreated: 2025-03-19T13:49:52.142Z
@@ -178,6 +178,7 @@ Exécution dans le programme :
 ![](/imag-en/regconvertor/rc3.png){.align-right .img50}
 <br>
 [Lien vers le code correspondant](https://gnosisscan.io/address/0x94223f067dbf9b43ed3bfea1d02cc1839031b6d2#code#F1#L719)
+
 <br>
 
 4. Rejet des réclamations invalides : Si la vérification échoue, le contrat rejette la réclamation en générant une erreur, garantissant ainsi que seules les réclamationss valides, correspondant à la structure de l'arbre de Merkle, sont acceptées.
