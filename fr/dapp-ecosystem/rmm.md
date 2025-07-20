@@ -2,7 +2,7 @@
 title: RMM
 description: 
 published: true
-date: 2025-07-20T07:38:03.871Z
+date: 2025-07-20T09:06:30.012Z
 tags: rmm
 editor: markdown
 dateCreated: 2024-12-08T21:03:58.118Z
@@ -220,6 +220,8 @@ Note : Dans une proposal qui est executée pour plusieurs utilisateurs, il faudr
 - Calculer le nombre de tokens relatif au solde et au pourcentage sur lequel l'action sera exécutée.
 - Transférer tous les RealTokens ou aTokens de oldWallet vers newWallet, basé sur [tokens address].
 - Si withdraw = true, effectuer un retrait du RMM ; si false, déplacer les aTokens.
+
+![recoverbygorvernor.svg](/imag-en/recoverbygorvernor.svg)
 
 #### **Validation des Entrées :**
 
