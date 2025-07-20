@@ -2,7 +2,7 @@
 title: RMM
 description: 
 published: true
-date: 2025-07-20T09:13:07.248Z
+date: 2025-07-20T12:06:27.715Z
 tags: rmm
 editor: markdown
 dateCreated: 2024-12-08T21:03:58.118Z
@@ -324,14 +324,14 @@ https://gnosisscan.io/address/0xc7ca0b893c22f99bb99dfc9dafdb6a83e0e7a946#code#F1
 
 ## **7. Audit**
 
-Réalisé par la société ADBK : https://github.com/abdk-consulting/audits/tree/main/realt
+Audit du wrapper réalisé par la société ADBK (préalablement aux modifications ci-dessus) : https://github.com/abdk-consulting/audits/tree/main/realt
 
-## **8. Exemples d'utilisation**
+## **8. ⭐⭐ Exemples d'utilisation**
 
-### RepayForRecover
+### `repayForRecover`
 
 #### Cas classique, de remboursement par la DAO d’une dette User
-- Variable RepayForRecover : 
+- Variable de la fonction repayForRecover : 
     • repayWallet : 0xUser
     • refundWallet : 0xDAO
     • percent : 5000 (soit 50%)
@@ -349,9 +349,9 @@ Réalisé par la société ADBK : https://github.com/abdk-consulting/audits/tree
 		- Pour les USDC, la dette réèlle étant de 30$ :  le wrapper rembourse 30 $ de dette RMM et transfert le surplus de 160 $  (190 - 30) à refundWallet (0xDAO).
 		- Pour les WXDAI, la dette réèlle étant de 250 $ : le wrapper rembourse le maximum possible 190 $, il restera donc une dette de 60 $ (250-190).
 
-#### Cas particulier, d’un user qui n’a pas de dette : le repayForRecover correspond alors à un versement de la DAO vers le User 
+#### Cas particulier, d’un user qui n’a pas de dette : le `repayForRecover` correspond alors à un versement de la DAO vers le User 
 
-- Variable RepayForRecover : 
+- Variable de la fonction repayForRecover : 
 		• repayWallet : 0xUser 
 		• refundWallet : 0xUser
     • percent : 500 (soit 5%)
@@ -366,3 +366,15 @@ Réalisé par la société ADBK : https://github.com/abdk-consulting/audits/tree
 	- Application du pourcentage : 5% * 760 $ = 38 $
 	- Répartition sur les debtAssets : 38$ sont en USDC 
 	- Transferts : 38$ d’USDC sont transférés du payeur (0xDAO) vers refundWallet (0xUser) (lorsque la dette est nulle, le transfert se fait directement, sans passer par le wrapper)
+
+### `recoverByGovernance`
+
+Cette fonction a été utilisée pour transférer les dépôts de Realtokens sur RMM, d'un wallet dont le propriétaire avait perdu son accès. Pour être executée par le Governor, cette opération a fait l'objet du vote [RIP00032](https://www.tally.xyz/gov/realtoken-ecosystem-governance/proposal/34149402670799096503362367117662781798718629041345537723321035887926997447023).
+- Les variables de la fonction recoverByGovernor était :
+  • oldWallet : 0xPerdu
+  • newWallet : 0xNouveau
+  • percent : 10000 (100%)
+  • recoverAssets : [liste de tous les Realtokens déposés sur RMM par 0xPerdu]
+  • withdraw : false (sans transfert de Realtoken)
+ - La fonction repayForRecover n'a pas été utilisé préalablement, car c'est le propriétaire qui a directement remboursé les emprunts sur RMM de son wallet perdu.
+ - L'execution du recoverByGovernor a été précédé de l'execution de la fonction updateUserStateInArtw(address) pour que RMM intègre les dernières mise à jour du wrapper.
