@@ -2,7 +2,7 @@
 title: Réclamation des REG
 description: 
 published: true
-date: 2025-07-20T16:46:51.946Z
+date: 2025-07-20T16:51:39.901Z
 tags: 
 editor: markdown
 dateCreated: 2025-03-19T13:49:52.142Z
@@ -171,14 +171,14 @@ Exécution dans le programme :
 
 [Lien vers le code correspondant](https://gnosisscan.io/address/0x94223f067dbf9b43ed3bfea1d02cc1839031b6d2#code#F1#L669)
 <br>
-
-2. Génération de *"feuilles"* : Pour chaque réclamation, une feuille (leaf) est générée en hachant les données de l'utilisateur (adresse et montant) avec la fonction keccak256. Cela crée un hachage unique qui représente cette réclamation.
+<br>
+2. Génération de la *"feuille"* : Pour chaque réclamation, une feuille (leaf) est générée en hachant les données de l'utilisateur (adresse et montant) avec la fonction keccak256. Cela crée un hachage unique qui représente cette réclamation.
 
 ![](/imag-en/regconvertor/rc2.png){.align-right .img50}
 
 <br>
 <br>
-3. **Vérification de l'arbre de Merkle** : La fonction *\_verifyAsm* utilise une approche d'assemblage pour parcourir les preuves de Merkle. Elle prend chaque nœud de la preuve et le combine avec la feuille pour reconstruire le hachage jusqu'à ce qu'il atteigne la racine de Merkle. Si la racine reconstruite correspond à la racine de Merkle attendue, cela signifie que la reclamation est valide. 
+3. Vérification de l'arbre de Merkle : La fonction verifyAsm utilise une approche d'assemblage pour parcourir les preuves de Merkle. Elle prend chaque nœud de la preuve et le combine avec la feuille pour reconstruire le hachage jusqu'à ce qu'il atteigne la racine de Merkle. Si la racine reconstruite correspond à la racine de Merkle attendue, cela signifie que la reclamation est valide. 
 
 ![](/imag-en/regconvertor/rc3.png){.align-right .img50}
 
