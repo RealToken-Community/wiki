@@ -2,7 +2,7 @@
 title: Réclamation des REG
 description: 
 published: true
-date: 2025-07-12T07:10:05.420Z
+date: 2025-07-20T16:38:40.709Z
 tags: 
 editor: markdown
 dateCreated: 2025-03-19T13:49:52.142Z
@@ -162,28 +162,27 @@ La validation avec preuve Merkle consiste à vérifier que les informations d'un
 
 Exécution dans le programme :
 
-1. Génération de *"feuilles"* : Pour chaque réclamation, une feuille (leaf) est générée en hachant les données de l'utilisateur (adresse et montant) avec la fonction keccak256. Cela crée un hachage unique qui représente cette réclamation.
-
-![](/imag-en/regconvertor/rc2.png){.align-right .img50}
-
 <br>
-
-2. Vérification de la preuve : La fonction *\_validateMerkleProof* prend en entrée l'adresse de l'utilisateur, le montant, la racine Merkle attendue et un tableau de preuves Merkle. Elle vérifie que la preuve Merkle est valide pour l'utilisateur et le montant spécifié. 
+1. Initialisation de la validation : La fonction *\_validateMerkleProof* prend en entrée : l'adresse de l'utilisateur, le montant, la racine Merkle attendue et un tableau de preuves Merkle. Elle initie la vérification de la validité de la preuve Merkle. 
 ![](/imag-en/regconvertor/rc1.png){.align-right .img50}
 <br>
 [Lien vers le code correspondant](https://gnosisscan.io/address/0x94223f067dbf9b43ed3bfea1d02cc1839031b6d2#code#F1#L669)
 <br>
 <br>
+2. Génération de *"feuilles"* : Pour chaque réclamation, une feuille (leaf) est générée en hachant les données de l'utilisateur (adresse et montant) avec la fonction keccak256. Cela crée un hachage unique qui représente cette réclamation.
 
-3. **Vérification de l'arbre de Merkle** : La fonction *\_verifyAsm* utilise une approche d'assemblage pour parcourir les preuves de Merkle. Elle prend chaque nœud de la preuve et le combine avec la feuille pour reconstruire le hachage jusqu'à ce qu'il atteigne la racine de Merkle. Si la racine reconstruite correspond à la racine de Merkle attendue, cela signifie que la revendication est valide. 
+![](/imag-en/regconvertor/rc2.png){.align-right .img50}
+
+<br>
+3. **Vérification de l'arbre de Merkle** : La fonction *\_verifyAsm* utilise une approche d'assemblage pour parcourir les preuves de Merkle. Elle prend chaque nœud de la preuve et le combine avec la feuille pour reconstruire le hachage jusqu'à ce qu'il atteigne la racine de Merkle. Si la racine reconstruite correspond à la racine de Merkle attendue, cela signifie que la reclamation est valide. 
 ![](/imag-en/regconvertor/rc3.png){.align-right .img50}
 <br>
 [Lien vers le code correspondant](https://gnosisscan.io/address/0x94223f067dbf9b43ed3bfea1d02cc1839031b6d2#code#F1#L719)
 <br>
 
-4. **Rejet des revendications invalides** : Si la vérification échoue, le contrat rejette la revendication en générant une erreur, garantissant ainsi que seules les revendications valides, correspondant à la structure de l'arbre de Merkle, sont acceptées.
+4. Rejet des réclamations invalides : Si la vérification échoue, le contrat rejette la réclamation en générant une erreur, garantissant ainsi que seules les réclamationss valides, correspondant à la structure de l'arbre de Merkle, sont acceptées.
 
-## Mode de reclamation
+## Mode de réclamation
 
 Les principaux modes de reclamation du contrat sont :
 
