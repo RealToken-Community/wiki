@@ -2,7 +2,7 @@
 title: Reclamation des frais du RMM
 description: 
 published: true
-date: 2025-07-30T16:54:51.577Z
+date: 2025-08-03T11:43:14.681Z
 tags: 
 editor: markdown
 dateCreated: 2025-07-30T16:54:51.577Z
@@ -98,7 +98,7 @@ function claim() external whenNotPaused nonReentrant
 ```
 
 **Description :**
-Fonction publique (accècible par n'importe quelle adresse) qui déclenche la distribution de tous les tokens configurés vers tous les destinataires selon leurs pourcentages respectifs.
+Fonction publique (accessible par n'importe quelle adresse) qui déclenche la distribution de tous les tokens configurés vers tous les destinataires selon leurs pourcentages respectifs.
 
 **Processus d'Exécution :**
 
