@@ -2,7 +2,7 @@
 title: Group Action Executor for DAO
 description: 
 published: true
-date: 2025-08-02T08:23:36.739Z
+date: 2025-08-06T06:34:04.561Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-02T08:23:36.739Z
@@ -18,7 +18,7 @@ Imagine the DAO voting to fund a project, change a parameter in the RMM, recover
 
 ---
 
-! Before continuing, you should understand how a Merkle tree works -> [merkle-tree](merkle-tree.md)
+! Before continuing, you should understand how a Merkle tree works -> [merkle-tree](https://wiki.realtoken.community/en/dapp-ecosystem/MerkleTreeIntro)
 
 ### ⭐ : For Everyone (The Big Picture) 🔭
 
@@ -69,6 +69,8 @@ The contract stores the Merkle root of each vote approved by the DAO. It does no
 ---
 
 ### ⭐⭐⭐ : For advanced users (In Depth) 👩‍💻
+
+The [smart contract](https://gnosisscan.io/address/0x891e82Fb92e6f9cE1aa490c02941a9bc9a8784D5#code)
 
 The `MerkleGovernanceExecutor` is an *upgradeable* (via the UUPS pattern), *pausable*, and secure contract against reentrancy attacks. It uses OpenZeppelin's `AccessControl` to manage permissions.
 Its main purpose is to enable the execution of complex transaction batches that cannot be contained in a voting transaction due to the block size limitation. The vote approves the Merkle root of the Merkle tree, which can contain an unlimited number of transactions grouped into batches that respect the gas limit. Transaction execution is completely free and limited to transactions and parameters approved by the DAO in a secure, verifiable, and tamper-proof manner.
