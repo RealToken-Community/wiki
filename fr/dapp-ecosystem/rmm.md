@@ -2,7 +2,7 @@
 title: RMM
 description: 
 published: true
-date: 2025-08-08T07:14:15.227Z
+date: 2025-08-08T07:27:49.433Z
 tags: rmm
 editor: markdown
 dateCreated: 2024-12-08T21:03:58.118Z
@@ -13,9 +13,9 @@ dateCreated: 2024-12-08T21:03:58.118Z
 Le [RMM](https://realt.co/) (RealToken Market Maker) est une application, sur la blockchain Gnosis, pour prêter et emprunter des stablecoins, à partir de garantie en Realtoken.
 Cette application est dérivée de l'application AAVE et a necessité dans sa version 3 des développements spécifiques : le Wrapper, la partie liquidation,...
 
-Un guide utilisateur et un document plus technique, détaillent le mode de fonctionnement, sont disponibles [ici](https://community-realt.gitbook.io/tuto-community/defi-realt/rmm)
+Un guide utilisateur ainsi qu'un document plus technique, détaillant le mode de fonctionnement du RMM, sont disponibles [ici](https://community-realt.gitbook.io/tuto-community/defi-realt/rmm)
 
-Le Wrapper sera détaillé dans la suite de cet article.
+La suite de cet article détaille le Wrapper RMM.
  
 ## **1. Introduction au Wrapper RMM**
 
@@ -311,7 +311,8 @@ Liste des modifications dans la mise à jour de RealTokenWrapper :
 
 > IMPORTANT : la validation d'une proposal qui executera les fonctions `repayForRecover` et `recoverByGovernance` doit être faite avec une grande attention, car elle peux etre très dangereuse si elle n'est pas correctement configurée ou utilisée à des fins malveillantes.
 > {.is-warning}
-<Br>
+
+<br>
 
 ### Mise à niveau du 20 décembre 2024
 **Objectif** : Correction d'un bug lié à l'optimisation du gas pour la liste des tokens déposés.
@@ -329,6 +330,29 @@ https://gnosisscan.io/address/0xc7ca0b893c22f99bb99dfc9dafdb6a83e0e7a946#code#F1
 
 - Code ajouté lignes 357 à 362
 https://gnosisscan.io/address/0xc7ca0b893c22f99bb99dfc9dafdb6a83e0e7a946#code#F1#L357
+
+### Mise à niveau du 6 Aout 2025
+Le code du Wrapper a été modifié et une nouvelle implémentation est disponible depuis le 6 Aout 2025 : [Code](https://gnosisscan.io/address/0x10497611ee6524d75fc45e3739f472f83e282ad5#readProxyContract)
+
+![implementation.png](/imag-en/wrapper/implementation.png)
+
+Les modification dans le code solidity du programme RealtokenWrapper, sont les suivantes : 
+
+- Passage à la version 3 :
+https://gnosisscan.io/address/0x48a8411781b41b2232c6224ead7a1700b32e1880#code#F1#L28
+
+
+- Amélioration de la sécurité :
+https://gnosisscan.io/address/0x48a8411781b41b2232c6224ead7a1700b32e1880#code#F1#L740
+
+![update_v3.png](/imag-en/wrapper/update_v3.png)
+
+
+La nouvelle version ajoute des vérifications supplémentaires pour éviter les appels avec des montants nuls :
+- Vérification vars.transferAmount != 0 avant de faire le transfert
+- Vérification vars.transferAmount != 0 avant d'appeler POOL.repay()
+- Vérification vars.debtAmount != 0 avant d'appeler POOL.repay()
+<br>
 
 ## **7. Audit**
 
