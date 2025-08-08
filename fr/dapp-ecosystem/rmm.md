@@ -2,7 +2,7 @@
 title: RMM
 description: 
 published: true
-date: 2025-07-20T12:06:27.715Z
+date: 2025-08-08T07:14:15.227Z
 tags: rmm
 editor: markdown
 dateCreated: 2024-12-08T21:03:58.118Z
@@ -10,11 +10,18 @@ dateCreated: 2024-12-08T21:03:58.118Z
 
 # **RMM v3**
 
+Le [RMM](https://realt.co/) (RealToken Market Maker) est une application, sur la blockchain Gnosis, pour prêter et emprunter des stablecoins, à partir de garantie en Realtoken.
+Cette application est dérivée de l'application AAVE et a necessité dans sa version 3 des développements spécifiques : le Wrapper, la partie liquidation,...
+
+Un guide utilisateur et un document plus technique, détaillent le mode de fonctionnement, sont disponibles [ici](https://community-realt.gitbook.io/tuto-community/defi-realt/rmm)
+
+Le Wrapper sera détaillé dans la suite de cet article.
+ 
 ## **1. Introduction au Wrapper RMM**
 
 #### **⭐ Pour les novices**
 
-Le Wrapper RMM est un contrat intelligent qui sert d'interface entre les RealTokens et le protocole RMM (RealToken Market Maker). Il permet aux utilisateurs de déposer leurs RealTokens et de recevoir en échange des RTW (RealToken Wrapped) qui sont utilisés dans le RMM comme preuve de dépôt pour emprunter.
+Le Wrapper RMM est un contrat intelligent qui sert d'interface entre les RealTokens et le protocole RMM. Il permet aux utilisateurs de déposer leurs RealTokens et de recevoir en échange des RTW (RealToken Wrapped) qui sont utilisés dans le RMM comme preuve de dépôt pour emprunter.
 
 #### **⭐⭐ Pour les initiés**
 
@@ -29,9 +36,9 @@ Le Wrapper joue un rôle crucial dans l'écosystème RMM en :
 
 ![rmm_update.drawio.svg](/assets/img/rmm_update.drawio.svg)
 
-## **2. Modifications majeures apportées aux wrapper par la v3**
+## **2. Modifications majeures apportées aux wrapper**
 
-adresse du wrapper : 0x10497611Ee6524D75FC45E3739F472F83e282AD5
+Adresse du wrapper : [0x10497611Ee6524D75FC45E3739F472F83e282AD5](/fr/dapp-ecosystem/rmm)https://gnosisscan.io/address/0x10497611ee6524d75fc45e3739f472f83e282ad5)
 
 Ces modifications font suite à la proposition de gouvernance RIP00008 qui a été acceptée par la DAO en date du 2024-12-07
 
@@ -304,6 +311,7 @@ Liste des modifications dans la mise à jour de RealTokenWrapper :
 
 > IMPORTANT : la validation d'une proposal qui executera les fonctions `repayForRecover` et `recoverByGovernance` doit être faite avec une grande attention, car elle peux etre très dangereuse si elle n'est pas correctement configurée ou utilisée à des fins malveillantes.
 > {.is-warning}
+<Br>
 
 ### Mise à niveau du 20 décembre 2024
 **Objectif** : Correction d'un bug lié à l'optimisation du gas pour la liste des tokens déposés.
