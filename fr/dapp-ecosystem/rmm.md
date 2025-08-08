@@ -2,7 +2,7 @@
 title: RMM
 description: 
 published: true
-date: 2025-08-08T07:27:49.433Z
+date: 2025-08-08T07:46:10.488Z
 tags: rmm
 editor: markdown
 dateCreated: 2024-12-08T21:03:58.118Z
@@ -330,25 +330,26 @@ https://gnosisscan.io/address/0xc7ca0b893c22f99bb99dfc9dafdb6a83e0e7a946#code#F1
 
 - Code ajouté lignes 357 à 362
 https://gnosisscan.io/address/0xc7ca0b893c22f99bb99dfc9dafdb6a83e0e7a946#code#F1#L357
+<br>
 
 ### Mise à niveau du 6 Aout 2025
-Le code du Wrapper a été modifié et une nouvelle implémentation est disponible depuis le 6 Aout 2025 : [Code](https://gnosisscan.io/address/0x10497611ee6524d75fc45e3739f472f83e282ad5#readProxyContract)
+Dans le cadre de la mise en place du [MerkleGovernanceExecutor](/fr/dapp-ecosystem/BatchExecutor) , le code du Wrapper a été modifié et une nouvelle implémentation est disponible depuis le 6 Aout 2025 : [Code](https://gnosisscan.io/address/0x10497611ee6524d75fc45e3739f472f83e282ad5#readProxyContract)
 
 ![implementation.png](/imag-en/wrapper/implementation.png)
 
 Les modification dans le code solidity du programme RealtokenWrapper, sont les suivantes : 
 
-- Passage à la version 3 :
+- Passage à la version 3 (ligne 28) :
 https://gnosisscan.io/address/0x48a8411781b41b2232c6224ead7a1700b32e1880#code#F1#L28
 
 
-- Amélioration de la sécurité :
+- Amélioration de la sécurité (lignes 740 et suivantes) : 
 https://gnosisscan.io/address/0x48a8411781b41b2232c6224ead7a1700b32e1880#code#F1#L740
 
 ![update_v3.png](/imag-en/wrapper/update_v3.png)
 
 
-La nouvelle version ajoute des vérifications supplémentaires pour éviter les appels avec des montants nuls :
+La nouvelle version ajoute des vérifications supplémentaires, pour éviter un appel avec un montant nul qui créerait un rejet et ferait échouer l'opération batch :
 - Vérification vars.transferAmount != 0 avant de faire le transfert
 - Vérification vars.transferAmount != 0 avant d'appeler POOL.repay()
 - Vérification vars.debtAmount != 0 avant d'appeler POOL.repay()
