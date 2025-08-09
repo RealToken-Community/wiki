@@ -2,7 +2,7 @@
 title: RMM
 description: 
 published: true
-date: 2025-08-08T07:46:10.488Z
+date: 2025-08-09T04:27:12.157Z
 tags: rmm
 editor: markdown
 dateCreated: 2024-12-08T21:03:58.118Z
@@ -346,7 +346,7 @@ https://gnosisscan.io/address/0x48a8411781b41b2232c6224ead7a1700b32e1880#code#F1
 - Amélioration de la sécurité (lignes 740 et suivantes) : 
 https://gnosisscan.io/address/0x48a8411781b41b2232c6224ead7a1700b32e1880#code#F1#L740
 
-![update_v3.png](/imag-en/wrapper/update_v3.png)
+![maj_wrapper_aout_2025.jpg](/imag-en/wrapper/maj_wrapper_aout_2025.jpg)
 
 
 La nouvelle version ajoute des vérifications supplémentaires, pour éviter un appel avec un montant nul qui créerait un rejet et ferait échouer l'opération batch :
