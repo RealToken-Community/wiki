@@ -2,7 +2,7 @@
 title: RMM
 description: 
 published: true
-date: 2025-08-09T04:27:12.157Z
+date: 2026-03-30T10:04:55.524Z
 tags: rmm
 editor: markdown
 dateCreated: 2024-12-08T21:03:58.118Z
@@ -38,7 +38,7 @@ Le Wrapper joue un rôle crucial dans l'écosystème RMM en :
 
 ## **2. Modifications majeures apportées aux wrapper**
 
-Adresse du wrapper : [0x10497611Ee6524D75FC45E3739F472F83e282AD5](/fr/dapp-ecosystem/rmm)https://gnosisscan.io/address/0x10497611ee6524d75fc45e3739f472f83e282ad5)
+Adresse du wrapper : [0x10497611Ee6524D75FC45E3739F472F83e282AD5](https://gnosisscan.io/address/0x10497611ee6524d75fc45e3739f472f83e282ad5)
 
 Ces modifications font suite à la proposition de gouvernance RIP00008 qui a été acceptée par la DAO en date du 2024-12-07
 
