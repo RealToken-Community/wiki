@@ -2,7 +2,7 @@
 title: RMM
 description: 
 published: true
-date: 2026-03-30T10:05:47.735Z
+date: 2026-07-18T10:35:08.237Z
 tags: rmm
 editor: markdown
 dateCreated: 2024-12-08T21:03:58.118Z
@@ -149,10 +149,9 @@ Note : La valeur des actifs quels qu'ils soient dans le RMM est calculé en doll
 
 #### **Comportement de l'exécution de la fonction :**
 
-- Vérifier la dette sur repayWallet.
-- Calculer le nombre de tokens par rapport au solde et au pourcentage sur lequel l'action sera exécutée.
-- Calculer le montant du collatéral fourni correspondant aux adresses dans [tokens address].
-- Utiliser transferFrom pour transférer le montant du/des token(s) à rembourser du payeur vers le Wrapper (l'approbation doit être faite au préalable).
+- Vérifie la dette du repayWallet.
+- Calcule le montant du collatéral à rembourser, à partir de :  la liste `recoverAssets`, de leur prix et du `percent` qui sera extrait.
+- Utilise transferFrom pour transférer le montant du/des token(s) à rembourser du payeur vers le Wrapper (l'approbation doit être faite au préalable).
 - Remboursement :
   - S'il n'y a pas de dette, transférer le montant total calculé du collatéral vers le refundWallet.
   - S'il existe une dette, utiliser la fonction repay du RMMv3. Deux scénarios sont possibles :
