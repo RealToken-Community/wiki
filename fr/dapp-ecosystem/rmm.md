@@ -2,7 +2,7 @@
 title: RMM
 description: 
 published: true
-date: 2026-07-18T10:35:08.237Z
+date: 2026-07-18T11:28:09.127Z
 tags: rmm
 editor: markdown
 dateCreated: 2024-12-08T21:03:58.118Z
@@ -149,14 +149,14 @@ Note : La valeur des actifs quels qu'ils soient dans le RMM est calculé en doll
 
 #### **Comportement de l'exécution de la fonction :**
 
-- Vérifie la dette du repayWallet.
+- Vérifie la dette du `repayWallet`.
 - Calcule le montant du collatéral à rembourser, à partir de :  la liste `recoverAssets`, de leur prix et du `percent` qui sera extrait.
-- Utilise transferFrom pour transférer le montant du/des token(s) à rembourser du payeur vers le Wrapper (l'approbation doit être faite au préalable).
+- Utilise transferFrom pour transférer le montant du/des token(s) à rembourser du `payer` vers le Wrapper (l'approbation doit être faite au préalable).
 - Remboursement :
-  - S'il n'y a pas de dette, transférer le montant total calculé du collatéral vers le refundWallet.
+  - S'il n'y a pas de dette, transférer le montant total calculé du collatéral vers le `refundWallet`.
   - S'il existe une dette, utiliser la fonction repay du RMMv3. Deux scénarios sont possibles :
     - Dette ≥ Collatéral : La dette est remboursée à hauteur du montant disponible lié à la valeur des tokens qui seront extraits du RMM.
-    - Dette < Collatéral : La dette est entièrement remboursée, et le surplus est envoyé au refundWallet.
+    - Dette < Collatéral : La dette est entièrement remboursée, et le surplus est envoyé au `refundWallet`.
 
 ![repayforrecover3.svg](/imag-en/repayforrecover3.svg)
 
@@ -201,6 +201,8 @@ Dans le cas d'usage en batch pour plusieurs utilisateur, le `refundWallet` doit 
 - Valider que le paramètre percent est dans la plage valide (supérieur à 0 et inférieur ou égal à 10000).
 - Valider que repayWallet, refundWallet et payer sont des adresses non nulles.
 - Valider que le `payer` a une balance des tokens debtAssets supérieur ou égale à la dette à rembourser et avoir une approval de la fonction `transferFrom` de chaque token debtAssets au bénéfice du Wrapper.
+
+**Exemple** au chapitre 8
 <br>
 
 ### **4.2. recoverByGovernance**
@@ -222,8 +224,8 @@ Note : Dans une proposal qui est executée pour plusieurs utilisateurs, il faudr
 
 #### **Comportement Attendu :**
 
-- Calculer le nombre de tokens relatif au solde et au pourcentage sur lequel l'action sera exécutée.
-- Transférer tous les RealTokens ou aTokens de oldWallet vers newWallet, basé sur [tokens address].
+- Calcule le nombre de tokens relatif au solde et au pourcentage sur lequel l'action sera exécutée.
+- Transfére tous les RealTokens ou aTokens de oldWallet vers newWallet, basé sur [tokens address].
 - Si withdraw = true, effectuer un retrait du RMM ; si false, déplacer les aTokens.
 
 ![recoverbygorvernor.svg](/imag-en/recoverbygorvernor.svg)
@@ -262,6 +264,8 @@ Note : Dans une proposal qui est executée pour plusieurs utilisateurs, il faudr
 - Valider que le paramètre percent est dans la plage valide (supérieur à 0 et inférieur ou égal à 10000).
 - Valider que les tokens sortant de oldWallet vont bien à la destination prévue qui est dans la proposition (vérifier la valeur de newWallet).
 
+**Exemple** au chapitre 8
+<br>
 ## **5. Note Importante :**
 
 Les fonctions `repayForRecover` et `recoverByGovernance` ne gèrent pas le Facteur de Santé (HF). Par conséquent, il faut s'assurer au préalable que le HF permet le retrait, sans quoi la proposal dans son intégralité échouera.
@@ -356,6 +360,7 @@ La nouvelle version ajoute des vérifications supplémentaires, pour éviter u
 ## **7. Audit**
 
 Audit du wrapper réalisé par la société ADBK (préalablement aux modifications ci-dessus) : https://github.com/abdk-consulting/audits/tree/main/realt
+<br>
 
 ## **8. ⭐⭐ Exemples d'utilisation**
 
@@ -371,14 +376,20 @@ Audit du wrapper réalisé par la société ADBK (préalablement aux modificatio
     • payer : 0xDAO
 - Données RMM de 0xUser
     • Dépôt  : 10 RealToken1 à 51$ et 5 RealToken2 à 50$
-    • Dette : USDC : 30 $ et WXDAI : 250 $
+    • Dette : USDC : 30$ et WXDAI : 250$
 - Calculs
-	- Calcul de la valeur totale des collatéraux : 10 * 51 + 5 * 50 = 760 $
+ 	- Emprunt total : 30 + 250 = 280$
+	- Valeur totale des collatéraux : 10 * 51 + 5 * 50 = 760 $
 	- Application du pourcentage : 50% * 760 $ = 380 $
-	- Répartition sur les debtAssets :  190$ sont au maximum remboursable sur chacun des deux debtAssets et sont prélevés par le wrapper auprès du payeur (ce dernier ayant du faire au préalable l’approbation correspondante).
+	- Répartition sur les debtAssets : Les 380$ à rembourser seront répartie pour chacun des debtAsset au prorata de la dette de l’asset sur le total de la dette : 
+ 		- USDC : = 380 * 30/280 = 40,71$
+    	- WXDAI = 380 * 250/280 = 339,29$
+	 
+		(40,71 + 339,29 = 380)
+	ces montant sont prélevés par le wrapper auprès du payeur (ce dernier ayant du faire au préalable l’approbation correspondante).
  	- Comparaison avec la dette réelle et transferts : 
-		- Pour les USDC, la dette réèlle étant de 30$ :  le wrapper rembourse 30 $ de dette RMM et transfert le surplus de 160 $  (190 - 30) à refundWallet (0xDAO).
-		- Pour les WXDAI, la dette réèlle étant de 250 $ : le wrapper rembourse le maximum possible 190 $, il restera donc une dette de 60 $ (250-190).
+		- Pour les USDC, la dette réèlle étant de 30$ :  le wrapper rembourse 30 $ de dette RMM et transfert le surplus de 10,71$ (40,71 - 30) à refundWallet (0xDAO).
+		- Pour les WXDAI, la dette réèlle étant de 250$ : le wrapper rembourse 250$ de dette RMM et transfert 89,29$ (339,29 - 250) à refundWallet (0xDAO)
 
 #### Cas particulier, d’un user qui n’a pas de dette : le `repayForRecover` correspond alors à un versement de la DAO vers le User 
 
