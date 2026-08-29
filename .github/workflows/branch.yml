@@ -1,0 +1,44 @@
+name: Deploy to branch
+
+on:
+  push:
+    branches:
+      - main
+      - preprod
+      - develop
+
+jobs:
+  deploy:
+    name: Deploy to branch
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Configure SSH
+        run: |
+          mkdir -p ~/.ssh/
+          echo "$SSH_KEY" > ~/.ssh/staging.key
+          chmod 600 ~/.ssh/staging.key
+          cat >>~/.ssh/config <<END
+          Host staging
+            HostName $SSH_HOST
+            User $SSH_USER
+            Port $SSH_PORT
+            IdentityFile ~/.ssh/staging.key
+            StrictHostKeyChecking no
+          END
+        env:
+          SSH_USER: ${{ secrets.SSH_USER }}
+          SSH_KEY: ${{ secrets.SSH_KEY }}
+          SSH_HOST: ${{ secrets.SSH_HOST }}
+          SSH_PORT: ${{ secrets.SSH_PORT }}
+
+      - name: Update branch environment
+        run: |
+          ssh staging 'export DOCKER_BRANCH=${{ github.ref_name }} DOCKER_REGISTRY=${{ secrets.DOCKER_REGISTRY }}
+          cd /var/docker/wiki/${DOCKER_BRANCH}
+          git pull origin ${DOCKER_BRANCH}
+          docker compose --file docker-compose-branch.yml pull
+          docker login -u ${{ secrets.DOCKER_LOGIN }} -p ${{ secrets.DOCKER_PASSWD }} ${DOCKER_REGISTRY}
+          HOSTNAME=${{ github.ref_name == 'main' && 'wiki.realtoken.community' || 'wiki.${DOCKER_BRANCH}.realtoken.community' }} \
+          docker compose --project-name ${{ github.ref_name }}-wiki --file docker-compose-branch.yml up -d'
